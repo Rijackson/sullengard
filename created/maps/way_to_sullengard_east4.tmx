@@ -183,14 +183,17 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
  <layer id="1" name="Ground" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6C+86+kDutiFyT0kqqqqj4cIApFXw==
+   eJzbyMnAsHEUj+JRjIHXyVLHDBA+AMWUmLUfyZxR80bNI9a8x0D8BIoHo/uoZd5yplHzhrN5ILyLCRVTYhZyvqBG/hjFo3gUk4YBbARRWw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+   eJzt1rEOQDAQgOFLn4BIbB7bYzASFqPExixmL8CsTTqIuDTXO7X0T26TL6UqAGJYfQ7QOIZSS7w+ev95VcH3SgUwpnQH87iF9lbivb95xjB7UdvheqahoK/N5fmEebP2Fj2bwPPjhHmHXttpR8IzJRnNwjzqM3N5nN68/cP1Ub81od4X3z15ep3yczCP29O7nwvp8+GTtDcJ/w/FYhee3T3k
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="40">
