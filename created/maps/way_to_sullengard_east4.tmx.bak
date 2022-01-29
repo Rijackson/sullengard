@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="40" height="30" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="20" height="40" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -187,37 +187,30 @@
  <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
- <layer name="Ground" width="40" height="30">
+ <layer name="Ground" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt0k0KQBEUQGFTi3j7nykreLKyx0B0w1PyMzjqm7k56lqtlAUAAAAAANcxT3a6RXpDkxNON5XSmWn0i/9U6xtpTDvhNuxHra98V2rd7838iR0fdwNrow==
+   eJzbyMnAsHEUj+JRjIHXyVLHDBA+AMWUmLUfyZxR80bNI9a8x0D8BIoHo/tGzRs1j1h8SRYVU2IWcr6gRv4YxaN4FJOGAVKNU1k=
   </data>
  </layer>
- <layer name="Objects" width="40" height="30">
+ <layer name="Objects" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwXADu8QYGLZRgGkNttPBDkrAqPuwA2LT1ekBct9ovFEGRt1HGRh1H2WAXu4jt14cqHJtrSwqf70sdnWDCZDqxg009NNFoNmXsJg/1MMRPV0Qo4cc8BVo3rdBElYgvwEAywo02A==
+   eJzt1rEKgCAQgGEfoQjafP+pxoKWxqDN5mjuBWrOA4cQDznvssUfbosPs4yUKmFNrVJDZCiNxOuL95/Xab4HxlLTHczjltvbifce8sCAfezdcD1o1vS1xbyUMM9Yb7NzCOwfJ8y77NpuNxIeVDU0C/OoexbzOIW888P1Ub81ud6X1GfieybxnGEeN997nwvp85GStLcK/w+VSg80PD5K
   </data>
  </layer>
- <layer name="Above" width="40" height="30">
+ <layer name="Above" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJztzgENADAIA7AZwb+wIwQXPCStgiYAAAAAbHqVdP1e3DFv0AIC
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
   </data>
  </layer>
- <layer name="Walkable" width="40" height="30">
+ <layer name="Walkable" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="1248" y="0" width="32" height="448">
+  <object name="east" type="mapchange" x="608" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east2"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="west" type="mapchange" x="0" y="672" width="32" height="288">
-   <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
-    <property name="place" value="east"/>
+    <property name="map" value="way_to_sullengard_east5"/>
    </properties>
   </object>
  </objectgroup>
