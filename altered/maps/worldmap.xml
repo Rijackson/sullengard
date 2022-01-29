@@ -248,9 +248,9 @@
     <map id="cabin_norcity_road3" x="497" y="446"/>
     <map id="cabin_norcity_road4" x="497" y="462"/>
     <map id="way_to_sullengard_east1" x="506" y="478"/>
-    <map id="way_to_sullengard_east2" x="497" y="504"/>
+    <map id="way_to_sullengard_east2" x="502" y="504"/>
     <map id="way_to_sullengard_east3" x="461" y="504"/>
-    <map id="way_to_sullengard_east4" x="440" y="530"/>
+    <map id="way_to_sullengard_east4" x="440" y="525"/>
     <map id="way_to_sullengard_east5" x="461" y="551"/>
     <map id="sullengard10" x="310" y="613"/>
     <map id="sullengard9" x="338" y="613"/>
