@@ -185,17 +185,17 @@
  </tileset>
  <layer id="1" name="Ground" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6C+86+kDmtiJyT0kqqqqqo+HGat+wM=
+   eJztzjENACAMAEFW/CupC2RhAeiXkPDD7Re9tZAkSZL0rbHglceNz86j8nPyqPpkLvQneyE/xIX6UBfiMwFPpwWs
   </data>
  </layer>
  <layer id="2" name="Objects" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20JT6AAAAAAPgYQaAAB
+   eJztkjsKgDAQBfcMFgF7vf81PIP2YiK2op2x2yLmg+wa4Q28NhkmIQIAAAAA+Bdb+7VBGsscnZJvrIutrJlmn6cut4PW24SYDdESmTU6Dqvf6HdENvk5QSfucSbu2IV9cj00fEo8pH2GjLO6RseHNwndGUP6/5RSg0/PGnKfN1zo9UbA
   </data>
  </layer>
  <layer id="3" name="Above" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20JT6AAAAAAPgYQaAAB
+   eJxjYBgFo2AUjIJRMApGwSggDO5KDrQLCIObQDfekkTQ9AD4wuU1UO72IAq313QMH1zhgmw3vcMHn79fSiLChx4AZN8rPHbRwz2gOJIVYmCQEyKslpB7KQVvB1E+GUxl3WAKl1EwCkgBAKebIJY=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="35" height="30">
