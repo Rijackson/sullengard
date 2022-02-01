@@ -270,6 +270,7 @@
     <map id="way_to_sullengard_east10" x="405" y="686"/>
     <map id="way_to_sullengard_east11" x="410" y="655"/>
     <map id="sullengard_pond" x="374" y="655"/>
+    <map id="way_to_sullengard_east_hills" x="461" y="535"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
