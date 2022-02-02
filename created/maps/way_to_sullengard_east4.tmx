@@ -188,17 +188,17 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRTHO8TpY6ZoDwASimxKz9SOaMmjd8zXsMxE+geDC6b9S8UfOIxZdkUTElZiHnC2rkj1E8ikcxaRgAMidSqw==
+   eJzt1DsOgzAMgOHIG4fItbkCiI214gY8TtFyBObWAksmxcElQV08/EJA9CWgQFs411qWsgGca2A9YnSNn6d4E+i9IRj79DrvAd/h9XEzeEcev98L72IEnTd72eMdeXSvi3jhs3PvJYydLq4vp4dWzKM9EPP480re2f78xcNSPDxf/D7tNxR6//5PXKnMuO7qY9UZPcmieahSmdbjad9hOE+KZ1mWdVdvtphb+Q==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt1rEKgCAQgGEfoQjafP+pxoKWxqDN5mjuBWrOA4cQDznvssUfbosPs4yU+q+pVWqIDKWReH3xipfL6zTfA2Op6Q7mcYt5O3GtIQ8MuO/eDdeDZk1fW8xLCfOM9TY7h8D+ccK8y67tdiPhQVVDszCPumcxj1PIOz9cH/XbkOt9SX0mvmcSzxnmcfO997mQPh8pSXur8P9aqfQAb9I/5A==
+   eJxjYBg4sEuMgWEbAUwK2E6i+pFgXoQ4fhwpDlHHzQgxj4eRNDfsYULle+IxD5v9hAA282B6dzPh14sN7ITqkYa6SwZKk2PWKBg48E0WgqkBHiDF/Q8qmUkO+E6G3XdxpFtyzBpIMJVO+Q9kzzQonk5DO72h5ZUPieUpPjAc6qNR84aueaeo3F4bBaMAAG/SMR0=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+   eJxjYBgFo2AUUAq0GRkYrIBYh3HUvFHzRs0bauZZQ82zoZJ5o2AUjIJRMArwAwDRLgel
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="40">
@@ -207,7 +207,7 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="608" y="0" width="32" height="320">
+  <object id="1" name="east" type="mapchange" x="608" y="0" width="32" height="192">
    <properties>
     <property name="map" value="way_to_sullengard_east3"/>
     <property name="place" value="east"/>
