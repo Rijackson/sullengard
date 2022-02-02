@@ -185,17 +185,17 @@
  </tileset>
  <layer id="1" name="Ground" width="40" height="15">
   <data encoding="base64" compression="zlib">
-   eJybxsTAMA2KN3Ii8HIgf8UgxIPdfaN4FI/iUTyKR/EoHsUABYWOmA==
+   eJztklsKgCAQAGX/uj94Ba2/zqFdwbNEpGSyuiuZFBUMxLqP8WFBCJuwRP8mE8cwSB/nMUj9PNBgc77s5yJ6+2F9OA4t/ah+zudyzyc+z5Q7/FqD+W0fltPb7ef9TMS7kbBT2zfUlWqp2ZwcDTtjhaOCo65UG2aX9nHFTxXiXD8qj+un4XxnMuqJxVPSdU6ezMQ4b+cprKZtuh8=
   </data>
  </layer>
  <layer id="2" name="Objects" width="40" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYECA6UwMgxqsBLrvnORAuwI/mMYEwaOAOAALLxAezOlvF9Btuwex+84A3XZ2kLoPFG6D1X2D1V0wAHLf/UHsvlEwCkYBbgAAVYUOeQ==
+   eJxjYBg4cJqJgeEMHnyWaQAdN+o+DHAXj3kgufto8gPtPnT3EFKPDgjpH6wA2d3Ifhyq/hnOYMYAxgk17Z5OgllT0dSSopeaAOQOXHabizMwZEAxITNggJ7+8IS6yxKL+2iRpixwhMMKLHaBwg7Zfbj0EmsHPpAhPrgxAFx8RBk=
   </data>
  </layer>
  <layer id="3" name="Above" width="40" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF+yQZRsEoGAWjYBSMglEwCkYBBQAA2+AA2A==
+   eJxjYMAODouRJo4LoKsnVT+x5pJr/lBz36VB5j5quYdYd1ArfigFuPxNq/AYBaNgoMDlAUzTxNhNbJlAiT8o0Uus+3Cpo3UYDJYydTgCALCEGgs=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="40" height="15">

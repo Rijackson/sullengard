@@ -184,22 +184,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer name="Ground" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0k0KQBEUQGFTi3j7nykreLKyx0B0w1PyMzjqm7k56lqtlAUAAAAAANcxT3a6RXpDkxNON5XSmWn0i/9U6xtpTDvhNuxHra98V2rd7838iR0fdwNrow==
+   eJzt0DkOgCAQQFEynfc/hLGk5Qojd1Iqx4ksJi7NJ3mFOJKPcQohAgAAAACAk1XqZqnPX33/d99i3ukuD9znboc/o9VXVpJDWa2+1PF0n7rnLO0+P+/lSqO9t/0ndv+rvt6+Dsy/2bcBk0lvOw==
   </data>
  </layer>
  <layer name="Objects" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwXADu8QYGLZRgGkNttPBDkrAqPuwA2LT1ekBct9ovFEGRt1HGRh1H2WAXu4jt14cqHJtrSwqf70sdnWDCZDqxg009NNFoNmXsJg/1MMRPV0Qo4cc8BVo3rdBElYgvwEAywo02A==
+   eJztktENgCAMBRuGkJF0A3VRjTqCS/lhTJBYC1QJ0XcJXxQ4XksEAAAAgK8xV0SDYr3NmOENDfDbSZ2jNZMf+qSjFD9uznLNkUQpOXGU5hfTx9YSdTert7p6LU3kfW79ZIgWc96vE/1a5o8hfm4+IdRCxldwHpLf5OXj53VVf+fGnfc9jvrY/j6B5O1mIuXxRzYKxUbc
   </data>
  </layer>
  <layer name="Above" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzgENADAIA7AZwb+wIwQXPCStgiYAAAAAbHqVdP1e3DFv0AIC
+   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
   </data>
  </layer>
  <layer name="Walkable" width="40" height="30">
@@ -208,13 +205,13 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="1248" y="0" width="32" height="448">
+  <object name="east" type="mapchange" x="992" y="0" width="32" height="448">
    <properties>
     <property name="map" value="way_to_sullengard_east2"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="672" width="32" height="288">
+  <object name="west" type="mapchange" x="0" y="640" width="32" height="192">
    <properties>
     <property name="map" value="way_to_sullengard_east4"/>
     <property name="place" value="east"/>
