@@ -190,27 +190,27 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCANbBfDL/9ekoHhgySE/RJIv5LErvcgUPwQDnUw8BZNL7LZuMAbLPKE3IyuH2bvYUmE3pdI5uJyLz57zwqiyp2UhGBcZmGzF+YmfOCUIKq9+Ny6C6huGxo+DdXrJoWpHj0+TgliqjmJZheu+EB2F3paQNcPshdGE4pLdP9g8xu28EC2F9k92OSR9T+GxiG6HnkhBgYFIQj7FlI8w9IwcnoAACX8TBs=
+   eJy7JclAEtguBqEfA/W9wqL3PVDsA1T8JZoamF4QOAgUP4RDHQy8RdOLbDYu8AaLPLKbCQGQfpi9hyURel8i6cXlXlz2nhWEYGRwUhKCcZmFzV6Ym/CBU4Ko4YzPrbuA6rah4dNQvW5SmOrR4+OUIKYamL9gAFd8ILsLPS0gA1h8wGhkv2ED6P7B5jds4YFsL7J7sMkj638MjUN0PfJCDAwKQhD2LaR4hqVh5PQAAH8DUck=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJydUlsOQEAM7DXWOXACDowvjuAG3v4lzqDCJqO6a2MSsarzSLtEbyyGaDXXueN3b5QmRsH10tM38vckaqjtwsmbP3p82MG3Ap1OnG3e5qdXzbzW+GckfWWmL33L9+lLxBFRwk8aPevaPiQy5uQKT9sH5pJ3AWH3EeIfAtc80Bfz4P/Bsa+zpnEQ280PucOo68pr53EA9TU82Q==
+   eJydUtsNgCAM7Bo4h26gA6tfuoFugO9/E2ewRkkuFSrxEgKU3l3TQvTGaog2c58t74PxJDFKjldK3sT3WcRQO4SLt3zkaDjAtwYdK86u3vanV8O83ug9kr6ypi/9JkJfIk2IMl5dxDwkcuYVye2LPN88sC75FxBuHjH+MQj1A32xHnwfA/28Yj4OYn/42h+W2laZn+vHCf02QPQ=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu2CgGwehsUtTB+Oh68ZlHihpi9aO7iRI7cPmFkFnY9JFiJ7nhQU7YY9NLqv3khhM2vbjUYFNHyM2E0iSuNIxNDToGAHa8Mog=
+   eJxjYCAPbBSDYHziuNQQUgfjo+vFZx4xagjpxeYubHqJcQchu5H9iM8sbPpIsZMct+Kyl1hzKAkrcsMJm15canClW3xqCKVJSjAAAZw3Mg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="128" y="0" width="352" height="32">
+  <object id="1" name="north" type="mapchange" x="128" y="0" width="320" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_east1"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="0" width="32" height="448">
+  <object id="2" name="west" type="mapchange" x="0" y="96" width="32" height="352">
    <properties>
     <property name="map" value="way_to_sullengard_east3"/>
     <property name="place" value="east"/>
