@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,24 +186,24 @@
  <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
- <layer id="1" name="Ground" width="40" height="26">
+ <layer id="1" name="Ground" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6C+86+kDutgCiChl1RVVVX1Oa8O878=
+   eJzbyMnAsHEUj+JRPIpH8SgexaN4FI8YDAAd99EQ
   </data>
  </layer>
- <layer id="2" name="Objects" width="40" height="26">
+ <layer id="2" name="Objects" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJACAMxdBO4f5T6MENnMoNRAxSkTzoPdDLj5Dy1LJ3vWSXrjX7EPsY+xj7GPsY+xj7mNf7xuZOdEPec/ID/W0CUWQuew==
+   eJxjYBgFo2DgwDYx4vBusYF2KX6wfdR9FIFR91EGRt1HGRh1H2XgFJHlOLXxKKAMAAAWoCcu
   </data>
  </layer>
- <layer id="3" name="Above" width="40" height="26">
+ <layer id="3" name="Above" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U9/gBFUBAAAAfAMQQAAB
+   eJztwQEBAAAAgiD/r25IQAEA8GQKAAAB
   </data>
  </layer>
- <layer id="4" name="Walkable" width="40" height="26">
+ <layer id="4" name="Walkable" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwYEAAAAAw6D5U9/gBFUBAAAAfAMQQAAB
+   eJztwQEBAAAAgiD/r25IQAEA8GQKAAAB
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
