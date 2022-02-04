@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJyz42BgsKMS9gNiYsBOMeLUBQDNc5diYPCQwk3DzMMlf1kSwQ6ggftAgJAb8bkPmaaW+8yBZllIERd+hyUR5iGLIYfvUAq/m2LUw+SkP3z+GQzhB4pbXHpo4T5K8y+yW2kdfiCAnPaRww9ZHa4yZjCGHzn5YycJ+YOa/iUWjJo3at6oeaPmjZo39M0DACEviPI=
+   eJwz42BgMKMSdgNiYsBOMeLUeQDNc5cC0lK4aZh5uOQvSyLYHjRwHwgQciM+96HQVHKfOdAsCyniwu+wJMI8ZDHk8B1K4XdTjHqYnPSHzz+DIfxAcYtTzyDMv8hupXX4gQBy2kcOP2R1OMuYQRh+5OSPnSTkD2r6l1gwat6oeaPmjZo3at7QNw8ABEyHug==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="40">
