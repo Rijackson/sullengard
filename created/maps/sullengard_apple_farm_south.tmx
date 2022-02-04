@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="41" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,24 +183,24 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="25" height="41">
+ <layer id="1" name="Ground" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJztwzEJAAAMA7C+86+kDutjJJBeUlVVVfX9Abyx6Nk=
+   eJzbyMnAsHEUj+JRPIqHAAYAqVTZ+Q==
   </data>
  </layer>
- <layer id="2" name="Objects" width="25" height="41">
+ <layer id="2" name="Objects" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJwL42AgG2wXI1/vqB0DZ8c2MfLxYPLHqB2jdozaMWrHSLDjFJayePcQ9Vu+MANDARDHA3GCMG3DD2YXte3YhSU+TlPZjuGSdkftGLVj1I5RO0btGJx2AABlPTg/
+   eJwL5WBgMINicyDeLsbAYIokRgscBsSvJBng4IUgxF5aA5A9tyRRxehhLwi8otBekNvJAdj8S65ZRAMhTP+eAtq7jQ4Y5F8U/wmhuoMYvxMbPsjq0P1LL4Aev6SAl5LY3U2MmSB9MP2k0sh2o9OE9AMACvZQGA==
   </data>
  </layer>
- <layer id="3" name="Above" width="25" height="41">
+ <layer id="3" name="Above" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJztzjERADAIBLD3gMDiXwUquA4kCpIAANe9Srp+LwCAbQMrvwDm
+   eJy7JckwCkbBKBhAcBOYB29RkA9h+kmlceklRj8l4IoQdvGXRJgLAKpVH0Y=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="41">
+ <layer id="4" name="Walkable" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAAAPBhAEAAE=
+   eJzbKMbAsBEJg8BGMfrggQCj9o7aO2ovQi+5+ulVRqBjADhbNaQ=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
