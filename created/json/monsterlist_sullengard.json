@@ -1,0 +1,32 @@
+[
+    {
+        "id":"farm_horse",
+        "name":"Farm horse",
+        "iconID":"monsters_ld2:67",
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "spawnGroup":"farm_horse_left"
+    },
+    {
+        "id":"graze_horse_left",
+        "name":"Grazing horse",
+        "iconID":"monsters_ld2:66",
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "spawnGroup":"grazing_horse_left"
+    },
+    {
+        "id":"grazing_horse_right",
+        "name":"Grazing horse",
+        "iconID":"monsters_ld2:65",
+        "monsterClass":"animal",
+        "spawnGroup":"grazing_horse_right"
+    },
+    {
+        "id":"farm_horse_right",
+        "name":"Farm horse",
+        "iconID":"monsters_ld2:64",
+        "monsterClass":"animal",
+        "spawnGroup":"farm_horse_right"
+    }
+]
