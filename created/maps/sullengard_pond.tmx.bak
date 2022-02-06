@@ -211,7 +211,7 @@
     <property name="spawngroup" value="pond_turtle"/>
    </properties>
   </object>
-  <object name="pond_fish_pond" type="spawn" x="64" y="864" width="800" height="96">
+  <object name="pond_fish_ond" type="spawn" x="64" y="864" width="800" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="pond_fish"/>

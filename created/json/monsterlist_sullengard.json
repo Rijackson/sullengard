@@ -28,5 +28,16 @@
         "iconID":"monsters_ld2:64",
         "monsterClass":"animal",
         "spawnGroup":"farm_horse_right"
+    },
+    {
+        "id":"pond_turtle",
+        "name":"Pond tutle",
+        "iconID":"monsters_tometik3:69",
+        "spawnGroup":"pond_turtle"
+    },
+    {
+        "id":"pond_fish",
+        "name":"Pond fish",
+        "iconID":"monsters_ld2:137"
     }
 ]
