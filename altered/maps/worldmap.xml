@@ -274,6 +274,7 @@
     <map id="sullengard_apple_farm_west" x="440" y="572"/>
     <map id="sullengard_apple_farm_south" x="461" y="613"/>
     <map id="sullengard1" x="322" y="655"/>
+    <map id="sullengard_west_ravine" x="409" y="525"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
