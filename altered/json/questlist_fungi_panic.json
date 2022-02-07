@@ -1,0 +1,63 @@
+[
+    {
+        "id":"achievements",
+        "name":"Unusual experiences and achievements",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Mikhail gave me a book in which I could put down my most unusual experiences and achievements."
+            },
+            {
+                "progress":10,
+                "logText":"On the road: My first glimpse of the great Duleian Road!",
+                "rewardExperience":100
+            },
+            {
+                "progress":20,
+                "logText":"Community cleanup: I killed 20 highwaymen.",
+                "rewardExperience":100
+            },
+            {
+                "progress":30,
+                "logText":"Prospector: I collected at least 100,000 gold.",
+                "rewardExperience":200
+            },
+            {
+                "progress":40,
+                "logText":"Birdwatching: I spotted a falcon high above the Lake Laeroth watchtower.",
+                "rewardExperience":200
+            },
+            {
+                "progress":50,
+                "logText":"Lazy day: I spent a while watching a beetle fight.",
+                "rewardExperience":200
+            },
+            {
+                "progress":60,
+                "logText":"The secret garden: Near Guynmart Castle, I found Rob's secret clearing.",
+                "rewardExperience":200
+            },
+            {
+                "progress":70,
+                "logText":"Hole in the wall: I discovered a secret room deep in a cave.",
+                "rewardExperience":400
+            },
+            {
+                "progress":80,
+                "logText":"Tough luck: I must have fallen for every trap in the Arulir mountain. Ouch...",
+                "rewardExperience":1000
+            },
+            {
+                "progress":100,
+                "logText":"Swimming lessons: I swam along a raging river - and lived!",
+                "rewardExperience":1000
+            },
+            {
+                "progress":110,
+                "logText":"I braved the elements and my fear of heights and walked out onto the very edge of the Sullengard ravine and looked straight down to it's bottom.",
+                "rewardExperience":300
+            }
+        ]
+    }
+]

@@ -6,5 +6,95 @@
     {
         "id":"sign_way_to_sullengard_east_park",
         "message":"Please respect the park as you enjoy the scenery."
+    },
+    {
+        "id":"sullengard_ravine_confirmation",
+        "message":"[As you approach the ravine, you notice how quickly the wind has picked-up and it causes you to ponder:] \n\nShould I proceed or turn around?",
+        "replies":[
+            {
+                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No way, I'm afraid of heights.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_confirmation_2",
+        "message":"[As you reach this outer most point of the ledge, a big gust of winds blows you off balance and almost down to your death.]\n\nShould I proceed or turn around?",
+        "replies":[
+            {
+                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No way, that last gust of wind was enough for me! I'm heading back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge",
+        "message":"[Now that you can't proceed any further, you stop and admire the scenery and this is when you think:]\n\nDo I lean over and take a look at the ravine's bottom?",
+        "replies":[
+            {
+                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "nextPhraseID":"sullengard_ravine_ledge_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I've already admired this view. It's time to go back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_ledge_10",
+        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a sfae way to get to the bottom?",
+        "replies":[
+            {
+                "text":"I should head back now before I suffer a similar feat.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":110
+            }
+        ]
     }
 ]
