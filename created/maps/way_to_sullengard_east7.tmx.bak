@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="25" height="41" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,37 +184,37 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="15" height="15">
+ <layer name="Ground" width="25" height="41">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPGAYAK/jo3s=
+   eJztwzEJAAAMA7C+86+kDutjJJBeUlVVVfX9Abyx6Nk=
   </data>
  </layer>
- <layer name="Objects" width="15" height="15">
+ <layer name="Objects" width="25" height="41">
   <data encoding="base64" compression="zlib">
-   eJy7JclAEtguBqEfA/W9wqL3PVDsA1T8JZoamF4QOAgUP4RDHQy8RdOLbDYu8AaLPLKbCQGQfpi9hyURel8i6cXlXlz2nhWEYGRwUhKCcZmFzV6Ym/CBU4Ko4YzPrbuA6rah4dNQvW5SmOrR4+OUIKYamL9gAFd8ILsLPS0gA1h8wGhkv2ED6P7B5jds4YFsL7J7sMkj638MjUN0PfJCDAwKQhD2LaR4hqVh5PQAAH8DUck=
+   eJylV0FOw0AMzJELSGmlSvkYV3gB8JL+pFeQ4ATc4MgRxLVNm/IG4rYWk4nt3Q0jRVG7ux6vPfZuLs+qyXhYHN/ns6q6mI3Ht83w96b2x9p6PGc1/+P47ufvT2vk/Qnr2VY0ZkE4un7eT3PkOfjTv3fN2Ib45I2lOATKo/togW8Uk9N/1hjitvfpDmKlPGL/uX9ewIb4f7+Y/iDHuh76oTn8yIwJQ3wTIEdqrgfdt4J9FQ6Nm4evZsy1qe25FlL7EFtdIrf/5VDgHrbGvlIcy2CuxlFrg3kUXMPMkUJLtcD2uYatfbDPDI1JVHtcw6X7QKh91qvysP0cjkjXKc0LlvOyfbTUs+Wx6oTjaHGwf91pTaSdgw+O7pSD9cv+pbQT6c7qiZzP12bIE+3D0t2b0YufAj172rHg9QE9f9k2/k71Q+67Ml/XX/XPtaE1zWXUczzwXqyzEf1P5d3Do5GPd0PPu3rII8C8RD2YtWv1iBvKQ0nekYNh5dWqwZx+kttLrFyIH22gMe/OgNrZQu3J/FQNelAOjA3fNVdODZacteh/6q6Za1chsbTywX2nK6wHRpTzNfQAfaf6eymHgHNh1XmkLeSI/MOzp0Rb2JuiPmT126l1Hvmn8crNBd5bWFfqn3UueXWO8L7hkAPXqB94F416blRXpd8fUS688zz3vpvzbeCdwV6sFBqrXzyDMOI=
   </data>
  </layer>
- <layer name="Above" width="15" height="15">
+ <layer name="Above" width="25" height="41">
   <data encoding="base64" compression="zlib">
-   eJydUtsNgCAM7Bo4h26gA6tfuoFugO9/E2ewRkkuFSrxEgKU3l3TQvTGaog2c58t74PxJDFKjldK3sT3WcRQO4SLt3zkaDjAtwYdK86u3vanV8O83ug9kr6ypi/9JkJfIk2IMl5dxDwkcuYVye2LPN88sC75FxBuHjH+MQj1A32xHnwfA/28Yj4OYn/42h+W2laZn+vHCf02QPQ=
+   eJzVVlEOwiAM7R344nLqBf1QT7M5vYDJzuCII9ZaSikw40sMyeZKH32vFOATgwcYPRRhWv5/8+81xLh6Ppb0Toof1/v6bcBjjUXjp95pMa88AqRcNTz2DuDgvp8HHqfld/avXEvP/J8ReUtIndvW2LIuFu/lgM9R8h71cCkGFJfzHvWwNufUXjnvzUYedJ/Rp/Wa48FB4vYrzWt1R/PDNZW0Y+n5GDntSLrjQOt5Id+ktGPlwdXVoh1N7FoNabzXE3j/2p5UipqewfWIXeLe7wHurFr1k6Mr699aYB9NSg+Wxpf8WsujxaypBeZBz6o1om7i2tuHtdqS8uP6lUZbtA+l8pPmeyuk/DS1yM0tMT/uPtfUovQejHlwZ8Vxbe0rqRbWuaTHrI6x5Sz4BHazvWE=
   </data>
  </layer>
- <layer name="Walkable" width="15" height="15" visible="0">
+ <layer name="Walkable" width="25" height="41" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPbBSDYHziuNQQUgfjo+vFZx4xagjpxeYubHqJcQchu5H9iM8sbPpIsZMct+Kyl1hzKAkrcsMJm15canClW3xqCKVJSjAAAZw3Mg==
+   eJy9lVsKxTAIRLuK7n8L3eH9uARKUOf4SIVASHVGjZM+99W25/4vdUa+7X57jLcsfMpD8BeO4u7yVOogsdV8K1blyMQpX1Ir6Ws2r6x9cSfW/K59BkPhn9Cl4qniez6ezqfrIFjdPmW/Wfll/aK+0jefvPtenLrXiLODT+qgeVZmy/tP0djo3MLtvFkn3909Vunq5L+R6JzO0hvD4/B8uhZpcIqPaNCLi86ju57I3eqHl0cWl+Q8ddfTfanwTXNP6jyKJzrv5EfPpuogNSifaF6z+JW6lGam5mHfq7yqHCds4f8AOHT2bA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="128" y="0" width="320" height="32">
+  <object name="north" type="mapchange" x="192" y="0" width="352" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east1"/>
-    <property name="place" value="north"/>
+    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="96" width="32" height="352">
+  <object name="north2" type="mapchange" x="32" y="0" width="128" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east_ravine_north"/>
-    <property name="place" value="east"/>
+    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
  </objectgroup>

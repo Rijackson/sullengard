@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,40 +184,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="15" height="15">
+ <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPGAYAK/jo3s=
+   eJztwzENAAAMA6C+86+kDitkkNBLqqqq6rsD3zGOBw==
   </data>
  </layer>
- <layer name="Objects" width="15" height="15">
+ <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy7JclAEtguBqEfA/W9wqL3PVDsA1T8JZoamF4QOAgUP4RDHQy8RdOLbDYu8AaLPLKbCQGQfpi9hyURel8i6cXlXlz2nhWEYGRwUhKCcZmFzV6Ym/CBU4Ko4YzPrbuA6rah4dNQvW5SmOrR4+OUIKYamL9gAFd8ILsLPS0gA1h8wGhkv2ED6P7B5jds4YFsL7J7sMkj638MjUN0PfJCDAwKQhD2LaR4hqVh5PQAAH8DUck=
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Above" width="15" height="15">
+ <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJydUtsNgCAM7Bo4h26gA6tfuoFugO9/E2ewRkkuFSrxEgKU3l3TQvTGaog2c58t74PxJDFKjldK3sT3WcRQO4SLt3zkaDjAtwYdK86u3vanV8O83ug9kr6ypi/9JkJfIk2IMl5dxDwkcuYVye2LPN88sC75FxBuHjH+MQj1A32xHnwfA/28Yj4OYn/42h+W2laZn+vHCf02QPQ=
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="15" height="15" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPbBSDYHziuNQQUgfjo+vFZx4xagjpxeYubHqJcQchu5H9iM8sbPpIsZMct+Kyl1hzKAkrcsMJm15canClW3xqCKVJSjAAAZw3Mg==
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="128" y="0" width="320" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east1"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object name="west" type="mapchange" x="0" y="96" width="32" height="352">
-   <properties>
-    <property name="map" value="way_to_sullengard_east_ravine_north"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Mapevents"/>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

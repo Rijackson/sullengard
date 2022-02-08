@@ -275,6 +275,21 @@
     <map id="sullengard_apple_farm_south" x="461" y="613"/>
     <map id="sullengard1" x="322" y="655"/>
     <map id="sullengard_west_ravine" x="409" y="525"/>
+    <map id="sullengard_woods_gj1" x="440" y="504"/>
+    <map id="sullengard_woods1" x="409" y="504"/>
+    <map id="sullengard_woods2" x="409" y="552"/>
+    <map id="sullengard_woods3" x="409" y="572"/>
+    <map id="sullengard_woods4" x="409" y="593"/>
+    <map id="sullengard_woods5" x="409" y="613"/>
+    <map id="sullengard_woods6" x="461" y="624"/>
+    <map id="sullengard_woods7" x="430" y="624"/>
+    <map id="sullengard_woods8" x="409" y="624"/>
+    <map id="sullengard_woods9" x="374" y="624"/>
+    <map id="sullengard_woods10" x="374" y="613"/>
+    <map id="sullengard_woods11" x="374" y="593"/>
+    <map id="sullengard_woods12" x="374" y="572"/>
+    <map id="sullengard_woods13" x="374" y="552"/>
+    <map id="sullengard_woods14" x="374" y="519"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
