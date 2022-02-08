@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="25" height="41">
   <data encoding="base64" compression="zlib">
-   eJylV0FOw0AMzJELSGmlSvkYV3gB8JL+pFeQ4ATc4MgRxLVNm/IG4rYWk4nt3Q0jRVG7ux6vPfZuLs+qyXhYHN/ns6q6mI3Ht83w96b2x9p6PGc1/+P47ufvT2vk/Qnr2VY0ZkE4un7eT3PkOfjTv3fN2Ib45I2lOATKo/togW8Uk9N/1hjitvfpDmKlPGL/uX9ewIb4f7+Y/iDHuh76oTn8yIwJQ3wTIEdqrgfdt4J9FQ6Nm4evZsy1qe25FlL7EFtdIrf/5VDgHrbGvlIcy2CuxlFrg3kUXMPMkUJLtcD2uYatfbDPDI1JVHtcw6X7QKh91qvysP0cjkjXKc0LlvOyfbTUs+Wx6oTjaHGwf91pTaSdgw+O7pSD9cv+pbQT6c7qiZzP12bIE+3D0t2b0YufAj172rHg9QE9f9k2/k71Q+67Ml/XX/XPtaE1zWXUczzwXqyzEf1P5d3Do5GPd0PPu3rII8C8RD2YtWv1iBvKQ0nekYNh5dWqwZx+kttLrFyIH22gMe/OgNrZQu3J/FQNelAOjA3fNVdODZacteh/6q6Za1chsbTywX2nK6wHRpTzNfQAfaf6eymHgHNh1XmkLeSI/MOzp0Rb2JuiPmT126l1Hvmn8crNBd5bWFfqn3UueXWO8L7hkAPXqB94F416blRXpd8fUS688zz3vpvzbeCdwV6sFBqrXzyDMOI=
+   eJylVzFOA0EMTEkD0iVSpKvgVbTwAuAl+UlakKACOigpQWmTSwJvYJ1khG/O9u6GkU6nZHc9Xnvs3bs8GR2Nh+n+fToejc7Gw/F12/+9avyxrhnOmU/+OBZp/vdhjbw/1Xq2FY1ZEI5tmvfT7nl2/qT3ph3aEJ+8sRyHADzYR6f4BjE5/GeNadwmn+5UrMAj9p/T86JsiP/30+MfzbFs+n4ghx+FMWGIbwLNkZvrAfsG2FfhQNw8fLVDrlVjz7WQ24fY2mZy+18OQO9hbewrxzEL5iKOqA3mAbiGmSOHjmqB7XMNW/tgnxmISVR7XMO1+9CAfdYreNh+CUek65zmBbNJ3T466tnyWHXCcbQ42L/tYU2knZ0Pju7Awfpl/3LaiXRn9UTO52vb54n2YenuzejFT4GePe1Y8PoAzl+2rX/n+iH3XZmP9VfpuTa0hlxGPccD78U6G7X/ubx7eDTy8W7oedP0eQQ6L1EPZu1aPeKG8lCTd83BsPJq1WBJPyntJVYuxI8u0Jh3Z9DaWavak/m5GvQADh0bvmvOnRqsOWu1/7m7ZqldQGJp5YP7DvruebrXXxh3+xyinC9VD8A7199rOQScC6vOI21pjsg/ffbUaEv3pqgPWf322DqP/EO8SnOh7y2sK/hnnUtenWt433CaQ6+BH/ouGvXcqK5qvz+iXHjneel9t+TbwDuDvVgBiNUvvNIxRQ==
   </data>
  </layer>
  <layer name="Above" width="25" height="41">
@@ -201,7 +201,7 @@
  </layer>
  <layer name="Walkable" width="25" height="41" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lVsKxTAIRLuK7n8L3eH9uARKUOf4SIVASHVGjZM+99W25/4vdUa+7X57jLcsfMpD8BeO4u7yVOogsdV8K1blyMQpX1Ir6Ws2r6x9cSfW/K59BkPhn9Cl4qniez6ezqfrIFjdPmW/Wfll/aK+0jefvPtenLrXiLODT+qgeVZmy/tP0djo3MLtvFkn3909Vunq5L+R6JzO0hvD4/B8uhZpcIqPaNCLi86ju57I3eqHl0cWl+Q8ddfTfanwTXNP6jyKJzrv5EfPpuogNSifaF6z+JW6lGam5mHfq7yqHCds4f8AOHT2bA==
+   eJy9lVsKxTAIRLuK7n8L3eH9uARKiM7xVSEQUp3R6KTPfZXtuf9LnZFvu98eY60TPuUh+AtHcVd5MnWQ2Gy+GctyROKUL6mV3Gs0r6h90ZPT/K59BEPhT+hS8WTxLR9L5911EKzqPUW/nfKL+nn3St988u5bcaqvHmcFn9RB88zMlvWforHe+Qm38mZNvrt7rNLV5L+R6JzO0hvD4rB8quZpsIuPaNCK8869XnfkfroPK48oLsm5q9fT/SV83Trs1LkXT3ReyY+eddVBalA+3rxG8TN1Kc10zcO+V3llOSZs4f8AQf73+g==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -226,6 +226,7 @@
   <object name="south" type="mapchange" x="32" y="1280" width="704" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_east8"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

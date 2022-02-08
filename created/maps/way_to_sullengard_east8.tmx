@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VTsOwjAMzREaKlXqHbgbzGxcCmZgr5BYEUsHaFU4A7WoJRNs1+mHJ0UkpXnPzy9RnRuOfab///DOvfxnfvd2Xvpunwagyu3cFId23zHv1wD+eqAGItRYpc6t018drGmMRtjrC+GrlBwehoxi8rgIPjjvMRpz5CHpALRMtJ6hhtbz8o8++iD5nDIPqRcxGni+Y+8KaHB5IQ/Utkmc22Xzj6GwegYfU0C6w9DHU/695nAW9lu/B9tEr6MYeX8A1vtBtXDO6YfP8Ow+mXel+wB9K7qB8z5YfBQMF/dM1PAfH9I5xHrDdUxOMd9zOHdR3F7PY0qgj6b9fbXjNoNm2XE+O36qM1Q3zFby0Qi62N+rsYYwD06H46+UGrQ9NdFBzYrZQ2H1XuayD8pF18uFrhNyQK1vMQ7VmA==
+   eJy9VUEOgjAQ7BOsJib8wb/p2Zuf0rN6JyZejRcOCgEOvkA2sMlad5ctgpM0tkhndnba4NxwHJb6/0/vXO3b+cPbeem7fRqAPLFzUxybfaekXwP4i4EaiFBjvXBus/jWwZp+0Qh7fSV8uZLD05BRTB5XwQfnPUZjijwkHYCWidYz1NB6nv3RRx8kn2PmIfUiRgPPd+xdAQ0uL+SB2rYz5/bL6cdQWD2DjzEg3WHo4zn5XHO4CPut34Nd4+M1l+tIf7w/AOv9oFo45/TDZ3h2K+Zd6T5A39Ju4LwPFh8pw8U9EzV860M6h1hvuI7JKeZ7DucuitvreYwJ9FE2v3Uz7hNoZh1n1fFTnaG6YbaSj1LQxf7ejDWEeXA6HH+u1KDtKYgOaubMHgqr9yyRfVAuul7NdZ2QA2p9A1mX1pw=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="30">
@@ -213,6 +213,12 @@
    <properties>
     <property name="map" value="way_to_sullengard_east7"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="2" name="west" type="mapchange" x="0" y="0" width="32" height="544">
+   <properties>
+    <property name="map" value="way_to_sullengard_east9"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
  </objectgroup>

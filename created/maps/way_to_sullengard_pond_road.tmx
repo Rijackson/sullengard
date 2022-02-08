@@ -191,20 +191,39 @@
  </layer>
  <layer name="Objects" width="40" height="20">
   <data encoding="base64" compression="zlib">
-   eJztlb9OAkEQxqegsWSRu0Crj6BvoI+CL0hiIZUVRitbqWwInNhYGOjY8XZgMuzsH87Dxi/5clxu2f3tzOzsagDwab1iz2kB8GR9W0LrujTh78gkRXxcF5F5fkNzu+bCeVkog0zNV4XGCMVikMr2Yf1mPWPx8cXv243JYUxRKAdTx7Yp/PkjPXYOx2syveNZfXzERPnDPPeGAOfW/WH97bVzOP4U2q1n6vytnaXe/4DvqtRr3ld/KOK7bqHHyLq4Kfc1nxoTvp82GEkjNzedX8mnxY+f4YXH2rnO6ZOY17tyn9/xWV5N8Trlbtp7Ro6J92PqfbJfaPGLcecwShbJRPsO9bKmjPJuwhiR5x6WVKaf+B15P1HNVG59/E3vvjjtWE5wl6O0+uR1iryxeyik+yLdk8w1iF9jq7oAD5E1c/ScsZdUv2DtdnX+fzUTnt8vU3sy0C2/07t8auN986X8ZwvTZuYP
+   eJztlbFOwzAQhm/owliXJmpXeAT6BvAo7QsiMdCJqQgmVjp1qdoQFoYKNnyKLz1dfY6dEFj4pV9pFNf+fHc+lxOAd+uSPVcZwKP1TQ6969KEvyOTFPFxXTTM8xPa2jV3zvtMGWQqviI0RqgpBrFsb9av1msWH1/8Dm5MCmOMQjlYObavzJ8/0sPgdLwmM2rP6uMjJsof5nk0BTi3Hk+rby+D0/G/oXo9U+Xv01lq8wd8V7le8776QxHfrIceI+viOj/WfGxM+H76YCTN3dx0fiWfFj9+hncea+c6pU9iXhf5Mb+3Z2k1xeuUu2vvmTsm3o+p9/F+QXdaqlL7o2SRTLTvUC/ryijvJowReethiWGq49fyfqKaKdz6+JvefXGqWSLXK1vklkurT16nyNt0D4X47rJ4LxPXIH6NrRgC3DesmaKnhL3E+hlrd6jz/6ub8Px+mMrLiW75nd7lUxvvmy/mP98YwOoj
   </data>
  </layer>
  <layer name="Above" width="40" height="20">
   <data encoding="base64" compression="zlib">
-   eJy7K8mAAd5iERsF2MHdQR5Wn4Hu+0KmG5mEqesWbIBZioGBRYr29gxXMBDpjx7pgl5gsOffwQ5Gw48yMBp+o2AUDF0wmn8pAwBVTwo/
+   eJy7K8mAAd5iERsF2MHdQR5Wn4Hu+0KmG5mEqesWbIBZioGBRYr29gxXMBDpjx7pgl5gsOffwQzuSI6GHyVgsIffnUHsNhAY7O4bBcMfDOb8OxQAAPApDhM=
   </data>
  </layer>
  <layer name="Walkable" width="40" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg2CiGiekFCNlFrFvo6WZ8gBx30NLtgykuB4s+Uu0YLGkLBAaTW4gBA+HeoRZG+AC1/TKcwoYYMNL8S20wEOXfaJyNglFAHYCtbT+YMAA6nTKI
+   eJxjYGBg2CiGiRkYMPm0ANjsxuYWYvTS2o2ExGDixKjDp4ca7iPWbmrYT8gcQuLkhg+t3Q2To0SeGgDZfFLtorf7SJGDyVPbfdjyIKXm0QMT45eBcje13UYtNxJjNj3cSK65tALUqBfpUbfispea6gYKDHb3jYLhD+hVd5GLAd56iyY=
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="1248" y="160" width="32" height="448">
+   <properties>
+    <property name="map" value="way_to_sullengard_east10"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="448" width="32" height="160">
+   <properties>
+    <property name="map" value="sullengard7"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="west2" type="mapchange" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard7"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn">
   <object name="pond_turtle_pond_rd" type="spawn" x="320" y="0" width="736" height="256">
    <properties>
