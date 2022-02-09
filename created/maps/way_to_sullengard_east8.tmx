@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VUEOgjAQ7BOsJib8wb/p2Zuf0rN6JyZejRcOCgEOvkA2sMlad5ctgpM0tkhndnba4NxwHJb6/0/vXO3b+cPbeem7fRqAPLFzUxybfaekXwP4i4EaiFBjvXBus/jWwZp+0Qh7fSV8uZLD05BRTB5XwQfnPUZjijwkHYCWidYz1NB6nv3RRx8kn2PmIfUiRgPPd+xdAQ0uL+SB2rYz5/bL6cdQWD2DjzEg3WHo4zn5XHO4CPut34Nd4+M1l+tIf7w/AOv9oFo45/TDZ3h2K+Zd6T5A39Ju4LwPFh8pw8U9EzV860M6h1hvuI7JKeZ7DucuitvreYwJ9FE2v3Uz7hNoZh1n1fFTnaG6YbaSj1LQxf7ejDWEeXA6HH+u1KDtKYgOaubMHgqr9yyRfVAuul7NdZ2QA2p9A1mX1pw=
+   eJy9VUsOgjAQ7REEEhPu4N107c5L6VrdExO2xg0LhaAmnsBOZJKxzkxbPr6kgQJ9b968NjwT0xu7uf7+ZrkfHf81Qod+69MA1Hk4N8Xerjvkfg3gb3pqIFyNZWbMKvvVwZqGaLi9LglfreRwC8goJo9S8MF5j9GYIg9JB6BlovUMNbSeV3/04YPkc8w8pF7EaOD+jj0roMHlhTxQ23pmzHY+/eiLUM/gYwxIZxj6eMy/5xxOwvrQ/8HG+nilch3FwPMDCD0fVAvvOX33Ge7dO/OtdB6gb0U38N6HEB8Fw8U9EzWSjw9pH2K97jwmp5j/Oey7KO5Ez2NMoI/WXh92XCbQrDrOe8dPdfrqutlKPlpBF/t7DqzBzYPT4fhrpQZtTUN0ULNm1lCEeq9y2QflovNFquu4HFDrGxI615w=
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="30">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNVVsKACEI7BR7/yvsDZf9ECJSx8dEQlSSM2qoY3DlfcgEBY7fDrFF31W5Rcfg2p1ZIhwaVzVGRo40HjbfTfWRjfPEf1j10ol9039otmjP6hAL54QfSC+pSianll8dfX226ZxT1TryfFr1ldgj7yPCmrMWD3O2oyuKOd81fXR5MVi4WU4PS4vHywmKr9l6udjhyf4B+VGFtQ==
+   eJzNVVsKACEI3FPs/a/QDZf9ECJSx8dEQlSSM2qo432oMsj4FY7fDrFF31W5Rcfg2p1ZIhwaVzVGRo40HjbfTfWRjfPEf1j10ol9039otmjP6hAL54QfSC+pSianll8dfX226ZxT1TryfFr1ldgj7yPCmrMWD3O2oyuKOd81fXR5MVi4WU4PS4vHywmKr9l6udjhyf4BFdmGfA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -215,7 +215,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="0" width="32" height="544">
+  <object id="2" name="west" type="mapchange" x="0" y="32" width="32" height="512">
    <properties>
     <property name="map" value="way_to_sullengard_east9"/>
     <property name="place" value="east"/>

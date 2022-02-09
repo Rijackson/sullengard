@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,6 +183,11 @@
  <layer id="1" name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FFMNAwBJGbQA
+  </data>
+ </layer>
+ <layer id="9" name="Breadcrumb" width="20" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztksEKgDAMQ3vVL/X/D55lDDEEpU27mw2UDbK9hXZmj87NJHnnh49V5alnI+8q+TymwuF7Cu/YZ2UysHezsJS5of+Va+VcM39U6UeVyR72NcJ8YzMP10zesY/mivA4Y4bn8bO8KgsZK1itVus/ugDbBUJY
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="30">
