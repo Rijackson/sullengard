@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,6 +186,11 @@
  <layer id="1" name="Ground" width="30" height="26">
   <data encoding="base64" compression="zlib">
    eJzt1MENgCAMBVDDzbFdwhm8Gm+6AqzgLEJMk6apWkvLicO/kT77Ia7jMKw9PT3q7KG9eWQzOrlLuHeimXKSg4uNyCQZuuAcZL6X+2Z5uNh7sqxc2mVydLl7o3Px/G20cd9meLpgc/3VuOXcJrhbrXuSRGRKXG6PLxfPf4rkPcNZzoV9JNZfF/93qfvX07hcB63dJdR9g9at7cLaLD1IuvAwaWYmF7PPRFU=
+  </data>
+ </layer>
+ <layer id="9" name="Breadcrumb" width="30" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9+MZJHTPQMa3sxWcPNjOR1RHrNnxmEOsmUsMDl7kwIMUFwbjkKbWLXHupCXCZS02/EWsvre3Dh2kFaGk2Pjvpbe+onaN2UsvegQADae9I9POovfSxF1t7jR5pDlcdS6+6l5j2IzUAAJEBVzo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="26">
