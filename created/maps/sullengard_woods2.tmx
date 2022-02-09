@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+   eJxjYKAfSOFgYEiFYnqCEjrbN2rvqL2j9o7aO2rvqL2j9jIwtADtbYXigQCfhBgYAIqwC7E=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="19">
@@ -195,9 +195,9 @@
    eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="19">
+ <layer id="4" name="Walkable" width="30" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+   eJxjYKAf2CiGwPQE9LZv1N5Re0ftHbV31N5Re0ftHbh6H9l+APDWEeI=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
