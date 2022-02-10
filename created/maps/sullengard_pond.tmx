@@ -190,21 +190,21 @@
  </layer>
  <layer id="2" name="Objects" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlsFOwzAMQHPYhRM0sEnbGf4JpH0A+zzYH3CBb6DSjmPpOo5ou+FMLTNuHCc02RDCkhU1SuxX23GyGat/SSQGYlmNu+Nf46nBxjvoAnQTYM/6XYOWzYi/U/AsCI/ER3lScVC/dTNSPhdPjnpx8XAcqyLcbszavegDz5dfHV9HqYTzW5+AI6Q+coopDuOp8sHJMXhifOSsD6kWnH0j9hxG8vyWWrjw9Io+bNF9DAlbC7o7ZdA629/7+MU2fXe7Ly4mQz5j3hq3EKM7/X1vK33vP+mtQeNyDxwz7ed9OlfqYaDUY6Pzwc958Ftj2sRgOYKaENSM/H6uJkoNJ7wtu3+qHflBebB716CvoFukJZmz31UAM2frRfgXzLEja5/J/g9ie37WZW3nXLYqIbYcR+vbNY+5dg5Wzlbp4VkWPEcOcfG8ob4l5dDKtaMXpuCh5wHHJKVPiYeeBemMHpMpJD+c3ATGUF/Ka9rz+glV0Q+F
+   eJzNls1OwzAMgCM0kDhBAkysFy4gwRuBtAeAx4O9AZdx5EylXZAG7TpAHBC74Wwt9bw4P7TZsGSlTRP7i+2kmfaEeAal8mjo8/mWwbcc9EPWz3JLiHe5mPepFu3chqr7TtTy/Cai17OdCLGTNLMTylKNp20bYsoRlWNYbw+tORZPATbeQEegU8beOXBcJAtu7XcCmpYtfm+DZ0R4KB+NHeVpi4P6LcqW8lGJUS8cD8fxKv3thoydi6p5fv0qvzqKIZzfYgMcPvURUzJZt5vKByfr4AnxEbM+XLVgPDdC92Egz3+phX3LWdGELfgcQ8LWglrtytA4fb438Ytt2v7ttrhkEfIZcte4hBhdqeW5lTT9/7nuGjQu18Bxo+y893tC3HaEuCt10Pk7D75r9MsYjLtQEw7NunY/h3DXOkp4W3p+Xxnyg/Kg505An0C/kaakT7/nHsycrQfHWjDHjIwdkvlfxPZgd5W16jPZyh2x5Tgq36Z+zDUzsHK2UgvPWPIcMcTE84LOLVcOtZwazsI2eOh+wDFp06eLh+4F1x5dJ5NPfjg584yhOnCPqfbrD51zJ4M=
   </data>
  </layer>
  <layer id="3" name="Above" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlkEOgyAQRSetJ9AVJvb+V7LaA6hxpQcQVxrbYUAHGEzfhhCI8/gQECBtagXwVt/t3Xxa/Y2P2tqzHtz5HL1s/Ljr//LB+qHY5yGR0Lm4nl/fHlg/ho9EfOaSylkI7ZbKWYi5Z7b4eO+ot9SUy6DHGubcrrztA2M+1L8Glsu+tk0+kx6fHV2xtZnW3aktH4xnCZCVbi4Ya73eUIvyKRg81j2qcoBXTs+lfK8yCrpfJN11knL5E4dHEdvgHAvXhnQx
+   eJztlkkKwzAMRT9tT5CsHGjvv+9pOh2gDV11WFdZlAQTWXYtD4F+CMbYSM/fwgoAHAxwpC9WL4rxjowTyvLdb4+5tLdypeI5U4yLGUdJHIe2PzaXD592/jkebp5LUz9qVG5fQus3NQc3L8FTo1L6spRayM22lFooeWe+StHvpF7q8qWntZOybzG9vVf0R/rX4HyZ5vbx50Hrz0BW7myuc1/N6A+ndQdsujAWTkO+myOXxNMqcAx3tG2AXSPvlXhjda/ofanpravJl7/KaNWWJvhNHwIPeuQ=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="35" height="30">
+ <layer id="4" name="Walkable" width="35" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlmEOgCAIhTuF979CN2z9Y+4RD8Ona72trVTgi5A82/GrSGfD19d4sv48jgqeyDfyr8rLKE+VZuY9y9HzID4lD4q9A8du/UIRk+WZFZ+NoeawsdR18ZSX1Swr89IzoXFvbWX9RL2D2VeVyvQyVE8rzwPWrr9HvNE4w2Pto/d+O8+wjMyzytqN7G+P01tjn7NMGR6GK8Og6nfMv1CpqP7VUn4LVrsy3boAVtKpdw==
+   eJzNlt0NgDAIhJ3C/VfohupDE0IgHLRcJWmipXBff6SO+7rG27RZfahv+ucz2nR81XTO1TwV3V0MMnclpoMHyZfd910siAZrXVCdjvOC8LDMqgcWH5Onq/ascjD1ER6GJsrTpY9qsDmkFvtcRPXzJMvJddFMVr83dvf/QHVdOs5xppZF93EHB8Lk3QPoPDI8Mj6a96ofYan4UcvGVb5vj9MbI9+zTBkehCvDwKp3yF3ItOj8s425F6j9lemzB7uRwAI=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="1088" y="0" width="32" height="608">
+  <object id="1" name="east" type="mapchange" x="1088" y="32" width="32" height="576">
    <properties>
     <property name="map" value="way_to_sullengard_east11"/>
     <property name="place" value="west"/>

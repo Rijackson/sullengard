@@ -39,5 +39,11 @@
         "id":"pond_fish",
         "name":"Pond fish",
         "iconID":"monsters_ld2:137"
+    },
+    {
+        "id":"golden_jackal",
+        "name":"Golden jackal",
+        "iconID":"monsters_rltiles4:2",
+        "unique":1
     }
 ]

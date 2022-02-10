@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -185,6 +185,11 @@
    eJztwzEJAAAMA7C+86+kDutjJJBeUlVVVfXVAafs5Tc=
   </data>
  </layer>
+ <layer id="9" name="Breadcrumb" width="34" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztljEKACAMA539hf//pDgULCLooLkh94FcQ4aW8p5WP4QcYI8MwWM4UDzU+eoulPnz/QoHdf/O1+8/PAjYI0PYRkDyILkQcCcrtE7ssmKXPZTfIKC53NABJm4JaQ==
+  </data>
+ </layer>
  <layer id="2" name="Objects" width="34" height="30">
   <data encoding="base64" compression="zlib">
    eJztwQENAAAAwqD3T20PBxQAAADwZg/wAAE=
@@ -192,7 +197,7 @@
  </layer>
  <layer id="3" name="Above" width="34" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzjENAAAIA7DZwL8uvHBggYSnVdAEAAAAuNL1PVgDkocA9w==
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFIyCUTAKRgG1wF1J7OIHcIjjk9sJFL8JxLeg8shsZH0gGpkNAgBb0gqp
   </data>
  </layer>
  <layer id="4" name="Walkable" width="34" height="30">
