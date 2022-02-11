@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="51" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="51" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,25 +187,30 @@
  </layer>
  <layer id="9" name="Breadcrumb" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAE3zixCA5RAPILOh4KQJELgvGJY/MbLowO6B0mMHejY1IBulvR3U9KmJATbrj8Rg5AtoPW8UCPOKZXehoqeRgG8KWpweAXYtM/rryGzB9IgC/tDcYyER+gtf0AYhZTiA==
+   eJxjYMAEilxYBIcoAPkFHQ8FgMutyOLY/IYL4zKHXmFCrLuIMQebuYTsIReT4yZS/IIel7QC9I5jWtszlAC+NDUY/EJs+seV15D5Awnwpb3BWCbiA7S2HwCQ6A+g
   </data>
  </layer>
  <layer id="2" name="Objects" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4EMrBwGBGJRzGMYAeoTJ4KTnQLhgF2MBovAxOMBovgxOMxsvgBKB4AQCEkgoi
+   eJz7IMnA8AaI3wLxZSgGgZdA+hUQvwfiD0hq0MVhfJg8stg5JHXvkdQ8htoTysHAYEYlHMbBMGzAS8mBdsEowAZG42VwAkriBVY+jQLqg9H8MjgBKF4AIWIqZw==
   </data>
  </layer>
  <layer id="3" name="Above" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBge4KbkQLtgFGADo/EyOMFovAxOMBovgxMMt3gBAPCJBLs=
+   eJxjYKAeeC+JX/4DAXlKwE0amj0KyAej8TI4wWi8DE4wGi+DEwy3eAEAqpMGzA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="51" height="10">
+ <layer id="10" name="Top" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwUgBAAf4AAE=
+   eJxjYKAeeCtJRcNGwSgYBYMS3Afm8wejeX0UjIIhCwAuNgL4
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <layer id="4" name="Walkable" width="51" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsBENgwC62FDAwwWM+mVwglG/DE5AiV8GW9kxmNxCKRj1y+AEIL8AAGTxL2w=
+  </data>
+ </layer>
+ <objectgroup id="5" name="Mapevents" visible="0"/>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
