@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Above" width="20" height="46">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuuCVJZQOpDEaa+17R2b83JTH9gE2MWPBSEuIHbkYGhu1iDAw8jAgxSoA0I4SWYaTMHBjQBppjBcQ6o+aNmocDsAhT1zxkMBTNQw4PapiHDxCyyxpqng2V/OsNLa98qGTecAHk1gN3gPruSiJoGHhNQd1yh0Z1I7L7qF2fU1KX0gMMZrfRAlA7PgZ7+I36dxSQAgDJiCoq
+   eJxjYKAuuCVJZQOpDEaa+17RyL+HxbCzb0pi+gGbGLHmvZSE+IGbkYFhO1CchxEhhq6WGPNgQJoRQsswoqoj1zxtoDlWQKwzah5dzLskhp1NrnmEAC7zsNmNC7AI4zePFLOIcR8lgB7mIYcHNczDBwjZZQ01z4ZK/vWGllc+VDJvuABy67c7QH13JRE0DLwmom7BZyYtALL7qF2fE1OXDiQYzG6jBaB2fAz28Bv17yggBQAAHPtI6g==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="46" visible="0">

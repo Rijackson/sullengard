@@ -187,7 +187,7 @@
  </layer>
  <layer id="9" name="Breadcrumb" width="34" height="32">
   <data encoding="base64" compression="zlib">
-   eJztlUEOgCAMBDn7C///SeNJITXY7hQ0YRNv22UoFUpZUrRv10fleLKsGoXHW9dbK8ISrSE8qp/myOqFNzsyT959vvFkz3XPp/7r1NkQ943qpe49j9fyqwyRjDsL9QZEOOj128zRtU95Si11LtQbT7AQGerckGfcMs3kiPLQc2/lZ3gzld2TP3LM1urFtxhOLY5aozgO5pIQ+A==
+   eJztlUEOgCAMBDn7C///SeNJITXY7hQ0oYm33WWgFUpZpdS+XR+V48myPAqP19dbK8IS9RAaVU9zZJ2FNzsyT959vtFkz3VPp/7rVG+I+0bVUveeR2vpVYZIxp2FegMiHPT6beZo71Oe4qX6Qr3xBAuRoc4N2eOWaSZHlIeeeys/Q5vNkcnyR47Ztc7iWwxnLY66RnEctNsRIw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="34" height="32">
@@ -200,7 +200,7 @@
    eJzt17ENACAIBEDWcP8JcEKtraSRxNwl3xGoviBHxNy5lcX51/sAAID/+Bugrrs33fdPC/KMCX8=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="34" height="32">
+ <layer id="4" name="Walkable" width="34" height="32" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt17EJADAIBECnyP4ruGEygglILO7ATuQLC80Vkaeq8rK/Ou92blcOAABgnin3+pQcUPF7X1///a4cG80HEqk=
   </data>
