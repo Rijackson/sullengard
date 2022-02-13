@@ -188,12 +188,12 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="46">
   <data encoding="base64" compression="zlib">
-   eJztlFEOgjAMQBf/OESv7TGWEA7A4hGQGwgcgW9tsLEW2FqJfph+vKyM8tYupHUVQu38LR2EkGBZZUzPFt/wyL/AsiI9i5E245Nnd7D2TUofuq4id1D46E4kuD9+4LsJN8UjHPdxcr5e6dPWNyl92vq+4aP/4Gi/TZXnlz58P8M79B31u+Xc8pXqyPl4TsljoeSLirq1Ppoblt5zvrTjw3MSIz7hsyrCGq0vgW1Gn08v4o7LOvMdx3Ecx8od8KnUBQ==
+   eJztlFEOgyAMQMn+PESvvWOQEA8g2RGcN5h6hH27hpGRCtjK9rOU5KVF4FH8qOuMccrfMoIxHkKkeZxLfPNr/w1CRKYkR4aKj949wt63Mn3oupO9M8MX/wkFvy8nfA/ijvkC7b6Umm9i+rj1rUwft75f+OJofW/fBQfGHEe+J6HFVzpzRM531pXivuCQ+Kyw7pov9o3SudxazecLPrzHJ9g3aa+ysIfr8yDr0dfLB1twSXu+oiiKokjZAOad0hM=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="46">
   <data encoding="base64" compression="zlib">
-   eJzNVj1PAzEMTW9qAQlaqqYFnWADCVgpDEyIgZmFlYGPihGJhRn+DSAWkPgHsCE6Vh2BVsDGh4CBmFzUNE0c59qBJ1mXS+xnP1/apF5g7KaCW70g7VmMXyzrU2JtWlhLjHW08wzFdYmxS4+1K+74J4P/qtQZP1hym/4+6HwuYPWl4fvjJNYJfD5Nc2Xcvrns1XBG8o1k+qvph8unje+L9+Z3IRd1xpu81yB2Honfj+zju9juf2/M6zGAo8g+pkLF5FLEUmDWmxZbCY+pcQHhX02RewXp54bxbtP2HkuzoYLUMxTJfAeaz6fgaeS7xw3ifp/waB8d93Ooej8selQdM8JnNuqeLwruN0cPTC5TT1VwLWl88FulaNZ9qD0y/dS7Pn8au9epeaAfum+V98ZCnrPEzmM3v21unXfWip7vCr4XOcaWOe7jy6n7wjfaFc89h9WETZZpVkv4WoFnIgbK+badlbaTHQyfwmEgn7rLNJOnAtxh4ExXfFh/zPqA89VxH/DVB3lselWdYwX5ru4boXqdeQ29/fIpUPkePfsvRO8t4T5p1ufLD1C9x0Cpj4KQ7+Hk0DRh/TPvjiH34/+kV0fIftHh0075P6Bg0HqPs9JOFJ9jr1L2OWhbEzyLA7RfX3yksw==
+   eJzNVj1PwzAQTTO1gAQtVd2AIthAAlYKAxNiYGZhZeCjYkRiYYZ/A4gFJP4BbIiOFSPQCtigFTDgw7FqLv44px140imX+Pzu3tmt3SgFwU1kt0ZJ2Av3XzXjU3xsmluL+yraxcCK60oQXDqsHZnnPyP+q0rPf9TkxvEuqHwm2OrLwvfLSawT+Fya5qp2+2KiV8M5wTeS66+mbyaeOr5Pls5vQiHs+ZssbTB33jJ/P9T7d7E+/h59V+cAjkK9T4WcU8gwlwJcb1ZsJTxY44KFfzVD7hVLPzfQu07bRyxMh8hSz1Ao8h0oMV3O0yz+9ZvE/T7h0D467uaQ9XYSPWpu8LsanfC9zLnfDT3oxOl4HWZ47tlQ/FYpmnFtGDXOtYR6guPku/r9NDaPU9cC+qHG1lh6LuQ5S+xc029TzYB11hsrO9YVYi8KQbDM7DGunGosrNEuf+4ZrM5tskqzesLX8jwTbaCcb9t5YTv5wfBJHHryybvMQ/KUgDsMnOmSz9YfXB9wvhnuA676II9Or6xzrCTe5X3DV68xL9LbL58Ele/Jsf989N4S7pO4Pld+gOy9DZT6KPBZDyOHosnWP3x39Lkf/ye9Knz2iwqXdsr/AQWD1nucF3Yi+Qx7lbLPQdsa51kcoP0AtIWmtQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="46">
