@@ -45,5 +45,29 @@
         "name":"Golden jackal",
         "iconID":"monsters_rltiles4:2",
         "unique":1
+    },
+    {
+        "id":"deebo_orchard_farmer",
+        "name":"Overworked farmer",
+        "iconID":"monsters_karvis2:1",
+        "monsterClass":"humanoid",
+        "spawnGroup":"deebo_orchard_farmer",
+        "phraseID":"deebo_orchard_farmer_0"
+    },
+    {
+        "id":"deebo_orchard_farmer_ainsley",
+        "name":"Ainsley",
+        "iconID":"monsters_karvis2:1",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"deebo_orchard_farmer_ainsley"
+    },
+    {
+        "id":"sullengard_cabin_wife",
+        "name":"Hadena",
+        "iconID":"monsters_ld1:221",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_cabin_wife"
     }
 ]
