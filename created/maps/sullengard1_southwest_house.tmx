@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="14" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,41 +180,35 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="16" height="8">
+ <layer id="1" name="Ground" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbIM3AsIFCHEwmhulPIhPD9MtwkYdh+nW4yMMgvUEU2B8C1JtIgf3JQL3vOLFjkDwuOWQMAGK6Ong=
+   eJzbIM3AsIFMHEwihulLIhHD9MlwkYZh+nS4SMMgPUFk2BcC1JNIhn3JQD3vOLFjkDwuORAGAJk4M64=
   </data>
  </layer>
- <layer id="2" name="Objects" width="16" height="8">
+ <layer id="2" name="Objects" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBj6IJCVgcEJiG1YUcWXsTEwuLNA2MfZIbQ6EF9jhdDI4CE/A8MjJAwDTSwQM2D6zRlQaRj4CNTzCQmjg+vspPsLF1jEQj2zAApgDyQ=
+   eJxjYBj6YBkbA4M7C4R9nJ2B4RorA4M6mpqH/AwMj6AYGTSxQPSC9IGAOZq+j0D1n6AYG7jOTpnbF7FQph8Auw4L9g==
   </data>
  </layer>
- <layer id="3" name="Above" width="16" height="8">
+ <layer id="3" name="Above" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcSAswMIgBsYQAQoxRFkL/5cMUIwYIAtVOY0Pwt7NDxGgJGIHu38XPwPCTj7Da4QIA+XoFWA==
+   eJxjYKAc/JUhT55XFpU/jQ3B3s6OKU8pYBRgYDjJT10zBxoAANqJBMo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="16" height="8" visible="0">
+ <layer id="4" name="Walkable" width="14" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEYYWSAzMfGRtaDyxxkeXRAjH5s9mPTTwrAZSe6/cSEFwCvl0Uw
+   eJzbKMbAsHEIYmSAzEeWx8ZG148sj88MbPbi00csIMaf+OQB0Bw++A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="outside" type="mapchange" x="192" y="224" width="32" height="32">
+  <object id="1" name="door" type="mapchange" x="192" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="sullengard_apple_farm_east"/>
-    <property name="place" value="house"/>
+    <property name="map" value="sullengard1"/>
+    <property name="place" value="sullengard1_southwest_house_outside"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="2" name="deebo_orchard_deebo_son_spawn" type="spawn" x="192" y="96" width="192" height="128">
-   <properties>
-    <property name="spawngroup" value="deebo_orchard_deebo_son"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>
