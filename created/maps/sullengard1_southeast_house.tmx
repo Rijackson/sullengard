@@ -182,7 +182,7 @@
  </tileset>
  <layer id="1" name="Ground" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbIM3AsIFMHEwihulLIhHD9MlwkYZh+nS4SMMgPUFk2BcC1JNIhn3JQD3vOLFjkDwuORAGAJk4M64=
+   eJzbIM3AsIFMHEwihulLIhHD9MlwkYZh+nS4SMMgPUFk2BcC1JNIhn3JQD3vODExSA6bODIGAJY0M64=
   </data>
  </layer>
  <layer id="2" name="Objects" width="14" height="8">
@@ -192,19 +192,19 @@
  </layer>
  <layer id="3" name="Above" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc/JUhT55XFpU/jQ3B3s6OKU8pYBRgYDjJT10zBxoAANqJBMo=
+   eJxjYKAc/JUhT55XFpU/jQ3B3s6OKU8NcJKf+mYOJAAAzIUEuQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="14" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGIYFwAWQ5ZLTY2ujnI8vjMwGU/Ln3EAmL8jE8eAERtOxU=
+   eJzbKMbAsHGIYFwAWQ5ZLTY2ujnI8vjMwGU/Ln3EAkL+JRQmAEFROxU=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="door" type="mapchange" x="192" y="224" width="32" height="32">
+  <object id="1" name="door" type="mapchange" x="160" y="224" width="32" height="32">
    <properties>
     <property name="map" value="sullengard1"/>
-    <property name="place" value="sullengard1_southwest_house_outside"/>
+    <property name="place" value="sullengard1_southeast_house_outside"/>
    </properties>
   </object>
  </objectgroup>
