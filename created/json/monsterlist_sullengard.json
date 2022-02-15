@@ -69,5 +69,21 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_cabin_wife"
+    },
+    {
+        "id":"deebo_orchard_deebo",
+        "name":"Deebo",
+        "iconID":"monsters_tometik2:39",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"deebo_orchard_deebo"
+    },
+    {
+        "id":"deebo_orchard_deebo_son",
+        "name":"Howkin",
+        "iconID":"monsters_tometik2:55",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"deebo_orchard_deebo_son"
     }
 ]
