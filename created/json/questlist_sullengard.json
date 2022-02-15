@@ -2,5 +2,17 @@
     {
         "id":"sullengard_hidden",
         "name":"sullengard_nondisplay"
+    },
+    {
+        "id":"deebo_orchard_hth",
+        "name":"Hunting the hunter"
+    },
+    {
+        "id":"deebo_orchard_ght",
+        "name":"Getting home on time"
+    },
+    {
+        "id":"sullengard_pond_safety",
+        "name":"Pond safety"
     }
 ]
