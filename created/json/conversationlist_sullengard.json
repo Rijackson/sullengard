@@ -108,5 +108,504 @@
     {
         "id":"sullengard_townhall_sign",
         "message":"Welcome to the Sullengard townhall. Please come on in."
+    },
+    {
+        "id":"sullengard_matpat",
+        "message":"Hello there, kid. Happy 20th beer celebration.",
+        "replies":[
+            {
+                "text":"Cheers!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you know where Defy is?",
+                "nextPhraseID":"sullengard_matpat_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_matpat_2",
+        "message":"Defy already went outside of Sullengard.",
+        "replies":[
+            {
+                "text":"Why?",
+                "nextPhraseID":"sullengard_matpat_3"
+            },
+            {
+                "text":"Where is he going?",
+                "nextPhraseID":"sullengard_matpat_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_matpat_3",
+        "message":"I don't know, kid. Others are also looking for them. I'm still busy taking care of my firstborn child.",
+        "replies":[
+            {
+                "text":"This is bad.",
+                "nextPhraseID":"sullengard_matpat_4"
+            },
+            {
+                "text":"I'll find him.",
+                "nextPhraseID":"sullengard_matpat_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_matpat_4",
+        "message":"We should find him or else what shall we do?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_matpat_5"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_matpat_5",
+        "message":"More importantly, how could I raise my first bornchild without the share to buy expensive foods and pay high rents here?",
+        "replies":[
+            {
+                "text":"Calm down. I will find a way to help you.",
+                "nextPhraseID":"sullengard_matpat_6"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_matpat_6",
+        "message":"Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of Thieves Guild about this.",
+        "replies":[
+            {
+                "text":"I'm going now. Stay strong.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"sullengard_stephanie",
+        "message":"Happy 20th beer celebration, kid.",
+        "replies":[
+            {
+                "text":"Cheers!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you know where Defy is?",
+                "nextPhraseID":"sullengard_stephanie_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_stephanie_2",
+        "message":"Go talk to my husband, I'm exhausted and depressed."
+    },
+    {
+        "id":"sullengard_ollie",
+        "message":"Coocoo.",
+        "replies":[
+            {
+                "text":"[Tickle Ollie's tummy]",
+                "nextPhraseID":"sullengard_ollie_giggle",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[Pat Ollie's tummy]",
+                "nextPhraseID":"sullengard_ollie_giggle",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ollie_giggle",
+        "message":"[Giggles cutely]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_mayor_1"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_1",
+        "message":"Welcome to Sullengard, kid. Happy 20th beer celebration!",
+        "replies":[
+            {
+                "text":"Cheers!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you know where Defy is?",
+                "nextPhraseID":"sullengard_mayor_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_2",
+        "message":"No. We still don't know where that traitor is. How can we ever sleep peacefully and live sufficiently with this tragic situation?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_mayor_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_3",
+        "message":"But please talk to my fellow bootleg brewers. Maybe they know something.",
+        "replies":[
+            {
+                "text":"I will. Stay strong.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Bah! Useless mayor.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_4",
+        "message":"Finally, atleast we can survive for a day with a bread and beer.",
+        "replies":[
+            {
+                "text":"Here's 1,000,000 gold coins.",
+                "nextPhraseID":"sullengard_mayor_4a",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1000000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000000
+                    }
+                ]
+            },
+            {
+                "text":"Here's 100,000 gold coins.",
+                "nextPhraseID":"sullengard_mayor_4b",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100000
+                    }
+                ]
+            },
+            {
+                "text":"Here's 10,000 gold coins.",
+                "nextPhraseID":"sullengard_mayor_4c",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10000
+                    }
+                ]
+            },
+            {
+                "text":"Here's 1,000 gold coins.",
+                "nextPhraseID":"sullengard_mayor_4d",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            },
+            {
+                "text":"I noticed that I'm running out of money. I'll be back.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_4a",
+        "message":"Out of my words.",
+        "replies":[
+            {
+                "text":"Oh wait. There's more.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That's all, mayor ale.",
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"gold_contribute",
+                "value":1000000
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_4b",
+        "message":"Oh my, thank you kid.",
+        "replies":[
+            {
+                "text":"Oh wait. There's more.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That's all, mayor ale.",
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"gold_contribute",
+                "value":100000
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_4c",
+        "message":"We appreciate it. Thank you, kid.",
+        "replies":[
+            {
+                "text":"Oh wait. There's more.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That's all, mayor ale.",
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"gold_contribute",
+                "value":10000
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_4d",
+        "message":"Small success first before big success.",
+        "replies":[
+            {
+                "text":"Oh wait. There's more.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That's all, mayor ale.",
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":1700000
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"gold_contribute",
+                "value":1000
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_5",
+        "message":"Thank you so much again, kid. You are just like your brother Andor.",
+        "replies":[
+            {
+                "text":"Of course, he is my brother.",
+                "nextPhraseID":"sullengard_mayor_6"
+            },
+            {
+                "text":"How did you know?",
+                "nextPhraseID":"sullengard_mayor_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_6",
+        "message":"You have a familiar face but taller than you. He is one of the most active member in your guild.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_mayor_7"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_7",
+        "message":"He was considered as the helping hand of Sullengard during the days when we were having rough days just like this scenario.",
+        "replies":[
+            {
+                "text":"I'm glad to help.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's our job.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

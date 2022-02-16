@@ -1,7 +1,22 @@
 [
     {
         "id":"sullengard_hidden",
-        "name":"sullengard_nondisplay"
+        "name":"sullengard_nondisplay",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Pat or Tickle baby's tummy.",
+                "rewardExperience":100
+            },
+            {
+                "progress":20,
+                "logText":"Umar gave player a 1,000 gold coins as a financial contribution from Thieves Guild."
+            },
+            {
+                "progress":30,
+                "logText":"The promised share has been restored."
+            }
+        ]
     },
     {
         "id":"deebo_orchard_hth",
