@@ -636,16 +636,6 @@
     {
         "id":"guild04_defy_6",
         "message":"[Strange. Defy, together with his men, are gone. Maybe they talk to the bootleg brewers here and report back to Umar.]",
-        "replies":[
-            {
-                "text":"You will be the one who will get kick out of here.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"You will be the one to blame here.",
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
