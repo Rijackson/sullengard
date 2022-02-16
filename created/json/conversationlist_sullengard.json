@@ -100,5 +100,13 @@
     {
         "id":"deebo_orchard_farmer_0",
         "message":"Apple farming is tough and Deebo overworks us, but please don't tell him i said so."
+    },
+    {
+        "id":"sullengard_news_post",
+        "message":"Welcome to Sullengard, the home to the best beer in Dhayaver. Please enjoy our upcoming 20 anniversarybeer festival."
+    },
+    {
+        "id":"sullengard_townhall_sign",
+        "message":"Welcome to the Sullengard townhall. Please come on in."
     }
 ]
