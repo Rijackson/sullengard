@@ -4,6 +4,10 @@
         "name":"sullengard_nondisplay",
         "stages":[
             {
+                "progress":1,
+                "logText":"bought Sullengard bed"
+            },
+            {
                 "progress":10,
                 "logText":"Pat or Tickle baby's tummy.",
                 "rewardExperience":100
@@ -20,14 +24,23 @@
     },
     {
         "id":"deebo_orchard_hth",
-        "name":"Hunting the hunter"
+        "name":"Hunting the hunter",
+        "stages":[
+            
+        ]
     },
     {
         "id":"deebo_orchard_ght",
-        "name":"Getting home on time"
+        "name":"Getting home on time",
+        "stages":[
+            
+        ]
     },
     {
         "id":"sullengard_pond_safety",
-        "name":"Pond safety"
+        "name":"Pond safety",
+        "stages":[
+            
+        ]
     }
 ]

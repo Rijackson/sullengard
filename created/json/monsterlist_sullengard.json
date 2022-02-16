@@ -233,5 +233,31 @@
         "criticalMultiplier":2.0,
         "blockChance":100,
         "damageResistance":2
+    },
+    {
+        "id":"sullengard_nanette",
+        "name":"Nanette",
+        "iconID":"monsters_ld1:149",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_nanette"
+    },
+    {
+        "id":"sullengard_ingeram",
+        "name":"Ingeram",
+        "iconID":"monsters_ld1:10",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_ingeram"
+    },
+    {
+        "id":"sullengard_innkeeper",
+        "name":"Godfrey",
+        "iconID":"monsters_ld1:97",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_innkeeper",
+        "phraseID":"sullengard_godrey_0",
+        "droplistID":"sullengard_godrey_dl"
     }
 ]

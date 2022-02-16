@@ -607,5 +607,93 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_inn_bed",
+        "message":"You must rent the bed! Go talk to the innkeeper."
+    },
+    {
+        "id":"sullengard_godrey_0",
+        "message":"Hello. I'm Godfrey, and I own this place, but I'm forced to work today because somebody quit on me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_godrey_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_10",
+        "message":"What can I help you with?",
+        "replies":[
+            {
+                "text":"I need somewhere to relax and refresh. Do you have a bed available?",
+                "nextPhraseID":"sullengard_godrey_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm hungry. Do you have any food to sell?",
+                "nextPhraseID":"sullengard_godrey_sell"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_20",
+        "message":"Yes, I do, but it's going to cost you more than you may be expecting.",
+        "replies":[
+            {
+                "text":"How much will it cost me?",
+                "nextPhraseID":"sullengard_godrey_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_30",
+        "message":"Well, it will cost you 700 gold! Beds are always in high demand before and during the Beer Festival.",
+        "replies":[
+            {
+                "text":"That's too expensive. Let's talk about something else.",
+                "nextPhraseID":"sullengard_godrey_10"
+            },
+            {
+                "text":"I'll take it, but I have to say that you really should join the thieves guild with that attitude!",
+                "nextPhraseID":"sullengard_godrey_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":700
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_40",
+        "message":"Thank you! It pays to be the owner. You can use any available bed.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_sell",
+        "message":"Certainly. Please take a look at what I can offer.",
+        "replies":[
+            {
+                "text":"Great! Let's take a look.",
+                "nextPhraseID":"S"
+            }
+        ]
     }
 ]

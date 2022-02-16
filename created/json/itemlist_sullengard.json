@@ -46,5 +46,25 @@
         "displaytype":"rare",
         "category":"food",
         "description":"A slice of Deebo's famous apple pie"
+    },
+    {
+        "id":"watermelon_slice",
+        "iconID":"items_consumables:7",
+        "name":"Watermelon slice",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"food",
+        "description":"Sticky, but delicious. It's like a snack and a drink in one.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
