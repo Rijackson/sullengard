@@ -27,5 +27,42 @@
                 }
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_dl",
+        "items":[
+            {
+                "itemID":"deebo_apples",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"apple_orchard_juice",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"apple_orchard_cider",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"apple_orchard_pie",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":6
+                }
+            }
+        ]
     }
 ]

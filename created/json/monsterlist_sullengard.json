@@ -76,7 +76,8 @@
         "iconID":"monsters_tometik2:39",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"deebo_orchard_deebo"
+        "spawnGroup":"deebo_orchard_deebo",
+        "droplistID":"deebo_orchard_dl"
     },
     {
         "id":"deebo_orchard_deebo_son",
