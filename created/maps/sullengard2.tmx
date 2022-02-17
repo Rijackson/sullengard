@@ -222,7 +222,7 @@
     <property name="place" value="door"/>
    </properties>
   </object>
-  <object name="sullengard2_garden_house_outside" type="mapchange" x="0" y="0" width="32" height="32">
+  <object name="sullengard2_garden_house_outside" type="mapchange" x="320" y="448" width="32" height="32">
    <properties>
     <property name="map" value="sullengard2_garden_house"/>
     <property name="place" value="door"/>
