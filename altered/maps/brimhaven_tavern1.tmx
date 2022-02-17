@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="6" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,64 +181,75 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="30">
+ <layer name="Ground" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUD1n8iIuB4TEXhB0sPTBuSCLBXlLduAXot4dcEH+iY5i/qe1GED5CgtmE3E+pvbJcmJiQOVeoYK8uFybG5zYQ/wme+MKGr2KJT2L8i89N9PQvNewdyv4llJ9p5V9C+Zlc/xLChPIztfIvMebSw7/k2EsNTMhcUss3suwFsjcRgTdTwS3I9h4Esg8RgQ+TYC+ufHqFxvbC8ulDLgSNXofTwt6HaHY8waKXFvYSgwfK3otA8y4RgS9TYC+x7TtS20XEpjNCmNrlFTFtHVD6o1U5SW3/AgACHHbD
+   eJzbysnAsBUHviiFimHiD6VQMUx8BxrGJv6LTHGQ/ejiF6H2o9sLEnvKCcE7OBFsEAYAJckxSA==
   </data>
  </layer>
- <layer name="Objects" width="30" height="30">
+ <layer name="Objects" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJy9VjtvE0EQPiLbHFVuLzwUueMXRBQUJA1gIkBp7hKQoXPcpaWJQDwkoADEo4AfAjQ0lAQ7oIgmLR0dUPFqIjHjneFmx3N3Nkh80qfdW6/nm53dmd2TB6Lo2H/mKWAHeKIZjbAI7dD5fi+OoivAfuy/r8NvN4A3gbdovsZbV/RfzdlEdEgXkQlbAxe2iIfw+yPgY+ATmvt6PtTN0ihaBebAwZxNrVvlI/s5FH7sib70kWOXt8EH4seWb9fafh7rcnzKfByR5uzMh3EoQw801olfW77tt+31Wj6yn2Vx/wB+3CvZbysecr08Zvko/ewnvl1IQ5ubpHsJfr+ceHtn4DweN7gcj6+X8XPWt79mi7GNxOsi5bmVe74p1t0F+/vSgjPErtDVvi3Hdqw2aL05nVs8v3qvt5wfm0QX+99dwW6J7rSYVldiBWK3RPE7C+05Ectn0L8DvCvGFqmPNltpwR/OU+vOKJ8QdfnMeEpa56nlOP+tblU+Iz5DDn1RNWtlyvXKvWDdunxmyLO19I+6aKs2n5thTuF/5P42Us+moNS9oPLoYhyuo5mErYZVNyfRRew52462yfOucv2nXOZ+lk6uq22fBpsduostH66RJt4Rq0Lrzx3oxmMoY6nr5I46m5MgIy3u89otcE2VumU52ld3zRHDbpyEbd18qVuWo4h1oX2Y7DxvRNEL4MtGaFOP43yZ5+9cqJu3x98GGljzD1XE0YI1X+r2jLdBd4L7nPGtJMcOkq7Mc9YdGvknId9vbOdNw56L47eBn+j3TKx3oM4Vfj9oFuNV9wGfk11ln7GrvuvOFYLfSXX3gcb+JGwtcI7K9xXWoPtivVX3gXyfZWmYs1yvcrFG3MMFtcdl9aruPuD5XJ90veLvLRf6yZBxtt7F1t5UgddeVrM4j1kXc3nbFePoA4/hmxLfl/JtuS38Q9+Okg622tZ70R/lBcxZA83fCKQZXg==
+   eJxjYMAD+BkYprFBmDv5UKV6oeInkcT38ENodxZUtc5MELHjaOLBSOKcTKhyMHFJLOLXgdieFSEmC1XzHCj+Es0OdAAAKg4LVg==
   </data>
  </layer>
- <layer name="Above" width="30" height="30">
+ <layer name="Above" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJzdVr1OwzAQNpaiwJaBBkUK74AEA2XtRIcyZIcRHqCAGOC9WBBQYC9/EwxFPAh3dU65urbj/JQKPsny+er6u9j32SfEcjGOZ/smmISqj6VqW+tCDKBPoH2Fdu6mWFmd9x1K1UvtN4oRYzrI52CcvdymOG+Scl6M/zEV4iktfCOwH6CNtG/jMR7Jws4scV4GQlxBu2VxdCMh9iJlvwHHO7RO/v8XsF8NvIhQFnHxGKd+yxnws9kHzn5knufCJqw/Bp7nnPcO+ntoKeNtKweqAnmXxf3b2IU86gazviGMTwPz/Lros/X43tpyzDTXBycsF0nPqGEEaXrA9PwBGvrU9GziPK6Q4/qdQ5q23Tsu7vMa2jLpeWrD2pnlXJvm+5qmZ7I3mJ5NZ/3XdLYN+7fjoQ2fN8IH+jplelkkeO5ctHw/oFZ77M2NtTe36XebdI5ArWZy3u/SaFvg9QHp9Lqjxmce+/td425AUH2AcNUG/w0TVmcmLNdobKpDfVCmdVMNyrHoXHO9B22C7wPWd5RbCKrvmvLadEz+Nu5dzlHGV8Xnu5Zt3g+g3HHu
+   eJxjYMANDosxMKgLMzAslMEUB4GNOMSxmQMC1/ixix/FIX4Mh/hJoPhNFoT4JRz2YgMANOMM3w==
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Walkable" width="6" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjENADAIADBMDP9e+FA1DVwkW6ugEQAAvK5ye8Av+mwPmLgCPAG5
+   eJzbKMbAsJFKGB2gi8PY1BAnxl50/SAMAF3gHxk=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzFlUsOgDAIRD2F97+CNzQu3JAOMwNUSRp/hceveJ3Hcf24Hnmv7338Ft9lwjgrZtRH3MwXlZvtVeJjfna5SHfF3xFvNR+Mi56RnWhP7WVkJ/MT6TEf1Xq6eXS4is6EKH3h9GH0uROv2hMr1k5uxYfJeBm3Ey967nLd+jFRe9UVplfhdmsY7SuzqRKDK6hnst5x2SyfnTwobOWMKOdlhx+VXnf3Kvsnaoq42Qzt1F05p5257PAr8U4Im1dfcLN/y5Qos9Ndrt0bE8sqkA==
-  </data>
- </layer>
- <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="576" y="928" width="32" height="32">
+ <objectgroup name="Mapevents" visible="0">
+  <object name="entrance" type="mapchange" x="64" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="hilltown1"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object name="sullengard2_northwest_house_outside" type="mapchange" x="192" y="192" width="32" height="32">
-   <properties>
-    <property name="map" value="sullengard2_northwest_house"/>
-    <property name="place" value="door"/>
-   </properties>
-  </object>
-  <object name="sullengard2_garden_house_outside" type="mapchange" x="320" y="448" width="32" height="32">
-   <properties>
-    <property name="map" value="sullengard2_garden_house"/>
-    <property name="place" value="door"/>
-   </properties>
-  </object>
-  <object name="sullengard2_armory_outside" type="mapchange" x="128" y="704" width="32" height="32">
-   <properties>
-    <property name="map" value="sullengard2_armory"/>
-    <property name="place" value="door"/>
-   </properties>
-  </object>
-  <object name="sullengard_tavern_outside" type="mapchange" x="256" y="864" width="32" height="32">
-   <properties>
-    <property name="map" value="sullengard_tavern"/>
-    <property name="place" value="door"/>
+    <property name="map" value="brimhaven3"/>
+    <property name="place" value="tavern"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Spawn" visible="0">
+  <object name="brv_tavern1_landlord" type="spawn" x="128" y="128" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="brv_tavern1_landlord"/>
+   </properties>
+  </object>
+  <object name="brv_employee2" type="spawn" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_employee2"/>
+   </properties>
+  </object>
+  <object name="brv_employee_wife2" type="spawn" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="brv_employee_wife2"/>
+   </properties>
+  </object>
+  <object name="brv_tavern1_guest" type="spawn" x="64" y="160" width="32" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="brv_tavern1_guest"/>
+   </properties>
+  </object>
+  <object name="brv_tavern1_guest2" type="spawn" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_tavern1_guest2"/>
+   </properties>
+  </object>
+  <object name="burhczyd10" type="spawn" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd10"/>
+   </properties>
+  </object>
+  <object name="burhczyd10e" type="spawn" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd10e"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
 </map>
