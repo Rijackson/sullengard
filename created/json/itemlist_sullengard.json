@@ -66,5 +66,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"hat_of_protector",
+        "iconID":"items_japozero:96",
+        "name":"Hat of the protector",
+        "displaytype":"rare",
+        "category":"hd_cloth",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseMaxHP":5,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":1,
+            "increaseBlockChance":-10,
+            "setCriticalMultiplier":1.5
+        },
+        "killEffect":{
+            "increaseCurrentAP":{
+                "min":0,
+                "max":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"courage",
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]

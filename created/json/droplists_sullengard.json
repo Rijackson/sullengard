@@ -64,5 +64,42 @@
                 }
             }
         ]
+    },
+    {
+        "id":"sullengard_kealwea_dl",
+        "items":[
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":8,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"health_minor",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"health_major2",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"hat_of_protector",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

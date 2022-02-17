@@ -695,5 +695,25 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"sullengard_kealwea_0",
+        "message":"Hey, young fellow. I am Kealwea. How can I help you may child?",
+        "replies":[
+            {
+                "text":"I am in need of supplies. Can you help?",
+                "nextPhraseID":"sullengard_kealwea_sell"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_sell",
+        "message":"Of course my child. Here, let's take a look at what I have.",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"S"
+            }
+        ]
     }
 ]

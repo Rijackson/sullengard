@@ -260,5 +260,15 @@
         "spawnGroup":"sullengard_innkeeper",
         "phraseID":"sullengard_godrey_0",
         "droplistID":"sullengard_godrey_dl"
+    },
+    {
+        "id":"sullengard_priest",
+        "name":"Kealwea",
+        "iconID":"monsters_rltiles2:92",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_priest",
+        "phraseID":"sullengard_kealwea_0",
+        "droplistID":"sullengard_kealwea_dl"
     }
 ]

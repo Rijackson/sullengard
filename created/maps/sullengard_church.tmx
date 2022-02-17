@@ -227,7 +227,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="sullengard_priest_spawn" type="spawn" x="256" y="128" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="sullengard_priest"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
