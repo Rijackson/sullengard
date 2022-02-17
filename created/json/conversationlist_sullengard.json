@@ -842,5 +842,42 @@
     {
         "id":"sullengard_mariora_0",
         "message":"Hello. Isn't Sullengard a beautiful town?"
+    },
+    {
+        "id":"sullengard_inn_traveler_0",
+        "message":"Hey there.",
+        "replies":[
+            {
+                "text":"You look worried.",
+                "nextPhraseID":"sullengard_inn_traveler_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_10",
+        "message":"That's a keen eye you have. Yes, I am worried.",
+        "replies":[
+            {
+                "text":"Why, what is the problem?",
+                "nextPhraseID":"sullengard_inn_traveler_20"
+            },
+            {
+                "text":"I need to move on, sorry."
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_20",
+        "message":"At this point, just the fact that I am lost a little bit. You see, I am travelling to Nor City from the west and I got lost.",
+        "replies":[
+            {
+                "text":"Well, rest up tonight and head east from here. Following the road and you'll find the Duleian road and go east from there.",
+                "nextPhraseID":"sullengard_inn_traveler_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_30",
+        "message":"Thank you so much."
     }
 ]

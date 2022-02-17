@@ -300,5 +300,14 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_mariora",
         "phraseID":"sullengard_mariora_0"
+    },
+    {
+        "id":"sullengard_inn_traveler",
+        "name":"Lost traveler",
+        "iconID":"monsters_tometik2:55",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_inn_traveler",
+        "phraseID":"sullengard_inn_traveler_0"
     }
 ]
