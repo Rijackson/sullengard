@@ -838,5 +838,9 @@
                 "value":0
             }
         ]
+    },
+    {
+        "id":"sullengard_mariora_0",
+        "message":"Hello. Isn't Sullengard a beautiful town?"
     }
 ]

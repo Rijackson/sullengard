@@ -79,6 +79,7 @@
                 "max":2
             },
             "increaseMaxHP":5,
+            "increaseMoveCost":-1,
             "increaseAttackChance":20,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-10,

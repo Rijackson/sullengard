@@ -291,5 +291,14 @@
         "criticalMultiplier":2.0,
         "blockChance":40,
         "damageResistance":3
+    },
+    {
+        "id":"sullengard_mariora",
+        "name":"Mariora",
+        "iconID":"monsters_ld1:223",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_mariora",
+        "phraseID":"sullengard_mariora_0"
     }
 ]
