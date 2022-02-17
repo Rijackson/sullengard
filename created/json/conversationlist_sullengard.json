@@ -715,5 +715,128 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"sullengard_highwayman",
+        "message":"I've been looking for someone who fits your description.",
+        "replies":[
+            {
+                "text":"You have? Why?",
+                "nextPhraseID":"sullengard_highwayman_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_highwayman2",
+                "value":-10
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_highwayman_2a",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"highwayman1"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_highwayman_2b",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"highwayman"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_highwayman_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_2a",
+        "message":"Yes! You are the one that has killed my fellow \"road travellers\" and now you must pay!",
+        "replies":[
+            {
+                "text":"Bring it on!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_2b",
+        "message":"Yes! You are the one that has killed my fellow \"road travellers\" and now you must pay!",
+        "replies":[
+            {
+                "text":"Bring it on!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_3",
+        "message":"Yes, you do look like him. He is the one who helped Sullengard financially for their living for how many occasions.",
+        "replies":[
+            {
+                "text":"Hey, it must be my brother Andor! Tell me more about him. ",
+                "nextPhraseID":"sullengard_highwayman_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_4",
+        "message":"Pay me 750 gold coins first or I'll rob you and then the Sullengard for my living!",
+        "replies":[
+            {
+                "text":"Fine. Here's 750 gold coins. Now, tell me about him. ",
+                "nextPhraseID":"sullengard_highwayman_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":750
+                    }
+                ]
+            },
+            {
+                "text":"Bring it on!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_highwayman_5",
+        "message":"He is taller and stronger than you. Have a good time!",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_highwayman2",
+                "value":11
+            }
+        ]
+    },
+    {
+        "id":"fct_highwayman2",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"fct_highwayman2",
+                "value":0
+            }
+        ]
     }
 ]

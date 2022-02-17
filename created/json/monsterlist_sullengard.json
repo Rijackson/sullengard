@@ -270,5 +270,26 @@
         "spawnGroup":"sullengard_priest",
         "phraseID":"sullengard_kealwea_0",
         "droplistID":"sullengard_kealwea_dl"
+    },
+    {
+        "id":"sullengard_highwayman",
+        "name":"Highwayman",
+        "iconID":"monsters_men:8",
+        "maxHP":170,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":5,
+            "max":10
+        },
+        "spawnGroup":"sullengard_highwayman",
+        "faction":"fct_highwayman2",
+        "phraseID":"sullengard_highwayman",
+        "droplistID":"bandit1",
+        "attackCost":5,
+        "attackChance":150,
+        "criticalSkill":50,
+        "criticalMultiplier":2.0,
+        "blockChance":40,
+        "damageResistance":3
     }
 ]
