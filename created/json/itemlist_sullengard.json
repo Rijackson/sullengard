@@ -97,5 +97,53 @@
                 }
             ]
         }
+    },
+    {
+        "id":"sullengrad_bandit_brew",
+        "iconID":"items_misc_6:23",
+        "name":"Bandit's Brew",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A Thieve's guild original. It was named in their honor for years of reliable service to Sullengard."
+    },
+    {
+        "id":"sullengrad_finest",
+        "iconID":"items_misc_6:23",
+        "name":"Sullengard's Finest",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A three time winner of the 'Best beer in festival' competition. It as a full-body teast."
+    },
+    {
+        "id":"sullengrad_southernhaze",
+        "iconID":"items_misc_6:23",
+        "name":"Southernhaze",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"The reigning champion of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_forest_ale",
+        "iconID":"items_tometik1:1",
+        "name":"Forest Ale",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A medium colored brew with all the taste and no bitter aftertaste."
+    },
+    {
+        "id":"sullengard_dark_beer_sour",
+        "iconID":"items_tometik1:9",
+        "name":"Dark Beer Sour",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"Not for the faint of heart."
+    },
+    {
+        "id":"sullengard_mtn_tj",
+        "iconID":"items_tometik1:49",
+        "name":"Mountain Top Juice",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A ltttle and sweet brew. Similiar to mead but not as heavy."
     }
 ]
