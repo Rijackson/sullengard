@@ -737,7 +737,6 @@
         "id":"sullengard_highwayman_2",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"sullengard_highwayman_2a",
                 "requires":[
                     {
@@ -747,7 +746,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"sullengard_highwayman_2b",
                 "requires":[
                     {
@@ -757,7 +755,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"sullengard_highwayman_3"
             }
         ]
