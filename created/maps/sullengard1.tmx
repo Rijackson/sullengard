@@ -231,6 +231,7 @@
   <object name="sullengard1_northeast_house_outside" type="mapchange" x="736" y="320" width="32" height="32">
    <properties>
     <property name="map" value="sullengard1_northeast_house"/>
+    <property name="place" value="door"/>
    </properties>
   </object>
   <object name="sullengard1_southeast_house_outside" type="mapchange" x="736" y="832" width="32" height="32">
