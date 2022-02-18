@@ -319,5 +319,44 @@
         "spawnGroup":"sullengard_bartender",
         "phraseID":"sullengard_bartender_0",
         "droplistID":"sullengard_bartender_dl"
+    },
+    {
+        "id":"sullengard_snapper",
+        "name":"Sullengard snapper",
+        "iconID":"monsters_tometik3:69",
+        "maxHP":100,
+        "unique":1,
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":11,
+            "max":15
+        },
+        "spawnGroup":"sullengard_snapper",
+        "droplistID":"sullengard_snapper",
+        "attackCost":7,
+        "attackChance":130,
+        "criticalSkill":20,
+        "criticalMultiplier":2.5,
+        "blockChance":200,
+        "damageResistance":10,
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"barkskin",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
