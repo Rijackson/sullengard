@@ -1030,5 +1030,72 @@
                 "value":3
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_deebo_0",
+        "message":"What a lovely day for some good quality hard work outside.",
+        "replies":[
+            {
+                "text":"It sounds like you love being outside.",
+                "nextPhraseID":"deebo_orchard_deebo_10"
+            },
+            {
+                "text":"I will let you get back to your business. Have a great time enjoying the nice weather.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_10",
+        "message":"I do indeed. But I'll tell you what I really don't enjoy, fixing the property damage done to my farm and losing livestock because of some wild predator!",
+        "replies":[
+            {
+                "text":"A \"predator\"? What kind of a predator?",
+                "nextPhraseID":"deebo_orchard_deebo_20"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_20",
+        "message":"Have you seen that Golden jackal around here?",
+        "replies":[
+            {
+                "text":"What is a Golden jackal?"
+            },
+            {
+                "text":"No, sir, I have not. Well, at least I don't think I have.",
+                "nextPhraseID":"deebo_orchard_deebo_30"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_30",
+        "message":"Well, it is a four-legged nightmare of a kanine that has destroyed my property and killed my pig. I fear that one of my horses is next.",
+        "replies":[
+            {
+                "text":"That's terrible news. What are you going to do about it, beside complaining that is?",
+                "nextPhraseID":"deebo_orchard_deebo_40"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_40",
+        "message":"Funny kid you are. I am looking for someone to hunt it down and kill it.",
+        "replies":[
+            {
+                "text":"Really! I am ore than willing an d able to do this job for you.",
+                "nextPhraseID":"deebo_orchard_deebo_50"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_50",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":0
+            }
+        ]
     }
 ]

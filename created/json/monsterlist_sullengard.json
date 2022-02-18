@@ -77,6 +77,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"deebo_orchard_deebo",
+        "phraseID":"deebo_orchard_deebo_0",
         "droplistID":"deebo_orchard_dl"
     },
     {

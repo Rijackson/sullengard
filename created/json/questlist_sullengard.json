@@ -34,7 +34,10 @@
         "id":"deebo_orchard_hth",
         "name":"Hunting the hunter",
         "stages":[
-            
+            {
+                "progress":0,
+                "logText":"Deebo, the apple orchard farmer northeast of Sullengard has informed me of a Golden jackal that is wreaking havoc on his orchard."
+            }
         ]
     },
     {
