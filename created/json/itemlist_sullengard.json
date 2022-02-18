@@ -109,7 +109,7 @@
         "name":"Bandit's Brew",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A Thieve's guild original. It was named in their honor for years of reliable service to Sullengard.",
+        "description":"A Thieve's guild original, produced by the Brueria famill. It was named in their honor for years of reliable service to Sullengard.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":5,
@@ -137,7 +137,7 @@
         "name":"Sullengard's Finest",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A three time winner of the 'Best beer in festival' competition. It as a full-body teast.",
+        "description":"A three time winner of the 'Best beer in festival' competition created by the Briwerra family. It as a full-body teast.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":10,
@@ -165,7 +165,7 @@
         "name":"Southernhaze",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"The reigning champion of the 'Best beer in festival' competition.",
+        "description":"The reigning champion of the 'Best beer in festival' competition. Product of the Bruyere family",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":8,
@@ -193,7 +193,7 @@
         "name":"Forest Ale",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A medium colored brew with all the taste and no bitter aftertaste.",
+        "description":"A medium colored brew with all the taste and no bitter aftertaste. Brewed by the Briwerra family.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":3,
@@ -221,7 +221,7 @@
         "name":"Dark Beer Sour",
         "displaytype":"ordinary",
         "category":"food",
-        "description":"Not for the faint of heart.",
+        "description":"Not for the faint of heart, but the Bruyere family takes pride in it.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":10,
@@ -249,7 +249,7 @@
         "name":"Mountain Top Juice",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A ltttle and sweet brew. Similiar to mead but not as heavy.",
+        "description":"A ltttle and sweet brew. Similiar to mead but not as heavy. This was the first brew ever sold by the Bruyere family.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":1,
@@ -267,6 +267,34 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"33"
+                }
+            ]
+        }
+    },
+	{
+        "id":"sullengard_spring_squeeze",
+        "iconID":"items_misc_6:23",
+        "name":"Spring Squeeze",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A little bit of spring in ever sip. Brewed by the Brewere family.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":4
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"25"
                 }
             ]
         }

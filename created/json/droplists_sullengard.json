@@ -152,6 +152,14 @@
                     "min":10,
                     "max":12
                 }
+            },
+            {
+                "itemID":"sullengard_spring_squeeze",
+                "chance":"100",
+                "quantity":{
+                    "min":4,
+                    "max":4
+                }
             }
         ]
     },
