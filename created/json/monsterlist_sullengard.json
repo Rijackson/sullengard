@@ -275,21 +275,21 @@
         "id":"sullengard_highwayman",
         "name":"Highwayman",
         "iconID":"monsters_men:8",
-        "maxHP":170,
+        "maxHP":200,
         "monsterClass":"humanoid",
         "attackDamage":{
-            "min":5,
-            "max":10
+            "min":10,
+            "max":20
         },
         "spawnGroup":"sullengard_highwayman",
         "faction":"fct_highwayman2",
         "phraseID":"sullengard_highwayman",
         "droplistID":"bandit1",
         "attackCost":5,
-        "attackChance":150,
+        "attackChance":200,
         "criticalSkill":50,
         "criticalMultiplier":2.0,
-        "blockChance":40,
+        "blockChance":150,
         "damageResistance":3
     },
     {
