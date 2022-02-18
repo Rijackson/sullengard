@@ -72,18 +72,21 @@
         "iconID":"items_japozero:96",
         "name":"Hat of the protector",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":4497,
         "category":"hd_cloth",
         "equipEffect":{
             "increaseAttackDamage":{
-                "min":1,
+                "min":0,
                 "max":2
             },
-            "increaseMaxHP":5,
+            "increaseMaxHP":-5,
             "increaseMoveCost":-1,
-            "increaseAttackChance":20,
-            "increaseCriticalSkill":1,
-            "increaseBlockChance":-10,
-            "setCriticalMultiplier":1.5
+            "increaseAttackChance":0,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":2,
+            "setCriticalMultiplier":0.0
         },
         "killEffect":{
             "increaseCurrentAP":{
@@ -93,6 +96,8 @@
             "conditionsSource":[
                 {
                     "condition":"courage",
+                    "magnitude":1,
+                    "duration":3,
                     "chance":"10"
                 }
             ]
@@ -104,7 +109,27 @@
         "name":"Bandit's Brew",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A Thieve's guild original. It was named in their honor for years of reliable service to Sullengard."
+        "description":"A Thieve's guild original. It was named in their honor for years of reliable service to Sullengard.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"sullengrad_finest",
@@ -112,7 +137,27 @@
         "name":"Sullengard's Finest",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A three time winner of the 'Best beer in festival' competition. It as a full-body teast."
+        "description":"A three time winner of the 'Best beer in festival' competition. It as a full-body teast.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":12
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"sullengrad_southernhaze",
@@ -120,7 +165,27 @@
         "name":"Southernhaze",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"The reigning champion of the 'Best beer in festival' competition."
+        "description":"The reigning champion of the 'Best beer in festival' competition.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":8,
+                "max":8
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":1,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"40"
+                }
+            ]
+        }
     },
     {
         "id":"sullengard_forest_ale",
@@ -128,7 +193,27 @@
         "name":"Forest Ale",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A medium colored brew with all the taste and no bitter aftertaste."
+        "description":"A medium colored brew with all the taste and no bitter aftertaste.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":9
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
     },
     {
         "id":"sullengard_dark_beer_sour",
@@ -136,7 +221,27 @@
         "name":"Dark Beer Sour",
         "displaytype":"ordinary",
         "category":"food",
-        "description":"Not for the faint of heart."
+        "description":"Not for the faint of heart.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"70"
+                }
+            ]
+        }
     },
     {
         "id":"sullengard_mtn_tj",
@@ -144,6 +249,26 @@
         "name":"Mountain Top Juice",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A ltttle and sweet brew. Similiar to mead but not as heavy."
+        "description":"A ltttle and sweet brew. Similiar to mead but not as heavy.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":1,
+                    "chance":"100"
+                },
+                {
+                    "condition":"intoxicated",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"33"
+                }
+            ]
+        }
     }
 ]

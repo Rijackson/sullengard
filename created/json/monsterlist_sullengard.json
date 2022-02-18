@@ -309,5 +309,15 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_inn_traveler",
         "phraseID":"sullengard_inn_traveler_0"
+    },
+    {
+        "id":"sullengard_bartender",
+        "name":"Oakleigh",
+        "iconID":"monsters_ld1:133",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_bartender",
+        "phraseID":"sullengard_bartender_0",
+        "droplistID":"sullengard_bartender_dl"
     }
 ]

@@ -101,5 +101,58 @@
                 }
             }
         ]
+    },
+    {
+        "id":"sullengard_bartender_dl",
+        "items":[
+            {
+                "itemID":"sullengrad_finest",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"sullengrad_bandit_brew",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"sullengrad_southernhaze",
+                "chance":"100",
+                "quantity":{
+                    "min":4,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"sullengard_forest_ale",
+                "chance":"100",
+                "quantity":{
+                    "min":6,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"sullengard_mtn_tj",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":6
+                }
+            },
+            {
+                "itemID":"sullengard_dark_beer_sour",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":12
+                }
+            }
+        ]
     }
 ]

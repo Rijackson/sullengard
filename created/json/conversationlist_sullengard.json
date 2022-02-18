@@ -879,5 +879,9 @@
     {
         "id":"sullengard_inn_traveler_30",
         "message":"Thank you so much."
+    },
+    {
+        "id":"sullengard_bartender_0",
+        "message":"Hey, pal, I can you you just fine. There's no reason to shout."
     }
 ]
