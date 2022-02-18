@@ -880,5 +880,29 @@
     {
         "id":"sullengard_bartender_0",
         "message":"Hey, pal, I can you you just fine. There's no reason to shout."
+    },
+    {
+        "id":"sullengard_bruyere_family_sign",
+        "message":"Welcome to the Bruyere family home, five-time winners of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_briwerra_family_sign",
+        "message":"Welcome to the Briwerra family home, three-time winners of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_brueria_family_sign",
+        "message":"Welcome to the Brueria family home, four-time winners of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_brewere_family_sign",
+        "message":"Welcome to the Brewere family home, five-time winners of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_biermann_family_sign",
+        "message":"Welcome to the Biermann family home, two-time winners of the 'Best beer in festival' competition."
+    },
+    {
+        "id":"sullengard_bierington_family_sign",
+        "message":"Welcome to the Bierington family home."
     }
 ]
