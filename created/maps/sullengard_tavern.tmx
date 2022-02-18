@@ -213,11 +213,31 @@
     <property name="place" value="sullengard_tavern_outside"/>
    </properties>
   </object>
+  <object name="sullengard_bartender_10" type="script" x="352" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="sullengard_bartender_spawn" type="spawn" x="128" y="96" width="192" height="32">
    <properties>
     <property name="spawngroup" value="sullengard_bartender"/>
+   </properties>
+  </object>
+  <object name="sullengard_drinking_brother_spawn1" type="spawn" x="160" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_drinking_brother"/>
+   </properties>
+  </object>
+  <object name="sullengard_drinking_brother_spawn2" type="spawn" x="192" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_drinking_brother2"/>
+   </properties>
+  </object>
+  <object name="sullengard_drinking_brother_spawn3" type="spawn" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_drinking_brother3"/>
    </properties>
   </object>
  </objectgroup>

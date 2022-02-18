@@ -187,12 +187,12 @@
  </layer>
  <layer id="2" name="Objects" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBj6YBkbA4M7C4R9nJ2B4RorA4M6mpqH/AwMj6AYGTSxQPSC9IGAOZq+j0D1n6AYG7jOTpnbF7FQph8Auw4L9g==
+   eJxjYKAcKMgi2AL8+OVBYDMrpprLrAg5bBgEDmPR9xgotpKNgcGdBcI/wc7AAOQysKOpewh01yMoRgZNLBC9IH1iQL44mr6PQPWfoBgZwOy7gW4RiWARC2X6AYOTE3E=
   </data>
  </layer>
  <layer id="3" name="Above" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc/JUhT55XFpU/jQ3B3s6OKU8NcJKf+mYOJAAAzIUEuQ==
+   eJxjYMANOtnwSCIBJVlU/kw2/PK4ALK+HezE6SEF3OZnYDjJT31zBxIAAI7eBM0=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="14" height="8" visible="0">

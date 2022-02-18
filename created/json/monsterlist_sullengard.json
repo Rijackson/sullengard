@@ -358,5 +358,32 @@
                 }
             ]
         }
+    },
+    {
+        "id":"sullengard_drinking_brother",
+        "name":"Drinking brother",
+        "iconID":"monsters_ld1:130",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_drinking_brother",
+        "phraseID":"sullengard_drinking_brother_0"
+    },
+    {
+        "id":"sullengard_drinking_brother2",
+        "name":"Drinking brother",
+        "iconID":"monsters_ld1:35",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_drinking_brother2",
+        "phraseID":"sullengard_drinking_brother_0"
+    },
+    {
+        "id":"sullengard_drinking_brother3",
+        "name":"Drinking brother",
+        "iconID":"monsters_ld1:97",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_drinking_brother3",
+        "phraseID":"sullengard_drinking_brother_0"
     }
 ]

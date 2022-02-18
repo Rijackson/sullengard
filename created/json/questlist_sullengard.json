@@ -19,6 +19,14 @@
             {
                 "progress":30,
                 "logText":"The promised share has been restored."
+            },
+            {
+                "progress":2,
+                "logText":"The player has seen the tavern's menu"
+            },
+            {
+                "progress":3,
+                "logText":"I need to leave the Sullengard tavern"
             }
         ]
     },
