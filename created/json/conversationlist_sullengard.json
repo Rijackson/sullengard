@@ -937,15 +937,15 @@
     },
     {
         "id":"sullengard_bartender_10",
-        "message":"[While rasing and waving your hand, you yell out:] Yo bar keep! Over here",
+        "message":"[While raising your arm and waving your hand, you yell out:] Yo bar keep! Over here.",
         "switchToNPC":"sullengard_bartender",
         "replies":[
             {
-                "text":"I would line to see what you have for sale.",
+                "text":"I would like to see what you have for sale.",
                 "nextPhraseID":"sullengard_bartender_20"
             },
             {
-                "text":"I have seen your choices of brews before and I am not interested in those. Can I drink my Brimhave brew in here?",
+                "text":"I have seen your choices of brews before and I am not interested in those. Can I drink my Brimhaven brew in here?",
                 "nextPhraseID":"sullengard_bartender_30",
                 "requires":[
                     {
@@ -1097,5 +1097,9 @@
                 "value":0
             }
         ]
+    },
+    {
+        "id":"sullengard_bartender_get_out",
+        "message":"You need to leave until you learn some respect."
     }
 ]
