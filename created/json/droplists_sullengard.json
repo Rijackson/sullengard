@@ -183,5 +183,42 @@
                 }
             }
         ]
+    },
+    {
+        "id":"sullengard_gj_drop",
+        "items":[
+            {
+                "itemID":"golden_jackal_fur",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"meat",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"pig_bone",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
+            }
+        ]
     }
 ]

@@ -44,7 +44,32 @@
         "id":"golden_jackal",
         "name":"Golden jackal",
         "iconID":"monsters_rltiles4:2",
-        "unique":1
+        "maxHP":345,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":8,
+            "max":16
+        },
+        "spawnGroup":"golden_jackal",
+        "droplistID":"sullengard_gj_drop",
+        "attackCost":3,
+        "attackChance":175,
+        "criticalSkill":30,
+        "criticalMultiplier":2.0,
+        "blockChance":100,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"deebo_orchard_farmer",

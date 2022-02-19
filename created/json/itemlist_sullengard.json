@@ -271,7 +271,7 @@
             ]
         }
     },
-	{
+    {
         "id":"sullengard_spring_squeeze",
         "iconID":"items_misc_6:23",
         "name":"Spring Squeeze",
@@ -298,5 +298,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"pig_bone",
+        "iconID":"items_misc_4:65",
+        "name":"Pig's bone",
+        "displaytype":"rare",
+        "category":"animal",
+        "description":"All that remails of the poor pig."
     }
 ]
