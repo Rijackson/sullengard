@@ -1631,7 +1631,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"deebo_orchard_deebo_80"
+                "nextPhraseID":"deebo_orchard_deebo_spawn_gj"
             }
         ],
         "rewards":[
@@ -1740,6 +1740,12 @@
     },
     {
         "id":"deebo_orchard_deebo_spawn_gj_30",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1750,6 +1756,12 @@
     },
     {
         "id":"sullengard_woods12_gj_spawn_43",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1760,6 +1772,12 @@
     },
     {
         "id":"sullengard_woods4_gj_spawn_50",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -1770,6 +1788,12 @@
     },
     {
         "id":"sullengard_woods_gj_spawn_100",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
