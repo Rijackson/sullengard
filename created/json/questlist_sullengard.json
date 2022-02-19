@@ -27,12 +27,17 @@
             {
                 "progress":3,
                 "logText":"I need to leave the Sullengard tavern"
+            },
+            {
+                "progress":4,
+                "logText":"The golden jackal has spawned."
             }
         ]
     },
     {
         "id":"deebo_orchard_hth",
         "name":"Hunting the hunter",
+        "showInLog":1,
         "stages":[
             {
                 "progress":0,

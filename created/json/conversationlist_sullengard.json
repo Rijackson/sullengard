@@ -1631,7 +1631,26 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"deebo_orchard_deebo_spawn_gj"
+                "nextPhraseID":"deebo_orchard_deebo_spawn_gj",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":4
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -1649,6 +1668,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"deebo_orchard_deebo_spawn_gj"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":4
             }
         ]
     },
