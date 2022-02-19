@@ -60,7 +60,8 @@
             },
             {
                 "progress":120,
-                "logText":"Thrown out of my first tavern. I was told to leave the Sullengard tavern and at such a young age too. Am i starting down the wrong path?"
+                "logText":"Thrown out of my first tavern. I was told to leave the Sullengard tavern and at such a young age too. Am i starting down the wrong path?",
+                "rewardExperience":200
             }
         ]
     }

@@ -1134,6 +1134,17 @@
             {
                 "text":"I will let you get back to your business. Have a great time enjoying the nice weather.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Can I see what you have to trade?",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":50
+                    }
+                ]
             }
         ]
     },
@@ -1144,6 +1155,38 @@
             {
                 "text":"A \"predator\"? What kind of a predator?",
                 "nextPhraseID":"deebo_orchard_deebo_20"
+            },
+            {
+                "text":"I have killed the Golden jackal and I have the requested proof.",
+                "nextPhraseID":"deebo_orchard_deebo_90",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"golden_jackal_fur",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I have killed the Golden jackal, but I can not prove it.",
+                "nextPhraseID":"deebo_orchard_deebo_85",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":50
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"golden_jackal_fur",
+                        "value":0
+                    }
+                ]
             }
         ]
     },
@@ -1152,11 +1195,23 @@
         "message":"Have you seen that Golden jackal around here?",
         "replies":[
             {
-                "text":"What is a Golden jackal?"
+                "text":"What is a Golden jackal?",
+                "nextPhraseID":"deebo_orchard_deebo_30"
             },
             {
                 "text":"No, sir, I have not. Well, at least I don't think I have.",
                 "nextPhraseID":"deebo_orchard_deebo_30"
+            },
+            {
+                "text":"I want to hunt down and kill that Golden jackal for you.",
+                "nextPhraseID":"deebo_orchard_deebo_50",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":0
+                    }
+                ]
             }
         ]
     },
@@ -1175,13 +1230,24 @@
         "message":"Funny kid you are. I am looking for someone to hunt it down and kill it.",
         "replies":[
             {
-                "text":"Really! I am ore than willing an d able to do this job for you.",
+                "text":"Really! I am more than willing and able to do this job for you.",
                 "nextPhraseID":"deebo_orchard_deebo_50"
             }
         ]
     },
     {
         "id":"deebo_orchard_deebo_50",
+        "message":"That's great to hear! When can you start?",
+        "replies":[
+            {
+                "text":"Not right now. Can I pick some apples first?",
+                "nextPhraseID":"deebo_orchard_deebo_pc_asks_to_pick_apples"
+            },
+            {
+                "text":"Right now. Let's get it!",
+                "nextPhraseID":"deebo_orchard_deebo_60"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1530,5 +1596,186 @@
     {
         "id":"sullengard_nanette_13",
         "message":"Promise."
+    },
+    {
+        "id":"deebo_orchard_deebo_pc_asks_to_pick_apples",
+        "message":"Absolutly not.",
+        "replies":[
+            {
+                "text":"Sorry for asking.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_60",
+        "message":"First, I have to warn you, this is no ordinary forest animal. This thing is capable of dragging away full-szed adult pigs. Be warned now.",
+        "replies":[
+            {
+                "text":"I am ready! No more talking.",
+                "nextPhraseID":"deebo_orchard_deebo_70"
+            },
+            {
+                "text":"I am not so sure I am capable, but I will give it a try.",
+                "nextPhraseID":"deebo_orchard_deebo_70"
+            },
+            {
+                "text":"I need time to think about the risks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_70",
+        "message":"OK, I have faith in you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_80"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_80",
+        "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_spawn_gj"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_90",
+        "message":"Wonderful. Let me have it. [You hand over the Golden jackal's fur]\nAh yes, this is indeed proof it is dead.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_100"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"golden_jackal_fur",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_85",
+        "message":"Return to me once you have the prrof that it is dead."
+    },
+    {
+        "id":"deebo_orchard_deebo_100",
+        "message":"As for your reward is concerned, I am now willing to sell and trade with you. Please take a look.",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_spawn_gj",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_spawn_gj_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_woods12_gj_spawn_43",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"43"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_woods4_gj_spawn_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_woods_gj_spawn_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_spawn_gj_30",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_woods4_gj_spawn",
+                "mapName":"sullengard_woods4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_woods12_gj_spawn_43",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_woods12_gj_spawn",
+                "mapName":"sullengard_woods12"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_woods4_gj_spawn_50",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_west_ravine_gj_spawn",
+                "mapName":"sullengard_west_ravine"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_woods_gj_spawn_100",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_woods_gj1_spawn",
+                "mapName":"sullengard_woods_gj1"
+            }
+        ]
     }
 ]

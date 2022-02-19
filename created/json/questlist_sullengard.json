@@ -37,6 +37,20 @@
             {
                 "progress":0,
                 "logText":"Deebo, the apple orchard farmer northeast of Sullengard has informed me of a Golden jackal that is wreaking havoc on his orchard."
+            },
+            {
+                "progress":10,
+                "logText":"I have accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it."
+            },
+            {
+                "progress":40,
+                "logText":"I have killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as prrof that I've killed it."
+            },
+            {
+                "progress":50,
+                "logText":"I returned to Deebo with the  killed the Golden jackal's fur as prrof that I've killed it. He is now willing to trade with me.",
+                "rewardExperience":5000,
+                "finishesQuest":1
             }
         ]
     },
