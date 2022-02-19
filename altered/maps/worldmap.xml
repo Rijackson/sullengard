@@ -290,7 +290,7 @@
     <map id="sullengard_woods12" x="374" y="572"/>
     <map id="sullengard_woods13" x="374" y="552"/>
     <map id="sullengard_woods14" x="374" y="519"/>
-    <map id="vilegard_sullengard_filler1" x="374" y="513"/>
+    <map id="vilegard_sullengard_filler1" x="384" y="492"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
