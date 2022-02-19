@@ -703,6 +703,23 @@
             {
                 "text":"I am in need of supplies. Can you help?",
                 "nextPhraseID":"sullengard_kealwea_sell"
+            },
+            {
+                "text":"Nanette told me to see you about her pond.",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -713,6 +730,81 @@
             {
                 "text":"Thank you!",
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_1",
+        "message":"[Sigh]. Yes, she told me about her pond as well but she won't listen to my story.",
+        "replies":[
+            {
+                "text":"I will listen to your story.",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_2"
+            },
+            {
+                "text":"That will be a long story.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_2",
+        "message":"I used to go there when I was a young disciple.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_3",
+        "message":"One time, as I sitting on the bench thinking on how Feygard soldiers sleep with their unlawful taxes while Sullengard lives on a financial trouble.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_4",
+        "message":"My anger arises through the point I lifted up a large rock and thrown it in the pond.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_5"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_5",
+        "message":"After that, I saw some snapping turtles emerged from the pond trying to bite my leg. Good thing that they are too slow to catch me as I run home.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_kealwea_pond_safety_6"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_pond_safety_6",
+        "message":"End of my story with a moral lesson never again to throw rocks there, be it small or large. Thank you for listening. Don't thank me now. Tell her about this.",
+        "replies":[
+            {
+                "text":"Oh no. I understand now. I have to tell her about this one too. Bye",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, good thing it's not a long story. I'm about to snore here. Bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_pond_safety",
+                "value":40
             }
         ]
     },

@@ -51,7 +51,28 @@
         "id":"sullengard_pond_safety",
         "name":"Pond safety",
         "stages":[
-            
+            {
+                "progress":10,
+                "logText":"Nanette is troubled for her pond unsafe because of the monsters emerged in the pond. "
+            },
+            {
+                "progress":20,
+                "logText":"I accepted her request to clear out the monsters in her pond area so that she can enjoy the pond again."
+            },
+            {
+                "progress":30,
+                "logText":"I have now cleared the pond area. Nanette told me that I should talk to Kaelwea, the priest of Sullengard, to see if he has some information about the cause of the monster's appearance in the pond area."
+            },
+            {
+                "progress":40,
+                "logText":"The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I better tell her the moral story of it."
+            },
+            {
+                "progress":50,
+                "logText":"I told Nanette the moral of the story. She had already learned from her mistake and she promised never to do it again just to release her anger issue against unfair taxes of Feygard.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
         ]
     }
 ]
