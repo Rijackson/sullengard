@@ -31,6 +31,10 @@
             {
                 "progress":4,
                 "logText":"The golden jackal has spawned."
+            },
+            {
+                "progress":5,
+                "logText":"Picked poisonous mushroom in sullengard_woods14"
             }
         ]
     },

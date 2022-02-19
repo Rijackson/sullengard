@@ -189,7 +189,7 @@
    eJzt1MENgCAMBVDDzbFdwhm8Gm+6AqzgLEJMk6apWkvLicO/kT77Ia7jMKw9PT3q7KG9eWQzOrlLuHeimXKSg4uNyCQZuuAcZL6X+2Z5uNh7sqxc2mVydLl7o3Px/G20cd9meLpgc/3VuOXcJrhbrXuSRGRKXG6PLxfPf4rkPcNZzoV9JNZfF/93qfvX07hcB63dJdR9g9at7cLaLD1IuvAwaWYmF7PPRFU=
   </data>
  </layer>
- <layer name="Breadcrumb" width="30" height="26">
+ <layer name="Breadcrumb" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKA9UOSijhnomFb24rOHkJnEuo1UfdjcRGp44DIXBqS4IBiXPKV2kWsvNQE2c6kRjuTaSyuALb/Q2o8we+kJ6OEnXPbS276R4M+BtHOk+BVm70DaPWrvqL20sBdbe40eaR1XHUuoHqZXWJHajsUFAAwWDy4=
   </data>

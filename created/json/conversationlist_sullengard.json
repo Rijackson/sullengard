@@ -1827,5 +1827,51 @@
                 "mapName":"sullengard_woods_gj1"
             }
         ]
+    },
+    {
+        "id":"script_sullengard_woods14_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"script_sullengard_woods14_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"script_sullengard_woods14_10",
+        "message":"Pick the poisonous mushroom?",
+        "replies":[
+            {
+                "text":"Sure, why not? What could go wrong?",
+                "nextPhraseID":"script_sullengard_woods14_20"
+            },
+            {
+                "text":"I better not!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"script_sullengard_woods14_20",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":5
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gloriosa_mushroom",
+                "value":1
+            }
+        ]
     }
 ]
