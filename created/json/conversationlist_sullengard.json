@@ -779,7 +779,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_5",
-        "message":"After that, I saw some snapping turtles emerged from the pond trying to bite my leg. Good thing that they are too slow to catch me as I run home.",
+        "message":"After that, I saw some snappers emerged from the pond and one of them bit my leg. Good thing they are too slow to catch me as I run home.",
         "replies":[
             {
                 "text":"N",
@@ -1193,5 +1193,339 @@
     {
         "id":"sullengard_bartender_get_out",
         "message":"You need to leave until you learn some respect."
+    },
+    {
+        "id":"sullengard_snapper_0",
+        "message":"[You see the mouth open widely.]",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_snapper_1"
+            },
+            {
+                "nextPhraseID":"sullengard_snapper_1"
+            },
+            {
+                "nextPhraseID":"sullengard_snapper_1"
+            },
+            {
+                "text":"[Kill the snapper]",
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_snapper_1",
+        "message":"[Snap].",
+        "replies":[
+            {
+                "text":"Ouch. Why you bit me? Bad turtle!",
+                "nextPhraseID":"sullengard_snapper_0"
+            },
+            {
+                "text":"Ouch. Why are you mad at me? Angry turtle!",
+                "nextPhraseID":"sullengard_snapper_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_selector_0",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_nanette_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_nanette_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_nanette_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_nanette_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_nanette_9"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_0",
+        "message":"[Sigh]. Oh hello there, kid.",
+        "replies":[
+            {
+                "text":"Are you ok?",
+                "nextPhraseID":"sullengard_nanette_1"
+            },
+            {
+                "text":"Is everything all right?",
+                "nextPhraseID":"sullengard_nanette_1"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_1",
+        "message":"[Sigh]. I'm longing for my pond which I used to enjoy to go to. But now it is dangerous to go in my pond.",
+        "replies":[
+            {
+                "text":"Why is that?",
+                "nextPhraseID":"sullengard_nanette_2"
+            },
+            {
+                "text":"And then?",
+                "nextPhraseID":"sullengard_nanette_2"
+            },
+            {
+                "text":"Well I used to enjoy playing hide-and-seek with my brother but not anymore. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_2",
+        "message":"[Sigh]. It started yesterday as I sit on the bench enjoying my pond, I saw vicious sea creatures emerged from the pond.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_nanette_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_3",
+        "message":"One of them bit my leg. So I ran away home.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_nanette_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_4",
+        "message":"[Sigh]. Please help me for I'm longing to enjoy my pond again.",
+        "replies":[
+            {
+                "text":"Fine. I'm going now.",
+                "nextPhraseID":"sullengard_nanette_5"
+            },
+            {
+                "text":"Where is your pond again?",
+                "nextPhraseID":"sullengard_nanette_5"
+            },
+            {
+                "text":"What's the cause of it?",
+                "nextPhraseID":"sullengard_nanette_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_pond_safety",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_5",
+        "message":"Remember. It is just south-east from here.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_pond_safety",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_6",
+        "message":"[Sigh] I will tell you once you help me enjoy my pond again.",
+        "replies":[
+            {
+                "text":"Fine. I'll do it.",
+                "nextPhraseID":"sullengard_nanette_5"
+            },
+            {
+                "text":"If that's so, then I will not help you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_7",
+        "message":"[Sigh]. Oh hello there, kid. Is my pond safe again?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"sullengard_snapper",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, your pond is safe again. May I know the cause of it?",
+                "nextPhraseID":"sullengard_nanette_8",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"sullengard_snapper",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_8",
+        "message":"I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it. ",
+        "replies":[
+            {
+                "text":"I'm going to visit him now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What the? But it just happen yesterday.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_pond_safety",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_9",
+        "message":"Oh hello there, kid. Have you talk to Kaelwea the priest?",
+        "replies":[
+            {
+                "text":"There must be a reason why it happen. But what is it?",
+                "nextPhraseID":"sullengard_nanette_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Not yet",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes. He told me to tell you a story.",
+                "nextPhraseID":"sullengard_nanette_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_10",
+        "message":"[Sigh]. I'm old enough for a story. Just tell me the moral story of it.",
+        "replies":[
+            {
+                "text":"Don't throw pebbles on the pond. You might disturb whatever lies beneath it.",
+                "nextPhraseID":"sullengard_nanette_11"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_11",
+        "message":"Oh. I remember now. I kept throwing pebbles on the pond to relief my anger issue caused by the unfair taxes of Feygard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_nanette_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_pond_safety",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_12",
+        "message":"Thank you so much again, kid. I can now enjoy my pond again. I'll never throw pebbles on the pond again, promise.",
+        "replies":[
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Promise? Because I'll not clean your mess again.",
+                "nextPhraseID":"sullengard_nanette_13"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_nanette_13",
+        "message":"Promise."
     }
 ]

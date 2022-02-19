@@ -242,7 +242,8 @@
         "iconID":"monsters_ld1:149",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_nanette"
+        "spawnGroup":"sullengard_nanette",
+        "phraseID":"sullengard_nanette_selector_0"
     },
     {
         "id":"sullengard_ingeram",
@@ -334,6 +335,7 @@
             "max":15
         },
         "spawnGroup":"sullengard_snapper",
+        "phraseID":"sullengard_snapper_0",
         "droplistID":"sullengard_snapper",
         "attackCost":7,
         "attackChance":130,
