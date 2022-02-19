@@ -1199,12 +1199,15 @@
         "message":"[You see the mouth open widely.]",
         "replies":[
             {
+                "text":"You want some hug?"
                 "nextPhraseID":"sullengard_snapper_1"
             },
             {
+                "text":"You want some foods?"
                 "nextPhraseID":"sullengard_snapper_1"
             },
             {
+                "text":"I better stay away."
                 "nextPhraseID":"sullengard_snapper_1"
             },
             {
