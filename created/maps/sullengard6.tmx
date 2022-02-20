@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,26 +200,89 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlEEOwCAIBPuK/v8L/rDxZozKsKxJOTW6TBYKtvdB0YCua0668T7Dm7WrXIc/lUe1lDd//9FfdKf4q9Q7skjNjv6p80z01f0gO0N5VX8kXDzH+1L1d3v+Vrum9q/KWr1Z2b0gzFGj8E6aLO+U554/5X9EOhrO/tH32eEvmpfdmVrvLqefffRAdWI=
+   eJy9lNEJACEMQ28K91/BDf04DkT0msakAUFafU2h2tsjU2/vYvOn8+udDOOmPspTMWeWguv0l8lFvLnnW2/KniMWO8/f3uWP7b9yXlw8xf/Cqmr+1hhaC2UhvF2vpxiqPyYj9/8cnUV5layMXLNc8T6ie5E/xscuPgBD+F+e
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="2" name="south" type="mapchange" x="64" y="928" width="192" height="32">
+ <layer id="5" name="Walkable_Below" width="20" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMNooRoYgEMGreqHmj5o2aN2re4DMPZBa1zKOmWTDzqAlGzRs1j9bmAQDhVhjh
+  </data>
+ </layer>
+ <layer id="6" name="Walkable_Above" width="20" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAObBQjUiEBM2DmUMM8dLNHzRtY85DNGIzuo7Z5o+l58Jk3EuMDOR0OJrNg5lETjJo3at5QMg8Af20diw==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="64" y="928" width="192" height="32">
    <properties>
-    <property name="map" value="hilltown5"/>
+    <property name="map" value="sullengard5"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="3" name="north" type="mapchange" x="32" y="0" width="288" height="32">
+  <object id="2" name="north" type="mapchange" x="32" y="0" width="288" height="32">
    <properties>
-    <property name="map" value="hilltown9"/>
+    <property name="map" value="sullengard9"/>
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="3" name="sullengard6_replace_below_script" type="script" x="256" y="928" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="4" name="sullengard6_replace_below_script" type="script" x="320" y="0" width="288" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="5" name="sullengard6_replace_above_script" type="script" x="32" y="0" width="288" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="6" name="sullengard6_replace_above_script" type="script" x="64" y="928" width="192" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="7" name="north_below" type="mapchange" x="320" y="0" width="288" height="32">
+   <properties>
+    <property name="map" value="sullengard9"/>
+    <property name="place" value="south_below"/>
+   </properties>
+  </object>
+  <object id="8" name="south_below" type="mapchange" x="256" y="928" width="96" height="32">
+   <properties>
+    <property name="map" value="sullengard5"/>
+    <property name="place" value="north_below"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="4" name="deathcob" type="spawn" x="128" y="288" width="160" height="128"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="9" name="deathcob" type="spawn" x="128" y="288" width="160" height="128">
+   <properties>
+    <property name="spawngroup" value="deathcob"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace">
+  <object id="10" name="sullengard6_replace_below" type="replace" x="224" y="0" width="128" height="960">
+   <properties>
+    <property name="Walkable" value="Walkable_Below"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="6"/>
+   </properties>
+  </object>
+  <object id="11" name="sullengard6_replace_above" type="replace" x="224" y="0" width="128" height="960">
+   <properties>
+    <property name="Walkable" value="Walkable_Above"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="7"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

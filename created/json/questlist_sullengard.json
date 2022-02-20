@@ -35,6 +35,14 @@
             {
                 "progress":5,
                 "logText":"Picked poisonous mushroom in sullengard_woods14"
+            },
+            {
+                "progress":6,
+                "logText":"sullengard6_replace_below"
+            },
+            {
+                "progress":7,
+                "logText":"6=sullengard6_replace_above"
             }
         ]
     },
