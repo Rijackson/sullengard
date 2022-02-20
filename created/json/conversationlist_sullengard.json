@@ -2353,5 +2353,65 @@
                 "value":6
             }
         ]
+    },
+    {
+        "id":"sullengard5_replace_below_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":9
+            }
+        ]
+    },
+    {
+        "id":"sullengard5_replace_above_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":9
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"sullengard7_replace_below_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":11
+            }
+        ]
+    },
+    {
+        "id":"sullengard7_replace_above_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":10
+            }
+        ]
     }
 ]

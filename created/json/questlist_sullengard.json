@@ -43,6 +43,22 @@
             {
                 "progress":7,
                 "logText":"6=sullengard6_replace_above"
+            },
+            {
+                "progress":8,
+                "logText":"sullengard5_replace_below"
+            },
+            {
+                "progress":9,
+                "logText":"sullengard5_replace_above"
+            },
+            {
+                "progress":10,
+                "logText":"sullengard7_replace_below"
+            },
+            {
+                "progress":11,
+                "logText":"sullengard7_replace_above"
             }
         ]
     },
