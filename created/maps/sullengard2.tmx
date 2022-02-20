@@ -212,7 +212,7 @@
  <objectgroup name="Mapevents">
   <object name="south" type="mapchange" x="576" y="928" width="32" height="32">
    <properties>
-    <property name="map" value="hilltown1"/>
+    <property name="map" value="sullengard1"/>
     <property name="place" value="north"/>
    </properties>
   </object>

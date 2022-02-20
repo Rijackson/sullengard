@@ -212,13 +212,13 @@
  <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="576" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="hilltown2"/>
+    <property name="map" value="sullengard2"/>
     <property name="place" value="south"/>
    </properties>
   </object>
   <object name="east" type="mapchange" x="928" y="672" width="32" height="32">
    <properties>
-    <property name="map" value="hilltown5"/>
+    <property name="map" value="sullengard5"/>
     <property name="place" value="west"/>
    </properties>
   </object>
