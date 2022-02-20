@@ -2319,5 +2319,9 @@
                 "value":50
             }
         ]
+    },
+    {
+        "id":"sullengard7_road_sign",
+        "message":"Welcome to Sullengard.\nWest: Mt. Galmore "
     }
 ]
