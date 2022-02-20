@@ -1,0 +1,48 @@
+[
+    {
+        "id":"throthaus_0",
+        "message":"Is there something I can help you with?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"throthaus_1"
+            },
+            {
+                "text":"What do you do here?",
+                "nextPhraseID":"throthaus_2"
+            },
+            {
+                "text":"I need a pitchfork.",
+                "nextPhraseID":"throthaus_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"throthaus_3",
+        "message":"I'm a farmer, not a shopkeeper. So yes, if you want to buy a cartload, no otherwise.",
+        "replies":[
+            {
+                "text":"OK. Thanks. I need to get going.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How about a pitchfork?",
+                "nextPhraseID":"throthaus_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    }
+]

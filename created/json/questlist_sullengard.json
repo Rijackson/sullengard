@@ -67,7 +67,32 @@
         "id":"deebo_orchard_ght",
         "name":"Getting home on time",
         "stages":[
-            
+            {
+                "progress":10,
+                "logText":"Hadena need your help to get her husband home on time."
+            },
+            {
+                "progress":20,
+                "logText":"I agreed to help her husband home on time."
+            },
+            {
+                "progress":30,
+                "logText":"Throthaus wants me to pull out his pitchfork from the haystack to prove that I'm a son of a farmer."
+            },
+            {
+                "progress":40,
+                "logText":"I successfully pulled out the pitchfork. It's time to visit Ainsley again working in Deebo's Orchard in Sullengard."
+            },
+            {
+                "progress":50,
+                "logText":"I gave Ainsley the new pitchfork. I should tell Hadena about this."
+            },
+            {
+                "progress":60,
+                "logText":"Hadena is so grateful to me that I help them.",
+                "rewardExperience":2500,
+                "finishesQuest":1
+            }
         ]
     },
     {

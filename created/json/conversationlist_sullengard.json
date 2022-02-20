@@ -1873,5 +1873,439 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"throthaus_4",
+        "message":"Are you a farmer?",
+        "replies":[
+            {
+                "text":"No. But I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "nextPhraseID":"throthaus_5"
+            },
+            {
+                "text":"Yes. I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "nextPhraseID":"throthaus_5"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_5",
+        "message":"If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house south-west of here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"throthaus_6"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_6",
+        "message":"If you were able to pull it out from the haystack, then it will be yours.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"throthaus_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"throthaus_7",
+        "message":"Don't worry about me. I still have one. I bought them from buy-one take-one shop in Nor City. It's a limited shop though.",
+        "replies":[
+            {
+                "text":"I'll prove it to you that I'm a son of a farmer!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You'll see that you are wrong about me. I'm a son of a farmer!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_selector_0",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_hadena_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_hadena_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_hadena_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_hadena_7"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_0",
+        "message":"Andor! Good timing you arrive because I need your help to get my husband home on time today.",
+        "replies":[
+            {
+                "text":"So, my brother Andor was here as well? I'm $playername.",
+                "nextPhraseID":"sullengard_hadena_1"
+            },
+            {
+                "text":"You must be mistaken. I'm $playername and Andor is my brother.",
+                "nextPhraseID":"sullengard_hadena_1"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_1",
+        "message":"I'm sorry, my name is Hadena. He used to visit here but not anymore and I don't know why. But please help me.",
+        "replies":[
+            {
+                "text":"How may I help you?",
+                "nextPhraseID":"sullengard_hadena_2"
+            },
+            {
+                "text":"I'm sorry I can't help you right now. I'm busy.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_2",
+        "message":"As I said recently, I need your help to get my husband home on time today.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hadena_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_3",
+        "message":"My husband name is Ainsley.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hadena_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_4",
+        "message":"He is working in Deebo's Orchard located east-north of here. Please go there and help him.",
+        "replies":[
+            {
+                "text":"I'm going now to help him home on time today.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But why your husband will not get home on time?",
+                "nextPhraseID":"sullengard_hadena_5"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_5",
+        "message":"My husband will only get home on time if you give him a new pitchfork from Loneford to get his work done. He is least experienced farmer, so he gets all the crap work to do.",
+        "replies":[
+            {
+                "text":"Oh. I understand now why. I better go in Loneford now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's sad. I'm going now to Loneford.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_6",
+        "message":"I'm waiting for my husband arrival. Please I want him home on time today.",
+        "replies":[
+            {
+                "text":"What do yo want me to do again with your husband?",
+                "nextPhraseID":"sullengard_hadena_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What is the name of your husband?",
+                "nextPhraseID":"sullengard_hadena_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Where is your husband working again?",
+                "nextPhraseID":"sullengard_hadena_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Why your husband will not get home on time again?",
+                "nextPhraseID":"sullengard_hadena_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm not done yet.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"It is done.",
+                "nextPhraseID":"sullengard_hadena_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_7",
+        "message":"Thank you so much for helping us. You are just like your brother.",
+        "replies":[
+            {
+                "text":"Of course. He is my brother.",
+                "nextPhraseID":"sullengard_hadena_8"
+            },
+            {
+                "text":"I'm not like him going out from home to anywhere like a cat without talking to my father Mikhail.",
+                "nextPhraseID":"sullengard_hadena_8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_8",
+        "message":"Both of you are helping Sullengard for our living.",
+        "replies":[
+            {
+                "text":"Ok. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_selector_0",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_ainsley_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_ainsley_3"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_0",
+        "message":"Yikes! You surprise me, kid. I'm Ainsley and I have a lot of work to do here so talk to me later.",
+        "replies":[
+            {
+                "text":"Ok. I'm going now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ok. I'll leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Just a quick question. Have you seen my brother Andor?",
+                "nextPhraseID":"sullengard_ainsley_1a"
+            },
+            {
+                "text":"The husband of Hadena?",
+                "nextPhraseID":"sullengard_ainsley_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_1a",
+        "message":"Uhhh...yes. No. Maybe. Argh. Sorry kid, I'm so busy right now. I can't even work properly with this old pitchfork.",
+        "replies":[
+            {
+                "text":"Ok. I'll not disturb you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ok. I'll leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have a new pitchfork here.",
+                "nextPhraseID":"sullengard_ainsley_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_1b",
+        "message":"Hadena? Ahh yes. She's my wife. Why do you ask?",
+        "replies":[
+            {
+                "text":"She told me to give you a new pitchfork so you can come home on time today.",
+                "nextPhraseID":"sullengard_ainsley_2"
+            },
+            {
+                "text":"Just asking. I thought you are busy?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_2",
+        "message":"Yes. I'm inexperienced farmer so I always make a lot of mistakes here and there and everywhere. But experience is the best teacher as they say.",
+        "replies":[
+            {
+                "text":"Correct. Here's the new pitchfork.",
+                "nextPhraseID":"sullengard_ainsley_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"farmer_pitchfork",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Correct. Oops...I don't have the new pitchfork. Be right back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"farmer_pitchfork",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ainsley_3",
+        "message":"Thank you so much, kid. Tell my wife Ainsley I can come home on time today.",
+        "replies":[
+            {
+                "text":"I hope you learn from your mistakes.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You're welcome.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":50
+            }
+        ]
     }
 ]
