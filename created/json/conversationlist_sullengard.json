@@ -2236,9 +2236,21 @@
                 "nextPhraseID":"sullengard_ainsley_3",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":40
+                        "requireType":"inventoryRemove",
+                        "requireID":"farmer_pitchfork",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Oops...I don't have a new pitchfork. Be right back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"farmer_pitchfork",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
