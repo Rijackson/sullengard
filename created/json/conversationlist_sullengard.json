@@ -2413,5 +2413,35 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"sullengard10_replace_below_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":14
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"sullengard10_replace_above_script",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":15
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":14
+            }
+        ]
     }
 ]
