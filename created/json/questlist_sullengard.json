@@ -77,12 +77,15 @@
                 "logText":"sullengard10_replace_above"
             },
             {
-                "progress":100,
-                "logText":"I successfully lifted up the pitchfork from the haystack."
+                "progress":16,
+                "logText":"Player has talked with Hadena."
             },
             {
-                "progress":500,
-                "logText":"Key: (Never true condition)"
+                "progress":17,
+                "logText":"Player is helping Grazia cross the bridge"
+            },
+            {
+                "logText":"Player has helped Grazia cross the bridge."
             }
         ]
     },

@@ -1981,6 +1981,13 @@
                 "text":"You must be mistaken. I'm $playername and Andor is my brother.",
                 "nextPhraseID":"sullengard_hadena_1"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":16
+            }
         ]
     },
     {
@@ -2445,120 +2452,88 @@
         ]
     },
     {
-        "id":"loneford13_pitchfork_selector",
+        "id":"sull_ravine_grazia_0",
+        "message":"Please, please, you have to help me! I tried to, but I am too scared.",
         "replies":[
             {
-                "nextPhraseID":"loneford13_pitchfork_picked_up",
+                "text":"Tried to do what?",
+                "nextPhraseID":"sull_ravine_grazia_10"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_10",
+        "message":"I tried to do what Hadena said, but I just can't do it.",
+        "replies":[
+            {
+                "text":"Do what?!",
+                "nextPhraseID":"sull_ravine_grazia_20"
+            },
+            {
+                "text":"Who is Hadena?",
+                "nextPhraseID":"sull_ravine_grazia_15",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"sullengard_hidden",
-                        "value":100
+                        "value":16,
+                        "negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"loneford13_pitchfork"
             }
         ]
     },
     {
-        "id":"loneford13_pitchfork_picked_up",
-        "message":"You have already picked up the new pitchfork here."
-    },
-    {
-        "id":"loneford13_pitchfork",
-        "message":"A new pitchfork pinned in this haystack.",
+        "id":"sull_ravine_grazia_20",
+        "message":"To cross the bridge of course.",
         "replies":[
             {
-                "text":"Time to prove that I'm a son of farmer!",
-                "nextPhraseID":"loneford13_pitchfork_selector2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":30
-                    }
-                ]
-            },
+                "text":"Why? It seems easy enough and from here, the bridge looks safe. What's the problem?",
+                "nextPhraseID":"sull_ravine_grazia_30"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_30",
+        "message":"The wind! It is very scary when the entire bridge sways back and forth while you are crossing over it.",
+        "replies":[
             {
-                "text":"What do I need this for? I leave it here for now.",
+                "text":"I'll tell you what, let's cross it together.",
+                "nextPhraseID":"sull_ravine_grazia_40"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_40",
+        "message":"How? It's not wide enough for both of us.",
+        "replies":[
+            {
+                "text":"I will go first and you can follow close behind. Sound OK with you?",
+                "nextPhraseID":"sull_ravine_grazia_50"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_50",
+        "message":"Yes. Thank you.",
+        "replies":[
+            {
+                "text":"No problem. Let's go now.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"loneford13_pitchfork_selector2",
+        "id":"sull_ravine_grazia_15",
+        "message":"Oh, she is a lady who lives in that cabin that you just walked past.",
         "replies":[
             {
-                "nextPhraseID":"loneford13_pitchfork_fail",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"3/5"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"loneford13_pitchfork_success"
+                "text":"Oh, I see.",
+                "nextPhraseID":"sull_ravine_grazia_10"
             }
         ]
     },
     {
-        "id":"loneford13_pitchfork_fail",
-        "message":"You get fatigued after a few pulls; the pitchfork is still there.",
-        "replies":[
-            {
-                "text":"Try again.",
-                "nextPhraseID":"loneford13_pitchfork_selector2"
-            },
-            {
-                "text":"Take a break.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"fatigue4",
-                "value":5
-            }
-        ]
-    },
-    {
-        "id":"loneford13_pitchfork_success",
-        "message":"After several minutes of intense pulling you finally pulled out the new pitchfork from the haystack.",
-        "replies":[
-            {
-                "text":"I'm a son of farmer!",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Ugh..I'm so tired now.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"sullengard_hidden",
-                "value":100
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"deebo_orchard_ght",
-                "value":40
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"farmer_pitchfork",
-                "value":1
-            },
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"fatigue4",
-                "value":5
-            }
-        ]
+        "id":"sull_ravine_grazia_script"
     }
 ]

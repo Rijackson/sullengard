@@ -413,5 +413,15 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_drinking_brother3",
         "phraseID":"sullengard_drinking_brother_0"
+    },
+    {
+        "id":"sull_ravine_grazia",
+        "name":"Grazia",
+        "iconID":"monsters_ld1:168",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"sull_ravine_grazia",
+        "phraseID":"sull_ravine_grazia_0"
     }
 ]
