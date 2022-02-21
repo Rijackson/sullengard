@@ -75,6 +75,14 @@
             {
                 "progress":15,
                 "logText":"sullengard10_replace_above"
+            },
+            {
+                "progress":100,
+                "logText":"I successfully lifted up the pitchfork from the haystack."
+            },
+            {
+                "progress":500,
+                "logText":"Key: (Never true condition)"
             }
         ]
     },

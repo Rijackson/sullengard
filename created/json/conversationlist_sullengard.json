@@ -2443,5 +2443,122 @@
                 "value":14
             }
         ]
+    },
+    {
+        "id":"loneford13_pitchfork_selector",
+        "replies":[
+            {
+                "nextPhraseID":"loneford13_pitchfork_picked_up",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"loneford13_pitchfork"
+            }
+        ]
+    },
+    {
+        "id":"loneford13_pitchfork_picked_up",
+        "message":"You have already picked up the new pitchfork here."
+    },
+    {
+        "id":"loneford13_pitchfork",
+        "message":"A new pitchfork pinned in this haystack.",
+        "replies":[
+            {
+                "text":"Time to prove that I'm a son of farmer!",
+                "nextPhraseID":"loneford13_pitchfork_selector2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"What do I need this for? I leave it here for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"loneford13_pitchfork_selector2",
+        "replies":[
+            {
+                "nextPhraseID":"loneford13_pitchfork_fail",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"3/5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"loneford13_pitchfork_success"
+            }
+        ]
+    },
+    {
+        "id":"loneford13_pitchfork_fail",
+        "message":"You get fatigued after a few pulls; the pitchfork is still there.",
+        "replies":[
+            {
+                "text":"Try again.",
+                "nextPhraseID":"loneford13_pitchfork_selector2"
+            },
+            {
+                "text":"Take a break.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"loneford13_pitchfork_success",
+        "message":"After several minutes of intense pulling you finally pulled out the new pitchfork from the haystack.",
+        "replies":[
+            {
+                "text":"I'm a son of farmer!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ugh..I'm so tired now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"farmer_pitchfork",
+                "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":5
+            }
+        ]
     }
 ]
