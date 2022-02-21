@@ -188,7 +188,7 @@
    eJzbyMnAsHEUj+Jhhj9IDrwbRvEoHu4YALPZIv8=
   </data>
  </layer>
- <layer id="2" name="Breadcrumb" width="20" height="20">
+ <layer id="2" name="Breadcrumb" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFlABFLgSmhbnodlBiDzYzaOVubJhc8/DZQy3zCMkRo8eTC4JHinmkyOHTgy+OcaknxR3E6iEFjwIIAADQYAsw
   </data>
