@@ -85,6 +85,7 @@
                 "logText":"Player is helping Grazia cross the bridge"
             },
             {
+				"progress":18,
                 "logText":"Player has helped Grazia cross the bridge."
             }
         ]
