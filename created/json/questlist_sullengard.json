@@ -85,8 +85,13 @@
                 "logText":"Player is helping Grazia cross the bridge"
             },
             {
-				"progress":18,
-                "logText":"Player has helped Grazia cross the bridge."
+                "progress":18,
+                "logText":"Player has helped Grazia cross the bridge.",
+                "rewardExperience":200
+            },
+            {
+                "progress":19,
+                "logText":"The player has been to Sullengard."
             }
         ]
     },

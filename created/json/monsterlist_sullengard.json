@@ -423,5 +423,14 @@
         "movementAggressionType":"wholeMap",
         "spawnGroup":"sull_ravine_grazia",
         "phraseID":"sull_ravine_grazia_0"
+    },
+    {
+        "id":"sullengard_grazia",
+        "name":"Grazia",
+        "iconID":"monsters_ld1:168",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_grazia",
+        "phraseID":"sullengard_grazia_0"
     }
 ]

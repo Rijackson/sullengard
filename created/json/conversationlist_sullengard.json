@@ -2534,6 +2534,93 @@
         ]
     },
     {
-        "id":"sull_ravine_grazia_script"
+        "id":"sull_ravine_grazia_script",
+        "replies":[
+            {
+                "nextPhraseID":"sull_ravine_grazia_60"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_60",
+        "message":"Thank you so much. I can not continue onto my destination.",
+        "replies":[
+            {
+                "text":"Where were you coming from anyway?",
+                "nextPhraseID":"sull_ravine_grazia_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":18
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_70",
+        "message":"I have been traveling from Nor City to Sullengard to visit my aunt and uncle and to help them prepar for the Sullengard beer festival next month. I hope to see you soon.",
+        "replies":[
+            {
+                "text":"Yeah, about seeing you soon. Where is Sullengard?",
+                "nextPhraseID":"sull_ravine_grazia_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":19,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking forward to it.",
+                "nextPhraseID":"sull_ravine_grazia_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":19
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_80",
+        "message":"Oh, you've never been there? It is southwest of here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_90"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_90",
+        "message":"I have to go now. See you there.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"sull_ravine_grazia",
+                "mapName":"way_to_sullengard_east4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_grazia_spawn",
+                "mapName":"sullengard2_northwest_house"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_grazia_0",
+        "message":"Thank you again for help me cross that scary bridge.",
+        "replies":[
+            {
+                "text":"Oh, that? that was my pleasure",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
