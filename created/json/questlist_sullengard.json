@@ -92,6 +92,14 @@
             {
                 "progress":19,
                 "logText":"The player has been to Sullengard."
+            },
+            {
+                "progress":100,
+                "logText":"I successfully lifted up the pitchfork from the haystack."
+            },
+            {
+                "progress":500,
+                "logText":"Key: (Never true condition)"
             }
         ]
     },
