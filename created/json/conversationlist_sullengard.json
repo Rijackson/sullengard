@@ -21,7 +21,7 @@
             }
         ]
     },
-	{
+    {
         "id":"loneford13_pitchfork_selector",
         "replies":[
             {
@@ -2568,7 +2568,6 @@
             }
         ]
     },
-	
     {
         "id":"sull_ravine_grazia_0",
         "message":"Please, please, you have to help me! I tried to, but I am too scared.",
@@ -2738,6 +2737,30 @@
             {
                 "text":"Oh, that? that was my pleasure",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_16",
+        "message":"Well, I would too, but it is a very dangerous route to Sullengard. I'd think twice if I were you before making that trip.",
+        "replies":[
+            {
+                "text":"I sure will. Thanks for the warning.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I can handle myself.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_10",
+        "message":"It is home of the best beer in all of Dhayaver! Every year they hold a beer festival. Matter of fact, that event is coming very soon.",
+        "replies":[
+            {
+                "text":"I think I would like to go there now.",
+                "nextPhraseID":"alynndir_16"
             }
         ]
     }

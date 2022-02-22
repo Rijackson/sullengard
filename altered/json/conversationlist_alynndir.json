@@ -1,0 +1,34 @@
+[
+    {
+        "id":"alynndir_3",
+        "message":"Oh, there is not much around here. Vilegard to the west, Brightport to the east and Sullengard to the south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"alynndir_4"
+            }
+        ]
+    },
+    {
+        "id":"alynndir_6",
+        "message":"I really wonder what is up there.",
+        "replies":[
+            {
+                "text":"Goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You mentioned Sullengard. What can you tell me about it?",
+                "nextPhraseID":"alynndir_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":19,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
