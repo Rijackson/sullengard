@@ -2763,5 +2763,113 @@
                 "nextPhraseID":"alynndir_16"
             }
         ]
+    },
+    {
+        "id":"nimael_pm_0",
+        "message":"Sure, kid, let me take a look.",
+        "replies":[
+            {
+                "text":"[Hand it over to Nimael]",
+                "nextPhraseID":"nimael_pm_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gloriosa_mushroom",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Never mind. I have toi go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_10",
+        "message":"Ah, what you have here is called the Diervilla Cobaea, or more commonly known as the Gloriosa, it is an extremely rare, but highly poisonous fungus most commonly found in dark, shadowy places like forests.\nIt's a defense mechanism is it is poisonous for most creatures, including humans, when ingested.",
+        "replies":[
+            {
+                "text":"So it is useless?",
+                "nextPhraseID":"nimael_pm_20"
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_20",
+        "message":"Actually, quite the opposite in fact. You see, Gison and I have perfected the process of removing the poison and using it in out soups. I can do this for you if you like.",
+        "replies":[
+            {
+                "text":"No, thank you. I think I will hang onto it for a little bit and see if I can find a better use for it.",
+                "nextPhraseID":"nimael_pm_25"
+            },
+            {
+                "text":"Thanks. That would be great.",
+                "nextPhraseID":"nimael_pm_30"
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_30",
+        "message":"I just need a little bit of time.Please come back soon and I will have your soup ready.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gloriosa_soup_making"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden"
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_25",
+        "message":"Well, if you change your mind, you know where to find me.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gloriosa_mushroom",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_40",
+        "replies":[
+            {
+                "nextPhraseID":"nimael_pm_50",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"gloriosa_soup_making",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"nimael_pm_45"
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_50",
+        "message":"Yes. Please enjoy while it's hot.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":21
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gloriosa_mushroom_soup",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"nimael_pm_45",
+        "message":"No, not yet. You must have patience Making the Gloriosa soup safe to eat takes time."
     }
 ]

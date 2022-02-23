@@ -100,6 +100,18 @@
             {
                 "progress":500,
                 "logText":"Key: (Never true condition)"
+            },
+            {
+                "progress":20,
+                "logText":"Nimael is preparring the Gloriosa soup."
+            },
+            {
+                "progress":21,
+                "logText":"Nimael has finished the preperation of the Gloriosa soup."
+            },
+            {
+                "progress":22,
+                "logText":"Player has gained the Gloriosa soup."
             }
         ]
     },

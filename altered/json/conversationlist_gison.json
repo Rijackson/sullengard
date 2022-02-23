@@ -1,0 +1,68 @@
+[
+    {
+        "id":"nimael_busy",
+        "message":"I'm busy at the moment. Please talk to Gison. He's over there.",
+        "replies":[
+            {
+                "text":"Alaun told me that you also make very good soup.",
+                "nextPhraseID":"nimael_arg_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"OK. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was.",
+                "nextPhraseID":"nimael_pm_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gloriosa_mushroom",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"Is the Gloriosa soup read?",
+                "nextPhraseID":"nimael_pm_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":22,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
