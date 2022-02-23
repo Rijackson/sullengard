@@ -235,6 +235,16 @@
     <property name="spawngroup" value="guild04_comrade_3"/>
    </properties>
   </object>
+  <object name="sullengard_gaelian_spawn" type="spawn" x="32" y="288" width="256" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_gaelian"/>
+   </properties>
+  </object>
+  <object name="sullengard_arantxa_spawn" type="spawn" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_arantxa"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="guild04_defy_gone_script" type="script" x="416" y="256" width="32" height="96"/>

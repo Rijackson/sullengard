@@ -432,5 +432,45 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_grazia",
         "phraseID":"sullengard_grazia_0"
+    },
+    {
+        "id":"sullengard_ravynne",
+        "name":"Ravynne",
+        "iconID":"monsters_ld1:162",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_ravynne"
+    },
+    {
+        "id":"sullengard_briwerra_cat",
+        "name":"Briwerra's family cat",
+        "iconID":"monsters_ld2:103",
+        "unique":1,
+        "monsterClass":"animal",
+        "spawnGroup":"sullengard_briwerra_cat"
+    },
+    {
+        "id":"sullengard_gaelian",
+        "name":"Gaelian",
+        "iconID":"monsters_ld1:97",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_gaelian"
+    },
+    {
+        "id":"sullengard_arantxa",
+        "name":"Prowling Arantxa",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_arantxa"
+    },
+    {
+        "id":"sullengard_zaccheria",
+        "name":"Zaccheria",
+        "iconID":"monsters_ld1:100",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_zaccheria"
     }
 ]

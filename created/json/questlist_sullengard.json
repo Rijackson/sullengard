@@ -199,5 +199,9 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"sullengard_recover_items",
+        "name":"Recovering stolen property"
     }
 ]
