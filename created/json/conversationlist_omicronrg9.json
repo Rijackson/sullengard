@@ -271,22 +271,22 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"g04_defy",
-                "mapName":"sullengard_tavern"
+                "mapName":"sullengard_tavern_basement"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"guild04_comrade_1",
-                "mapName":"sullengard_tavern"
+                "mapName":"sullengard_tavern_basement"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"guild04_comrade_2",
-                "mapName":"sullengard_tavern"
+                "mapName":"sullengard_tavern_basement"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"guild04_comrade_3",
-                "mapName":"sullengard_tavern"
+                "mapName":"sullengard_tavern_basement"
             }
         ]
     },
@@ -634,7 +634,29 @@
         ]
     },
     {
-        "id":"guild04_defy_6",
+        "id":"guild04_defy_gone_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guild04_defy_gone_script_grant",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guild04_defy_gone_script_grant",
         "message":"[Strange. Defy, together with his men, are gone. Maybe they talk to the bootleg brewers here and report back to Umar.]",
         "rewards":[
             {
