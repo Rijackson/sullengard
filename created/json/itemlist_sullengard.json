@@ -346,5 +346,12 @@
                 }
             ]
         }
+    },
+    {
+        "id":"zaccheria_inventory",
+        "iconID":"items_japozero:438",
+        "name":"Zaccheria's shop inventory",
+        "displaytype":"quest",
+        "description":"A sack of the armory shop owner, Zaccheria's stolen inventory."
     }
 ]

@@ -1072,6 +1072,17 @@
             {
                 "text":"You look worried.",
                 "nextPhraseID":"sullengard_inn_traveler_10"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_inn_traveler_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40
+                    }
+                ]
             }
         ]
     },
@@ -3299,6 +3310,116 @@
             {
                 "text":"Thank you, friend and I will be careful.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_40",
+        "message":"It's nice to see you again, fellow traveler.",
+        "replies":[
+            {
+                "text":"You won't be think that after I tell you what I know! I am here to surive you justice.",
+                "nextPhraseID":"sullengard_inn_traveler_50"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_50",
+        "message":"What are you talking about? What do you think you know?",
+        "replies":[
+            {
+                "text":"What did you do with the items you stole from the armory?",
+                "nextPhraseID":"sullengard_inn_traveler_60"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_60",
+        "message":"Me? You have the wrong guy, friend.",
+        "replies":[
+            {
+                "text":"Stop right there! I know you tried to sell them to the thief. Start talking now!",
+                "nextPhraseID":"sullengard_inn_traveler_70"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_70",
+        "message":"What proof do you have?",
+        "replies":[
+            {
+                "text":"I know that you tried to sell the stolen items from the armory to Prowling Arantxa. I just don't know for sure that you were the one that broke into the shop.",
+                "nextPhraseID":"sullengard_inn_traveler_80"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_80",
+        "message":"Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplie, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_inn_traveler_90"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_90",
+        "message":"After watching Zaccheria's routine for a couple of days, I noticed he goes to the tavern every night at the same time and stays there for the same amount of time every time. So I took my opportunity.",
+        "replies":[
+            {
+                "text":"Where is the Zaccherias inventory? He wants it back and I am here to see to it that he does.",
+                "nextPhraseID":"sullengard_inn_traveler_100"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_100",
+        "message":"I bet you'd like know. But you will not get that information for free. I expect to get paid.",
+        "replies":[
+            {
+                "text":"Paid?! Are you serious? You want me to pay for crimes that you committed?",
+                "nextPhraseID":"sullengard_inn_traveler_110"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_110",
+        "message":"Well, if you want to know the location of those items, then you will pay me.",
+        "replies":[
+            {
+                "text":"How much?!",
+                "nextPhraseID":"sullengard_inn_traveler_120"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_120",
+        "message":"10000 gold! And not a piece less or no stolen property for you.",
+        "replies":[
+            {
+                "text":"No way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Whatever. I can spare it.",
+                "nextPhraseID":"sullengard_inn_traveler_130"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_inn_traveler_130",
+        "message":"Excellent. Nice doing 'business' with you. I hid them on the eastern outskirts of town.\n\n['the lost traveler' then runs off]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":50
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"sullengard_inn_traveler_spawn",
+                "mapName":"sullengard_inn"
             }
         ]
     }

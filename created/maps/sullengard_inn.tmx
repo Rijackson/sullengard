@@ -270,7 +270,7 @@
   </object>
   <object name="sullengard_inn_traveller_spawn" type="spawn" x="384" y="128" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="sullengard_inn_traveller"/>
+    <property name="spawngroup" value="sullengard_inn_traveler"/>
    </properties>
   </object>
  </objectgroup>
