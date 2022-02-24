@@ -474,7 +474,8 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_zaccheria",
-        "phraseID":"sullengard_zaccheria_0"
+        "phraseID":"sullengard_zaccheria_0",
+        "droplistID":"sullengard_zaccheria_dl"
     },
     {
         "id":"sullengard_lamberta",

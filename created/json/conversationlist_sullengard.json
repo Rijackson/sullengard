@@ -393,6 +393,34 @@
             },
             {
                 "nextPhraseID":"sullengard_mayor_1"
+            },
+            {
+                "nextPhraseID":"sullengard_mayor_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3100,6 +3128,37 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":24
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_10",
+        "message":"What's on your mind? I can see it your eyes. You have questions.",
+        "replies":[
+            {
+                "text":"I'm looking into the break-in and robbery at Zaccheria's shop and I am wondering if you saw or know anything about it?",
+                "nextPhraseID":"sullengard_mayor_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_20",
+        "message":"I heard you helping Zaccheria in tracking down who stole his inventory.",
+        "replies":[
+            {
+                "text":"Yes. Hence my reason for asking you about it.",
+                "nextPhraseID":"sullengard_mayor_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_30",
+        "message":"I wish I knew more, but I don't. Maybe ask around near the tavern?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":25
             }
         ]
     }
