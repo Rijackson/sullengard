@@ -202,6 +202,24 @@
     },
     {
         "id":"sullengard_recover_items",
-        "name":"Recovering stolen property"
+        "name":"Recovering stolen property",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I've agreed to help the armour shop owner, Zaccheria investigate the theft of his shop's entire inventory."
+            },
+            {
+                "progress":20,
+                "logText":"Zaccheria suggests that I start my investigation by speaking with Gaelian from the Briwerra family."
+            },
+            {
+                "progress":30,
+                "logText":"I have spoke with Gaelian from the Briwerra and I suspect that he has nothing to do with this crime."
+            },
+            {
+                "progress":40,
+                "logText":"I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria.\nI should speak with the 'lost traveler'."
+            }
+        ]
     }
 ]

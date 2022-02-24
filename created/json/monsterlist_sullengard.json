@@ -439,7 +439,8 @@
         "iconID":"monsters_ld1:162",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_ravynne"
+        "spawnGroup":"sullengard_ravynne",
+        "phraseID":"ravynne_0"
     },
     {
         "id":"sullengard_briwerra_cat",
@@ -471,6 +472,7 @@
         "iconID":"monsters_ld1:100",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_zaccheria"
+        "spawnGroup":"sullengard_zaccheria",
+        "phraseID":"sullengard_zaccheria_0"
     }
 ]

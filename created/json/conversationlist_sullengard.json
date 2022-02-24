@@ -2871,5 +2871,129 @@
     {
         "id":"nimael_pm_45",
         "message":"No, not yet. You must have patience Making the Gloriosa soup safe to eat takes time."
+    },
+    {
+        "id":"sullengard_zaccheria_0",
+        "message":"How can I help you?",
+        "replies":[
+            {
+                "text":"I would like to see your wares.",
+                "nextPhraseID":"sullengard_zaccheria_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_10",
+        "message":"I would like to show you, but my inventory has been stolen.",
+        "replies":[
+            {
+                "text":"Stolen? How? That is extremely unfortunate for you as I have lots of gold to spend.",
+                "nextPhraseID":"sullengard_zaccheria_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_20",
+        "message":"[With a smirk] Gee, how fortunate for you that I have job for you if you want it.",
+        "replies":[
+            {
+                "text":"Great! Let's hear it.",
+                "nextPhraseID":"sullengard_zaccheria_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_30",
+        "message":"I need you to ask around town to see if anyone knows where my supply is or if they have seen anything.",
+        "replies":[
+            {
+                "text":"I'll take it, but can you give me some more details? [Quest start]",
+                "nextPhraseID":"sullengard_zaccheria_40"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_40",
+        "message":"Sure. You see, I was at the tavern last night enjoying a couple \"Southernhaze\" beers like I almost always do after work, when someone or some people broke into my shop and stole my entire inventory.",
+        "replies":[
+            {
+                "text":"I see. Anything else? Is there anyone in town that you can think of that would want to hurt you?",
+                "nextPhraseID":"sullengard_zaccheria_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_50",
+        "message":"Well, let me think...ah yes. Gaelian from the Briwerra family. ",
+        "replies":[
+            {
+                "text":"Why is that?",
+                "nextPhraseID":"sullengard_zaccheria_60"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_60",
+        "message":"Oh, it's not a big deal. Well, not from my side anyway, but he is mad about what he perceives as bad service on some repair work that I had recently done for him. He asked for his gold back, I refused.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_70"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_70",
+        "message":"Anyways, I think you should start there, but I suspect others too.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"ravynne_0",
+        "message":"I've never seen you before. Are you here for the 'beer festival'?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"ravynne_10"
+            },
+            {
+                "text":"Actually, I am looking for Gaelian.",
+                "nextPhraseID":"ravynne_20"
+            },
+            {
+                "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?",
+                "nextPhraseID":"sull_recover_items_generic_response"
+            }
+        ]
+    },
+    {
+        "id":"ravynne_10",
+        "message":"Well you are a few weeks early."
+    },
+    {
+        "id":"ravynne_20",
+        "message":"Well, he is in the tavern basement working. But beware, he doesn't like to be interrupted while working.",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sull_recover_items_generic_response",
+        "message":"I'm sorry, I have not. In fact, this is the first that I am hearing about it."
     }
 ]
