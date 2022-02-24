@@ -3173,5 +3173,133 @@
                 "value":23
             }
         ]
+    },
+    {
+        "id":"sullengard_arantxa_0",
+        "replies":[
+            {
+                "nextPhraseID":"sullengard_arantxa_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":24
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_arantxa_sell"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_10",
+        "message":"I saw you talking with Gaelian. May I ask about what?",
+        "replies":[
+            {
+                "text":"None of your business.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm looking into the armory break-in and robbery.",
+                "nextPhraseID":"sullengard_arantxa_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_sell",
+        "message":"Do you want to take a look at any of 'my stuff'? It's all for sale at the right price.",
+        "replies":[
+            {
+                "text":"Yes. I could use some item upgrades.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No, I'm good for no.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_20",
+        "message":"Are you sure that you want to involve yourself in such affairs?",
+        "replies":[
+            {
+                "text":"Why, what's this about?",
+                "nextPhraseID":"sullengard_arantxa_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_30",
+        "message":"Well I don't know much. All I know is 'the lost traveler', whom I've never seen before, approached  me recently with a couple of items that he wanted me to buy.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_arantxa_40"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_40",
+        "message":"Seeing that I recognized a couple of them as being that of Zaccheria's, I refused to buy them.",
+        "replies":[
+            {
+                "text":"Really? That's honestly the only reason why you didn't buy them?",
+                "nextPhraseID":"sullengard_arantxa_50"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_50",
+        "message":"What is that supposed to mean?",
+        "replies":[
+            {
+                "text":"Well, let's be honest. You are a thief afterall.",
+                "nextPhraseID":"sullengard_arantxa_60"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_60",
+        "message":"You see kid, here in Sullengard, we have a working agreement with the townspeople. They pay us for our services and we do not steal from them.",
+        "replies":[
+            {
+                "text":"That makes good business sense.",
+                "nextPhraseID":"sullengard_arantxa_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"sullengard_arantxa_70",
+        "message":"Now if I were you, I would approach 'the lost traveler' very carefully. He is desperate and desperate people have been known to be unpredictable.",
+        "replies":[
+            {
+                "text":"Thank you, friend and I will be careful.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

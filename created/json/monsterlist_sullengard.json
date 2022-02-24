@@ -466,6 +466,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_arantxa",
+        "phraseID":"sullengard_arantxa_0",
         "droplistID":"sullengard_arantxa_dl"
     },
     {
