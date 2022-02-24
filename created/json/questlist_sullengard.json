@@ -112,6 +112,18 @@
             {
                 "progress":22,
                 "logText":"Player has gained the Gloriosa soup."
+            },
+            {
+                "progress":23,
+                "logText":"The PC has asked the 'three drinking brothers' if they have seen or know anything about the armory theft."
+            },
+            {
+                "progress":24,
+                "logText":"The PC has asked Lamberta if she had seen or knew anything about the armory theft."
+            },
+            {
+                "progress":25,
+                "logText":"The PC has asked Mayor Al  if he had seen or knew anything about the armory theft."
             }
         ]
     },
@@ -219,6 +231,20 @@
             {
                 "progress":40,
                 "logText":"I spoke with Prowling Arantxa, a thief in the Sullengard tavern basement and she informed me that the 'lost traveler' recently tried to sell her some items that she recgonized as belonging to Zaccheria.\nI should speak with the 'lost traveler'."
+            },
+            {
+                "progress":50,
+                "logText":"I have paid the 'lost traveler' in exhanchage for the location of Zaccheria's stolen items. He told me that he hid them on the eastern boundaries of town."
+            },
+            {
+                "progress":60,
+                "logText":"I found the stolen items and should return to Zaccheria with them."
+            },
+            {
+                "progress":70,
+                "logText":"Zaccheria was very happy that I was able to return his items to him. He paid me a very nice reward in gold.",
+                "rewardExperience":3800,
+                "finishesQuest":1
             }
         ]
     }

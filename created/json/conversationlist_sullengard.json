@@ -2995,5 +2995,112 @@
     {
         "id":"sull_recover_items_generic_response",
         "message":"I'm sorry, I have not. In fact, this is the first that I am hearing about it."
+    },
+    {
+        "id":"sullengard_gaelian_0",
+        "message":"This is no place for a kid.",
+        "replies":[
+            {
+                "text":"I'm looking into the armory break-in and robbery.",
+                "nextPhraseID":"sullengard_gaelian_10"
+            },
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"sullengard_gaelian_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_gaelian_10"
+    },
+    {
+        "id":"sullengard_gaelian_20",
+        "message":"This is the heart and soal of Sullengard. This is our brewery. The place where the magic happens.",
+        "replies":[
+            {
+                "text":"I can see that, but I am here because I'm looking into the armory break-in and robbery.",
+                "nextPhraseID":"sullengard_gaelian_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_gaelian_30",
+        "message":"[Laughing] Zaccheria deserves it for his lack of customer respect and shady business practices.",
+        "replies":[
+            {
+                "text":"I was told that maybe you know some information about these crimes.",
+                "nextPhraseID":"sullengard_gaelian_40"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_gaelian_40",
+        "message":"I know nothing except that Zaccheria deserved it.",
+        "replies":[
+            {
+                "text":"OK, but you are on my list.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"sullengard_lamberta_0",
+        "message":"How can I help you?",
+        "replies":[
+            {
+                "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?",
+                "nextPhraseID":"sullengard_lamberta_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_lamberta_10",
+        "message":"No, i'm sorry, I don't. All I know is that I really hope it doesn't happen to me.",
+        "replies":[
+            {
+                "text":"Thank you anyway.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":24
+            }
+        ]
     }
 ]
