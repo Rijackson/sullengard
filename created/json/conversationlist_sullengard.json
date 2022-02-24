@@ -3422,5 +3422,139 @@
                 "mapName":"sullengard_inn"
             }
         ]
+    },
+    {
+        "id":"sullengard_zaccheria_selector",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_80",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"zaccheria_inventory",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_85",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_zaccheria_sell_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_80",
+        "message":"Are you carrying what I think you are carrying?",
+        "replies":[
+            {
+                "text":"Yes. I tracked them down to this lost traveler who recently came into town. He was desperate for gold and a place to rest.",
+                "nextPhraseID":"sullengard_zaccheria_90"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_sell_0",
+        "message":"How can I be of service?",
+        "replies":[
+            {
+                "text":"Can I see your wears?",
+                "nextPhraseID":"sullengard_zaccheria_sell_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_sell_10",
+        "message":"Absolutetly.",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_85",
+        "message":"Have you found my stuff yet?",
+        "replies":[
+            {
+                "text":"Nope. Sorry, I am still looking for them.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_90",
+        "message":"And where is this person now?",
+        "replies":[
+            {
+                "text":"I wish I knew. After he told me where to find your stuff,  he took off and I was unable to see  in what direction he fled.",
+                "nextPhraseID":"sullengard_zaccheria_100"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_zaccheria_100",
+        "message":"Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very grateful for that. So grateful in fact, here is 15000 gold for your hard work.\nAlso, I am now able to trade with you if you like.",
+        "replies":[
+            {
+                "text":"Thank you so much.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":15000
+            }
+        ]
     }
 ]
