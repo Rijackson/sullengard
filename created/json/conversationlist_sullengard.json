@@ -1161,6 +1161,18 @@
             {
                 "text":"I'm looking for my my brother Andor. He looks a lot like me, but he is older. Have you seen him?",
                 "nextPhraseID":"sullengard_drinking_brother_20"
+            },
+            {
+                "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?",
+                "nextPhraseID":"sullengard_drinking_brother_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":23,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3087,27 +3099,9 @@
                 "nextPhraseID":"sullengard_lamberta_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":40,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":50,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":60,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":70,
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":24,
                         "negate":true
                     }
                 ]
@@ -3159,6 +3153,26 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":25
+            }
+        ]
+    },
+    {
+        "id":"sullengard_drinking_brother_30",
+        "message":"Are you kidding? We are always in here enjoying ourselves. So unless the crme happened in here, I've not seen it.",
+        "replies":[
+            {
+                
+            },
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":23
             }
         ]
     }
