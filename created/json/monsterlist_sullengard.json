@@ -465,7 +465,8 @@
         "iconID":"monsters_rogue1:0",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_arantxa"
+        "spawnGroup":"sullengard_arantxa",
+        "droplistID":"sullengard_arantxa_dl"
     },
     {
         "id":"sullengard_zaccheria",
@@ -484,6 +485,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_lamberta",
-        "phraseID":"sullengard_lamberta_0"
+        "phraseID":"sullengard_lamberta_0",
+        "droplistID":"sullengard_lamberta_dl"
     }
 ]
