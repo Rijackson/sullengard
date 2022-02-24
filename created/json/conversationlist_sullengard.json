@@ -398,27 +398,15 @@
                 "nextPhraseID":"sullengard_mayor_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":40,
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":25,
                         "negate":true
                     },
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"sullengard_recover_items",
-                        "value":50,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":60
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"sullengard_recover_items",
-                        "value":70,
-                        "negate":true
+                        "value":30
                     }
                 ]
             }
@@ -1171,6 +1159,11 @@
                         "requireID":"sullengard_hidden",
                         "value":23,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30
                     }
                 ]
             }
@@ -3103,6 +3096,11 @@
                         "requireID":"sullengard_hidden",
                         "value":24,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30
                     }
                 ]
             }
