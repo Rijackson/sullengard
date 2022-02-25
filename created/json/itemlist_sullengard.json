@@ -353,5 +353,26 @@
         "name":"Zaccheria's shop inventory",
         "displaytype":"quest",
         "description":"A sack of the armory shop owner, Zaccheria's stolen inventory."
+    },
+    {
+        "id":"war_axe_shadow",
+        "iconID":"items_reterski_1:17",
+        "name":"War Axe of the Shadow",
+        "displaytype":"rare",
+        "category":"axe"
+    },
+    {
+        "id":"great_axe_of_bp",
+        "iconID":"items_misc_6:15",
+        "name":"Greataxe of broken promises",
+        "displaytype":"rare",
+        "category":"axe2h"
+    },
+    {
+        "id":"dark_heart_sword",
+        "iconID":"items_misc_6:21",
+        "name":"Darkheart broadsword",
+        "displaytype":"ordinary",
+        "category":"bsword"
     }
 ]
