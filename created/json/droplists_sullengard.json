@@ -297,6 +297,38 @@
                     "min":1,
                     "max":1
                 }
+            },
+            {
+                "itemID":"thunderguard_2h_sword",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"flail_iron",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"hammer_skullcrusher",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"club_wood2",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
             }
         ]
     }
