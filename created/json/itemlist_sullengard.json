@@ -381,5 +381,56 @@
         "name":"Thunderguard Copper sword",
         "displaytype":"rare",
         "category":"2hsword"
+    },
+    {
+        "id":"branch_of_twilight",
+        "iconID":"items_misc_6:7",
+        "name":"Branch of twilight",
+        "displaytype":"rare",
+        "category":"scepter"
+    },
+    {
+        "id":"soul_rapier",
+        "iconID":"items_weapons_3:31",
+        "name":"Soulrapier",
+        "displaytype":"ordinary",
+        "category":"rapier"
+    },
+    {
+        "id":"thieve_clock_whispers",
+        "iconID":"items_tometik2:8",
+        "name":"Theive's cloak of whispers",
+        "displaytype":"rare",
+        "category":"bdy_clth",
+        "description":"A theif's right of passage."
+    },
+    {
+        "id":"shoe_dark_glory",
+        "iconID":"items_omi2:8",
+        "name":"Treads of dark glory",
+        "displaytype":"rare",
+        "category":"feet_clth"
+    },
+    {
+        "id":"old_lady_ring",
+        "iconID":"items_tometik3:28",
+        "name":"Garnet whisper ring",
+        "displaytype":"rare",
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":0
+            },
+            "increaseMaxHP":10,
+            "increaseAttackChance":10,
+            "increaseBlockChance":30,
+            "increaseDamageResistance":1,
+            "addedConditions":[
+                {
+                    "condition":"feebleness_minor"
+                }
+            ]
+        }
     }
 ]
