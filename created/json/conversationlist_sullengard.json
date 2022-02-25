@@ -244,6 +244,18 @@
                         "value":40
                     }
                 ]
+            },
+            {
+                "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it? ",
+                "nextPhraseID":"sull_recover_items_generic_response",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -328,6 +340,18 @@
                         "requireType":"questProgress",
                         "requireID":"Thieves04",
                         "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Do you know anything or have you seen anything related to the armory break-in and robbery?",
+                "nextPhraseID":"sull_recover_items_generic_response",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
                     }
                 ]
             }
@@ -1063,7 +1087,17 @@
     },
     {
         "id":"sullengard_mariora_0",
-        "message":"Hello. Isn't Sullengard a beautiful town?"
+        "message":"Hello. Isn't Sullengard a beautiful town?",
+        "replies":[
+            {
+                "text":"Yes, but not as beautiful as you are.",
+                "nextPhraseID":"sullengard_mariora_10"
+            },
+            {
+                "text":"It's probably the nicest towns that I have visited.",
+                "nextPhraseID":"sullengard_mariora_20"
+            }
+        ]
     },
     {
         "id":"sullengard_inn_traveler_0",
@@ -3651,6 +3685,38 @@
         "replies":[
             {
                 "text":"Oh, yeah. What a dummy I am.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mariora_10",
+        "message":"Oh, aren't you the sweetest thing in all of Dhayaver.",
+        "replies":[
+            {
+                "text":"[Now blushing, you are nervous and desperate for this feeling to go away.] Well, I try to be when in the presence of elegance.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mariora_20",
+        "message":"What can I do for you, cutie.",
+        "replies":[
+            {
+                "text":"Umm...I forget know..umm....oh, yeah, I am wondering if you know about or seen anything related to the armory break-in and robbery?",
+                "nextPhraseID":"sull_recover_items_generic_response",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Umm...I think I should leave now.",
                 "nextPhraseID":"X"
             }
         ]
