@@ -3556,5 +3556,103 @@
                 "value":15000
             }
         ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hidden_inventory_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hidden_inventory_taken",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hidden_inventory_taken",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_0",
+        "message":"[Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?]",
+        "replies":[
+            {
+                "text":"Yes. Let's play in the dirt like Andor and I did when we were younger.",
+                "nextPhraseID":"sullengard_hidden_inventory_10"
+            },
+            {
+                "text":"Nah, maybe some other time.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_10",
+        "message":"[Upon examination, it looks like some king of sack has been stuffed down inside. Reach in and grab it out?",
+        "replies":[
+            {
+                "text":"Oh yeah! I've come this far already. There's no reason to stop.",
+                "nextPhraseID":"sullengard_hidden_inventory_20"
+            },
+            {
+                "text":"No way! I've put my hands in crates and cracks in walls before and have been hurt doing so.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_20",
+        "message":"[You have successfully removed an extreamly heavy sack. This must be Zaccheria stolen inventory.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_recover_items",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"zaccheria_inventory",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_taken",
+        "message":"[You have already examined this hole.]",
+        "replies":[
+            {
+                "text":"Oh, yeah. What a dummy I am.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
