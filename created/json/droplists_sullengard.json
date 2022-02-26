@@ -247,6 +247,46 @@
                     "min":1,
                     "max":1
                 }
+            },
+            {
+                "itemID":"armour_rigid_chain",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"warrior_gloves",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"bronzed_gloves",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"brutality_boots",
+                "chance":"85",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"bronze_helmet",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },

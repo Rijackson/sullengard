@@ -432,5 +432,33 @@
                 }
             ]
         }
+    },
+    {
+        "id":"warrior_gloves",
+        "iconID":"items_omi2:3",
+        "name":"Grips of the warrior",
+        "displaytype":"ordinary",
+        "category":"hnd_mtl_li"
+    },
+    {
+        "id":"bronzed_gloves",
+        "iconID":"items_armours:38",
+        "name":"Bronzed Grasps",
+        "displaytype":"rare",
+        "category":"hnd_mtl_hv"
+    },
+    {
+        "id":"brutality_boots",
+        "iconID":"items_japozero:209",
+        "name":"Brutality Boots",
+        "displaytype":"ordinary",
+        "category":"feet_mtl_hv"
+    },
+    {
+        "id":"bronze_helmet",
+        "iconID":"items_reterski_1:0",
+        "name":"Bronze Helmet",
+        "displaytype":"ordinary",
+        "category":"hd_mtl_li"
     }
 ]
