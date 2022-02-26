@@ -359,42 +359,167 @@
         "iconID":"items_reterski_1:17",
         "name":"War Axe of the Shadow",
         "displaytype":"rare",
-        "category":"axe"
+        "hasManualPrice":1,
+        "baseMarketCost":3958,
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":4
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":12,
+            "increaseCriticalSkill":12,
+            "increaseBlockChance":-3,
+            "increaseDamageResistance":-1,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":150
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"concussion",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
     },
     {
         "id":"great_axe_of_bp",
         "iconID":"items_misc_6:15",
         "name":"Greataxe of broken promises",
         "displaytype":"rare",
-        "category":"axe2h"
+        "category":"axe2h",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":10
+            },
+            "increaseMaxHP":6,
+            "increaseAttackCost":6,
+            "increaseAttackChance":35,
+            "increaseCriticalSkill":11,
+            "increaseBlockChance":-8,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":150
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"increased_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"dark_heart_sword",
         "iconID":"items_misc_6:21",
         "name":"Darkheart broadsword",
         "displaytype":"ordinary",
-        "category":"bsword"
+        "category":"bsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":12
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":3,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":105
+        }
     },
     {
         "id":"thunderguard_2h_sword",
         "iconID":"items_reterski_1:12",
         "name":"Thunderguard Copper sword",
         "displaytype":"rare",
-        "category":"2hsword"
+        "category":"2hsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":4,
+                "max":8
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":30,
+            "increaseCriticalSkill":4,
+            "increaseBlockChance":-3,
+            "increaseDamageResistance":1,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":110
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"str",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                },
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
     },
     {
         "id":"branch_of_twilight",
         "iconID":"items_misc_6:7",
         "name":"Branch of twilight",
         "displaytype":"rare",
-        "category":"scepter"
+        "category":"scepter",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":2
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":5,
+            "increaseCriticalSkill":0,
+            "setCriticalMultiplier":0.0
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"putrefaction",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"3"
+                },
+                {
+                    "condition":"chaotic_grip",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"soul_rapier",
         "iconID":"items_weapons_3:31",
-        "name":"Soulrapier",
+        "name":"Soul rapier",
         "displaytype":"ordinary",
-        "category":"rapier"
+        "category":"rapier",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":5
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":17,
+            "increaseBlockChance":7,
+            "setNonWeaponDamageModifier":90
+        }
     },
     {
         "id":"thieve_clock_whispers",
@@ -402,14 +527,37 @@
         "name":"Theive's cloak of whispers",
         "displaytype":"rare",
         "category":"bdy_clth",
-        "description":"A theif's right of passage."
+        "description":"A theif's right of passage.",
+        "equipEffect":{
+            "increaseMoveCost":-1,
+            "increaseUseItemCost":-1,
+            "increaseReequipCost":2,
+            "increaseAttackChance":10,
+            "increaseBlockChance":20,
+            "increaseDamageResistance":-1
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"shoe_dark_glory",
         "iconID":"items_omi2:8",
         "name":"Treads of dark glory",
         "displaytype":"rare",
-        "category":"feet_clth"
+        "category":"feet_clth",
+        "equipEffect":{
+            "increaseMoveCost":-1,
+            "increaseAttackChance":15,
+            "increaseBlockChance":12
+        }
     },
     {
         "id":"old_lady_ring",
@@ -424,11 +572,12 @@
             },
             "increaseMaxHP":10,
             "increaseAttackChance":10,
-            "increaseBlockChance":30,
+            "increaseBlockChance":5,
             "increaseDamageResistance":1,
             "addedConditions":[
                 {
-                    "condition":"feebleness_minor"
+                    "condition":"feebleness_minor",
+                    "magnitude":1
                 }
             ]
         }
@@ -438,27 +587,58 @@
         "iconID":"items_omi2:3",
         "name":"Grips of the warrior",
         "displaytype":"ordinary",
-        "category":"hnd_mtl_li"
+        "category":"hnd_mtl_li",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseMaxHP":1,
+            "increaseAttackChance":1,
+            "increaseBlockChance":10
+        }
     },
     {
         "id":"bronzed_gloves",
         "iconID":"items_armours:38",
         "name":"Bronzed Grasps",
         "displaytype":"rare",
-        "category":"hnd_mtl_hv"
+        "category":"hnd_mtl_hv",
+        "equipEffect":{
+            "increaseAttackChance":-3,
+            "increaseBlockChance":10
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"brutality_boots",
         "iconID":"items_japozero:209",
         "name":"Brutality Boots",
         "displaytype":"ordinary",
-        "category":"feet_mtl_hv"
+        "category":"feet_mtl_hv",
+        "equipEffect":{
+            "increaseMaxHP":1,
+            "increaseBlockChance":15
+        }
     },
     {
         "id":"bronze_helmet",
         "iconID":"items_reterski_1:0",
         "name":"Bronze Helmet",
         "displaytype":"ordinary",
-        "category":"hd_mtl_li"
+        "category":"hd_mtl_li",
+        "equipEffect":{
+            "increaseBlockChance":13,
+            "increaseDamageResistance":1
+        }
     }
 ]
