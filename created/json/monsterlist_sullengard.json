@@ -93,7 +93,8 @@
         "iconID":"monsters_ld1:221",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_cabin_wife"
+        "spawnGroup":"sullengard_cabin_wife",
+        "phraseID":"sullengard_hadena_selector_0"
     },
     {
         "id":"deebo_orchard_deebo",
@@ -493,9 +494,30 @@
         "id":"flying_tree_ant",
         "name":"Flying tree ant",
         "iconID":"monsters_omi2:5",
+        "maxHP":119,
+        "moveCost":3,
         "monsterClass":"insect",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"flying_tree_ant"
+        "attackDamage":{
+            "min":9,
+            "max":15
+        },
+        "spawnGroup":"flying_tree_ant",
+        "attackChance":144,
+        "criticalSkill":20,
+        "criticalMultiplier":3.0,
+        "blockChance":207,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"sull_forest_tree_fungus",
@@ -515,8 +537,31 @@
         "id":"sullengard_venom_snake",
         "name":"Sullengard forest snake",
         "iconID":"monsters_tometik4:24",
+        "maxHP":148,
+        "moveCost":3,
         "monsterClass":"reptile",
-        "spawnGroup":"sullengard_venom_snake"
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":15,
+            "max":22
+        },
+        "spawnGroup":"sullengard_venom_snake",
+        "attackCost":3,
+        "attackChance":232,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":108,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"sull_red_forest_snake",
@@ -561,6 +606,7 @@
         "criticalSkill":10,
         "criticalMultiplier":3.0,
         "blockChance":92,
+        "damageResistance":3,
         "hitEffect":{
             "conditionsTarget":[
                 {
@@ -614,6 +660,45 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"33"
+                }
+            ]
+        }
+    },
+    {
+        "id":"poisonous_jitterfly",
+        "name":"Poisonous jitterfly",
+        "iconID":"monsters_rltiles2:65",
+        "maxHP":97,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":6,
+            "max":8
+        },
+        "spawnGroup":"poisonous_jitterfly",
+        "attackCost":3,
+        "attackChance":118,
+        "blockChance":238,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"75"
+                },
+                {
+                    "condition":"sting_minor",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"35"
+                },
+                {
+                    "condition":"contagion",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"25"
                 }
             ]
         }

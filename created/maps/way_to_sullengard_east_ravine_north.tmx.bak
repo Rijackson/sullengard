@@ -186,39 +186,123 @@
  </tileset>
  <layer name="Ground" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0DEOgCAMQFHC5v0PYRxZuQL2TspkbYSqUaZP8gahxi9pCiEBAAAAAICTNbb15q/eH903m28u6qzsxJl/0/Gkr64cD3X1+rLj675iniX2++y8JY1G/d/6TvT+qD5vv9yY/7NvAxQXb24=
+   eJztkjsOgCAQRAmdJjbWFp7Oe3gatbRUj6DcSelwBAxq/GVIXrEwbB6fNhKiJZ+mSJ93IMSHOZJsXT/thn55/D4/QgghhJA/Uksheg963ZWv5Xb/1X7N0nPyUEl3XtflTv7IPZl3csZvXFCBfvgetr5VgF8H7zfs+GEeGSx/5ozfCLWSfj/MI8pxBvPc5roed/vZMtjXNn+X3wzmw2b1
   </data>
  </layer>
  <layer name="Objects" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlr1OAkEQxyd05Kq7QnI0WhlN7C2oiAUQbcACPyobGx/B95KglVrSmwg8AJ/qI7iTuwlzy35xLBISf8nkcruzu/+Znb09gAX7EcBBBBkGMcBEWDVI3s+lfuI+Sgw5C9Q+LuDYXghwIub6jJO2b/H8EdYPk/dxnNWGoL5Kun5L0lgX7w3Wh2tUyiIWYRflhZ/8zqE+HhvqIG0fYdYf+6asvcrGYQ5vhN1Gi3yeMs2tIDGTJt5O/miXitz3w+U20kj5awbZebghtVQrj7+q2WebHt80NeupYvoLPZvkVezXW7xtFbtLT3MW/jEzEzX3ldbd3GP9+dyP2Q6cC9Q4V9wXPhnR3OJ7/bwH8LSGuTKNpbUtvKf+HbHGIbvfqLaGHvKD/w+D9B7md90qoD7cK9+1RdomTBs9XWsD/Tpsj6i2fED/L6Qxbx31VqihPBonrI5A82+6bUbSPrlyJM7FseZ/1Dd59G0CXZ251tEm73f5vNF6dFaQPN+YdVDlaSxpGIbm75/rN5vP54JpXpWedgngymDXpfX8TbWh6pPjrJeWfTg1qZ/7dwsAL4Vl/zz3XFsTI633UFCPQ3h+XKhZcqyCx91Q6HvU6OtK7XK+CIoP/U3a+HieZ66Px2fbX1d08XGKqY9ON4+RsOWD5jTtP3FnmcuGKUZ5btlXN7bosLY89hcpVbUA
+   eJytVjtvFDEQtq5AijZI7EbKZQMIKsTjekCpTikgguaShkeFTqLhJ/C/QEAFdBwd0kl50BxScpdk4eokBR6tR/vtnMf7gE8aeW2PZ74Zz9o2psCNxJibiSlhPzXm2Eo/yvtPxDzjdZILYdPq7ih6hCHoPrDtw6SwQWtHsTE9+72b5uN/bDu3shfn/Vla5kYgfhvOzrbw/dj2t2COfGys21isPF0v9GQf1/LcZlTMEQ/mNnbcTu13luZzJzDeh3WUwxdWXiZFPu8D5+0oF40Tj7EN1ifZicq6GeTNJIscOX+DqGwHhfDIccX4+7DPw6QeH8YE4kUeGo5ifW7g8Uf2fTFpfDT7meM1XtFFwyTwD7TFZ8vni8yV9XO4oksVDgO5bYpBUtQXgdvla8ZcdvLzUvF93crwyv/zj759dTUSsf5y81eBXyb4DWAfyR760Dho/gmTpNqGhu903sR5i5hBX+OINU7zv8UehaDp143jW1xvP6RPeU4RsF7xHztVeEg7lL+5s1HVtoWWFx6ne4Fib1MDVZjCef9x1Zh3/yAM7bzm8ZO07Huu7Dfjqxt/b33cgvuN83Hgyb/PXlWe9909rHGR66m2KCbWJ360V1ptSTtYm7K2kcNuWrxfZqIdu/rU6p9BesSP59ucKdoafr8wx7Z1NFpdtK1Bnk+ZiF/eU5gXyoOpOFeb3nNVtaVBviWmbp+a4rb9L+7AvzER77cQWKduTfj4yZqu806TOZb+Zf9HWr5ftTqrW0eh+yQE5IXfx2JM5mkUF/8K6iO0d2CdvcF73Zd/X55mQucgDp8RTd+p8mz28aI9nXru6VAtnXWNubemy3k31+MYqvSfd8v2Q7Xhm5NxLq/p6wkX3XJcqP+hY8ynzqJ+3XsOxzHuc4iR/b3pLK5lf03jCXE6E/Z8di88/N4q/O6K/esp/Dg+qS+lB/nBPCM/svGsm4vmrym0+BBLgRiIh28PZf0wWJdtavuPeFVhqwqhGKVtqautXarhW679C/CKa8I=
   </data>
  </layer>
  <layer name="Above" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztl0sOgjAQQMcrdGGsJ/G3hA24Md7ABfdTjuANdCX425N4BofQhqZak7HFTAwvIVNL6TzaMVYAgJsEuOOlOWG7kE3UJAJgIJr2SsVM9U3wmqq+GcZUtedjgMW4ncP+bOK6Z7tpKqtvjTkj0UTTIxHtmJlo36WmzufK+8mVQqE8U+W3Eq9jIsNZ308x9zJAfgqZ4RYbexwb/Zs3/lzIArhtcb92b+qtp6dLzlhzF9lGjtRuV6ZumgfT9Tt6OOnfYwq5fG13UVu1W6nmpDqaUGrrm7XU5xkfxy5qy9eJMznz9xrh+Ur++IzVQ8f8P8Lhu+LyKBm4aSoma/Vv7Id+4w/E56lQ/Wwf6vNUD9/5Q/m59oG6P7ZPKL9QdOUXan99/Z5l4U1r
+   eJztV8lOwzAQdXsBrhGqMOIjOELh2F4aLhV/0AP/B732xh/QU9KF5UYj9RuwFY/iTDzeklYI8SRrvMzyMp7aLmOMvXPGPkQDZKKf81ICJgljvaTsT5V8UnM3ot2quaGQqerfXTJ2L9ojGptArWFua9HfiFbwup6MMUqqWMBjklQ6w6T6FgkZzxTXxhNjw5tzwFEiVzJV/KZJU3+kcYb1VMR/8OQgMdP2BAP20wXddqz5G2vzM4N/X58mmPIXC1csHzwLPi+I0+dJfXzWL+X1eSm/0PqhodeXlL1Tu37fsR4b27euAPlVfZyp8eug7k+PYeNgi+/yYcJO8FkoGym/Fb+3QRlrxf057tW6L481oR/yHYXiGIKtI4+Y49Zy3oXWQxtQedmj+S7PlzZYBvDAeaTyasv3nDf7rloy+aNs9D2HmjNxoexxLKq2TH6oXJryBoD3DI7pU7ewjmvLBzE5PwaAV+jvNuQ8mjv0XLV1aFyI9xU3vLF84lPndQiwbUwttLkvjoUM5cn0Prbx1v+PhOTHJxdwfu0C/FN6q5b1QKGIqIsYG8BvrCFAF+dlzH0KgLeqL7D+krDv6h5oyy/UPpTHP784v7H+/zq/H7ny130=
   </data>
  </layer>
- <layer name="Walkable" width="40" height="30">
+ <layer name="Top" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
+   eJztzgEJAAAIA7DXsH8r01hCEGRLsAQAAGBX1/UAgE8GGIkA9A==
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNVVEKQzEI8xS7/xV2w30NNrExSWs34cFDbBK12oiI5+N/v4jv/yj0Vr5pTZkTafuVvjdv/t+tn5oTMjaOxWD0qdgIa0e3Y04Pblu+V1lnpXuKG80Dqw9xIA0ojs0b6UWcrMYKC8Wv7p9yvspH4UTxHcateajqlP3Tek5gM/ffmZOuNqszKnfXe9avzBOL0WlUZ9m5T2z9bpvTO1Wv09Psn55f5/35jNnpn7vrFYzT9XPwcp2q/ip7RuVlY5R3cLWLJub55N6ZPNvNusK96ruy8zsO1s/kgfyrPFRuJt7Rp/hZc/R17zUbv3sHbhqbx9Ru6ewFjEdL/Q==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="1248" y="64" width="32" height="448">
+  <object name="east" type="mapchange" x="1248" y="64" width="32" height="384">
    <properties>
     <property name="map" value="way_to_sullengard_east2"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="640" width="32" height="192">
+  <object name="west" type="mapchange" x="0" y="704" width="32" height="192">
    <properties>
     <property name="map" value="way_to_sullengard_east4"/>
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object name="outside_cabin" type="mapchange" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="sullengard_ravine_cabin"/>
+    <property name="place" value="cabin"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="poisonous_jitterfly_spawn1" type="spawn" x="288" y="32" width="32" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn2" type="spawn" x="320" y="128" width="224" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn3" type="spawn" x="672" y="96" width="64" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn4" type="spawn" x="1056" y="96" width="192" height="96">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn" type="spawn" x="768" y="160" width="288" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn1" type="spawn" x="192" y="320" width="128" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn2" type="spawn" x="416" y="320" width="64" height="224">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn3" type="spawn" x="480" y="224" width="224" height="96">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn4" type="spawn" x="864" y="288" width="256" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn1" type="spawn" x="608" y="480" width="224" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="928" y="384" width="160" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn3" type="spawn" x="192" y="576" width="256" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
