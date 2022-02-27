@@ -221,6 +221,12 @@
     <property name="spawngroup" value="Mountain fox"/>
    </properties>
   </object>
+  <object name="forestboar3" type="spawn" x="64" y="288" width="512" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="forestboar3"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
