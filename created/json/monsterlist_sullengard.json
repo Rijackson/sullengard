@@ -547,8 +547,75 @@
         "id":"yellow_tooth",
         "name":"Yellow tooth slitherer",
         "iconID":"monsters_snakes:5",
+        "maxHP":119,
+        "moveCost":3,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"yellow_tooth"
+        "attackDamage":{
+            "min":10,
+            "max":17
+        },
+        "spawnGroup":"yellow_tooth",
+        "attackCost":3,
+        "attackChance":219,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":92,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"45"
+                }
+            ]
+        }
+    },
+    {
+        "id":"duleian_mountain_cat",
+        "name":"Duleian mountain cat",
+        "iconID":"monsters_tometik4:70",
+        "maxHP":97,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":7,
+            "max":24
+        },
+        "spawnGroup":"duleian_mountain_cat",
+        "attackCost":3,
+        "attackChance":225,
+        "criticalSkill":15,
+        "criticalMultiplier":3.0,
+        "blockChance":101
+    },
+    {
+        "id":"duleian_hornet",
+        "name":"Duleian buzzer",
+        "iconID":"monsters_ld2:222",
+        "maxHP":77,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":4,
+            "max":5
+        },
+        "spawnGroup":"duleian_hornet",
+        "attackCost":3,
+        "attackChance":89,
+        "blockChance":200,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"33"
+                }
+            ]
+        }
     }
 ]
