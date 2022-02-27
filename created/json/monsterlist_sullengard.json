@@ -488,5 +488,67 @@
         "spawnGroup":"sullengard_lamberta",
         "phraseID":"sullengard_lamberta_0",
         "droplistID":"sullengard_lamberta_dl"
+    },
+    {
+        "id":"flying_tree_ant",
+        "name":"Flying tree ant",
+        "iconID":"monsters_omi2:5",
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"flying_tree_ant"
+    },
+    {
+        "id":"sull_forest_tree_fungus",
+        "name":"Pixie Cort",
+        "iconID":"monsters_rltiles1:154",
+        "monsterClass":"construct",
+        "movementAggressionType":"helpOthers"
+    },
+    {
+        "id":"huckleber_reaper",
+        "name":"Huckleberreaper",
+        "iconID":"monsters_tometik10:33",
+        "monsterClass":"construct",
+        "faction":"huckleber_reaper"
+    },
+    {
+        "id":"sullengard_venom_snake",
+        "name":"Sullengard forest snake",
+        "iconID":"monsters_tometik4:24",
+        "monsterClass":"reptile",
+        "spawnGroup":"sullengard_venom_snake"
+    },
+    {
+        "id":"sull_red_forest_snake",
+        "name":"Sullengard red forest snake",
+        "iconID":"monsters_tometik4:27",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"plague_groundberry",
+        "name":"Plague groundberry",
+        "iconID":"monsters_tometik4:12",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"broxwood",
+        "name":"Broxwood",
+        "iconID":"monsters_tometik10:36",
+        "monsterClass":"construct"
+    },
+    {
+        "id":"preabola_fly",
+        "name":"Preabola fly",
+        "iconID":"monsters_rltiles2:170",
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"yellow_tooth",
+        "name":"Yellow tooth slitherer",
+        "iconID":"monsters_snakes:5",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"yellow_tooth"
     }
 ]
