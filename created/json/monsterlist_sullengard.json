@@ -671,7 +671,7 @@
         "maxHP":97,
         "moveCost":3,
         "monsterClass":"insect",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":6,
             "max":8

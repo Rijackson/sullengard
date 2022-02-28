@@ -219,7 +219,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="yellow_tooth_spawn1" type="spawn" x="32" y="32" width="416" height="128">
+  <object name="yellow_tooth_spawn1" type="spawn" x="64" y="64" width="384" height="96">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="yellow_tooth"/>
@@ -243,7 +243,7 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object name="flying_tree_ant_spawn2" type="spawn" x="32" y="288" width="224" height="160">
+  <object name="flying_tree_ant_spawn2" type="spawn" x="64" y="352" width="192" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="flying_tree_ant"/>

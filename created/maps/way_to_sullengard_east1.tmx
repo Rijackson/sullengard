@@ -220,7 +220,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="yellow_tooth_spawn1" type="spawn" x="64" y="0" width="160" height="128">
+  <object name="yellow_tooth_spawn1" type="spawn" x="64" y="0" width="128" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="yellow_tooth"/>
@@ -244,7 +244,7 @@
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object name="yellow_tooth_spawn2" type="spawn" x="128" y="608" width="192" height="160">
+  <object name="yellow_tooth_spawn2" type="spawn" x="128" y="608" width="192" height="128">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="yellow_tooth"/>
