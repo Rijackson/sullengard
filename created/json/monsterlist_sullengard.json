@@ -585,8 +585,35 @@
         "id":"preabola_fly",
         "name":"Preabola fly",
         "iconID":"monsters_rltiles2:170",
+        "maxHP":109,
+        "moveCost":3,
         "monsterClass":"insect",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":11
+        },
+        "spawnGroup":"preabola_fly",
+        "attackCost":3,
+        "attackChance":170,
+        "blockChance":225,
+        "damageResistance":8,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"25"
+                },
+                {
+                    "condition":"vulnerability",
+                    "magnitude":5,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"yellow_tooth",
