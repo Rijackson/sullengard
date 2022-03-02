@@ -191,22 +191,22 @@
  </layer>
  <layer name="Objects" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztmFEKwjAMhnMF+zDog+L9D6DgDTyDuHd16tgJbGFhXSRO2oQG9IcQytbu299u6bZ1AE8P0Psp9yuALuS7nzIew3Y8h/YbwliXkK/+PefomNlvSVKMGnyR5RbiNOa0LeWrNCPHhpnj1ppfZKTXpaxp24K3nK+f1kMNRuoRx21Jtef2r99RrJGPEO1YKy0J63dLGC0xUxaO2RqjFTZUR1gsMXIslLmG6N63FtOhAdgVBjg9vn2jN7aEIp/k94i00D+rjOhfyf5T895S/0r2n1qM6fORO3ap/9/ylUhr/y/5ftFcf1ZVyhf/56xDbDJryHnB5xy+wc3zC0tA9RU=
+   eJy1mDtOw0AQhrdM6y0iuQBxCm4Aoo0lEEUo4iId1wOJG0CVHpHCVXAcEuUE7AgPHo9nn05+abXyPma//PvwOldaqX2u1CHv8kOmVGPyXd7lWIfP0Ib3O5pY3yav82EOWpj6mUmF/nvGvNRdPQravefqLHIxItOMMM4YJ8rFtyJ16I9P+5Zla9Jnm9NnG7PEvdDD+JSpausbUrZrx/KJM9rYMJfKSsv8roTfBow/+XDs2sEqsXBW+mzzthJ8lIT7IoZRYpZ8da2HVGGclH7cIxs3181EqeuIhGPQsttJ+u/1ze1dYmzQJhsfwyeMvc26sjrrt9mwZ1uM0HVN5esTGhP4m2xYBjq3f+gPHz8mhk94Xq3JmZAa2zefvXEzPx+eU2vGGMKMsfmas0lql+KfjTkmNnjjWp+x+1diDPUPFOohbxvCR9/tlIUz8juCdL7897XsV17m4qP+S37B3aWxsFE+qpj9AXo0MT6EPk+Mja47zOGOBVxVeydcCv6FzKvtzObr822q1MvIpEjMe/Z+hfFi3seQHsgcvE77vHMyFt6bi9Yn8A3qS92/U59TwBfyPVLp4TcIn9sxsp076J+PEVSQ9VYw1lML9wf657p/LnX/mwN95L/Z9t0yRtQ/2/2zFOaTrz2X/6fgk8ZAwVzi2YN7Q5Lv/p9yn6N884j+/Ds49P4/hi+Eg4r7eMq5pfvjWWCInQvePmUuJfn88wn+z7kw6TKR58vjcwrfUffzX1dNYXo=
   </data>
  </layer>
  <layer name="Above" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJztmEEOhCAMRbmCS+5/Co6iYdYzzClGTcw0OAQov7Ux8zbgAv3+tlpwDs/snVv8eewlkDVpktXWoxmlpQWqoaSxpDswPOdS8xGRD2itxzx1xF8z9vvzMg1X+maRt3I8/mDh1FNca+Dhv+MoyBzKNeVaa5qfCvkc/fn6l2YLUN+ugBMPC/6hawSJ5Xy74/9E8p1Gev2Xkteo/QgF9Z3m7D9a1kvBufeIRul+e9T/FpD1Z6n/194LSdATG43eTALJOJX620jmiH/7dpZxnGfQ8QNs6Jjd
+   eJztmMEOwiAMhjl69ciL+Ay+8m57jRnmvOk8GB9BjC52XYEBBRvjlyywscHflkE3pfjptFIHvSxjacAz43be1oK2wdZPK/ofCE2hkgJroTRNGHut158y5Ic7aof3uzS6dDfEWC1h283Wj/YY9XzMmJiF/MgxH3rimZR+4Pjd2+618XfFvhQj0pBirw/u/jjZbV6Hj2vlePxxsw/Eigu8pkoCa8JaJWg2enlOaZYA9Ns3OCesLxL8J2m+YSTPt1/cT1w2hfbWNeTk+pdKvub6HoGkrAsx2mI1ctrmIyffTtFYK98uMUcmcteUDuiQlK/X/hYqQUxsuN752pSMkyu/NaDOsbc//2VM/zNg+QB2NKkP
   </data>
  </layer>
  <layer name="Top" width="40" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt11EJADAIQEFrrH8qYWEWYSCICHcJ3u+LYLM80wV/GxoBAACAutv8/g/5HgLa
+   eJzt11EJACAUA8BXw/6pBD+MYgdxiHgXYNvvqv4y273uHuhOZJ7OfWEjAAAAsG+EP/oCk9kGqQ==
   </data>
  </layer>
  <layer name="Walkable" width="40" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlkkKwCAMAH1F//8Ff1h6DRXNYpyUDnhQXMYo0X611kV5kG2WPrK/Fuu4lXkjHHf4aWI6Wz87flrvXX5Rjjv9opyz0eQBEmS3n29BvmvUvPLmKOtEx+x3TcMsjicZuRDdCE5WqnpHUeEsyY7edyJjb941Tjh63SrcERJkNyor8cr6T47mvQFtMbau
+   eJztl0sOgCAMRDmF978CNzTuyKSVUgZaDZO4kM/wUgvUepVS4XmEbZ4xOH5U3nkWXwbj25y2z+o/Ek+LJ/ZL4z1x8HBq+fPmjW3S2isZR3LCw8hg9mom563nwKxYPq0X0/PoSFLmXFt9rjAZ8T0jo/Vei1AvjpHSWHawaXWHxpYhXl7t5O6tFRHDL3zLbIyWvTBb27J5mWw7GLEvmpHxL5ElfyUx2XB//FWWeO2qJzXfG+g30Rw=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -237,15 +237,41 @@
   <object name="north1" type="mapchange" x="160" y="0" width="32" height="32">
    <properties>
     <property name="map" value="sullengard_woods8"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
-  <object name="north2" type="mapchange" x="0" y="0" width="32" height="32">
+  <object name="north2" type="mapchange" x="448" y="0" width="32" height="32">
    <properties>
     <property name="map" value="sullengard_woods8"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="sull_herding_dog_spawn" type="spawn" x="128" y="256" width="512" height="320">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_herding_dog"/>
+   </properties>
+  </object>
+  <object name="sullengard_goat_feeding_spawn" type="spawn" x="128" y="288" width="512" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="sullengard_goat_feeding"/>
+   </properties>
+  </object>
+  <object name="sullengard_goat_standing_spawn" type="spawn" x="160" y="256" width="448" height="256">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_goat_standing"/>
+   </properties>
+  </object>
+  <object name="sullengard_goat_herder+spawn" type="spawn" x="608" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_goat_herder"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

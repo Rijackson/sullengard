@@ -729,5 +729,40 @@
                 }
             ]
         }
+    },
+    {
+        "id":"sull_herding_dog",
+        "name":"Young herding dog",
+        "iconID":"monsters_ld2:3",
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"sull_herding_dog",
+        "phraseID":"sull_herding_dog_0"
+    },
+    {
+        "id":"sullengard_goat_feeding",
+        "name":"Feeding goat",
+        "iconID":"monsters_ld2:1",
+        "monsterClass":"animal",
+        "spawnGroup":"sullengard_goat_feeding",
+        "phraseID":"sullengard_goat_0"
+    },
+    {
+        "id":"sullengard_goat_standing",
+        "name":"Goat",
+        "iconID":"monsters_ld2:0",
+        "monsterClass":"animal",
+        "spawnGroup":"sullengard_goat_standing",
+        "phraseID":"sullengard_goat_0"
+    },
+    {
+        "id":"sullengard_goat_herder",
+        "name":"Goat herder",
+        "iconID":"monsters_karvis2:7",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_goat_herder",
+        "phraseID":"sullengard_goat_herder_0"
     }
 ]

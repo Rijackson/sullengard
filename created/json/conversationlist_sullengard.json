@@ -3720,5 +3720,17 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sull_herding_dog_0",
+        "message":"Woof."
+    },
+    {
+        "id":"sullengard_goat_0",
+        "message":"Baa."
+    },
+    {
+        "id":"sullengard_goat_herder_0",
+        "message":"Hello child. Please leave me be."
     }
 ]
