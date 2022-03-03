@@ -530,8 +530,20 @@
         "id":"huckleber_reaper",
         "name":"Huckleberreaper",
         "iconID":"monsters_tometik10:33",
+        "maxHP":265,
+        "moveCost":7,
         "monsterClass":"construct",
-        "faction":"huckleber_reaper"
+        "attackDamage":{
+            "min":30,
+            "max":30
+        },
+        "faction":"huckleber_reaper",
+        "attackCost":5,
+        "attackChance":190,
+        "criticalSkill":10,
+        "criticalMultiplier":1.2,
+        "blockChance":240,
+        "damageResistance":10
     },
     {
         "id":"sullengard_venom_snake",
@@ -567,7 +579,30 @@
         "id":"sull_red_forest_snake",
         "name":"Sullengard red forest snake",
         "iconID":"monsters_tometik4:27",
-        "monsterClass":"reptile"
+        "maxHP":175,
+        "moveCost":3,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":18,
+            "max":25
+        },
+        "attackCost":3,
+        "attackChance":245,
+        "criticalSkill":12,
+        "criticalMultiplier":3.0,
+        "blockChance":115,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"plague_groundberry",
@@ -579,7 +614,19 @@
         "id":"broxwood",
         "name":"Broxwood",
         "iconID":"monsters_tometik10:36",
-        "monsterClass":"construct"
+        "maxHP":225,
+        "moveCost":7,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":20,
+            "max":25
+        },
+        "attackCost":5,
+        "attackChance":170,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":229,
+        "damageResistance":10
     },
     {
         "id":"preabola_fly",
