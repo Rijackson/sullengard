@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="51" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="51" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="17">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,7 +192,7 @@
  </layer>
  <layer id="3" name="Objects" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJylVTFuwzAM9Ji13vSR/iMF0t3/NQQDmdIxmSK0SJ5QEdHBlwNpxwgBQiJFWeTxJN9T1/1W/at6bGpyrWOpeqt6pxj1w8Y6+zLF3Sjm0s457Lru8009pcf4vXvOG2dFonGW69h0avvO/UMhmb43VP/Px2zbPEudisOaf2r+K50zOXl5cnLW2LeGy5j8OJxr476f58Ar2mOC3i+Jxw/mmPqACY+YZ+csD5e1NfVzDl69GoPcvTjUuydecR1c5xJvtnKNc0QO1ifjN2ybA8OIL1m+xeey2H0oGzhSgpx1H2OlfYFtdRSK4zuMOH3HIOhLTjOncM+xZjb2R/VFuGi/vb5kJ3ePT/o2c2+0Pq7z1TeSYzmnHNRlMgoGET5D7/sLcVPrY6wYf497GO0uf0n/195K9ev3URN6M9K6cs3sY5o5wz3mPDFnbKO7/Kpv6f/yD4WzS5s=
+   eJylVUFqAzEM3GOu2Zs/kn+k0N7z38Us5JQe21NMQkJfUIt48HSQdhMqELZkeS2Nxt57GoZL1WvVY1OTcx1L1VvVO8WoHzbW2Zcp7kYx3+2c980w7P6pp/QYPzZ/88ZZkWic5To1ndu+r/GhkEzfO1T/57bbNs9Sp+Kw5p+b/0znzE5enpycNfat4TIlPw7n2rgf+xx4RXtM0Psl8fjBHFMfMOER8+yc5eGytqZ+zsGrV2OQuxeHevfEK66D61zizatc4xyRg/XJ+A3b5sAw4kuWb/G5LHYfygscKUHOuo+x0r7AtjoKxfEdRpy+YxD0JafOKavlZ+xrZmN/VF+Ei/bb60t2cvf4pG8z90br4zqffSM5lnPKQV0mk2AQ4XMYfX8hbmp9jBXj73EPo93lN+n/2lupfv0+akJvJlpXrpl9TJ0z3GPOE3PGNrrLz/qW/i+/YQ5Mnw==
   </data>
  </layer>
  <layer id="4" name="Above" width="51" height="10">
@@ -207,7 +207,7 @@
  </layer>
  <layer id="6" name="Walkable" width="51" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVksENACEIBK3C/luww4tfgjgs+LhNiNEgDBvWHGOZ2LJvfw1PHf/UulluwkV0q0OZMvyEWfHFnrSXqi5fTpynObr3iTCRffTysp5VZvR6EKaILcqhNW681kOVp9vTSJHv3v01pzJDVcqOVuN13w96gRJ3
+   eJzVksENACAIA53C/VdwQ+OXVCwFHjYhRqNwVNYcY5k4sme/BlLFOzVvlJvhYvTKwzJF+BlmxRe7srVUVfly47z1UT1PDBMzj+he1LNMj6gGw+SxeXfsH0W5Ue4MT7Wnnjzf0b6bU+khK2VGs9FddwOqORM+
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -230,7 +230,78 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="4" name="preabola_fly_spawn1" type="spawn" x="896" y="224" width="224" height="64">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="preabola_fly"/>
+   </properties>
+  </object>
+  <object id="5" name="plague_groundberry_spawn1" type="spawn" x="1056" y="256" width="288" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="6" name="plague_groundberry_spawn2" type="spawn" x="512" y="192" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="7" name="plague_groundberry_spawn3" type="spawn" x="800" y="192" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="8" name="plague_groundberry_spawn4" type="spawn" x="864" y="32" width="160" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="9" name="plague_groundberry_spawn5" type="spawn" x="64" y="96" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="10" name="sullengard_venom_snake_spawn1" type="spawn" x="960" y="96" width="576" height="32">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="11" name="sullengard_venom_snake_spawn2" type="spawn" x="1376" y="256" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="12" name="sullengard_venom_snake_spawn3" type="spawn" x="1408" y="192" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="13" name="sullengard_venom_snake_spawn4" type="spawn" x="608" y="32" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="14" name="sullengard_venom_snake_spawn5" type="spawn" x="640" y="160" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="15" name="broxwood_spawn1" type="spawn" x="192" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="16" name="broxwood_spawn2" type="spawn" x="224" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>

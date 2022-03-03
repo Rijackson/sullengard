@@ -616,6 +616,7 @@
             "min":10,
             "max":12
         },
+        "spawnGroup":"plague_groundberry",
         "attackCost":3,
         "attackChance":178,
         "blockChance":243,
