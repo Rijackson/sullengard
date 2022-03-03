@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="27" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="27" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="10">
   <data encoding="base64" compression="zlib">
-   eJydUtEJAjEMfbjB+VM6iTO4iQ6kKziFv9eTg8NBFB1BHxhaYmJbHwSuyUsueQkAjAO+MBm+X5waX+KaNyv/LQL32N7DEuscqVmrd/nEH2/u0+mB7zT090kOdT4b/Xr59Hu6JSPmaWHVSIbegrlhHg8tWogG+u7KeYlyD2Vt3fNhBRw7jPP15ohtArDrMOL0Rx5tH/KMo3MHWhv+axvyfjWfN36NhYbr/L0Ufu5I9Le4L7m8YHI=
+   eJydUsENwjAQs9gg/VSZhBl4sgIvGAhWYAq+bVGliBl4g2AEsOCEG5LScNJJTe7snn0BgMYB5wqD6Bx+hvbY97Ia711F9d4N6xcPXP34DMoR/Pcdtage48zx2czHd/327L1nZuC5ddPmjHH0+eDTtRyGyfm6aEetnA0fhFt7u8hj8hFPz1SHYfoJenKhWuJdW5gHTcJbxeselFtnZmxnwK4gqa8UYzmvgXVBMvZ/4Jib+qOxiXaY853/WtSv/ab6+cZPXjyUNxDknjsy/1O9D1OsaTw=
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="10">
@@ -248,10 +248,17 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="7" name="preabola_fly_spawn1" type="spawn" x="704" y="0" width="64" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="preabola_fly"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace">
-  <object id="7" name="sullengard10_replace_below" type="replace" x="0" y="160" width="864" height="96">
+  <object id="8" name="sullengard10_replace_below" type="replace" x="0" y="160" width="864" height="96">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -259,7 +266,7 @@
     <property name="requireValue" value="14"/>
    </properties>
   </object>
-  <object id="8" name="sullengard10_replace_above" type="replace" x="0" y="160" width="864" height="96">
+  <object id="9" name="sullengard10_replace_above" type="replace" x="0" y="160" width="864" height="96">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="sullengard_hidden"/>
