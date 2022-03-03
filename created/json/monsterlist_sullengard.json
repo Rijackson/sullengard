@@ -608,7 +608,40 @@
         "id":"plague_groundberry",
         "name":"Plague groundberry",
         "iconID":"monsters_tometik4:12",
-        "monsterClass":"construct"
+        "maxHP":149,
+        "moveCost":3,
+        "monsterClass":"construct",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":10,
+            "max":12
+        },
+        "attackCost":3,
+        "attackChance":178,
+        "blockChance":243,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":4,
+                    "duration":3,
+                    "chance":"50"
+                },
+                {
+                    "condition":"contagion2",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"broxwood",
@@ -621,6 +654,7 @@
             "min":20,
             "max":25
         },
+        "spawnGroup":"broxwood",
         "attackCost":5,
         "attackChance":170,
         "criticalSkill":10,
