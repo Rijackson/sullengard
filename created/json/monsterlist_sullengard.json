@@ -873,5 +873,21 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_goat_herder",
         "phraseID":"sullengard_goat_herder_0"
+    },
+    {
+        "id":"sullengard_winona",
+        "name":"Winona",
+        "iconID":"monsters_ld1:222",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_winona"
+    },
+    {
+        "id":"sullengard_dantran",
+        "name":"Dantran",
+        "iconID":"monsters_ld1:125",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_dantran"
     }
 ]

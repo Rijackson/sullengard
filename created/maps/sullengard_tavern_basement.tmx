@@ -245,6 +245,11 @@
     <property name="spawngroup" value="sullengard_arantxa"/>
    </properties>
   </object>
+  <object name="sullengard_dantran_spawn" type="spawn" x="480" y="480" width="224" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_dantran"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="guild04_defy_gone_script" type="script" x="416" y="256" width="32" height="96"/>
