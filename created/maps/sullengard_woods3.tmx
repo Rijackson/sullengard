@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -207,7 +207,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1U1sOwCAI8xS7/xW84bKPJcZY+lBJ+BmWlsL601qf8ov52+38o6ozfMrr6GOh8rjYsc64WT9lftQXYVd9Ej8cHNOW+HLS1xW2ChXv8KX/BMJX/AmXModzw+rc4zuFU9WFdjrzsft1PdvZrzN7UmdesnmQn+78KobpY/tG+tMdoaj673Du6kzuw+U9lbd5X2PpU8M=
+   eJy1U8kNwCAMY4ruvwIbVn30E+H4ACzlUzC2k3Q+Y8xSH+q32/WjO2f8VNfxx6DqOHxXm3lR8qN3EXf1TtIPxZOin/blZF9X3A4q39FL/wnE7/QTLWfGyi51vtE9RVP1VdHtt5tTyZ/M18menLNesjyon25+lcP8sXkj/+mMELr3dzR3fSb74eqeqtu6LzDDTxk=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -224,7 +224,62 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="3" name="sullengard_venom_snake_spawn1" type="spawn" x="192" y="512" width="288" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="4" name="sullengard_venom_snake_spawn2" type="spawn" x="256" y="224" width="288" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="5" name="sullengard_venom_snake_spawn3" type="spawn" x="480" y="64" width="224" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="6" name="broxwood_spawn1" type="spawn" x="64" y="192" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="7" name="broxwood_spawn2" type="spawn" x="736" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="8" name="broxwood_spawn3" type="spawn" x="576" y="512" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="9" name="plague_groundberry_spawn1" type="spawn" x="736" y="384" width="32" height="160">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="10" name="plague_groundberry_spawn2" type="spawn" x="512" y="192" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="11" name="plague_groundberry_spawn3" type="spawn" x="128" y="96" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="plague_groundberry"/>
+   </properties>
+  </object>
+  <object id="12" name="sull_forest_tree_fungus_spawn" type="spawn" x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>

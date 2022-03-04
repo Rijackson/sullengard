@@ -531,6 +531,7 @@
             "min":12,
             "max":15
         },
+        "spawnGroup":"sull_forest_tree_fungus",
         "attackCost":4,
         "attackChance":155,
         "criticalSkill":20,
@@ -599,6 +600,7 @@
             "min":18,
             "max":25
         },
+        "spawnGroup":"sull_red_forest_snake",
         "attackCost":3,
         "attackChance":245,
         "criticalSkill":12,
