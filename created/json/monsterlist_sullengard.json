@@ -550,6 +550,7 @@
             "min":30,
             "max":30
         },
+        "spawnGroup":"huckleber_reaper",
         "faction":"huckleber_reaper",
         "attackCost":5,
         "attackChance":190,

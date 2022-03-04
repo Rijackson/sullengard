@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="34" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="23">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -234,11 +234,102 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn"/>
+ <objectgroup id="9" name="Spawn">
+  <object id="4" name="sull_forest_tree_fungus_spawn1" type="spawn" x="320" y="672" width="32" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="5" name="sull_forest_tree_fungus_spawn2" type="spawn" x="544" y="128" width="64" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="6" name="sull_forest_tree_fungus_spawn3" type="spawn" x="672" y="448" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="7" name="broxwood_spawn1" type="spawn" x="256" y="928" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="8" name="broxwood_spawn2" type="spawn" x="864" y="96" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="broxwood"/>
+   </properties>
+  </object>
+  <object id="9" name="sullengard_venom_snake_spawn1" type="spawn" x="256" y="544" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="10" name="huckleber_reaper_spawn1" type="spawn" x="800" y="32" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="11" name="huckleber_reaper_spawn2" type="spawn" x="448" y="160" width="192" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="12" name="huckleber_reaper_spawn3" type="spawn" x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="13" name="sullengard_venom_snake_spawn2" type="spawn" x="160" y="608" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object id="14" name="sull_red_forest_snake_spawn1" type="spawn" x="256" y="288" width="32" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="15" name="sull_red_forest_snake_spawn2" type="spawn" x="224" y="192" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="16" name="sull_red_forest_snake_spawn3" type="spawn" x="544" y="320" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="17" name="sull_red_forest_snake_spawn4" type="spawn" x="736" y="544" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="18" name="sull_red_forest_snake_spawn5" type="spawn" x="832" y="576" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="19" name="huckleber_reaper_spawn4" type="spawn" x="736" y="416" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="20" name="sull_red_forest_snake_spawn6" type="spawn" x="832" y="320" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="Keys"/>
  <objectgroup id="11" name="Replace"/>
  <objectgroup id="12" name="Mushroom">
-  <object id="4" name="MushroomFetched" type="replace" x="96" y="32" width="32" height="32">
+  <object id="21" name="MushroomFetched" type="replace" x="96" y="32" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_MushroomsFetched"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -246,7 +337,7 @@
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="5" name="script_sullengard_woods14_0" type="script" x="96" y="32" width="32" height="32">
+  <object id="22" name="script_sullengard_woods14_0" type="script" x="96" y="32" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
