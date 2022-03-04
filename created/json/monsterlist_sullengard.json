@@ -523,8 +523,20 @@
         "id":"sull_forest_tree_fungus",
         "name":"Pixie Cort",
         "iconID":"monsters_rltiles1:154",
+        "maxHP":160,
+        "moveCost":6,
         "monsterClass":"construct",
-        "movementAggressionType":"helpOthers"
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":12,
+            "max":15
+        },
+        "attackCost":4,
+        "attackChance":155,
+        "criticalSkill":20,
+        "criticalMultiplier":4.0,
+        "blockChance":250,
+        "damageResistance":11
     },
     {
         "id":"huckleber_reaper",
