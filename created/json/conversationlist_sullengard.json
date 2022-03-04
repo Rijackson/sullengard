@@ -3732,5 +3732,9 @@
     {
         "id":"sullengard_goat_herder_0",
         "message":"Hello child. Please leave me be."
+    },
+    {
+        "id":"stop_grazia_0",
+        "message":"Grazia, please wait over there for a minute. I want to check this out before going across the bridge."
     }
 ]
