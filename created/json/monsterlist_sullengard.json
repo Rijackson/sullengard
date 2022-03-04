@@ -889,5 +889,21 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_dantran"
+    },
+    {
+        "id":"sullengard_beltina",
+        "name":"Beltina",
+        "iconID":"monsters_ld1:166",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_beltina"
+    },
+    {
+        "id":"sullengard_valhorn",
+        "name":"Valhorn",
+        "iconID":"monsters_ld1:11",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_valhorn"
     }
 ]
