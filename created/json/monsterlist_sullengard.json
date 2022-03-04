@@ -503,6 +503,7 @@
             "max":15
         },
         "spawnGroup":"flying_tree_ant",
+        "droplistID":"flying_tree_ant_dl",
         "attackChance":144,
         "criticalSkill":20,
         "criticalMultiplier":3.0,
@@ -532,6 +533,7 @@
             "max":15
         },
         "spawnGroup":"sull_forest_tree_fungus",
+        "droplistID":"sull_forest_tree_fungus_dl",
         "attackCost":4,
         "attackChance":155,
         "criticalSkill":20,
@@ -552,6 +554,7 @@
         },
         "spawnGroup":"huckleber_reaper",
         "faction":"huckleber_reaper",
+        "droplistID":"forest_tree_dl",
         "attackCost":5,
         "attackChance":190,
         "criticalSkill":10,
@@ -572,6 +575,7 @@
             "max":22
         },
         "spawnGroup":"sullengard_venom_snake",
+        "droplistID":"forest_snake_dl",
         "attackCost":3,
         "attackChance":232,
         "criticalSkill":10,
@@ -602,6 +606,7 @@
             "max":25
         },
         "spawnGroup":"sull_red_forest_snake",
+        "droplistID":"forest_snake_dl",
         "attackCost":3,
         "attackChance":245,
         "criticalSkill":12,
@@ -671,6 +676,7 @@
             "max":25
         },
         "spawnGroup":"broxwood",
+        "droplistID":"forest_tree_dl",
         "attackCost":5,
         "attackChance":170,
         "criticalSkill":10,
@@ -725,6 +731,7 @@
             "max":17
         },
         "spawnGroup":"yellow_tooth",
+        "droplistID":"yellow_tooth_dl",
         "attackCost":3,
         "attackChance":219,
         "criticalSkill":10,

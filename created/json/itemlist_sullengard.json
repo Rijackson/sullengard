@@ -640,5 +640,64 @@
             "increaseBlockChance":13,
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"insect_stinger",
+        "iconID":"items_japozero:568",
+        "name":"Insect stinger",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"animal"
+    },
+    {
+        "id":"small_tree_branch",
+        "iconID":"items_japozero:578",
+        "name":"Small tree branch",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "category":"other"
+    },
+    {
+        "id":"rotten_apple",
+        "iconID":"items_japozero:537",
+        "name":"Rotten apple",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"You most certainly would never want to eat this, but maybe you'd want to feed it to your enemies?",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"snake_meat",
+        "iconID":"items_consumables:25",
+        "name":"Snake meat",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"There's just something about meat from a snake that makes it just a little bit better.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":15,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
