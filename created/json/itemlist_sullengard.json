@@ -699,5 +699,15 @@
                 }
             ]
         }
+    },
+    {
+        "id":"poisonous_spores",
+        "iconID":"items_misc_3:74",
+        "name":"Poisonous spores",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"other",
+        "description":"Probably not something that you want to be carrying around with you."
     }
 ]

@@ -503,7 +503,7 @@
             "max":15
         },
         "spawnGroup":"flying_tree_ant",
-        "droplistID":"flying_tree_ant_dl",
+        "droplistID":"flying_insect_dl",
         "attackChance":144,
         "criticalSkill":20,
         "criticalMultiplier":3.0,
@@ -637,6 +637,7 @@
             "max":12
         },
         "spawnGroup":"plague_groundberry",
+        "droplistID":"plague_groundberry_dl",
         "attackCost":3,
         "attackChance":178,
         "blockChance":243,
@@ -697,6 +698,7 @@
             "max":11
         },
         "spawnGroup":"preabola_fly",
+        "droplistID":"flying_insect_dl",
         "attackCost":3,
         "attackChance":170,
         "blockChance":225,
@@ -761,6 +763,7 @@
             "max":24
         },
         "spawnGroup":"duleian_mountain_cat",
+        "droplistID":"big_cat_dl",
         "attackCost":3,
         "attackChance":225,
         "criticalSkill":15,
@@ -780,6 +783,7 @@
             "max":5
         },
         "spawnGroup":"duleian_hornet",
+        "droplistID":"flying_insect_dl",
         "attackCost":3,
         "attackChance":89,
         "blockChance":200,
@@ -808,6 +812,7 @@
             "max":8
         },
         "spawnGroup":"poisonous_jitterfly",
+        "droplistID":"flying_insect_dl",
         "attackCost":3,
         "attackChance":118,
         "blockChance":238,
