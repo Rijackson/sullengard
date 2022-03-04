@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -231,6 +231,39 @@
   <object id="3" name="sullengard_woods_gj1_spawn" type="spawn" x="352" y="320" width="64" height="96">
    <properties>
     <property name="spawngroup" value="golden_jackal"/>
+   </properties>
+  </object>
+  <object id="4" name="sull_red_forest_snake_spawn1" type="spawn" x="64" y="512" width="384" height="32">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="5" name="sull_red_forest_snake_spawn2" type="spawn" x="480" y="256" width="32" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="6" name="sull_red_forest_snake_spawn3" type="spawn" x="256" y="160" width="32" height="288">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="7" name="huckleber_reaper_spawn1" type="spawn" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="8" name="huckleber_reaper_spawn2" type="spawn" x="96" y="192" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="9" name="huckleber_reaper_spawn3" type="spawn" x="192" y="448" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
    </properties>
   </object>
  </objectgroup>
