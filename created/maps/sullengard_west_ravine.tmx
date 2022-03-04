@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="18">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -185,32 +185,32 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eAHtlbsNwzAMRI10GTtLeIa0RrpkBWeFzBJe8QCCkGwxkToVxAkSdU+k/Nmuy7LNmD2Yz8DPz8DzMuYduptvLV62tg/kqqYYN5t7D+B6jmqKIWYvLiz6JxbeI7ji1VgjuJ7n/WtjX7NyyGv5J8ResheNvfXzWW5kxf2R9bDvGTn/cI888EWV24ur/sea4ETNcHU+xdn9wvBnYA4tcT/WAx/ktHJL/YOH4illjH9Nz+rVOnvheKUmclq1hUuOvvWqB24ro5SHZ1ZLXpm5LI981c44wyOXvT0V7yPtyZMX/3t8a2zWeyjMqKvdSYwvx0FD0g==
+   eJzt1T0OgCAMBWDD5rG9hGdwNWxwBbiCZ1GHJk1TfiytE8PbyPugED3XZTlnZmbECc6m93DlxCfJ0A1MtifZwMVGYpIVXXAi6bdya5aFi72SpeXSWWZDl7s32ov7/arj1josXbC5+Y247zrfcbdS9yJJyOxxuXO0XNxfSs97hrWcC+fpsb66+LuL3a+W1OVm8Ld7uLE9SN3RWWib8H9v7cHCpNmZ3MdBQ9I=
   </data>
  </layer>
  <layer id="2" name="Breadcrumb" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHtVFsKgDAM89sj+Of9L6lFAqGE1Tnb/aww2vWRLHO4bfl27uMchuFXhPqVt8UTYWI2OpuvR3Oow9s8YniP+WZvs7Djjm2xcR08nOPenpgxIt4e3KiXedHLulQdfSNe4arcCAfPek1+z71/xpma1DlZl6pn5ZbOrJt9/mt56BoZ70hX87LV7whKZuk1/pmaob/SL701t63eNHLZ34B5EJtqxC1fcTvGz+b3XGvFFwwWDy4=
+   eJxjYKA9UOSijhnomFb24rOHkJnEuo1UfdjcRGp44DIXBqS4IBiXPKV2kWsvNQE2c6kRjuTaSyuALb/Q2o8we+kJ6OEnXPbS276R4M+BtHOk+BVm70DaPWrvqL20sBdbe40eaR1XHUuoHqZXWJHajsUFAAwWDy4=
   </data>
  </layer>
  <layer id="3" name="Objects" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eAGVljFOXEEMhp/oKCESAXGE5ABQ5wQRRWihIcoRcpBwBe5ABSmjIEQRKRFSpDQIRLQrSqr4y3ufnrHmsYulWc94bP/+7dmF2VbXzWNVmSW7+4f1rmPdx93fWNo9T2lyE6c/ezB/rY3rT9g4X4W+jTvW3eBzEbolOV5/8ohDDLHgYdeHOq1V22XY3odPC8t8+CDEaOOcc3NGzOv+Z3Az5iBwOGef/0HxYV3UAT/P3qtbdeqrBoM5iaMmhz7s4fUjfBX9qBPJvr1l5KKv3OTFfL0zhpr1w1bvax/1FZ94YjyDdROLuRFLv+Cb+2aO3C98EeLk2Fv6T+uqWlzj8f7wuuvebI5cxMOHvhqDL3tzgo3oT33U7T36cchN/rrehg0xjlhy0pNlRJyMCZf9YbVynK6MVvp8Fut8qLvy5J6lPXOnN+KDKZecf0Qad58Cn3eV5zvePu13xmYO9MVZ0Usxc3zdg4d8Dk2+3CvscnOGcoIf3yfeZguLvAdDbvJUAQ9ZDQ3f/HaxgyeWOvPL3ORA3HPyrtRjXmLkRw+0L+qlHL4Pec1f69lLuPSEWSFq9vax9pLcNV/FNb928i0S57obb/M41UccPMA132G6pxb5LsLI9+IxQ94OuCeRS2zyPseDWqZwrW8rfJDfg+5PPR6/geAeBe5Owv66ode0Ftf8Lc+M6VzBQ/y7k7FbuHXO4pLD/NfRv5Zg5+0q9pvvFYs3Le8v0R/6bg3O2VixPC/S4mZMegB/v0tik0tc9EuxWrX43RWL3zCEt5Z7znuDO7itPmpbf9XHT33OgxtCX8VmL39tYH9M740Y8O0/52XF2vSnv+JpQ2tTY6NelrVYQ62jYhCLMF/4teTbxHusvswivwHurcPfgBqT/5+mfuerzv3nHrH3nvXdjr+Hy65/tFt2SA==
+   eJyVVjuKG0EUFJM5nDFYGvYI9gHs2CcQG6zT3cSLjqCDrK/gOziyHZodJlqwWTAoWdZISDh05CnURdfUPGmkgqbn0/3qverXr3tbTya7rj137Y/02/Qd4PPfat/W3fNGxvD9UA9gntpB/6vMbVXte+BZ/MC3Jtlw6HyOX1V935vEh+8csxbf+K3t2ryKuWivrbN/yqG2CX3H888yz7mu9u8+B6BfTYpdNVREfrru4NAYlU/tIq6Hcug7/PSxronnC+Pa1cP4GtPN/7uOnl9NsqnxPZX7dWP+bEw32miMB8A8xqhwvTRvNnWeD1xNJ5PXs6EOGNPaHliLrXnVj5HrrZz/ku2ovZllTbkH5imvToHuLz4jlg+pRfhS5GfE9LVr34I85bPXAt2jyslY1H6ERZHrRpSTqrdytylXrqZD/cb4gGWR8yraQ74XEN9Dys2IC3avj8S6TP9eFMPcBbZBbmp8yrcY0ZR4b+Oifai1ZExLxnBf9O27P5fyDk1YY1uJmTo6F2y7Pee9LPrfTwHX9V0X4yebhzhgm/Zu5P+iyLznQOsZcge8n4vMDbvH4lge4aV/dep/27hVqoHoP3a8b4X7+6tx3+/NfgTl5LqyhvLcUe6I19dZ46X9xwO177Hs1wo9T3imkPvOYne9Xb8xeE1sUj3SGkhugLzoz+WK4LWJdyzkmmrO2MEb6chv1cvjfHrv0rPNayW4b6f92O9E/3Pg/vq5S0T30l3yh77QB/fjUG5xTSP8OPEsxlqoDsCYFnqfju7vqr/f4/3+dTE7vf0HXSJ5bg==
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eAGtlk1KBDEQhYc5gSgIrvTWnkMPIILr2ehKUXSrKF7BfGY++lmkpwe1IF1/r+qlku7Rl5PVt7w2/daWmuB981kPbSFXW9298TPxzw3/MqgV89hyrKe2jF1v8eyliv3EUGNMrH1GPjlkqQaM+3JmfXKI+zPfo/0pVk00Z8w9Jsa57JU4eBIrxlnE6pMnxvmbs4ZeFecdi7FmE1j5qSevb01q5kXEyDc6r478+YTXPVTN2ds/q8CJlY885+o+8LHF4SPi4UXMq7M+89h8M/vO9bHtTx1i/5HNnO9tZU1+n3fH/RwuGuZy2zf3ia2feo6TPWR//Cpw3rTFe4XYt3v9mefNPYnJORKfNv1HAifLe88Z7O8dZm7Uy1hy0Xsk8jJvvWP45FKPehCb41rizb7wOWvGR5zyZf85O+ud17viLhHew11S+ea4Mp795M2Ys2YMWy5s+1WduWrjK8k7x5fYav8Hrz3ntBzktavOXLXxFepu2/JejS/pyqdP3ZydPeFE/H6x63n7Tp+vyXaxd9VkjWHbH3sk8srJt+wZwOvf81orh5r8Elftgb/rt+ngaKrI2YnOca2jZqqeLH+vmFNubOc3NlV0q/LX/D7+pvEgnK98PdKfxtTuhT3/VrhfeUc96m83mM9Ww/qr5P59h9XsKfNwVV8s/4O5jC3tLffveaqpzfzI9+991aeHq9VZW1W+AAYFPrw=
+   eJy9VkFugzAQRHlBlUhInNpf9x3tAyIkzlzoiSoouQal6hcaC0aZTsYYaNSRLGOz69ldll2fiiyKthjG5yizn5BlHcgfr/PJ6ELmMI6OeMpRrjdcOA8yQYc5lF/XrbHL6QTALtiNNdAbv1SXddhH5mOZUs7S2KsN7Atk2bdW3gF7I6f+Y68mWY5JG7EHwD5kcMacHAqoTbww9xFezlf2rxRbDyYmkK8lJpyrzMn65wV+fU18Y30Ofl6K3zrn4pZ7H/lg09t1vJt84v+L5xinnu8QOKv8FluXAxxv5lbfY+c7VCNvZ+zWHHP5nOKqErwud4+Rf3oJV4pX66nWyxRfjCvFi2+FmnRJxFP51vIyYvXFxfIRvFP1LHbeI/39L94mv+81c21Yy9uM+xzfWE193SznbRKx1H4U/mW+R8RqnuNNcTlM1aan3e2ZfZ/i2uz8PoB6xb2e7xB6B4rxrwF6qPZdQHsSbHH2zEVHvdvB9efvYhh/Bduv/aA2/ukasjzm9jC239071T9do9/r/LzNspftPd8PAjo6sg==
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="26">
   <data encoding="base64" compression="zlib">
-   eAFjYMAPbknil6dU9i4O8/fhEEe3j9buQ7dvlI8IgYEK+ztEpg2ESzFZuNIdpsqBEbkJ9CM1whebP7GJ0cKX6PF0gArxRgt3UmLmAzr7CWbfBxrbix5XtLaPkjgY1Tu0QwBU1xNb39PKp9Qoa2nltpFg7n0al2e0DkNC7keXR+eD6nsYprVb0c1/CbT7FZHhDwBhnxxq
+   eJxjYMAPbkkSUEAhuIvD/H1E2ktr940C3GCgwv4OFezFle4GC7gpSZ3wxeZPevkdPZ4ODPIwJwc8oLOfYPZ9oLG96HFFa/tGwcgFoLqe2PqeVmC0HTGw4P4QD39C7keXR+eD6nsYpjd4CbTzFZH2AgBhnxxq
   </data>
  </layer>
  <layer id="6" name="Walkable" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
-   eAG1kIttw1AMAzNF918hG7ZEceiBkGzHTQQUovh7bp5fj8fz4O/xM0f6FW3rCN/TfdHDnQ25+M4w+rb7LfvcH57BM91o7PZMPXCdcRbMxnu248cDpoM7OmNvc2js6GD2lLEPvTny23buSrb92729B985eG9/T/jpnjh3GP82/P22zqK9sunuHvNTH7r31mGPcfv9jn0b3vKbP/w07Z884fBtGJ099aCxJ09zeLM95sHWg+E7277p7qxvcOfgs+8OHckf9eBj331vy3Uvd/Ynhv6p+0ib/O/kPvH21d+Qt6/6z/5v97jb2B3w5u5g3qVv2t1rT2uv3u4KvjJ3MvTyRnf0jd+bbLj2W3Nmws5aN9/YPuMzH7oz4GjvGN74z853ON+3NeP+/m8TGg0G
+   eJzFVVsKgDAM8xTe/wq7ofjhT0napOswMJjMNOlDt+7rWsl6kZ0ri8VgQNwKSIvtK5+Kn5hD9szyRnVgWshT5lPtB4rl+qx67eTm9svhqujqVnPi1ESZGTcv5NmNqc6TM39VfJXv9Ay9363VpBbjVHmq3I7uab0Y49sr/nb0FB9R7wSUufkDJ7R3Z39CV/lup7SVfyLiTHxLSFfldj04dwDjMr7jYeJ+QBx2XuWzg6qWyopx1LgRD+YnC3g=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -243,6 +243,72 @@
   <object id="5" name="sullengard_west_ravine_gj_spawn" type="spawn" x="352" y="128" width="64" height="96">
    <properties>
     <property name="spawngroup" value="golden_jackal"/>
+   </properties>
+  </object>
+  <object id="6" name="sull_red_forest_snake_spawn1" type="spawn" x="64" y="736" width="288" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="7" name="sull_red_forest_snake_spawn2" type="spawn" x="32" y="576" width="32" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="8" name="sull_red_forest_snake_spawn3" type="spawn" x="32" y="256" width="416" height="32">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="9" name="sull_red_forest_snake_spawn4" type="spawn" x="32" y="32" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="10" name="sull_red_forest_snake_spawn5" type="spawn" x="672" y="96" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="11" name="flying_tree_ant_spawn1" type="spawn" x="800" y="160" width="128" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object id="12" name="sull_forest_tree_fungus_spawn1" type="spawn" x="64" y="544" width="160" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="13" name="sull_forest_tree_fungus_spawn2" type="spawn" x="224" y="192" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="14" name="sull_forest_tree_fungus_spawn3" type="spawn" x="448" y="192" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="15" name="sull_forest_tree_fungus_spawn4" type="spawn" x="512" y="96" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="16" name="huckleber_reaper_spawn1" type="spawn" x="384" y="32" width="256" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="17" name="sull_forest_tree_fungus_spawn5" type="spawn" x="128" y="320" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
    </properties>
   </object>
  </objectgroup>

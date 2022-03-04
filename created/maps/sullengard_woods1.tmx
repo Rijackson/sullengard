@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="5">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -236,7 +236,52 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="5" name="sull_forest_tree_fungus_spawn1" type="spawn" x="832" y="512" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="6" name="sull_forest_tree_fungus_spawn2" type="spawn" x="864" y="480" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="7" name="sull_forest_tree_fungus_spawn3" type="spawn" x="96" y="416" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="sull_forest_tree_fungus"/>
+   </properties>
+  </object>
+  <object id="8" name="sull_red_forest_snake_spawn1" type="spawn" x="288" y="288" width="192" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="9" name="sull_red_forest_snake_spawn2" type="spawn" x="480" y="352" width="192" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="10" name="sull_red_forest_snake_spawn3" type="spawn" x="768" y="192" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sull_red_forest_snake"/>
+   </properties>
+  </object>
+  <object id="11" name="huckleber_reaper_spawn1" type="spawn" x="160" y="320" width="96" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+  <object id="12" name="huckleber_reaper_spawn2" type="spawn" x="704" y="256" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="huckleber_reaper"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace"/>
 </map>
