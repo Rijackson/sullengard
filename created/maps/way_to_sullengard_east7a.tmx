@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="25" height="10" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,51 +184,69 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="10">
+ <layer name="Ground" width="25" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIqHAAYAqVTZ+Q==
+   eJzbyMnAsHEUj+JRPKwxAD+StaU=
   </data>
  </layer>
- <layer name="Objects" width="30" height="10">
+ <layer name="Objects" width="25" height="10">
   <data encoding="base64" compression="zlib">
-   eJy9UzsOwjAM9cjaDEiZ4BLAOUCCvTkk3AEhFrZK7FDBwglqtzF6DQ6Z4ElWG/f58+x0OyFaRluxHaZEC/D9wnZsrac3btVQlxyZ2GT8Jdz9Z52Gzw+2Z/RL3XUhP/ItlOIF0kcAXq/XQMjkkt6LgFidWePH36Su5Epno6jdmJ8DzqRGbnyX3Li3I9fd/8FEr+gLhg7ZUz/HjDbV8W0+qBN3gtyLt+PTe4y7Vr72ULpzmk/3i/VOfuihhLRHPeM/8sr004JGzHOG84xj587mpT59ismerpXN6QAEIXHv
+   eJydUzkOwjAQTEkDkoMUyc9KCvooD4CP0UINX6AEUdCQQOANeGKvGDsLSIxkGda7c9iwmGQDyjwboVJqQB3q28LPTd2aKb03G3O1ZnzWhLnOeF70iO567jWAs+t/hBnsRxtzsf/0jLNcqA8zqEOjd31P63UGP26/23EOePp0Bj7JU9NnABqoiY7k6EgPXHK38CU12cFfE6dkWjpPK7qrKuiAf+fWnjjgf1P8v+TNgSu9J2pd+H6gHI1y7zzDgLcmf+f4BvRqHKIruQXsFYCG3JsG+DjZWAtojd6feiiTHFp+cPX0Lqk+oP0v09/VL+A9XrINXnc=
   </data>
  </layer>
- <layer name="Above" width="30" height="10">
+ <layer name="Above" width="25" height="10">
   <data encoding="base64" compression="zlib">
-   eJy7JclAc3ATaMctLPbcAYrdJcF+UtUPBYArbIgFwzFMkAGl4QPTv49IM9DtIzV8kfXvAdJnidCLbicyH91+bO6BqUfWd1YSt7nI4uhiN4nQd5PC9HZFCLv4SyLMBQB7MzXU
+   eJxjYEAFNyUZGG5JMpAE7gDV35VE0CAzbktiNwufHD7zYfQ9qF4QeA01C918XHLEgndQf4AAPrcS4494YQaGBGFMcZA/NgLxJkmIW0kN86EMYP7GB3CFG70BveIFlo6wpSf0/IVPPzqAhSMAGFEw9Q==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="10" visible="0">
+ <layer name="Walkable" width="25" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJg8BGMfpgdIBNjBKAzR589pNiDjluoTXAF6a4woEUs4jRj8s+egFs/iSkBpc5pIQPMp8aaYxY/eh5Fpf7SLUTV5mArhabX2lZZgAAj9tQ2Q==
+   eJzbKMZAMdgoBsGExIiRQ1eHrgcXxmY+sfYQYz7MHEJ2U2oPOf4gRi+57iUHkGsHKfoIqSXGr8SEK6nuIhVQKx0QkgMAJZY73A==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="928" y="32" width="32" height="256">
+  <object name="north" type="mapchange" x="192" y="0" width="352" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east7a"/>
-    <property name="place" value="west"/>
+    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="128" y="0" width="32" height="32">
+  <object name="north2" type="mapchange" x="32" y="0" width="128" height="32">
    <properties>
-    <property name="map" value="sullengard_apple_farm_east"/>
-    <property name="place" value="south"/>
+    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="32" width="32" height="256">
+   <properties>
+    <property name="map" value="sullengard_apple_farm_south"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="160" y="288" width="576" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east7"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="yellow_tooth_spaw1" type="spawn" x="768" y="64" width="128" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="yellow_tooth"/>
-   </properties>
-  </object>
-  <object name="yellow_tooth_spawn2" type="spawn" x="96" y="64" width="224" height="128">
+  <object name="poisonous_jitterfly_spawn1" type="spawn" x="224" y="64" width="320" height="160">
    <properties>
     <property name="quantity" value="4"/>
-    <property name="spawngroup" value="yellow_tooth"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn2" type="spawn" x="64" y="160" width="160" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn1" type="spawn" x="384" y="160" width="352" height="96">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>
