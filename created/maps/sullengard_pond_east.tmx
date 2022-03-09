@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="29" height="30" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="5" height="30" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,97 +184,62 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="29" height="30">
+ <layer name="Ground" width="5" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIpH8SgexaN4FI8ofIIITK5Z5NpHrJuIcSu17CM2jOhlH6FwGMVDFwMA7RqKvQ==
+   eJzbyMnAsHEUj2Is+AQUYxNDlsMmBgCxhm3j
   </data>
  </layer>
- <layer name="Objects" width="29" height="30">
+ <layer name="Objects" width="5" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdVbFOAzEMjVBBYoILUNH7AvicdgKpE0gIPg/6Byx0ZKZSh1ZC5NoixFDRDVsX93xuLk1KrwNPsnJxbD/bySWzllJjkLZW6g4E0YHx1eoIt2INcWN16Ee2BtYykK+k+E72cp9v5ktrPA6hw+Z8ra3L65j3fqrUQaqCQJzkT7F57VQrzslejjEYO+yJC3kwh/O0yKkdyDsSPeOYgu0nyBBk1ir3kHgugPMyzfPD+BOQgR35PKReymUoeGUesheSN4QvS3Jx1Tm1o8xD5rnpfn54eF183CcmPuW63GNd8C7jaz/vNlAVf+rhyyLqdfH59q8OmCSsj77/LWTdhTr3b8TOB9cRb13nZeapx3jORmz/uL2sc5N4sTjWq32M+dfX2a/9jxz1GZYL3mvyPokFvyexzqoYxnHG/oKqe/kKYl/rsh0h9l2WfPT+yHN7D3wP2v9WPB8p9dhQ6slKrxHH27U1vTdhz9aIafpjnsKbfpa6Y6FvVxd9Q5sJyBvID5OB0OE8C8jNFatvRfItRB0vzA4xF/y9w9WcSCdjZbZW4+EjDpee8y8cObl8qEfGw7dtzNne9HfAJ3l3UaPk/Y/QJ6u6X57fD5I=
+   eJy7IMnAwCDEwHABSH8C0vJATAp4RKJ6SgGx9r0UxC5+D+jPt5KoYu8kMcWJVfcGi7pXQP5LSQgNczOMjyz+GsoH0beh4rfR+BjmIfkfX1i8wOH/Z0Dxl2IQ9nMkNa+AYi/EEHIgs38A2bfFMOW+iSHkToihmn8cKgYA2QM5hQ==
   </data>
  </layer>
- <layer name="Above" width="29" height="30">
+ <layer name="Above" width="5" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlUsOwyAMRK02J0hWREpX7f0XPU0/OUAbddXPumYRBaECdjC4IyGEQPM8WAkAACcDcMaRqzd6fIg+XOZ83p+ldfQ8c7lXPDuaZQ7J9HHe2rw+P1WH1VrOL25oLS03n6ZK5eT0T5IXWpfkaqp0/2pp5o0KXK0e1syZkvQ75frFck64dxG8B2r9k1BeSk6XQcn7xP0Xs6ZYjptZ8oa0xfe86XlM63uPeKa4HYNn73ZoAXZtfl1UPRS+T41/gkZOivaEXv+jd01tOjmvQ8adfAEKbWuS
+   eJxjYBi+4I4kA8NdSeLFyVF3Cyh/UxJCwwCMjyyOzEcXH44AAMNeEhQ=
   </data>
  </layer>
- <layer name="Walkable" width="29" height="30" visible="0">
+ <layer name="Walkable" width="5" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdlVEKwCAMQz2F97+CN9z+JiG2sVYHFoSturyo07ZaSnsbBst5fa1+Dd9HfSuBmur4iP4sq9eYHbPKVb4bMaLciFb2PFW9lf1UuNnBzhPzsYPL9E/xdnEU7ok4tX9qPot3cg2RezMT2ZanDF+qXvY6WPUi4m+G59VLfGa+vDzjMl3LQ6Qfmd59m1WX+7z67PlhPKanjBnVU6vWWv+m5zP7fCJ/Z/x9x98YbF4PQ1q0WQ==
+   eJzbKMbAsBENDyeA7h9sfoTxkcVxqUMXJ1Udsji6GDaMSy89ADa78LkDWRwAGKghbg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="east" type="mapchange" x="896" y="32" width="32" height="352">
+  <object name="sullengard_snapper" type="spawn" x="64" y="800" width="32" height="96">
    <properties>
-    <property name="map" value="sullengard_pond_east"/>
-    <property name="place" value="west"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object name="southeast" type="mapchange" x="896" y="704" width="32" height="128">
+  <object name="west" type="mapchange" x="0" y="32" width="32" height="352">
    <properties>
-    <property name="map" value="sullengard_pond_east"/>
-    <property name="place" value="pond"/>
-   </properties>
-  </object>
-  <object name="west" type="mapchange" x="0" y="32" width="32" height="416">
-   <properties>
-    <property name="map" value="sullengard5"/>
+    <property name="map" value="sullengard_pond"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="north" type="mapchange" x="704" y="0" width="32" height="32">
+  <object name="pond" type="mapchange" x="0" y="704" width="32" height="160">
    <properties>
-    <property name="map" value="sullengard_woods9"/>
-    <property name="place" value="south"/>
+    <property name="map" value="sullengard_pond"/>
+    <property name="place" value="southeast"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="128" y="32" width="32" height="576">
+   <properties>
+    <property name="map" value="way_to_sullengard_east11"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="southeast" type="mapchange" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east11"/>
+    <property name="place" value="pond"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="sullengard_snapper" type="spawn" x="128" y="672" width="192" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="sullengard_snapper"/>
-   </properties>
-  </object>
-  <object name="pond_fish_pond" type="spawn" x="64" y="864" width="800" height="96">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="pond_fish"/>
-   </properties>
-  </object>
-  <object name="sullengard_snapper" type="spawn" x="448" y="704" width="192" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="sullengard_snapper"/>
-   </properties>
-  </object>
-  <object name="sullengard_snapper" type="spawn" x="704" y="672" width="160" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="sullengard_snapper"/>
-   </properties>
-  </object>
-  <object name="preabola_fly_spawn1" type="spawn" x="672" y="64" width="224" height="160">
+  <object name="preabola_fly_spawn1" type="spawn" x="64" y="32" width="32" height="352">
    <properties>
     <property name="quantity" value="4"/>
-    <property name="spawngroup" value="preabola_fly"/>
-   </properties>
-  </object>
-  <object name="sullengard_venom_snake_spawn1" type="spawn" x="64" y="256" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="sullengard_venom_snake"/>
-   </properties>
-  </object>
-  <object name="flying_tree_ant_spawn1" type="spawn" x="64" y="384" width="160" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="flying_tree_ant"/>
-   </properties>
-  </object>
-  <object name="preabola_fly_spawn2" type="spawn" x="256" y="352" width="608" height="160">
-   <properties>
-    <property name="quantity" value="5"/>
     <property name="spawngroup" value="preabola_fly"/>
    </properties>
   </object>
