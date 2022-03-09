@@ -263,7 +263,7 @@
     <map id="way_to_sullengard_east6" x="492" y="572"/>
     <map id="way_to_sullengard_east7" x="492" y="613"/>
     <map id="way_to_sullengard_east8" x="492" y="655"/>
-    <map id="way_to_sullengard_east9" x="451" y="655"/>
+    <map id="way_to_sullengard_east9" x="461" y="655"/>
     <map id="way_to_sullengard_pond_road" x="369" y="686"/>
     <map id="way_to_sullengard_east10" x="405" y="686"/>
     <map id="way_to_sullengard_east11" x="410" y="655"/>
@@ -291,6 +291,7 @@
     <map id="sullengard_woods13" x="374" y="552"/>
     <map id="sullengard_woods14" x="374" y="519"/>
     <map id="vilegard_sullengard_filler1" x="384" y="492"/>
+    <map id="way_to_sullengard_east9a" x="441" y="655"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
