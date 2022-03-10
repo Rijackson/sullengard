@@ -189,7 +189,7 @@
  </tileset>
  <layer name="Ground" width="20" height="46">
   <data encoding="base64" compression="zlib">
-   eJztlFEOgyAMQPn1ENz/j4TsACMeYfMGG55jNtqk6aAUnD9LTV5alD6KH42Tc9H4Wx7eueT3yHNcS/V8/3tjPiKwkBy4Cz5wPdl+7luVPnTlTh/+Ew68zwO+F3Njnv15H0XyLUqftr9V6dP2d4UPn7P3vU27A2KJlq9UM+qr1bQo+UZdlPgDR48vdPYt+XBu1OpK3yRfqvjgnEQIB3RWBf+N1pd8e0ZLZ5VcPT7DMAzDGOEDl4TSUQ==
+   eJztlF0OgyAMgHn1EL3/G4nZAUZ2BPUGU88xG2gkXQVBM+NSki/lp/0gPLRtjGmVv6UDYxz4yOe0TtXz/HHhFSIyRHPkmfChq2f53Dfv9JFrKvTRn3Bwf6rwvYX8EVbXL3zDyb75Bj4aR32PxjswSuR8Uk2tb6smh+SrdV2JPfHd1DekM+ohJT634cN7XIQNxL3Kwjd7fQ7yPTp1l+Qq8SmKoihKDR/YZNQD
   </data>
  </layer>
  <layer name="Objects" width="20" height="46">
@@ -209,7 +209,7 @@
  </layer>
  <layer name="Walkable" width="20" height="46" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlsENhTAMQzsF+6/AhpyQqsqundZIPRDpHz40D7tJA/fV2h3+JSPFezk9b6bXfe4pfpmX3ndCK+JVas/6hV1z9SB9ai3TVuE5PlzeKeucWlZq5MTPW2ekeIit+j7FYzmzeTHmqj1wvLjvNOV/5by57yYVuz2V0oEYbL93o8pQ+672gOU4vbyj8YtznqrByK1qQLlpv+gZibXu9wG6z3IQw5074/9Zv67Un+lT/hBH6anMJHROKmzlFzHVdebXua9mJZsPjp/0mULxAH5hxKw=
+   eJztllEOgCAMQzmF97+CN/TLhJCWdlATPiTxQ2XPlo3hfbV2h6/kSPFeTs+b6XW/e4pf5qX3ndCKeJXcs3phz1w9SJ+ay7RVeI4Pl3fKPCeXlRw54+etM1I8xFZ1n+KxmFm/GGPVGjhe3DNN+V/Zb+7ZpMZuTaV0IAZb791RZah1V2vAYpxa3tH4xT5P5WDkVjWg2LRf9I3EXPf/AL1nMYjh9p3xflavK/ln+pQ/xFF6Kj0J7ZMKW/lFTPWc+XXeq17J+oPjx6nZ3esBCc7UOA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -288,7 +288,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object name="stop_grazia" type="key" x="0" y="160" width="96" height="64">
    <properties>
     <property name="phrase" value="stop_grazia_0"/>

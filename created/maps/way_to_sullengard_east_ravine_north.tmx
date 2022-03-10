@@ -188,7 +188,7 @@
    eJztkjsOgCAQRAmdJjbWFp7Oe3gatbRUj6DcSelwBAxq/GVIXrEwbB6fNhKiJZ+mSJ93IMSHOZJsXT/thn55/D4/QgghhJA/Uksheg963ZWv5Xb/1X7N0nPyUEl3XtflTv7IPZl3csZvXFCBfvgetr5VgF8H7zfs+GEeGSx/5ozfCLWSfj/MI8pxBvPc5roed/vZMtjXNn+X3wzmw2b1
   </data>
  </layer>
- <layer id="2" name="Objects" width="40" height="30">
+ <layer id="2" name="Objects" width="40" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJytVjtvFDEQtq5AijZI7EbKZQMIKsTjekCpTikgguaShkeFTqLhJ/C/QEAFdBwd0kl50BxScpdk4eokBR6tR/vtnMf7gE8aeW2PZ74Zj+01psCNxJibiSlhPzXm2Eo/yvtPxDzjdZILYdPq7ih6hCHoPrDtw6SwQWtHsTE9+72b5uN/bDu3shfn/Vla5kYgfhvOzrbw/dj2t2COfGys21isPF0v9GQf1/LcZlTMEQ/mNnbcTu13luZzJzDeh3WUwxdWXiZFPu8D5+0oF40Tj7EN1ifZicq6GeTNJIscOX+DqGwHhfDIccX4+7DPw6QeH8YE4kUeGo5ifW7g8Uf2fTFpfDT7meM1XtFFwyRwBtris+XzRebK+jlc0aUKh4HcNsUgKeqLwO3yNWMuO/l5qfi+bmV45f/5R9++uhqJWH+5+avALxP8BrCPZA99aBw0/4RJUm1Dw3e6b+K8Rcygr3HEGqf532KPQtD068bxLa63H9KnvKcIWK94xk4VHtIO5W/ubFS1baHlhcfpXaDY29RAFaZw339cNebdPwhDu695/CQt+54r+8346sbfWx+34H3jfBx48u+zV5XnffcOa1zkeqotion1iR/tlVZb0g7Wpqxt5LCbFv8vM9GOXX1q9c8gPeLH823uFG0N/78wx7Z1NFpdtK1B3k+ZiF++U5gXyoOpuFebvnNVtaVB/ktM3T41xW17Lu7A2ZiI/7cQWKduTfj4yZquc4ZkjqV/2f+Rlt9Xrc7q1lHoPUHIWJAXfh+LMZmnUVycFZ8+Qb73Tc4rvuu+/PvyNBM6B3HYZ9P/VHk3+3jRnk4973Sols66xtxb0+W8m+txDKjP9lD/ebdsP1QbvjkZ5/Kavp5w0S3HhfofOsZ86izq133ncBzjPocY2d+bzuJa9tc0nhCnM2HPZ/fCw++twu+u2O+ewo/jk/pSepAfzDPyIxvPurlo/ppCiw+xFIiBePj2UNYPg3XZprb/iFcVtqoQilHalrra2qUavuXav2Dud2w=
   </data>
@@ -228,7 +228,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="4" name="poisonous_jitterfly_spawn1" type="spawn" x="288" y="32" width="32" height="128">
    <properties>
     <property name="quantity" value="3"/>
