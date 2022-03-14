@@ -3736,5 +3736,25 @@
     {
         "id":"stop_grazia_0",
         "message":"Grazia, please wait over there for a minute. I want to check this out before going across the bridge."
+    },
+    {
+        "id":"sullengard_gs_1",
+        "message":"Diramisk was right, the drink didn't kill him...it was the fall."
+    },
+    {
+        "id":"sullengard_gs_2",
+        "message":"[This gravestone has been heavily scratched. It appears someone really wanted to obscure the inscription.]"
+    },
+    {
+        "id":"sullengard_gs_3",
+        "message":"Erlumvu: A beloved wife and loyal drinking companion.\n"
+    },
+    {
+        "id":"sullengard_gs_4",
+        "message":"Bosworth's last words: \"The last one is one me boys!\""
+    },
+    {
+        "id":"sullengard_gs_5",
+        "message":"Here lies Stout. Faster than the wind, dumber than a stump."
     }
 ]
