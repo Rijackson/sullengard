@@ -3756,5 +3756,183 @@
     {
         "id":"sullengard_gs_5",
         "message":"Here lies Stout. Faster than the wind, dumber than a stump."
+    },
+    {
+        "id":"sullengard_find_mother_0",
+        "message":"",
+        "replies":[
+            {
+                "text":"Mother?!",
+                "nextPhraseID":"sullengard_valentina_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valentina_0",
+        "message":"$playername, what are you doing here?!",
+        "switchToNPC":"sullengard_valentina",
+        "replies":[
+            {
+                "text":"Mom, I could ask you the same question.",
+                "nextPhraseID":"sullengard_find_mother_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_10",
+        "message":"I'm your mother, answer my question.",
+        "replies":[
+            {
+                "text":"Father sent me to look for Andor as he left shortly after you did and hasn't returned.",
+                "nextPhraseID":"sullengard_find_mother_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_20",
+        "message":"What?! Where is he? Why is your father not with you?",
+        "replies":[
+            {
+                "text":"I guess because he needed to stay back and watch over the house. Or maybe he thinks I'm ready for the challenge?",
+                "nextPhraseID":"sullengard_find_mother_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_30",
+        "message":"Typical Mikhail! So lazy and irresponsible.",
+        "replies":[
+            {
+                "text":"I guess, but I can handle myself and have learnt a lot about Andor.",
+                "nextPhraseID":"sullengard_find_mother_33"
+            },
+            {
+                "text":"I totally agree with you.",
+                "nextPhraseID":"sullengard_find_mother_35"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_35",
+        "message":"Don't you dare talk ill of your father. He may be lazy, but he is still your father.",
+        "replies":[
+            {
+                "text":"Sorry, mom. You are right, but you have still not answered my question. What are you doing here?",
+                "nextPhraseID":"sullengard_find_mother_40"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_33",
+        "message":"You've grown up so fast. Stop doing that. You are making me feel old.",
+        "replies":[
+            {
+                "text":"Sorry, mom. You have still not answered my question though. What are you doing here?",
+                "nextPhraseID":"sullengard_find_mother_40"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_40",
+        "message":"I'm visiting my sister, your aunt Valeria.",
+        "replies":[
+            {
+                "text":"Your sister? My aunt? What are you talking about?",
+                "nextPhraseID":"sullengard_find_mother_50"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_50",
+        "message":"Yes, $playername. This is your aunt Valeria. Please say \"hi\".",
+        "replies":[
+            {
+                "text":"Um...it's nice to meet you aunt Valeria.",
+                "nextPhraseID":"sullengard_valeria_0"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_0",
+        "message":"Hello $playername, it's so wonderfull to finally meet you after all of these years.",
+        "switchToNPC":"sullengard_valeria",
+        "replies":[
+            {
+                "text":"But, I don't have an aunt?",
+                "nextPhraseID":"sullengard_find_mother_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Home come mother never spoke of you or told me that she had a sister?",
+                "nextPhraseID":"sullengard_valeria_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_60",
+        "message":"$playername, I will explain this to you later.",
+        "switchToNPC":"sullengard_valentina",
+        "replies":[
+            {
+                "text":"OK, you promise?",
+                "nextPhraseID":"sullengard_find_mother_70"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_70",
+        "message":"Yes, but in the meantime, I'm going home and I expect you there shortly after me.",
+        "replies":[
+            {
+                "text":"But what about my search for Andor? Father expects me to find hime before I come home again.",
+                "nextPhraseID":"sullengard_find_mother_80"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_80",
+        "message":"Just follow me home and we can talk at home. I may have something to aid in your search for Andor. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":100
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"sullengard_valentina_spawn",
+                "mapName":"sullengard1_aunts_house"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"crossglen_valentina_spawn",
+                "mapName":"home"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_10",
+        "message":"That is not for me to tell you. Please go home and she may explain it to you then.",
+        "replies":[
+            {
+                "text":"OK, I will.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

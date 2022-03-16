@@ -905,5 +905,30 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_valhorn"
+    },
+    {
+        "id":"sullengard_valentina",
+        "name":"Valentina",
+        "iconID":"monsters_ld1:167",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_valentina",
+        "phraseID":"sullengard_valentina_0"
+    },
+    {
+        "id":"sullengard_valeria",
+        "name":"Valeria",
+        "iconID":"monsters_ld1:165",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_valeria"
+    },
+    {
+        "id":"crossglen_valentina",
+        "name":"Valentina",
+        "iconID":"monsters_ld1:167",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"crossglen_valentina"
     }
 ]
