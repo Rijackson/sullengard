@@ -3934,5 +3934,196 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"parents_argue_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"andor",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":26,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_10",
+        "message":"[You walk into the house just in time to hear the argument between Mikhail and Valentina]\n",
+        "replies":[
+            {
+                "text":"[You think to yourself: 'Stay brave my father']",
+                "nextPhraseID":"parents_argue_20"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_20",
+        "message":"Hey honey, how was your sister's?",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_30"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_30",
+        "message":"Well, it was going great until $playername walked in.",
+        "switchToNPC":"crossglen_valentina",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_40"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_40",
+        "message":"Oh, yes. Andor is missing. I sent $playername to find him",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_50"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_50",
+        "message":"What?! Why would you do that?",
+        "switchToNPC":"crossglen_valentina",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_60"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_60",
+        "message":"And where is Andor?!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_70"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_70",
+        "message":"With you off visiting your siste,r I had to do all the work around here and watch the house against thieves. So I sent $playername to find Andor.",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"[You decide to chime in] And buy bread. And clear the rats out of the cave...",
+                "nextPhraseID":"parents_argue_80"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_80",
+        "message":"I paid you for those!",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"parents_argue_90"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_90",
+        "message":"Well, he learned something I suppose. Monsters everywhere on the way back! Xyz just cleared them away like they were ants!",
+        "switchToNPC":"crossglen_valentina",
+        "replies":[
+            {
+                "text":"Some of them were ants..",
+                "nextPhraseID":"parents_argue_100"
+            }
+        ]
+    },
+    {
+        "id":"parents_argue_100",
+        "message":"$playername, I'm not laughing.",
+        "replies":[
+            {
+                "text":"You two can discuss this. I think I'll go back to the inn and take a nap. Then come back and talk to mother when she is calm. [Slips quickly out of the door].",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":26
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_selector",
+        "replies":[
+            {
+                "text":"Can we talk about Andor?",
+                "nextPhraseID":"crossglen_valentina_andor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":26
+                    }
+                ]
+            },
+            {
+                "text":"I would like to learn more about Aunt Valeria.",
+                "nextPhraseID":"crossglen_valentina_valeria_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":26
+                    }
+                ]
+            },
+            {
+                "text":"What's wrong?",
+                "nextPhraseID":"crossglen_valentina_10"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_10",
+        "message":"[TODO....]"
+    },
+    {
+        "id":"crossglen_valentina_valeria_10",
+        "message":"Right now? No. I am not ready to discuss this with you.",
+        "replies":[
+            {
+                "text":"Well, I look forward to a time where you will be ready.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_10",
+        "message":"Do you really need to ask me that? Please leave my house and come back when I am calmed down.",
+        "replies":[
+            {
+                "text":"OK mother.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

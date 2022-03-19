@@ -124,6 +124,10 @@
             {
                 "progress":25,
                 "logText":"The PC has asked Mayor Ale  if he had seen or knew anything about the armory theft."
+            },
+            {
+                "progress":26,
+                "logText":"The PC listen to the entire argument between Valentina and Mikhail."
             }
         ]
     },

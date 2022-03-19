@@ -196,7 +196,7 @@
    eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
   </data>
  </layer>
- <layer name="Walkable" width="10" height="10">
+ <layer name="Walkable" width="10" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHGQY0KAWLW4zMXFRzePGupg4rj8CgDlrTZr
   </data>
@@ -211,6 +211,11 @@
   <object name="rest" type="rest" x="32" y="128" width="32" height="32"/>
   <object name="startitems2" type="container" x="256" y="256" width="32" height="32"/>
   <object name="grownfood_init" type="script" x="192" y="128" width="32" height="64"/>
+  <object name="parents_argue_selector" type="script" x="96" y="288" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="keys">
   <object name="andor:1" type="key" x="0" y="288" width="320" height="32">

@@ -929,6 +929,7 @@
         "iconID":"monsters_ld1:167",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"crossglen_valentina"
+        "spawnGroup":"crossglen_valentina",
+        "phraseID":"crossglen_valentina_selector"
     }
 ]
