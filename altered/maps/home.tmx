@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="12" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -181,44 +181,44 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="10" height="10">
+ <layer name="Ground" width="12" height="10">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMS75bCj2HqTkvhxzB1JznxY0rU1XEzMNRDcQM3bnV9QLl+KJ6ApA7kH0LqdkP9g6xuHlBuPhQvgKoDqXnJicAnOVH5yBgA38ZAiQ==
+   eJzj42Jg4CMR75YiDsPUn5YiDsPUn+QkDlNTfR03A0M9FDdwE1bfB1TTD8UTkNSD/E2s+t1Qf2NTPw+oZj4UL4CqB6l9yYmJT2IRg2EA+tZP6Q==
   </data>
  </layer>
- <layer name="Objects" width="10" height="10">
+ <layer name="Objects" width="12" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAB8DMwLJRBcGFsAX5MpRuBcjdYGRj2s0LYj4BqHgIxowBCjTrIDBYGhhdANeeBuAKIP/EjMAyYE+m8razEqTvKCsEXxRgY3IH2FwLpYigbGdih8RuBapqxqItD4oPkJgLVTBaD8KuIdBMMAADVKhYu
+   eJxjYCAD8EOohTKowjC+AD+mlq2sDAwbofI3gOz9UP4joNqHQMwogFCrDsRHWSH0QhYGhhdA9nkgrgDiT/wIDAPmaDStAMhNF8UgbHeguwqB7GIxCBsZ2LFg6gWBRqDaZizq47CoB6mZCFQ7GWpfFSt5bgYAmRkWjA==
   </data>
  </layer>
- <layer name="Above" width="10" height="10">
+ <layer name="Above" width="12" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
+   eJxjYCAdXBYjTf1hLOrxmYFN/SUS1RPjnq2spKlHBxv5SXfPSSx68Kn/gsMOYgEAIacL/w==
   </data>
  </layer>
- <layer name="Walkable" width="10" height="10" visible="0">
+ <layer name="Walkable" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGQY0KAWLW4zMXFRzePGupg4rj8CgDlrTZr
+   eJzbKMbAsHGIY2IBperR9WKTx2cHNdWj68UlBwCb0zyj
   </data>
  </layer>
  <objectgroup name="mapevents">
-  <object name="entrance" type="mapchange" x="96" y="288" width="32" height="32">
+  <object name="entrance" type="mapchange" x="160" y="288" width="32" height="32">
    <properties>
     <property name="map" value="crossglen"/>
     <property name="place" value="home"/>
    </properties>
   </object>
   <object name="rest" type="rest" x="32" y="128" width="32" height="32"/>
-  <object name="startitems2" type="container" x="256" y="256" width="32" height="32"/>
-  <object name="grownfood_init" type="script" x="192" y="128" width="32" height="64"/>
-  <object name="parents_argue_selector" type="script" x="96" y="288" width="32" height="32">
+  <object name="startitems2" type="container" x="320" y="256" width="32" height="32"/>
+  <object name="grownfood_init" type="script" x="224" y="128" width="32" height="64"/>
+  <object name="parents_argue_selector" type="script" x="64" y="128" width="160" height="192">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="keys">
-  <object name="andor:1" type="key" x="0" y="288" width="320" height="32">
+  <object name="andor:1" type="key" x="0" y="288" width="384" height="32">
    <properties>
     <property name="phrase" value="keyarea_andor1"/>
     <property name="requireId" value="andor"/>
@@ -228,12 +228,12 @@
   </object>
  </objectgroup>
  <objectgroup name="spawn">
-  <object name="mikhail" type="spawn" x="224" y="128" width="32" height="32">
+  <object name="mikhail" type="spawn" x="288" y="128" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mikhail"/>
    </properties>
   </object>
-  <object name="crossglen_valentina_spawn" type="spawn" x="224" y="192" width="32" height="32">
+  <object name="crossglen_valentina_spawn" type="spawn" x="288" y="192" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="crossglen_valentina"/>

@@ -3969,7 +3969,7 @@
     },
     {
         "id":"parents_argue_20",
-        "message":"Hey honey, how was your sister's?",
+        "message":"Hey Valentina, how was your visit at your sister's house?",
         "switchToNPC":"mikhail",
         "replies":[
             {
@@ -4104,7 +4104,113 @@
     },
     {
         "id":"crossglen_valentina_andor_10",
-        "message":"[TODO....]"
+        "message":"I should be able to help you, but first you have to tell me where have you been?",
+        "replies":[
+            {
+                "text":"I've traveled great distances from home and have seen my fair share of Dhayaver during my search for Andor.",
+                "nextPhraseID":"crossglen_valentina_andor_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"I've been around a lot of Dhayaver and have spoken to a lot of people about Andor.",
+                "nextPhraseID":"crossglen_valentina_andor_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I've been been to a few places like Stoutford and Guynmart castle",
+                "nextPhraseID":"crossglen_valentina_andor_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"I've not gone much past Sullengard.",
+                "nextPhraseID":"crossglen_valentina_andor_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"crossglen_valentina_valeria_10",
@@ -4123,6 +4229,106 @@
             {
                 "text":"OK mother.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_20",
+        "message":"I see my child. I can also see that your confidence and skills have grown tremendously, but tell me, with all this adventuring, have you been to Brightport yet?",
+        "replies":[
+            {
+                "text":"[While holding back a smirk, you lie] Yes, why?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            },
+            {
+                "text":"No. Should I have?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_21",
+        "message":"I see my child. Tell me, with your limited adventuring, have you made it to Brightport yet?",
+        "replies":[
+            {
+                "text":"No. Should I have?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            },
+            {
+                "text":"[While holding back a smirk, you lie] Yes, why?",
+                "nextPhraseID":"crossglen_valentina_andor_30"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_30",
+        "message":"What? Why not? Don't you remember who lives there?",
+        "replies":[
+            {
+                "text":"Umm...no, no I don't.",
+                "nextPhraseID":"crossglen_valentina_andor_40"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_40",
+        "message":"Andor's best friend from school, Stanwick. If you remember, they are very close friends. Maybe Stanwick has seen Andor?",
+        "replies":[
+            {
+                "text":"Oh, Stanwick, of course.",
+                "nextPhraseID":"crossglen_valentina_andor_50"
+            },
+            {
+                "text":"Stanwick? I never liked that kid. He's really annoying and always picked on me. I really don't want to talk to him.",
+                "nextPhraseID":"crossglen_valentina_andor_50"
+            },
+            {
+                "text":"Are you sure that this is worth it? All the information that I have is pointing me to Nor City.",
+                "nextPhraseID":"crossglen_valentina_andor_55",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_50",
+        "message":"Yes, I think you should go to Brightport and seek him out. Maybe, just maybe, he could be helpful to us for once.",
+        "replies":[
+            {
+                "text":"Thanks, mother. I will go to Brightport next.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_55",
+        "message":"Nor City?! What do you know about Nor City?",
+        "replies":[
+            {
+                "text":"Well, I know there is a lady named 'Lydalon' there.",
+                "nextPhraseID":"crossglen_valentina_andor_60"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_valentina_andor_60",
+        "message":"Oh, OK. Just be careful there.\nAnyways...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"crossglen_valentina_andor_50"
             }
         ]
     }
