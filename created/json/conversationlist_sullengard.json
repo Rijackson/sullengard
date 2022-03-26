@@ -261,7 +261,7 @@
     },
     {
         "id":"sullengard_matpat_2",
-        "message":"Defy already went outside of Sullengard.",
+        "message":"Defy has left Sullengard.",
         "replies":[
             {
                 "text":"Why?",
@@ -275,7 +275,7 @@
     },
     {
         "id":"sullengard_matpat_3",
-        "message":"I don't know, kid. Others are also looking for them. I'm still busy taking care of my firstborn child.",
+        "message":"I don't know, kid. Others are also looking for him and his crew. I'm still busy taking care of my firstborn child.",
         "replies":[
             {
                 "text":"This is bad.",
@@ -299,7 +299,7 @@
     },
     {
         "id":"sullengard_matpat_5",
-        "message":"More importantly, how could I raise my first bornchild without the share to buy expensive foods and pay high rents here?",
+        "message":"More importantly, how could I raise my firstborn child without the share to buy expensive foods and pay high rents here?",
         "replies":[
             {
                 "text":"Calm down. I will find a way to help you.",
@@ -500,7 +500,7 @@
     },
     {
         "id":"sullengard_mayor_4",
-        "message":"Finally, atleast we can survive for a day with a bread and beer.",
+        "message":"Finally, at least we can survive for a day with a beer and some bread.",
         "replies":[
             {
                 "text":"Here's 1,000,000 gold coins.",
@@ -578,7 +578,7 @@
     },
     {
         "id":"sullengard_mayor_4a",
-        "message":"Out of my words.",
+        "message":"I have no words on how to express my gratitude.",
         "replies":[
             {
                 "text":"Oh wait. There's more.",
@@ -686,7 +686,7 @@
     },
     {
         "id":"sullengard_mayor_4d",
-        "message":"Small success first before big success.",
+        "message":"Small successes comet before big ones.",
         "replies":[
             {
                 "text":"Oh wait. There's more.",
@@ -743,7 +743,7 @@
     },
     {
         "id":"sullengard_mayor_6",
-        "message":"You have a familiar face but taller than you. He is one of the most active member in your guild.",
+        "message":"He is taller than you, of course, but you have guys have a very similiar looking face. He is one of the most active members in your guild.",
         "replies":[
             {
                 "text":"N",
@@ -753,7 +753,7 @@
     },
     {
         "id":"sullengard_mayor_7",
-        "message":"He was considered as the helping hand of Sullengard during the days when we were having rough days just like this scenario.",
+        "message":"He was considered as the helping hand of Sullengard during rough days. Not unlike this scenario.",
         "replies":[
             {
                 "text":"I'm glad to help.",

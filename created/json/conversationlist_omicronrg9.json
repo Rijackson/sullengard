@@ -130,7 +130,7 @@
     },
     {
         "id":"umar_guild04_7",
-        "message":"One of them is the popular brewery town namely 'Sullengard' located far to the south of Vilegard.",
+        "message":"One of them is the popular brewery town called 'Sullengard' located far to the south of Vilegard.",
         "replies":[
             {
                 "text":"What makes the place interesting for us?",
@@ -150,7 +150,7 @@
     },
     {
         "id":"umar_guild04_9",
-        "message":"As a result, they agreed for us to help them. We even have 80-20 share from their business.",
+        "message":"As a result, they asked us to help them. We even have 80-20 share from their business.",
         "replies":[
             {
                 "text":"Interesting.",
@@ -174,7 +174,7 @@
     },
     {
         "id":"umar_guild04_10a",
-        "message":"They will have their 20th anniversary beer celebration right now.",
+        "message":"Their 20th anniversary beer festival will be celebrated in the next few weeks. ",
         "replies":[
             {
                 "text":"I didn't know I'm invited.",
@@ -188,7 +188,7 @@
     },
     {
         "id":"umar_guild04_11",
-        "message":"Don't worry. Even your brother was the helping hand of Sullengard. I'm sure of you can do it as well.",
+        "message":"Don't worry. Even your brother was a helping hand of Sullengard. I'm sure of you can do the same as well.",
         "replies":[
             {
                 "text":"He didn't even invite me either.",
@@ -212,7 +212,7 @@
     },
     {
         "id":"umar_guild04_13",
-        "message":"Tell him that it is time to give their share to the bootleg brewers there for their livelihoods especially in paying their taxes.",
+        "message":"Tell him that it is time to give the bootleg brewers their share to aid in their livelihoods. Especially in paying their taxes.",
         "replies":[
             {
                 "text":"You can count on me.",
@@ -330,10 +330,10 @@
     },
     {
         "id":"umar_guild04_19",
-        "message":"This is madness! He betrayed us just like what Crackshot did to us before.",
+        "message":"This is madness! He betrayed us just like Crackshot did.",
         "replies":[
             {
-                "text":"We better find and kill him and his men and retrieve the share to help the Sullengard.",
+                "text":"We better find and kill him and his men and retrieve the share to help the people of Sullengard.",
                 "nextPhraseID":"umar_guild04_20"
             }
         ],
@@ -364,14 +364,14 @@
                 "nextPhraseID":"umar_guild04_22"
             },
             {
-                "text":"Sweet justice with a small information?",
+                "text":"Sweet justice with small information?",
                 "nextPhraseID":"umar_guild04_22"
             }
         ]
     },
     {
         "id":"umar_guild04_22",
-        "message":"He say that they will no longer a part of the thieves guild. Their group name will now be called as 'aidem'.",
+        "message":"He said that they will no longer be a part of the thieves guild. Their group name will now be called as 'Aidem'.",
         "replies":[
             {
                 "text":"What a weird name. For what reason?",
@@ -395,10 +395,10 @@
     },
     {
         "id":"umar_guild04_24",
-        "message":"Such a dishonorable act for they stole 1.7 million gold coins including the very own treasures of Sullengard.",
+        "message":"Such a dishonorable act for they stole 1.7 million gold coins including the treasures of Sullengard.",
         "replies":[
             {
-                "text":"Dishonorable act will face death.",
+                "text":"Their dishonorable act will be their undoing.",
                 "nextPhraseID":"umar_guild04_25"
             },
             {
@@ -422,7 +422,7 @@
         "message":"Sullengard is our friend. Find a way to earn gold.",
         "replies":[
             {
-                "text":"How can we earn with that huge amount of gold?",
+                "text":"How can we earn that large amount of gold?",
                 "nextPhraseID":"umar_guild04_27"
             },
             {
@@ -433,7 +433,7 @@
     },
     {
         "id":"umar_guild04_27",
-        "message":"On the meantime, go back to Sullengard and give them our promised share by our own pocket for their living.",
+        "message":"In the meantime, go back to Sullengard and give them our promised share by our own pocket for their living.",
         "replies":[
             {
                 "text":"What? How?",
@@ -488,7 +488,7 @@
     },
     {
         "id":"umar_guild04_28a",
-        "message":"Immediately report to me once you are done.",
+        "message":"Immediately report back to me once you are done.",
         "replies":[
             {
                 "text":"I better start grinding for gold now.",
@@ -569,7 +569,7 @@
         "message":"Andor, is that you? You grew weak and small. How's your visit in Nor City?",
         "replies":[
             {
-                "text":"Andor is my brother and I'm not weak. I'm $playername.",
+                "text":"I'm $playername. Andor is my brother and I'm not weak.",
                 "nextPhraseID":"guild04_defy_2"
             }
         ]
@@ -586,7 +586,7 @@
     },
     {
         "id":"guild04_defy_3",
-        "message":"Indeed. He always ask questions like a curious kid. Tell me what brought you here, $playername?",
+        "message":"Indeed. He always asked questions like a curious kid does. Tell me, what brought you here, $playername?",
         "replies":[
             {
                 "text":"Umar told me that it is time to give their share to the bootleg brewers.",
@@ -600,7 +600,7 @@
     },
     {
         "id":"guild04_defy_4",
-        "message":"The time of sharing? If that's so. Then, tell him that there will be a delay.",
+        "message":"The time of sharing? If that's so, then tell him that there will be a delay.",
         "replies":[
             {
                 "text":"Really?",
@@ -657,7 +657,7 @@
     },
     {
         "id":"guild04_defy_gone_script_grant",
-        "message":"[Strange. Defy, together with his men, are gone. Maybe they talk to the bootleg brewers here and report back to Umar.]",
+        "message":"[Strange. Defy, together with his men, are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?]",
         "rewards":[
             {
                 "rewardType":"questProgress",
