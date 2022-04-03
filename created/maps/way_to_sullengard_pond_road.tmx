@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -211,7 +211,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="2" name="sullengard_snapper" type="spawn" x="192" y="96" width="32" height="256">
    <properties>
     <property name="quantity" value="3"/>
@@ -241,7 +241,7 @@
     <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object id="7" name="poisonous_jitterfly_spawn" type="spawn" x="1056" y="416" width="160" height="192">
+  <object id="7" name="poisonous_jitterfly_spawn" type="spawn" x="928" y="416" width="160" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>

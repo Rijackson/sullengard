@@ -352,6 +352,7 @@
         "iconID":"items_japozero:438",
         "name":"Zaccheria's shop inventory",
         "displaytype":"quest",
+        "category":"other",
         "description":"A sack of the armory shop owner, Zaccheria's stolen inventory."
     },
     {
@@ -524,10 +525,10 @@
     {
         "id":"thieve_clock_whispers",
         "iconID":"items_tometik2:8",
-        "name":"Theive's cloak of whispers",
+        "name":"Thieve's cloak of whispers",
         "displaytype":"rare",
         "category":"bdy_clth",
-        "description":"A theif's right of passage.",
+        "description":"A thief's right of passage.",
         "equipEffect":{
             "increaseMoveCost":-1,
             "increaseUseItemCost":-1,
