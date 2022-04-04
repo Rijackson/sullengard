@@ -202,7 +202,7 @@
  </layer>
  <layer id="5" name="Top" width="34" height="10">
   <data encoding="base64" compression="zlib">
-   eJytVNsNgDAI7Bruv4cbOIBNTfvrl45gm5QEySFSvYQfwnE8WvIUQqkWq6VqW7UMfAhanJUL+Q7FfyraHAeIe8pFdSJew9p5X0F9SV1CcmqUl/FSZzZ08w+9IkidZbr3YOlq787LkTqtjtWR27unUY6FkT0hDu1AzgC9ryx2Vvpf8szPwv4hF+fGXhefPb9L/P7Iu1Y6l/4+ysWh5boATztjaw==
+   eJytVMENwCAIdA3336MbdIAaG/32ZUeoTSWhBApqL+FDOE44NXnnco1QI9bYayQmx0Gq03pxuSLkT0EbozB1X73gnBzvxtZ4s4C5qC4gdmpkY73kl6SbfpjVorP49wyarjaHlUN1Vv94bEWvT6McDSM+cRzwgO6Au1+JeJbbW+rZn4ZjohfmhnYuvHv8L+H/h/5ruXHh7XO9MKReF0QXYoU=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="34" height="10" visible="0">

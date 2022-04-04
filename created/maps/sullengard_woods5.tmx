@@ -197,7 +197,7 @@
  </layer>
  <layer id="4" name="Above" width="51" height="10">
   <data encoding="base64" compression="zlib">
-   eJytVVsKAjEQ6zXm/tcoZS+w4u+Kor8KYo9gxQZjmHGrGCiymU6bedmUUlosDUH3lfad+5raujnnFOJqYD+2tW/rYM87djbOT51nbZPo+gXF/LycG3fpfO6/uq/aSwPrqeb7gD/32E4rmrGH8/DALuBmygPnY7L3+vwTXLcHvN7R2lYn51VyMjtxwB/nejkoTu+wzeM5DmhA/TxN0RwVOQt6Z8k/eO0RzE2WvWzjHCz2PmucK62LaoqwH9iDPiu9lxVRfGr3elLnWOvCPny33oH91+7PtcH9PF+nQOsneHGg/7zYssxClB8vJu1NjQ+xcY1zoONboO/5PxHQ8/PKN6BvyBLUWO+CLXof1rjZ1t8XcJpP6NOe5HmB7TLoy8Asb22M2wT+PBd3JTn6Mw==
+   eJytVUEOwjAM6zfy/29U0z4wxHVoCK5DQuwJdKIWxkq2gojUw5y0dZxkTSml0VKTaVxXvnNdfVkP55yOsCXwX8qayjrb646TteN9xZlbL7x+NU+XuWC3imfz4xZ7c2A+i/l7gM81t+sOZ8SwDqudAqwjHViP3j7r80/juq3m9Y7WdjFfS9ZkcPLAfpwbabDl83DOAxxQP49TNEednAW+g+gPXHsEc5Mlln2swWifs8ZaaV2UU2RTQ8xg756anbgoP/V7PalzrHXhPXy33oH4e93PtcH9PF/XgOuWeXmg/7zcssxCpI+Xk/am5ofcuMY54PGtoe/5nwjT8/PON0zfkDGosd4FX/Q+7GGD7b8vwFRP8NOe5HmB79a4lw2zfLQ27BDs57l4AgOs+U0=
   </data>
  </layer>
  <layer id="5" name="Top" width="51" height="10">
@@ -230,7 +230,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="4" name="preabola_fly_spawn1" type="spawn" x="896" y="224" width="224" height="64">
    <properties>
     <property name="quantity" value="4"/>

@@ -202,7 +202,7 @@
  </layer>
  <layer id="5" name="Top" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJzFVVEOgyAM9Rrc/wj+m11gB5Bg4AbbEQaLZE3T2j7F7CVEg22F8t5jDtMXuT5LHbGOVMdmzN+Fl1K/zb+d/05GHLqnQr4vjjWswRfb93qmp09HzgOs23qxgjl8HVbvPejncwa895HVyTfzt8PqvYdHHBZPEB5d0bV0xlv49VrjgNR7S9dLwOpx79JqetFrNZ4j3BnNs0TWcUVjSK4Uy/WE1vZ6oxUr+QNSG9En6qNo/BE8Pt8w4l4+4ixfhxaLaFUDok8tdoT2/wmqs+5p1Nu4DuN+dychj75nwe/Lnkvv/g/kRGo2
+   eJzFVcENwyAM7BrsP0L/VRfIAEEg2KAdoVDFqmWZ2JcQ9SSUiNgOHHfmHm5flPasbcQ2UhvZmL8Kr0H9Pv92/jsZceieKvv+cKxhDb5Y2usRThdHzhOs27lYwRy5Dot7D+h8jkByH0WdcrF+CRb3Hh1JWDpBdHTG19oZ5/DjeqQBjXuPr5F6sndpQLjPTE+IdmbrjDhYwjmPIblarPQTWtvbG61YrT8gtRF/on0Ujd+Dp893zLiX9zQr1zGKRbw6AuLPUewM7/8T3GfU03hvkz6M292dlDz+XpR+X7dcfvd/AAJJaVA=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="34" height="19" visible="0">
