@@ -2716,6 +2716,13 @@
                 "text":"No problem. Let's go now.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":17
+            }
         ]
     },
     {
@@ -2730,15 +2737,34 @@
     },
     {
         "id":"sull_ravine_grazia_script",
+        "switchToNPC":"sull_ravine_grazia",
         "replies":[
             {
-                "nextPhraseID":"sull_ravine_grazia_60"
+                "nextPhraseID":"sull_ravine_grazia_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":17
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sull_ravine_grazia_61",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":17,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"sull_ravine_grazia_60",
-        "message":"Thank you so much. I can not continue onto my destination.",
+        "message":"Thank you so much. I can now continue onto my destination.",
         "replies":[
             {
                 "text":"Where were you coming from anyway?",
@@ -2750,6 +2776,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":18
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"sull_ravine_grazia_spawn",
+                "mapName":"way_to_sullengard_east4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_grazia_spawn",
+                "mapName":"sullengard2_northwest_house"
             }
         ]
     },
@@ -4329,6 +4365,65 @@
             {
                 "text":"N",
                 "nextPhraseID":"crossglen_valentina_andor_50"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_not_helping_grazia",
+        "message":"HURRY, PLEASE! Keep moving!",
+        "switchToNPC":"sull_ravine_grazia",
+        "replies":[
+            {
+                "text":"Why are you following me?",
+                "nextPhraseID":"sull_ravine_not_helping_grazia",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":17,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Um...OK",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_61",
+        "message":"Thank you so much. I can now continue onto my destination.",
+        "replies":[
+            {
+                "text":"What is your problem? Why are you following me?",
+                "nextPhraseID":"sull_ravine_grazia_62"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_62",
+        "message":"I was to scared to cross that bridge by myself because of the wind.",
+        "replies":[
+            {
+                "text":"But you just did it?",
+                "nextPhraseID":"sull_ravine_grazia_63"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_63",
+        "message":"Yeah, but only after I saw you doing it. I have to go now. Thanks again.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"sull_ravine_grazia_spawn",
+                "mapName":"way_to_sullengard_east4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_grazia_spawn",
+                "mapName":"sullengard2_northwest_house"
             }
         ]
     }
