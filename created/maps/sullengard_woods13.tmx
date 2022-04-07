@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="34" height="19">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FI94DAD1ZtVs
@@ -192,17 +195,17 @@
  </layer>
  <layer id="3" name="Objects" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJyNVsFtwzAMFLpB/PNYyQYZooN1hPZbQxDgX5/+xbARoxPURHjA5UKpJiAokinyxCOppJTSrU/pvo9tHybrPud9/HaP9ej7pjeTXtnnhc7OYifSv/vAt9m/fe7zl/9+d79sy+TaPds132t/fM/sZvfPeibYN33zo2dvhJVtYwZWYF/kDK/1jPqyeJdg32TqUiiX7hWr6W50Hv6w/jk98Ba3Pft+IczMQaSXaW4J58LQiAW44H0Tw5obergTxxnYWvjs/oPkSwlwmX8bHN9Iz0TjjBncAUuES8+Ch1XsHdHTuNc4PFNOMZ7smGGPc5VrPot/1rOYcW3wWjk0XxxvFthm/cHXC+lHeuhTzF2Lw6jmC33XHgK9MeAJ39C7uH6PcIjc1DhoDFRgO/JRq+MahwPhOHsPVVwsmWI0BnFiXJoDLQ5bAp84y5wz3+znvzqO+i+E7888Wx5GNQI95eJIDkzda6/QPlfrOYqF37nITi0H9P2rYee4bYKtiO53H/cyi+HRHNA3VHNLbUdcR+8R27zSm841CU6ifsF7td6j+XV6i+OJ3jb5W4X/Y5yDUWywdwn+M9Tq98Pv9wdXJOgW
+   eJyNVsFtwzAMFLpB/CjgT3dKNsgQHawjtN8aggD/+swvho0YnaAmwgMuF0o1AUGRTJEnHkklpZSufUq3bazbMFm2OW/jt7uvR983vYn0yjbPdHYSO5H+zQe+Tf7tc5u//Pe7+2VbJufu0a75Xvr9e2Y3u3/WM8G+6ZsfPXslrGwbM7AC+yxneK1n1JfFuwT7JpcuhXLqnrGa7krn4Q/rn8Mdb3Hbk+8XwswcRHqZ5pZwLgyNWIAL3jcxrK9vdT3cieMMbC18dv9B8qUEuMy/DY5vpGeiccYM7oAlwqVnwcMi9vboadxrHB4ppxhPdsywx7nKNZ/FP+tZzLg2eK0cmi+ONwtss/7g65n0Iz30KeauxWFU84W+aw+B3hjwhG/oXVy/ezhEbmocNAYqsB35qNVxjcOBcBy9hyoulkwxGoM4MS7NgRaHLYFPnGXOmW/2818dR/0Xwvdnni0PoxqBnnKxJwcu3XOv0D5X6zmKhd+5yE4tB/T9q2HnuK2CrYjudx/3Movh3hzQN1RzS21HXEfvEds805vONQlOon7Be7Xeo/l1eInjid528bcK/8c4B6PYYO8U/Geo1e+H3+8PJlDnYw==
   </data>
  </layer>
  <layer id="4" name="Above" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJyNlkluhDAQRfsa3P8EyRoh9hFStnRAzTadIDhCbMVfefpddrokCw81fNdkXrrL5TWNexqf5XtLY0uD9J3WcxpH9zvfC/+MueRn8Ih/KHqXNNY0xsKv/WuxN5e5+LQeynnWd2LfsS448zX3pePd7jmW/RpNwZljFaa97PvabV3hE+njvSK+qXyHBtYDcllXH/hCdj66vxi7X6cGn+5OPw8Fm+M7ukd8jGXOh6/A/mn+rfG5n4VNJCyR3yRLmcX0MC4tvkz0eyvWjo1z6duCuLAmIj7e6bC1x5BnTtLNXOqL7aVr843dY220YhjV/Ihz7yGZhN/jxLs5PRPDHrJTgC2fn4F+6Y5qPsqBVgz7AEcf2BQN8BF1MhdbOVCLIfXXbLKva85460vdtTpu9d98/wl4iZ81QhtLEO9n69h7BW2yL3rP8Xr1d877ZS0HnIfY/T2ZA3ubxUQ+ZC+jnv9yQL6XbJRbkX+Z+x7r3fR47XpN6v1zXx+2V+s9UX4Rq79Tmd6wxxr0Ph7t3SuyTj3wsc+vFk/RanPFmbLua3+TbsafR/4f/AEsustd
+   eJyNVrtOxDAQvJ+gcAH/30JtRSmRUCTaHI4uLQdR7hOwxY4Yze2arGTFj32M9+U8p9PppY5rHZ/2vdSx1sH0XddzHXv6nW/GP9Mc8jPxgH8wvaWOpY7R+LF/NnuzzcGH9WDnTd+N9hVroTNd8z50vMs9R9uPaHLOFCswbbava7V1Jp9AX5N5fYz5JvsOHaw7yTX72fEFsH2kvxirXx+eYj7cnf08GDbFt6d7fBzLlg9fjv2b+DfiUz8DGwhYPL9BlmWK6CnpGF8j9nsv1oqN59C3OnHhmvD4+E67rDWGfKYE3ZxL2WyX1Ocb031t9GLo1fxI59pDGgG/xonvpnQkhplkJwdbO785+qHbq3kvB3oxzA6O7NgEDeQj1sm52MuBKIasP7LJfR1zjje+rDuq417/bfefCC/j5xphG8WJ99E61l7BNicnztFboO+c9ssoB5SHset7Mjv2VokJfMi9jPX8lwPwPWS93PL8y7mvsd5Ej9au1iTeP/X1LntR7/Hyi7HqO9Xojfa4BrWPe3vXQFYpEz7u84vEE7TIHHFmWfW1vkkX4W+j/Q/+APL8ypY=
   </data>
  </layer>
  <layer id="5" name="Top" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJy1lgEOwyAIRXsN73+NZdk1XNroAZZsR5gkJWEE5aPrS0xaioCCxW375ZU2k9LktY1nG3sbR8Jlktqxj5JP25J3e/8IGfmUMh0Dx0j04uzJI+xp/O7J7+B8jzJYP5GT7U/j6UX36qb0H+B8T292n/6N3nciGptlY0UPzbUG1Uf10FxbcO3mgY2Vc4uCrNXKd68G0BzOUALnPVobFqPcMFYNeP1D0/u+2md0T/F8zvxzLDuRGrB86t6I+LfsRGpgtW45ZsuO7hEzdiXR+rqKUX0RFF9O2J2Bn/ludJxz5V1J3s/0uqvQZ776mHLM
+   eJy1llEKwyAMhvu0O/iy+x9ijF3D0aIHGKxHmIKBLETzR7cPhDZNf6NJG7ftm1fYVFKx5zKeZexlHAG3cXJHHyU2bc673J/MVufkNhkDxVjpxdmze9jD+N6yX66Yn0UarL8S2/Xd0Lf8vHt1E/4P8H3Lb3affo3c94o3Nk1jxQ/NtQT1R/3QXGtQ7caBxsp3i4KsVct3rwbQHM6QHN+7tzY0RrkhtBqw+oek93y1z8ieYs0588/RdDw1oM0peyMyv6bjqYHVuqWYNR3ZI2Z0Od76+hej+qrU+GLAzgx0TWejo73Lz0r8fCbXnZk/8QELlHIZ
   </data>
  </layer>
  <layer id="6" name="Walkable" width="34" height="19" visible="0">
@@ -230,7 +233,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="4" name="huckleber_reaper_spawn1" type="spawn" x="288" y="64" width="32" height="32">
    <properties>
     <property name="spawngroup" value="huckleber_reaper"/>

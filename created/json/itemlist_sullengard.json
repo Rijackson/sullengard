@@ -710,5 +710,12 @@
         "baseMarketCost":10,
         "category":"other",
         "description":"Probably not something that you want to be carrying around with you."
+    },
+    {
+        "id":"sullengard_mayor_letter",
+        "iconID":"items_japozero:425",
+        "name":"Mayor Ale's letter",
+        "displaytype":"quest",
+        "description":"A ltter to Kealwea, from Mayor Ale."
     }
 ]
