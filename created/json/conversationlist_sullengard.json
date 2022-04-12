@@ -4426,5 +4426,360 @@
                 "mapName":"sullengard2_northwest_house"
             }
         ]
+    },
+    {
+        "id":"ff_captain_beer_10",
+        "message":"You got it, kid, we watchout for lawbreakers!",
+        "replies":[
+            {
+                "text":"I knew it! Do you have your eye on anyone right now?",
+                "nextPhraseID":"ff_captain_beer_20"
+            },
+            {
+                "text":"There's nothing to look at here. [You slowly back up and end the conversation.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_20",
+        "message":"You bet I am. I suspect we are witnessing one right now.",
+        "replies":[
+            {
+                "text":"Really?! Who is it? Can I help?",
+                "nextPhraseID":"ff_captain_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_30",
+        "message":"Hey, kid, not so loud!",
+        "replies":[
+            {
+                "text":"Oh, sorry, but this sounds exciting.",
+                "nextPhraseID":"ff_captain_beer_ 40"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_ 40",
+        "message":"Well, if you look around this tavern, both inside and outside, do you notice anything?",
+        "replies":[
+            {
+                "text":"Um...no. Should I?",
+                "nextPhraseID":"ff_captain_beer_50"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_50",
+        "message":"YES!",
+        "replies":[
+            {
+                "text":"Please enlighten me.",
+                "nextPhraseID":"ff_captain_beer_60"
+            },
+            {
+                "text":"Now you are the one that needs to lower his voice.",
+                "nextPhraseID":"ff_captain_beer_60"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_60",
+        "message":"There is a large amount of beer here. There are a number of beer barrels outside. Both full and empty ones. There is a lot inside as well. Too much in fact!",
+        "replies":[
+            {
+                "text":"OK...Why does this equal a law being broken?",
+                "nextPhraseID":"ff_captain_beer_70"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_70",
+        "message":"Well, for starters, Feygard taxes all beer sales. It is one of the best sources of gold used by Feygard to provide protection for the cities and towns.",
+        "replies":[
+            {
+                "text":"Understood, but I am still not seeing how this means that a law has been broken.",
+                "nextPhraseID":" ff_captain_beer_80"
+            }
+        ]
+    },
+    {
+        "id":" ff_captain_beer_80",
+        "message":"Well, you see kid, I used to work in the 'tax collection' division of the Feygard patrol and I doen't ever remember seeing the kind of collected taxes that would reflect this kind of volumn of beer.",
+        "replies":[
+            {
+                "text":"Um...I think I might be catching up to what you are thinking. Please, continue",
+                "nextPhraseID":"ff_captain_beer_90"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_90",
+        "message":"That's pretty much it kid, but I need your help.",
+        "replies":[
+            {
+                "text":"Anything for the glorious Feygard.",
+                "nextPhraseID":"ff_captain_beer_100"
+            },
+            {
+                "text":"OK, but only if there is something in it for me.",
+                "nextPhraseID":"ff_captain_beer_100"
+            },
+            {
+                "text":"No, thanks. I'm out of here.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_100",
+        "message":"Great to hear. I need you to talk with the tavern owner and find out anything you can about the beer.",
+        "replies":[
+            {
+                "text":"Why me?",
+                "nextPhraseID":"ff_captain_beer_110"
+            },
+            {
+                "text":"Sounds easy. I'll do it.",
+                "nextPhraseID":"ff_captain_beer_ 111"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_110",
+        "message":"Well, because I am a feygard captain and as such, the tavern keep will never give me information."
+    },
+    {
+        "id":"ff_captain_beer_ 111",
+        "message":"Great. Report back to me when you have learnt something usefull."
+    },
+    {
+        "id":"ff_captain_selector",
+        "message":"Have you learned anything about the beer?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"ff_captain_hurry_up",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"A little bit, but I need to go find out more.",
+                "nextPhraseID":"ff_captain_hurry_up",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"I've talked to a couple of tavern owners, learnt a few things, but I need to talk to some more people",
+                "nextPhraseID":"ff_captain_hurry_up",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"I've learned a lot, but I am still not ready to give you my report.",
+                "nextPhraseID":"ff_captain_hurry_up",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"All the information I have optained points me to Sullengard.",
+                "nextPhraseID":"ff_captain_beer_120",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I still have some investigation to conduct in Sullengard. I will return to you afterwards.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"I still have some investigation to conduct in Sullengard. I will return to you afterwards.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"I've learnt everything that you will care to know about the beer bootlegging operation.",
+                "nextPhraseID":"ff_captain_beer_tell_everything_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"I know who is distributing the beer, but not source of the beer.",
+                "nextPhraseID":"ff_captain_beer_tell_sull",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"I know where the beer is coming from, but I do not know who is distributing it.",
+                "nextPhraseID":"ff_captain_beer_tell_thieves"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_hurry_up",
+        "message":"Then why are you wasting your's and my time by coming back here? Get going.",
+        "replies":[
+            {
+                "text":"Yes, sir! I'm on it.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_120",
+        "message":"Sullengard? Of course! Get down there now kid and get me more information.",
+        "replies":[
+            {
+                "text":"Yes, sir. Anything for the glorious Feygard.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll go Sullengard when I feel like it. You don't own me.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Watch it captain! I am not one of your soldiers.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_10",
+        "message":"I knew that I could count on you kid. Please enlighten me and I will reward you hansomely.",
+        "replies":[
+            {
+                "text":"What would you like to know first?",
+                "nextPhraseID":"ff_captain_beer_tell_everything_20"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_20",
+        "message":"Where is it coming from?",
+        "replies":[
+            {
+                "text":"It is coming from a town south of here called Sullengard.",
+                "nextPhraseID":"ff_captain_beer_tell_everything_30"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_sull"
+    },
+    {
+        "id":"ff_captain_beer_tell_thieves"
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_30",
+        "message":"Sullengard?! Of course it would be coming from sullengard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ff_captain_beer_tell_everything_40"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_40",
+        "message":"Well done kid. Here, take some gold.",
+        "replies":[
+            {
+                "text":"All that work, and the reward is just gold?",
+                "nextPhraseID":"ff_captain_beer_tell_everything_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold5000"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"feygard"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_50",
+        "message":"Hey, what do you want from me? I'm stuck here babysitting a bunch of drunk guards.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ff_captain_beer_tell_everything_60"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_60",
+        "message":"Anyways, I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.",
+        "replies":[
+            {
+                "text":"Glory to Feygard.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":90
+            }
+        ]
     }
 ]
