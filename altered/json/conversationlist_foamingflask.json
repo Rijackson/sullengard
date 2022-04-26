@@ -1,0 +1,34 @@
+[
+    {
+        "id":"torilo_1",
+        "message":"Welcome to the Foaming Flask tavern. We welcome all travelers in here.",
+        "replies":[
+            {
+                "text":"Thank you. Are you the innkeeper here?",
+                "nextPhraseID":"torilo_2"
+            },
+            {
+                "text":"Have you seen a boy called Rincel around here recently?",
+                "nextPhraseID":"torilo_rincel_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wrye",
+                        "value":41
+                    }
+                ]
+            },
+            {
+                "text":"Hey, I noticted all of those bear barrels outside and all those drunk guards over there.",
+                "nextPhraseID":"torilo_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -4970,5 +4970,198 @@
                 "value":-4
             }
         ]
+    },
+    {
+        "id":"torilo_beer",
+        "message":"OK, and this is your business why?",
+        "replies":[
+            {
+                "text":"Well, of course it is not my business, but I am just wondering...",
+                "nextPhraseID":"torilo_beer_10"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_10",
+        "message":"Wondering what?",
+        "replies":[
+            {
+                "text":"Why you have so much beer for such a small-sized tavern and where you got it? I would like some to bring home to father.",
+                "nextPhraseID":"torilo_beer_20"
+            },
+            {
+                "text":"Why you're such a jerk?",
+                "nextPhraseID":"torilo_beer_jerk"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_jerk",
+        "message":"Well, it's because of little snot kids like you"
+    },
+    {
+        "id":"torilo_beer_20",
+        "message":"Well, for why I have so much, that is none of your business. For as to where I got it, that information will cost you.",
+        "replies":[
+            {
+                "text":"What? Are you asking me to buy information from you? Why would I want to do that?",
+                "nextPhraseID":"torilo_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_30",
+        "message":"Well, for the same reason why my bed is so expensive to rent...It's valuable.",
+        "replies":[
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Funny, I thought it was because you are a jerk.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, fine! What do you want? Gold? How much?",
+                "nextPhraseID":"torilo_beer_40"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_40",
+        "message":"Hmm...let me think...how does 10000 gold sound?",
+        "replies":[
+            {
+                "text":"PC: That sounds fair. Take it. Now the information please!",
+                "nextPhraseID":"torilo_beer_pay",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10000
+                    }
+                ]
+            },
+            {
+                "text":"That sounds ridiculous! I won't pay that.",
+                "nextPhraseID":"torilo_beer_bribe7500",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10000
+                    }
+                ]
+            },
+            {
+                "text":"I can't afford that.",
+                "nextPhraseID":"torilo_beer_bribe7500",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10000,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_pay",
+        "message":"Oh, I love the sound of clanking coins. Anyways...myself and other tavern owners have a 'business agreement' with a group of 'distributors'.",
+        "replies":[
+            {
+                "text":"What does that mean?",
+                "nextPhraseID":"torilo_beer_pay_10"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_bribe7500",
+        "message":"OK. How does 7500 gold sound?",
+        "replies":[
+            {
+                "text":"That sounds fair. Take it. Now the information please!",
+                "nextPhraseID":"torilo_beer_pay",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":7500
+                    }
+                ]
+            },
+            {
+                "text":"That still sounds ridiculous and I won't pay it.",
+                "nextPhraseID":"torilo_beer_bribe6000",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":7500
+                    }
+                ]
+            },
+            {
+                "text":"I can't afford that.",
+                "nextPhraseID":"torilo_beer_bribe6000",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":7500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_bribe6000",
+        "message":"OK. How does 6000 gold sound?",
+        "replies":[
+            {
+                "text":"That sounds ridiculous too, but I've had enough negotiating with you. [You reach into your bag, grab the coins and slam them on the ground] Take it. Now the information please!",
+                "nextPhraseID":"torilo_beer_pay",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":6000
+                    }
+                ]
+            },
+            {
+                "text":"That sounds ridiculous! I won't pay that",
+                "nextPhraseID":"torilo_beer_bribe6000_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":6000
+                    }
+                ]
+            },
+            {
+                "text":"I can't afford that.",
+                "nextPhraseID":"torilo_beer_bribe6000_10"
+            }
+        ]
+    },
+    {
+        "id":"torilo_beer_bribe6000_10",
+        "message":"That's fine with me, but no information for you."
+    },
+    {
+        "id":"torilo_beer_pay_10",
+        "message":"It means that that is all I will tell you and I suggest you talk to another tavern owner.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":20
+            }
+        ]
     }
 ]
