@@ -643,5 +643,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"gold2500",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":2500,
+                    "max":2500
+                }
+            }
+        ]
     }
 ]

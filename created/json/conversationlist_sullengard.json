@@ -4667,7 +4667,25 @@
             },
             {
                 "text":"I know where the beer is coming from, but I do not know who is distributing it.",
-                "nextPhraseID":"ff_captain_beer_tell_thieves"
+                "nextPhraseID":"ff_captain_beer_tell_thieves",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"I am sorry, but I have learnt nothing that I am willing to share or feel confident in sharing with you.",
+                "nextPhraseID":"ff_captain_beer_tell",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
+                    }
+                ]
             }
         ]
     },
@@ -4720,10 +4738,24 @@
         ]
     },
     {
-        "id":"ff_captain_beer_tell_sull"
+        "id":"ff_captain_beer_tell_sull",
+        "message":"That is disappointing, but at least you know something. Tell me.",
+        "replies":[
+            {
+                "text":"It is the Theives guild.",
+                "nextPhraseID":"ff_captain_beer_tell_sull_10"
+            }
+        ]
     },
     {
-        "id":"ff_captain_beer_tell_thieves"
+        "id":"ff_captain_beer_tell_thieves",
+        "message":"That is disappointing, but at least you know something. Please tell me.",
+        "replies":[
+            {
+                "text":"The brewers are the families of Sullengard.",
+                "nextPhraseID":"ff_captain_beer_tell_thieves_10"
+            }
+        ]
     },
     {
         "id":"ff_captain_beer_tell_everything_30",
@@ -4751,7 +4783,18 @@
             },
             {
                 "rewardType":"alignmentSet",
-                "rewardID":"feygard"
+                "rewardID":"factionCountShadow",
+                "value":-4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":-4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountFeygard",
+                "value":4
             }
         ]
     },
@@ -4779,6 +4822,152 @@
                 "rewardType":"questProgress",
                 "rewardID":"beer_bootlegging",
                 "value":90
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_sull_10",
+        "message":"The thieves guild? Are you sure?",
+        "replies":[
+            {
+                "text":"Oh yeah. I heard it directly from them.",
+                "nextPhraseID":"ff_captain_beer_tell_sull_20"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_sull_20",
+        "message":"Well done kid. Here, take some gold.",
+        "replies":[
+            {
+                "text":"Thanks and Shadow be with you.",
+                "nextPhraseID":"ff_captain_beer_tell_sull_30"
+            },
+            {
+                "text":"Thanks and glory to Feygard.",
+                "nextPhraseID":"ff_captain_beer_tell_sull_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold2500"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":-4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountFeygard",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_sull_30",
+        "message":"I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_thieves_10",
+        "message":"Sullengard?! Of course it would be coming from sullengard. I should have known it is coming from them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ff_captain_beer_tell_thieves_11"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_thieves_11",
+        "message":"Well done kid. Here, take some gold.",
+        "replies":[
+            {
+                "text":"Thanks!",
+                "nextPhraseID":"ff_captain_beer_tell_thieves_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold2500"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountShadow",
+                "value":-4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountFeygard",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_thieves_20",
+        "message":"I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation.",
+        "replies":[
+            {
+                "text":"Glory to Feygard.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell",
+        "message":"WHAT?! Tell me what you know, now!",
+        "replies":[
+            {
+                "text":"That's the thing, I don't 'know' anything that I could prove.",
+                "nextPhraseID":"ff_captain_beer_tell_10"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_10",
+        "message":"I knew that you would be a waste of my time. I'll give reward you with nothing.",
+        "replies":[
+            {
+                "text":"I should get going. Sorry that I could not be more helpful.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":120
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountShadow",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":4
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountFeygard",
+                "value":-4
             }
         ]
     }
