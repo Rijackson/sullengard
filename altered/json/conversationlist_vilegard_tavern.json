@@ -19,5 +19,36 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"dunla_default",
+        "message":"You look like a smart fellow. Need any supplies?",
+        "switchToNPC":"dunla",
+        "replies":[
+            {
+                "text":"Sure, let me see what you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"What can you tell me about yourself?",
+                "nextPhraseID":"dunla_1"
+            },
+            {
+                "text":"I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.",
+                "nextPhraseID":"dunla_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50
+                    }
+                ]
+            }
+        ]
     }
 ]

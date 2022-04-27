@@ -5316,5 +5316,40 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"dunla_beer",
+        "message":"She did, did she? Well, that is an insider topic, and you are not an \"insider\". Come back when you are."
+    },
+    {
+        "id":"dunla_beer_10",
+        "message":"She did, did she? What do you want to know?",
+        "replies":[
+            {
+                "text":"What is this 'business agreement' that the taven owners have?",
+                "nextPhraseID":"dunla_beer_20"
+            }
+        ]
+    },
+    {
+        "id":"dunla_beer_20",
+        "message":"That is not for me to say.",
+        "replies":[
+            {
+                "text":"Is the Thieves guild the 'distributors'?",
+                "nextPhraseID":"dunla_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"dunla_beer_30",
+        "message":"Yes, yes we are, but if you want to learn more, go talk to Farrik back at or guild house.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":40
+            }
+        ]
     }
 ]
