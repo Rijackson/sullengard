@@ -45,7 +45,25 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves03",
-                        "value":50
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you.",
+                "nextPhraseID":"dunla_beer_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50,
+                        "negate":false
                     }
                 ]
             }
