@@ -5163,5 +5163,128 @@
                 "value":20
             }
         ]
+    },
+    {
+        "id":"tharwyn_beer",
+        "message":"What? I don't know anything about what you speak of.",
+        "replies":[
+            {
+                "text":"I am sure you do. What do I have to do to hear what you know?",
+                "nextPhraseID":"tharwyn_beer_10"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_10",
+        "message":"Well, if I read you correctly, I feel like you are prepared to offer me a bribe?",
+        "replies":[
+            {
+                "text":"Oh great, not another tavern owner hungry for more gold.",
+                "nextPhraseID":"tharwyn_beer_20"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_20",
+        "message":"Well, am I correct?",
+        "replies":[
+            {
+                "text":"If that's what it it takes to get you to talk, then yes, yes I am.",
+                "nextPhraseID":"tharwyn_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_30",
+        "message":"Wow! This is my lucky day. I just found out today that my daughter needs 5000 gold in order to enroll at this special school in Nor City and now here you are offering me a bribe.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tharwyn_beer_31"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_31",
+        "message":"That will be 5000 gold please.",
+        "replies":[
+            {
+                "text":"What? You guys are killing me.",
+                "nextPhraseID":"tharwyn_beer_40"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_40",
+        "message":"Is that a 'yes' or a 'no'?",
+        "replies":[
+            {
+                "text":"That sounds ridiculous, but here, take it.",
+                "nextPhraseID":"tharwyn_beer_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5000
+                    }
+                ]
+            },
+            {
+                "text":"That sounds ridiculous! I won't pay that much.",
+                "nextPhraseID":"tharwyn_beer_51",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "value":5000
+                    }
+                ]
+            },
+            {
+                "text":"I can't afford that.",
+                "nextPhraseID":"tharwyn_beer_51",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":5000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_50",
+        "message":"I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'.",
+        "replies":[
+            {
+                "text":"Great. Start talking.",
+                "nextPhraseID":"tharwyn_beer_60"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_51",
+        "message":"That's fine with me, but no information for you."
+    },
+    {
+        "id":"tharwyn_beer_60",
+        "message":"Do you see that suspicious looking fellow over there in the corner?",
+        "replies":[
+            {
+                "text":"The theif?",
+                "nextPhraseID":"tharwyn_beer_70"
+            }
+        ]
+    },
+    {
+        "id":"tharwyn_beer_70",
+        "message":"That is Dunla. He gets me my beer. Go talk to him.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":30
+            }
+        ]
     }
 ]
