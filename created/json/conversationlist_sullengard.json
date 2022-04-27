@@ -5286,5 +5286,35 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"bela_beer",
+        "message":"Who is Torilo?",
+        "replies":[
+            {
+                "text":"Come on. You know who Torilo is.",
+                "nextPhraseID":"bela_beer_10"
+            }
+        ]
+    },
+    {
+        "id":"bela_beer_10",
+        "message":"No, really, I don't know anyone by that name.",
+        "replies":[
+            {
+                "text":"Sure you do. He is the owner of the Foaming flask.",
+                "nextPhraseID":"bela_beer_20"
+            }
+        ]
+    },
+    {
+        "id":"bela_beer_20",
+        "message":"the 'Foaming flask', what is that? Is that a tavern?",
+        "replies":[
+            {
+                "text":"I've had enough of you. If you want to play dumb, then I don't have time for you.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
