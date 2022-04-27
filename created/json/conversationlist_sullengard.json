@@ -877,6 +877,22 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Mayor Ale has asked me to give this letter to you.",
+                "nextPhraseID":"sullengard_kealwea_letter",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"sullengard_mayor_letter",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -5349,6 +5365,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"beer_bootlegging",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"sullengard_kealwea_letter",
+        "message":"Oh, I've been expecting this. Thank you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":70
             }
         ]
     }
