@@ -5251,6 +5251,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
+                        "requireID":"gold",
                         "value":5000
                     }
                 ]
