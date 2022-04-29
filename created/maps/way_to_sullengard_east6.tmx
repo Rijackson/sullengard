@@ -217,13 +217,13 @@
   </object>
   <object id="2" name="south" type="mapchange" x="192" y="1248" width="352" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east7"/>
+    <property name="map" value="way_to_sullengard_east7a"/>
     <property name="place" value="north"/>
    </properties>
   </object>
   <object id="3" name="south2" type="mapchange" x="32" y="1248" width="128" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east7"/>
+    <property name="map" value="way_to_sullengard_east7a"/>
     <property name="place" value="north2"/>
    </properties>
   </object>

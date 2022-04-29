@@ -232,7 +232,7 @@
   </object>
   <object id="3" name="south" type="mapchange" x="256" y="992" width="32" height="32">
    <properties>
-    <property name="map" value="sullengard_woods12"/>
+    <property name="map" value="sullengard_woods13"/>
     <property name="place" value="north"/>
    </properties>
   </object>

@@ -216,8 +216,8 @@
  <objectgroup id="7" name="Mapevents">
   <object id="1" name="east" type="mapchange" x="832" y="192" width="32" height="96">
    <properties>
-    <property name="map" value="sullengard10"/>
-    <property name="place" value="east"/>
+    <property name="map" value="sullengard9"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
   <object id="2" name="south" type="mapchange" x="32" y="288" width="288" height="32">

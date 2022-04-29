@@ -207,7 +207,7 @@
  <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="160" y="0" width="608" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="map" value="way_to_sullengard_east7a"/>
     <property name="place" value="south"/>
    </properties>
   </object>
@@ -215,6 +215,12 @@
    <properties>
     <property name="map" value="sullengard_apple_farm_south"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="1" name="south" type="mapchange" x="32" y="928" width="736" height="32">
+   <properties>
+    <property name="map" value="way_to_sullengard_east8"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
