@@ -5379,5 +5379,116 @@
                 "value":70
             }
         ]
+    },
+    {
+        "id":"farrik_inquery",
+        "message":"What's on your mind, kid?",
+        "replies":[
+            {
+                "text":"Not much. I should go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
+                "nextPhraseID":"farrik_beer"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer",
+        "message":"Well, kid, all you really need to know is that there is a beer-making town that has been selling their beer to other towns and they are getting unfairly taxed on those sales.\t\t ",
+        "replies":[
+            {
+                "text":"By Feygard?",
+                "nextPhraseID":"farrik_beer_10"
+            },
+            {
+                "text":"What is the name of this town?",
+                "nextPhraseID":"farrik_beer_town"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_10",
+        "message":"Yes.",
+        "replies":[
+            {
+                "text":"Why is the Thieves guild helping this town?",
+                "nextPhraseID":"farrik_beer_20"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_town",
+        "message":"Oh, how silly of me to leave out that detail.",
+        "replies":[
+            {
+                "text":"Yes, it was 'silly' of you to do that.",
+                "nextPhraseID":"farrik_beer_town_10"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_20",
+        "message":"Well, the gold of course.",
+        "replies":[
+            {
+                "text":"Anything else?",
+                "nextPhraseID":"farrik_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_30",
+        "message":"Nope. You do not need to know any other details",
+        "replies":[
+            {
+                "text":"Well, could you at least tell what town it is that is making the beer?",
+                "nextPhraseID":"farrik_beer_town"
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_town_10",
+        "message":"It is Sullengard, of course.",
+        "replies":[
+            {
+                "text":"Sullengard? I've never been there. Where is it located?",
+                "nextPhraseID":"farrik_beer_sull_unknown",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":19,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Oh Sullengard? I know where that is...[I think]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"farrik_beer_sull_unknown",
+        "message":"South of Vilegard, but beware, the travel to it is not for the faint of heart.",
+        "replies":[
+            {
+                "text":"I guess it's onto Sullengard for me. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
