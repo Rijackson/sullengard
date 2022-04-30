@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="18">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -160,7 +160,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -190,30 +190,35 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVVcFOwzAMjaqekVJYp+4Cv8Ef8An8Ij8AiIoDQurajSLtjjbBBQ7bQHwBMYkVY5zVfdJTsqjzs1/s9qUy/7AWzjhOC2POp8ZcZfHspvRrb32MnePS7bdhT9cxoP99rv7qdjbqguY+PIPPz60nAFaex6H10/GL5CrVuw2aWC/iV9N59FbEs5bkgbicDvMi4TNq457qv9t0fIh3l+lYC7pQB/eG4iFPx3pSsnd8LKMu9QwAd3w8M+bEcTLzZ6s8HWsDd5QNc5NFL2m9gI7lgHjN07G4T5reR10K3l8SuEeIxg5rY70tiUH7C0B7+brUsXa8T8w81oP1NjY9T4ijkAO/i5b9ljzk4M/wej9IzKWVdbg+nU3pnbKayLnx+UWsBT+kHBaKu7hVeIKgmlyvSXjAgZ4tQh8AoBc68k0wpKegvzR9TgHfobMi5shz4z2dgkZzF3Ln8ejvltSsmY8xmAvaGtC5RWjeQ/sR94AY8rFlM55aIU4/slbJG6wdYx3SpN9SDTBPfL/B/rvwrCvPHyCN+6g=
+   eJyVVcFOwzAMjaqekVLYpu4Cv8Ef8An7RX4AEBUHhLS1G520O9oEFzisA/EFxCRWjHFW90lPyaLOz36x25fS/MNWOOM4L4y5nBhzncWz27FfW+tjdI4rt9+HPV2HgP53Xf7VbWzUBc1DeAafX1hPAKw8j2Prp+MXyVWqdx80sV7Er6bz6K2IZzXJAzGb9PMq4TNq457qv9t0fIh3n+lYCbpQB/eG4jFPx3pWsnV8KqMu9QwAd3w6NebMcTT1Z5s8HWsHd5T1c5dFL2m9gIblgHjN07G4T5reR10K3l8SuEeIue3XxnprEoP2F4D28s1Yx8rxITHzHblfzDM1T4iTkAO/i5r9ljzk4M/wej9IzJWVdbg+nU3pnbIZybnx+UVsBT+kHJaKu7hTeIKgmlxvnvCAAz1bhj4AQC805JtgSE9Bf2n6nAK+QxdFzJHnxns6BY1mF3Ln8ejvmtSsmY8hWAjaGtC5RWjeQ4cB94Do87FmM55aIU47sFbJG6wdYx3TpN9SDTBPfL/B/rvwrErPHzTW+6s=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd3JVkYNgHxApCEP5hMVT5O5IQGqQGxL4rSYYlSOA+UP8DLGYg23sHSZ5S+wgBdP8iA1L8Gy5Oub3IYfMZSH+hgd/x+RcUx8xSDAwsUpSbhQ6okXaQ7UVOQzCzcdHUctMlEvwLAtjMvkPj9IwNEBsegx1gCzty4ne4hAc6GKz+ITd/UmonvQExdqL7l1DYUDOMYOYM1rCBAWR34vI7OWFNKQAAqMlPgQ==
+   eJxjYCAd3JVkYNgHxApCEP5hMVT5O5IQGqQGxL4rSYYlSOA+UP8DLGYg23sHSZ5S+wgBdP8iA1L8Gy5Oub3IYfMZSH+hgd834zETFMfMUgwMLFLEmYUv7NABNdIOsr3IaQhmNi6aWm66RIJ/QQCb2XdonJ6xAWLDY7ADbGFHTvwOl/BAB4PVP+TmT0rtpDcgxk50/xIKG2qGEcycwRo2MIDsTlx+JyesKQUASrpPdA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="20" visible="0">
+ <layer id="4" name="Top" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNlLkNACAIRZ3C/VdwQys7CPxDIwmFcjwwyJpjLEEjiXwURoeZMTo+LK9iVrGqoLXeYp8zGud6dzY/O9tMX6hfp1dUELZzppB+O3aVX/llNoXJsn/532yO7K6aO7ROVaK6Xu3XH5nKbnWxEXX266xrA+KIzsc=
+   eJxjYBgFowA/OCw2MPZeGiB7R8EoGAWjYBSMAkoBAE1kAcI=
   </data>
  </layer>
- <layer id="5" name="Walkable_Below" width="30" height="20" visible="0">
+ <layer id="5" name="Walkable" width="30" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNlMENwDAIAzNF918hG/bbhymYI1Ut8cLKQUDsa60NQkl5CKPCjBgVT5cX9frMnZT636/UZZ+YNXm/O3e3L9dX6dWVw55iZtzMq/KUn/miHGF22WQniSaYb/PL9s6tk0rVRW+Cw/4bk9zWKbYTk/1O1nUDI0vNOQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable_Below" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAMbBSj0IBRe0ftHQWjYBSMglEwCoYZAADdUwPk
   </data>
  </layer>
- <layer id="6" name="Walakble_Above" width="30" height="20" visible="0">
+ <layer id="7" name="Walakble_Above" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAcbBSjgiGj9o7aO0jsHQWjYBSMglEwCigFABBnBKs=
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="8" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="544" y="0" width="128" height="32">
    <properties>
     <property name="map" value="sullengard5"/>
@@ -240,64 +245,58 @@
   </object>
   <object id="5" name="east" type="mapchange" x="928" y="32" width="32" height="576">
    <properties>
-    <property name="map" value="roadtocarntower2"/>
+    <property name="map" value="way_to_sullengard_pond_road"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="6" name="east2" type="mapchange" x="768" y="192" width="32" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_pond_road"/>
-    <property name="place" value="west2"/>
-   </properties>
-  </object>
-  <object id="7" name="sullengard7_replace_below_script" type="script" x="544" y="0" width="128" height="32">
+  <object id="6" name="sullengard7_replace_below_script" type="script" x="544" y="0" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="8" name="sullengard7_replace_below_script" type="script" x="576" y="160" width="192" height="32">
+  <object id="7" name="sullengard7_replace_below_script" type="script" x="576" y="160" width="192" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="9" name="sullengard7_replace_above_script" type="script" x="512" y="0" width="32" height="32">
+  <object id="8" name="sullengard7_replace_above_script" type="script" x="512" y="0" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="10" name="sullengard5_replace_above_script" type="script" x="0" y="96" width="32" height="96">
+  <object id="9" name="sullengard5_replace_above_script" type="script" x="0" y="96" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
-  <object id="11" name="deathcob" type="spawn" x="64" y="256" width="160" height="128">
+ <objectgroup id="9" name="Spawn">
+  <object id="10" name="deathcob" type="spawn" x="64" y="256" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object id="12" name="deathcob" type="spawn" x="576" y="384" width="160" height="128">
+  <object id="11" name="deathcob" type="spawn" x="576" y="384" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object id="13" name="deathcob" type="spawn" x="320" y="384" width="160" height="128">
+  <object id="12" name="deathcob" type="spawn" x="320" y="384" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object id="14" name="deathcob" type="spawn" x="608" y="96" width="128" height="192">
+  <object id="13" name="deathcob" type="spawn" x="608" y="96" width="128" height="192">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys">
-  <object id="15" name="sullengard7_road_sign" type="sign" x="576" y="352" width="32" height="32"/>
+ <objectgroup id="10" name="Keys">
+  <object id="14" name="sullengard7_road_sign" type="sign" x="576" y="352" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="10" name="Replace">
-  <object id="16" name="sullengard7_replace_below" type="replace" x="512" y="0" width="64" height="192">
+ <objectgroup id="11" name="Replace">
+  <object id="15" name="sullengard7_replace_below" type="replace" x="512" y="0" width="64" height="160">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -305,7 +304,7 @@
     <property name="requireValue" value="10"/>
    </properties>
   </object>
-  <object id="17" name="sullengard7_replace_above" type="replace" x="512" y="0" width="64" height="192">
+  <object id="16" name="sullengard7_replace_above" type="replace" x="512" y="0" width="64" height="160">
    <properties>
     <property name="Walkable" value="Walakble_Above"/>
     <property name="requireId" value="sullengard_hidden"/>

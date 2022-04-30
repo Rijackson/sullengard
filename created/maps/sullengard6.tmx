@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lV0KwCAMg3cK738Fb7gHEUahP2nSFQTZ5meatbrXI4u9zui+9763axAGs39FF8v8rvfmCp2KiFjIPp5/Ch+VOWesbj3f+ZS+bv6qemZ1ROyMl50/ljXRH9P1Z59VPEFYFe1e/zI9HTFRhuUx0ckL9fAvVoWhYEYsRmfl/3b8ZLRFd/gLZCJxfw==
+   eJy9VIEJwDAI2xX9/4V+OMYYFKlWkzhhrKwzxjR2jksWc7wPuu/9b3MqGEz9DC8Wc8331gqeioiwKnU8/RQ6Kns+YaF+/tZd/ND+FfqteX/6b1c/y03Nr9t/9ltGkwpWhrs3v8xMR5hVDIvHBNLX6c6oeGW3750bOvcdmNG8MffL6XwZPRFunl+f9w15Mne3
   </data>
  </layer>
  <layer id="6" name="Walkable_Below" width="20" height="30" visible="0">
@@ -269,7 +269,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
+ <objectgroup id="9" name="Spawn" visible="0">
   <object id="10" name="deathcob" type="spawn" x="128" y="288" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
