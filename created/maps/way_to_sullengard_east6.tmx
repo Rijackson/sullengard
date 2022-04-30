@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="25" height="40" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lOsJwzAMhDtF9l8hGxYSCsXopO8kW5AfaZV7yfJ9fZ66r/dZ6/f79DlZu3gijJ0+MiyXI+ur5nAip4g7+77LqXyQbF38fw46uypj1VvNq3M+Ih+ODsqjOLuYlcaIb5JRldXK5daJHYw0ER8d/IzH4VAZkt1zdVe8atd2FZ051UCzc+4doj96p3mSOaj/6Z47Wjozn+K7d9EpH4qT8EW9me6ML9M89UH3gGhU7xEPzYpgVD2uD/d+OeEj6qc+aFU50u87+JSDFDkPU5wVy505wc96nayoj87ZVTiKl/jo8qr6Au3zH64=
+   eJy1lOsJwzAMhDtF9l8hGxYSCsXopO8kW5AfSdV7yfJ9fZ66r/dZ6/d9+pysXTwRxk4fGZbLkfVVcziV08rd0V5xKh8kWxf/n4POrspY9Vbz6pyPyIejg/Iozi5mpTHim2RUZbVyuXViByNNxEcHP+NxOFSGZPdc3RWv2rVdRWdONdDsnHuH6I/eaZ5kDup3uueOls7Mp/juXXTKh+IkfFFvpjvjyzRPfdA9IBrVe8RDsyIYVY/rw71fTviI+qkPWlWO9P8dfMpBipyHKc6K5c6c4Ge9TlbUR+fsKhzFS3x0eVV9AU3qIHU=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">

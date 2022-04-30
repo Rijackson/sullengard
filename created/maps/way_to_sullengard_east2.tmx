@@ -160,7 +160,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -200,14 +200,14 @@
  </layer>
  <layer id="4" name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJEwtwqUcWx2cmPnW43EOMGwnZSQiguwubXmqE1UYiwx2bPmLUEms+LrcSE/aE4h+XPnRxXGFOqj9IjV9cegnFFz73kYMBfRBC2w==
+   eJzbKMbAsBEJEwtwqUcWx2cmPnW43EOMGwnZSQiguwubXlxqSHHTRiLDHZs+YtQSaz4utxIT9oTiH5c+dHF84UmKP8iNC3S9hOILn/vIwQA/9EOi
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="128" y="0" width="320" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_east1"/>
-    <property name="place" value="north"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
   <object id="2" name="west" type="mapchange" x="0" y="96" width="32" height="352">
@@ -217,7 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="yellow_tooth_spawn1" type="spawn" x="64" y="64" width="384" height="96">
    <properties>
     <property name="quantity" value="4"/>

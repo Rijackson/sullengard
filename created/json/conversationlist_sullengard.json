@@ -18,6 +18,17 @@
             {
                 "text":"No way, I'm afraid of heights.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"But you are no longer afraid as you've already braved this adventure.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110
+                    }
+                ]
             }
         ]
     },
@@ -163,6 +174,17 @@
                         "requireID":"achievements",
                         "value":110,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"But you are no longer afraid as you've already braved this adventure.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110
                     }
                 ]
             }

@@ -185,25 +185,25 @@
  </tileset>
  <layer id="1" name="Ground" width="11" height="25">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+IBxG8kB94No5hyDABtmsga
+   eJzbyMnAsHEUj+JRPIopxADoA8fP
   </data>
  </layer>
  <layer id="2" name="Objects" width="11" height="25">
   <data encoding="base64" compression="zlib">
-   eJx9U7FKA0EQnSLapMntaeDuLwQRja0IwVICif5AIjb5tCgYiJV2uWCjX7EmIlFi7Rtul5vdzOXB42D27cybmT2bEX2CEtbFpu0w/paU3xXOvsBeWp2x1t+7N0SLhGoR57WKhxk0T+CiHdYko+c7RnzSIHoAHxt63dPWdm0Prh/78NqzJlEHPG+Gdy7y8nuZV9ouNEeocyW030k5j3kW5u06jde+4Pw1q3qX/Q+guQFvnfbOhLkk1uj/B/x1c/C7YG0KrwfgYR76Y/B+5e5PUtoJvndtdA9+jn5v0oPEMtp7Id5N3a4YH9G+CjEzyWeX492IN+TQR2wAbhD7cz3zXK3TyPxDxEfgHua2L/ZtRT7tHcs+bDQTDdMdfmV+3o3mgd/YvMaDz6d51DwU0f8uMY7eH3v4B5lObaE=
+   eJx9U8FqwkAQnYP14qXZVCH5i4JIba+lIB6loO0PqHjx09pCA+2pvRnx0n7FSkupYs99Q3bN7LrmwSMw+3bmzcxGJ0RrUEKbWNZy46uo+H7h7Bu8jcsz1tp7M0W0jOgo/Lw64OEFmmdw2XJrkgrnayP+UCN6BJ9q4boXp4e1Lbi+78Nquw2iS/Cq4d65TovvTVpqe9Cco05faH+iYh6LxM3bMxqrfcP5e1L2LvsfQXMH3hvtVLm5JH7R/wbcmjnYXbA2htczsJm6/hi8X7n7TkyV4HsDVb1Puzfpwdftdwvk4t1U5f309pWLmUm+mhwfyq3DGCI2AneI/Zmeea46Oaw3RnwCnmBudbFvLfKF3rHsQ3szCSGr8Cvz825CHviNLY54sPlCHkMecu9/l5h77489/ANKtXO0
   </data>
  </layer>
  <layer id="3" name="Above" width="11" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYICAO5IMDHclGTDATaDYLSzihAAx+nDZSS0Ash/mjp1E2mMixcBgCsRmUggxQSEGBiUgPiaIqd5VCpUvJASh1aD0RqC9m3DYDTITpE5ECFPuM1DPFyR9QlD79bGoZQa6gUUKUxwGyI1DXGbgizeQutuSxMXtS6g8yNy3koTdClL/Ck0Olz3o8X2TCPPR1RKj/iYRYYLLvbskcZuP7AaQX07hMBtmHqnxS4x7b5JoJgAEyzyQ
+   eJxjYICAO5IMDHclGTDATaDYLSzihAAx+nDZSS0Ash/mjp1E2mMixcBgCsRmUggxQSEGBiUgPiaIqd5VCpUvJASh1aD0RqC9m3DYDTITpE5ECFPuM1DPFyR9QlD79bGoZQa6gUUKUxwGyI1DXGbgizeYOmLjFt1tpLoVlz3o8X1Tknjzb5LgnptEhAku9+6SxG0+shtAfjmFw2yYeaTGLzHuvUmimQDPUDl0
   </data>
  </layer>
  <layer id="4" name="Walkable" width="11" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytkcENACAIA5nC/VdgQ30SUopFTUwQ5CzVl5mfHZeHXI5zDvVV9Zf7CpcxJlqUfPZK6Wfzobu5xma71az+XVdjTOT5Dy7rZXOzGGmIjE579Z6ql/nYsSeeVUx03gjUU/U=
+   eJytkMENACAIA53C/VdgQ30SUg5RTUywQD2wOYbt6485LcZRU31Z/qW+40seNywd/VRTOs2namOOZqv4iJN4qhx5qp3/8KVemptixeA9Kvbsvy4v7bHyvtlZ5qneC1ekVLw=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="sign_way_to_sullengard_east_park" type="sign" x="192" y="128" width="32" height="32"/>
   <object id="2" name="north" type="mapchange" x="224" y="0" width="32" height="32">
    <properties>
@@ -218,7 +218,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="4" name="yellow_tooth_spawn1" type="spawn" x="64" y="0" width="128" height="128">
    <properties>
     <property name="quantity" value="3"/>
