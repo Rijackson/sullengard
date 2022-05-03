@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Above" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJylVTFuwzAMzNQfZNDi/69JpwKCkA/4AU1d1GvRBskTKiI65HKm6BQhQEiiRfJIkfQubTb7ylPlz8qHyu+Vj3RWUpmdc7rtPf2vus6Vd82ffYMM60flX9JnPc/umj5iYntzWyH7rvzT9movwhXpr8ULXEbYK9YIV6TPGJiK3J/J1yN2I/2Sln5YF+uZdFAzkd1IX2ls9zLZ47t8zuJTcXGNIzfAWtJ97W2H657zeJK3wJn7BvF7eL26HR35RPYg0/rG+WVY5kzx6VsbbYflfSP4V8xGlk/4M33kjInxZfHZmyHTSk4VLwjYgOlMOqO8p/Y65Jx37i/EpngRj+Ex1royWdTrudnMklujHODleKOZGfV6JgzAW1KMV+eP4uKceL2OmrikW08YPTszka/eDEFNvJJPvNmzMxMyb2ZpnfK7s63/zky21euRSbBrDzOWR/LIdeXNHXzjHCOGIu/N9Jau7JHqHNJ9X/fyC3z6jnyH8+T9t3ur+jL6A/KVqY8=
+   eJylVctuAjEM5NQ/4JDL/v+VckKKVvxG2yD2itoKPqG22BGjWcdLhSUrj43tycT27spm827aTE+mR9MP009aq+ier2t5zCP7s42T6W6O59+wh/HL9Ifs2S7yu2aPO7G/aR6xdzH9nufqL8OV2a/dF7hcMFesGa7MnjGwjHJ+oljP+M3sxyAe22K8kg1yJvOb2UfSyiMPm5zldZWYigt5zO/IWDn3tsN9zjz+yltgzXWD+0d4o7xlvHwOgj3Nb6zfhiVfik/f2mU7LM+7IL5idnE+Ec/tx7LsGYyvyrdeD2krnCpe5Q2YrkG8Xq1jn3nn+sLdFC84dDyumle+l9V6nX1W4dalJnj5vlnPzGq9EgbmN8Or/UdxMSdRrcP/TfLh1Z4Jvno9BDmxp5h4s1d7JvainqV5yu/Ovv7bM9lXr0aaYNcaZizP8Mh5FfUdfGOOcYexLOsfcih3jSTqGVzXPX6BT9+RzzBP0X+7N2oslz8NFKOB
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="20">
@@ -239,7 +239,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="5" name="sull_forest_tree_fungus_spawn1" type="spawn" x="832" y="512" width="32" height="64">
    <properties>
     <property name="spawngroup" value="sull_forest_tree_fungus"/>
