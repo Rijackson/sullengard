@@ -162,11 +162,15 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Hadena needs my help to get her husband home on time."
+                "logText":"Hadena needs my help to get her husband Ainsley home on time."
             },
             {
                 "progress":20,
-                "logText":"I agreed to help her husband get home on time."
+                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He is working in Deebo's Orchard located southwest of their cabin."
+            },
+            {
+                "progress":25,
+                "logText":"Hadena has directed me to go to Loneford to find a pitchfork for Ainsley and bring it to him."
             },
             {
                 "progress":30,

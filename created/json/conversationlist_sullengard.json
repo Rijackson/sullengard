@@ -2177,16 +2177,6 @@
                 ]
             },
             {
-                "nextPhraseID":"sullengard_hadena_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":10
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"sullengard_hadena_6",
                 "requires":[
                     {
@@ -2199,19 +2189,29 @@
             },
             {
                 "nextPhraseID":"sullengard_hadena_7"
+            },
+            {
+                "nextPhraseID":"sullengard_hadena_completed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":60
+                    }
+                ]
             }
         ]
     },
     {
         "id":"sullengard_hadena_0",
-        "message":"Andor! Good timing you arrive because I need your help to get my husband home on time today.",
+        "message":"Andor, good timing! Your arrival is much appreciated because I need your help to get my husband home on time today.",
         "replies":[
             {
-                "text":"So, my brother Andor was here as well? I'm $playername.",
+                "text":"So, my brother Andor was here as well? I'm $playername and you are?",
                 "nextPhraseID":"sullengard_hadena_1"
             },
             {
-                "text":"You must be mistaken. I'm $playername and Andor is my brother.",
+                "text":"You must be mistaken. I'm $playername and Andor is my brother, and you are?",
                 "nextPhraseID":"sullengard_hadena_1"
             }
         ],
@@ -2225,7 +2225,7 @@
     },
     {
         "id":"sullengard_hadena_1",
-        "message":"I'm sorry, my name is Hadena. He used to visit here but not anymore and I don't know why. But please help me.",
+        "message":"Oh, I'm sorry. My name is Hadena. Andor used to visit here but I don't know why he doesn't anymore.\n\nAnyways, I really need your help...please.",
         "replies":[
             {
                 "text":"How may I help you?",
@@ -2246,11 +2246,25 @@
     },
     {
         "id":"sullengard_hadena_2",
-        "message":"As I said recently, I need your help to get my husband home on time today.",
+        "message":"As I already said, I need your help to get my husband Ainsley home on time today.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"sullengard_hadena_3"
+                "nextPhraseID":"sullengard_hadena_4"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_hadena_4",
+        "message":"He is working in Deebo's Orchard located southwest of here. Please go there and help him.",
+        "replies":[
+            {
+                "text":"I'll  go now to help get him home on time.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But why won't your husband be home on time today?",
+                "nextPhraseID":"sullengard_hadena_5"
             }
         ],
         "rewards":[
@@ -2262,92 +2276,39 @@
         ]
     },
     {
-        "id":"sullengard_hadena_3",
-        "message":"My husband name is Ainsley.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"sullengard_hadena_4"
-            }
-        ]
-    },
-    {
-        "id":"sullengard_hadena_4",
-        "message":"He is working in Deebo's Orchard located east-north of here. Please go there and help him.",
-        "replies":[
-            {
-                "text":"I'm going now to help him home on time today.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"But why your husband will not get home on time?",
-                "nextPhraseID":"sullengard_hadena_5"
-            }
-        ]
-    },
-    {
         "id":"sullengard_hadena_5",
-        "message":"My husband will only get home on time if you give him a new pitchfork from Loneford to get his work done. He is least experienced farmer, so he gets all the crap work to do.",
+        "message":"Ainsley will only get home on time if you give him a new pitchfork from Loneford so that he can use it to get his work done. He is the least experienced farmer, so he gets all the crap work assigned to him.",
         "replies":[
             {
-                "text":"Oh. I understand now why. I better go in Loneford now.",
+                "text":"Oh. I understand why now. I better go in Loneford now.",
                 "nextPhraseID":"X"
             },
             {
                 "text":"That's sad. I'm going now to Loneford.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":25
+            }
         ]
     },
     {
         "id":"sullengard_hadena_6",
-        "message":"I'm waiting for my husband arrival. Please I want him home on time today.",
+        "message":"I'm waiting for my husband's arrival. Please, I want him home on time today.",
         "replies":[
             {
                 "text":"What do yo want me to do again with your husband?",
                 "nextPhraseID":"sullengard_hadena_2",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"deebo_orchard_ght",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"What is the name of your husband?",
-                "nextPhraseID":"sullengard_hadena_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Where is your husband working again?",
-                "nextPhraseID":"sullengard_hadena_4",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Why your husband will not get home on time again?",
-                "nextPhraseID":"sullengard_hadena_5",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"deebo_orchard_ght",
-                        "value":40,
-                        "negate":true
+                        "value":10,
+                        "negate":false
                     }
                 ]
             },
@@ -2368,7 +2329,7 @@
                 "nextPhraseID":"sullengard_hadena_7",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"deebo_orchard_ght",
                         "value":50
                     }
@@ -5512,5 +5473,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_hadena_completed",
+        "message":"Thank you for help Ainsley and I."
     }
 ]
