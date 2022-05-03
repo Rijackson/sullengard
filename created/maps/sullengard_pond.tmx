@@ -161,7 +161,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -231,7 +231,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="sullengard_snapper" type="spawn" x="128" y="672" width="192" height="32">
+  <object name="sullengard_snapper_spawn1" type="spawn" x="128" y="672" width="192" height="32">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
@@ -243,13 +243,13 @@
     <property name="spawngroup" value="pond_fish"/>
    </properties>
   </object>
-  <object name="sullengard_snapper" type="spawn" x="448" y="704" width="192" height="32">
+  <object name="sullengard_snapper_spawn2" type="spawn" x="448" y="704" width="192" height="32">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object name="sullengard_snapper" type="spawn" x="704" y="672" width="160" height="32">
+  <object name="sullengard_snapper_spawn3" type="spawn" x="704" y="672" width="160" height="32">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>

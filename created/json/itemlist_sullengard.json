@@ -73,7 +73,7 @@
         "name":"Hat of the protector",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":4497,
+        "baseMarketCost":4496,
         "category":"hd_cloth",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -89,10 +89,6 @@
             "setCriticalMultiplier":0.0
         },
         "killEffect":{
-            "increaseCurrentAP":{
-                "min":0,
-                "max":0
-            },
             "conditionsSource":[
                 {
                     "condition":"courage",

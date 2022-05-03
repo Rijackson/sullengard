@@ -276,6 +276,11 @@
                         "requireID":"sullengard_recover_items",
                         "value":40,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
                     }
                 ]
             }
@@ -374,6 +379,11 @@
                         "requireID":"sullengard_recover_items",
                         "value":40,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
                     }
                 ]
             }
@@ -1165,9 +1175,6 @@
             {
                 "text":"Why, what is the problem?",
                 "nextPhraseID":"sullengard_inn_traveler_20"
-            },
-            {
-                "text":"I need to move on, sorry."
             }
         ]
     },
@@ -1498,11 +1505,11 @@
         "message":"[You see the mouth open widely.]",
         "replies":[
             {
-                "text":"You want some hug?",
+                "text":"Do you want a hug?",
                 "nextPhraseID":"sullengard_snapper_1"
             },
             {
-                "text":"You want some foods?",
+                "text":"Do you want some food?",
                 "nextPhraseID":"sullengard_snapper_1"
             },
             {
@@ -1594,7 +1601,7 @@
     },
     {
         "id":"sullengard_nanette_0",
-        "message":"[Sigh]. Oh hello there, kid.",
+        "message":"[Sigh]. Oh...hello there, kid.",
         "replies":[
             {
                 "text":"Are you ok?",
@@ -1608,7 +1615,7 @@
     },
     {
         "id":"sullengard_nanette_1",
-        "message":"[Sigh]. I'm longing for my pond which I used to enjoy to go to. But now it is dangerous to go in my pond.",
+        "message":"[Sigh]. I'm longing for my pond which I used to enjoy going to. But now it is dangerous to go in my pond.",
         "replies":[
             {
                 "text":"Why is that?",
@@ -1626,7 +1633,7 @@
     },
     {
         "id":"sullengard_nanette_2",
-        "message":"[Sigh]. It started yesterday as I sit on the bench enjoying my pond, I saw vicious sea creatures emerged from the pond.",
+        "message":"[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious sea creatures emerging from the it.",
         "replies":[
             {
                 "text":"N",
@@ -1636,7 +1643,7 @@
     },
     {
         "id":"sullengard_nanette_3",
-        "message":"One of them bit my leg. So I ran away home.",
+        "message":"Before I could get away, one of them bit my leg. So I ran home in tremendous pain.",
         "replies":[
             {
                 "text":"N",
@@ -1671,7 +1678,7 @@
     },
     {
         "id":"sullengard_nanette_5",
-        "message":"Remember. It is just south-east from here.",
+        "message":"Remember. It is just southeast from here.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1944,11 +1951,6 @@
             {
                 "text":"Sounds good.",
                 "nextPhraseID":"S"
-            }
-        ],
-        "rewards":[
-            {
-                
             }
         ]
     },
@@ -2764,6 +2766,7 @@
     {
         "id":"sull_ravine_grazia_60",
         "message":"Thank you so much. I can now continue onto my destination.",
+        "switchToNPC":"sull_ravine_grazia",
         "replies":[
             {
                 "text":"Where were you coming from anyway?",
@@ -3238,9 +3241,6 @@
         "id":"sullengard_drinking_brother_30",
         "message":"Are you kidding? We are always in here enjoying ourselves. So unless the crme happened in here, I've not seen it.",
         "replies":[
-            {
-                
-            },
             {
                 "text":"Thanks.",
                 "nextPhraseID":"X"
@@ -3747,6 +3747,11 @@
                         "requireID":"sullengard_recover_items",
                         "value":40,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
                     }
                 ]
             },
@@ -3786,7 +3791,7 @@
     },
     {
         "id":"sullengard_gs_4",
-        "message":"Bosworth's last words: \"The last one is one me boys!\""
+        "message":"Bosworth's last words: \"The last one is on me boys!\""
     },
     {
         "id":"sullengard_gs_5",
@@ -4393,6 +4398,7 @@
     {
         "id":"sull_ravine_grazia_61",
         "message":"Thank you so much. I can now continue onto my destination.",
+        "switchToNPC":"sull_ravine_grazia",
         "replies":[
             {
                 "text":"What is your problem? Why are you following me?",
@@ -5031,7 +5037,7 @@
         "message":"Hmm...let me think...how does 10000 gold sound?",
         "replies":[
             {
-                "text":"PC: That sounds fair. Take it. Now the information please!",
+                "text":"That sounds fair. Take it. Now the information please!",
                 "nextPhraseID":"torilo_beer_pay",
                 "requires":[
                     {
