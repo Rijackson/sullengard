@@ -465,6 +465,39 @@
                         "value":30
                     }
                 ]
+            },
+            {
+                "text":"Can you tell me about your 'business agreement' with your beer 'distributors'?",
+                "nextPhraseID":"sullengard_mayor_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I have delivered your letter to Kealwea.",
+                "nextPhraseID":"sullengard_mayor_beer_40",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have delivered your letter to Kealwea.",
+                "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":60
+                    }
+                ]
             }
         ]
     },
@@ -5483,5 +5516,223 @@
     {
         "id":"sullengard_hadena_completed",
         "message":"Thank you for help Ainsley and I."
+    },
+    {
+        "id":"sullengard_mayor_beer",
+        "message":"What? I am afraid that I have no idea what you are asking.",
+        "replies":[
+            {
+                "text":"Oh, but I am sure you do. [You lean in closer to the mayor] Just between us, we both know that you do know.",
+                "nextPhraseID":"sullengard_mayor_beer_10"
+            },
+            {
+                "text":"Sorry. I'll leave you now",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_10",
+        "message":"What do you know?",
+        "replies":[
+            {
+                "text":"Farrik told me a little bit about your operation.",
+                "nextPhraseID":"sullengard_mayor_beer_15"
+            },
+            {
+                "text":"Well, I know that the Thieves guild is your 'distributor'.",
+                "nextPhraseID":"sullengard_mayor_beer_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_15",
+        "message":"I don't know any 'Farrik'."
+    },
+    {
+        "id":"sullengard_mayor_beer_20",
+        "message":"Then that must mean that you are someone that they trust?",
+        "replies":[
+            {
+                "text":"I guess you could say that.",
+                "nextPhraseID":"sullengard_mayor_beer_30"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_30",
+        "message":"Maybe, just maybe.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_mayor_beer_35"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_35",
+        "message":"But how can you prove it to me?...Uh, I know. You can deliver this letter for me. Here, take it to Kealwea and return to me afterwards.",
+        "replies":[
+            {
+                "text":"Um, OK, I guess. ",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"sullengard_mayor_letter",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_40",
+        "message":"Yes, I know and I thank you for doing so.",
+        "replies":[
+            {
+                "text":"How did you know?",
+                "nextPhraseID":"sullengard_mayor_beer_50"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_50",
+        "message":"I had one of my people follow you. Afterall, I wasn't sure that you could be trusted.",
+        "replies":[
+            {
+                "text":"Oh, I see. Now do you trust me?",
+                "nextPhraseID":"sullengard_mayor_beer_60"
+            },
+            {
+                "text":"Now can you trust me to let me know more about the 'business agreement'",
+                "nextPhraseID":"sullengard_mayor_beer_60"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_60",
+        "message":"Yes. You have proven yourself to me.",
+        "replies":[
+            {
+                "text":"Finally! Now start talking. I'm getting annoyed.",
+                "nextPhraseID":"sullengard_mayor_beer_70"
+            },
+            {
+                "text":"Great. Let's hear it.",
+                "nextPhraseID":"sullengard_mayor_beer_70"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_70",
+        "message":"Pull-up a chair kid a listen to the facts.",
+        "replies":[
+            {
+                "text":"Oh, no! Another long-winded story. OK, let's get this over with.",
+                "nextPhraseID":"sullengard_mayor_beer_80"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_80",
+        "message":"You see, this all started many years ago before Lord Geomyr grew into power. The Sullengard brewers have been perfecting their beer brewing for many years and selling it outside of town for almost as long.",
+        "replies":[
+            {
+                "text":"Sounds like they are experts.",
+                "nextPhraseID":"sullengard_mayor_beer_90"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_90",
+        "message":"Well, yes they are when it comes to brewing the beer, but not so much when it comes to selling it.\nEven before Lord Geomyr grew into power, the citizens of Sullengard always had a hard time selling their beer.",
+        "replies":[
+            {
+                "text":"Please go on.",
+                "nextPhraseID":"sullengard_mayor_beer_100"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_100",
+        "message":"Not so much selling it because that was easy. Afterall, we have the best product in Dhayaver. But the problem was getting to the other towns safely and with a fresh batch.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_mayor_beer_105"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_105",
+        "message":"Then after Lord Geomyr came to power and the more specifically, after he decided to laydown such an unjust tax upon our beer sales, we desperately needed a 'distributor'.",
+        "replies":[
+            {
+                "text":"Oh, that makes sense to me. But why the Thieves guild?",
+                "nextPhraseID":"sullengard_mayor_beer_110"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_110",
+        "message":"The decision was easy. We had done plenty of business with them in the past and they never did us wrong. Plus, they have the skills and resources to discreetly distribute our beer without Feygrad interference.",
+        "replies":[
+            {
+                "text":"I can't argue with that logic.",
+                "nextPhraseID":"sullengard_mayor_beer_115"
+            },
+            {
+                "text":"But you are breaking the laws of Feygard. Aren't you afraid to get caught?",
+                "nextPhraseID":"sullengard_mayor_beer_120"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_115",
+        "message":"Please keep this information to yourself.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_120",
+        "message":"No as much as we fear not being able to make a living selling our beer. Plus, we have the support of the people of Nor City",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"beer_bootlegging",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_letter_not_delivered",
+        "message":"No, you have not.",
+        "replies":[
+            {
+                "text":"How did you know that?",
+                "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_letter_not_delivered_10",
+        "message":"I have my ways of knowing. Afterall, I am the mayor.",
+        "replies":[
+            {
+                "text":"I guess you do.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
