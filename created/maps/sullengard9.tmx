@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="35" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYECAjWIMdAUg+4i1E5daaroZZgfMTHQ7KbGLFLNw2U8JoIY5yO4iVS21/UIo/KgVb5S6hRzzKNFHK7+S6k98+XWgyhlKMTXdAwDg3C6l
+   eJxjYECAjWIMdAUg+4i1E5daaroZZgfMTHQ7KbGLFLNw2U8JoIY5yO4iRw81/UIo/KgVb5S6hRzzKNFHK7+S6k98+XWgyhlKMTXdAwBy9C3e
   </data>
  </layer>
  <layer id="5" name="Walkable_Below" width="35" height="10" visible="0">
