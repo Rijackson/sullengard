@@ -5881,5 +5881,15 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_ingeram_10",
+        "message":"Now that Grazia has arrived, I need to go finalize my final batch of ale for this year's celebrations and 'Best beer in festival' competition.",
+        "replies":[
+            {
+                "text":"I see. Good luck in the competition.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

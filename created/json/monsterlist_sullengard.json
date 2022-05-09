@@ -277,7 +277,8 @@
         "iconID":"monsters_ld1:10",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_ingeram"
+        "spawnGroup":"sullengard_ingeram",
+        "phraseID":"sullengard_ingeram_10"
     },
     {
         "id":"sullengard_innkeeper",
