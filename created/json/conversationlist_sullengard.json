@@ -5847,5 +5847,39 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_beltina_10",
+        "message":"Oh, are you here to help my husband, Valhorn to finally win the 'Best beer in festival' competition?",
+        "replies":[
+            {
+                "text":"I'm sorry, but I am not.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"\"Finally\"? How long has it been?",
+                "nextPhraseID":"sullengard_beltina_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_beltina_20",
+        "message":"He and his family have never won the competition. Wow! It hurts to say this out loud. The man is a failure. This is why we live in this tiny house.",
+        "replies":[
+            {
+                "text":"I'm sorry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valhorn_10",
+        "message":"Please leave me be so that I can concentrate. I need to win this year's 'Best beer in festival' competition so that my wife will respect me again.",
+        "replies":[
+            {
+                "text":"Good luck with that.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

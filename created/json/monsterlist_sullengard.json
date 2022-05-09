@@ -898,7 +898,8 @@
         "iconID":"monsters_ld1:166",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_beltina"
+        "spawnGroup":"sullengard_beltina",
+        "phraseID":"sullengard_beltina_10"
     },
     {
         "id":"sullengard_valhorn",
@@ -906,7 +907,8 @@
         "iconID":"monsters_ld1:11",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_valhorn"
+        "spawnGroup":"sullengard_valhorn",
+        "phraseID":"sullengard_valhorn_10"
     },
     {
         "id":"sullengard_valentina",
