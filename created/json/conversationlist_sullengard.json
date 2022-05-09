@@ -1175,7 +1175,7 @@
                 "nextPhraseID":"sullengard_mariora_10"
             },
             {
-                "text":"It's probably the nicest towns that I have visited.",
+                "text":"It's probably one of the nicest towns that I have visited.",
                 "nextPhraseID":"sullengard_mariora_20"
             }
         ]
@@ -5734,5 +5734,108 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"notice_large_sullengard_trees_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"notice_large_sullengard_trees_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":27,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"notice_large_sullengard_trees_10",
+        "message":"[Looking around you, you can't help to be amazed at the giant trees that surround you.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":27
+            }
+        ]
+    },
+    {
+        "id":"winona_10",
+        "message":"Hey, traveler. Where are you traveling from?",
+        "replies":[
+            {
+                "text":"Nowhere in particular.",
+                "nextPhraseID":"winona_20"
+            },
+            {
+                "text":"I found my way here from the Duleian road.",
+                "nextPhraseID":"winona_20"
+            },
+            {
+                "text":"North of here.",
+                "nextPhraseID":"winona_20"
+            },
+            {
+                "text":"None of your business.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"winona_20",
+        "message":"Are you familiar with the Sullengard forest?",
+        "replies":[
+            {
+                "text":"Yes, and I have traveled through it. Why do you ask?",
+                "nextPhraseID":"winona_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I have been in that forest. Why?",
+                "nextPhraseID":"winona_30"
+            },
+            {
+                "text":"No. What is so special about it?",
+                "nextPhraseID":"winona_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":27,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"winona_30",
+        "message":"I just love walking in there as nature is so beutiful there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"winona_40"
+            }
+        ]
+    },
+    {
+        "id":"winona_40",
+        "message":"There are lots of magnificently tall trees in that forest. The tallest in all of Dhayaver in fact."
     }
 ]

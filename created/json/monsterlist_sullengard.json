@@ -880,7 +880,8 @@
         "iconID":"monsters_ld1:222",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_winona"
+        "spawnGroup":"sullengard_winona",
+        "phraseID":"winona_10"
     },
     {
         "id":"sullengard_dantran",
