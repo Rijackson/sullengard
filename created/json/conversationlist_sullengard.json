@@ -5837,5 +5837,15 @@
     {
         "id":"winona_40",
         "message":"There are lots of magnificently tall trees in that forest. The tallest in all of Dhayaver in fact."
+    },
+    {
+        "id":"sullengard_dantran_10",
+        "message":"Hey, are you supposed to be down here?",
+        "replies":[
+            {
+                "text":"Well, I am, so I guess I am.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

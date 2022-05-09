@@ -889,7 +889,8 @@
         "iconID":"monsters_ld1:125",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_dantran"
+        "spawnGroup":"sullengard_dantran",
+        "phraseID":"sullengard_dantran_10"
     },
     {
         "id":"sullengard_beltina",
