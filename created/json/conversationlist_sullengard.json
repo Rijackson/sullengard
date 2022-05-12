@@ -5412,7 +5412,14 @@
             },
             {
                 "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
-                "nextPhraseID":"farrik_beer"
+                "nextPhraseID":"farrik_beer",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":40
+                    }
+                ]
             }
         ]
     },
