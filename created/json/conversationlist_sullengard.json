@@ -151,7 +151,7 @@
     },
     {
         "id":"sullengard_ravine_confirmation_2",
-        "message":"[As you reach this outer most point of the ledge, a big gust of winds blows you off balance and almost down to your death.]\n\nShould I proceed or turn around?",
+        "message":"[As you reach this outer most point of the ledge, a big gust of wind blows you off balance and almost down to your death.]\n\nShould I proceed or turn around?",
         "replies":[
             {
                 "text":"Absolutely! What's the worse that can happen? I fall?",
@@ -221,7 +221,7 @@
     },
     {
         "id":"sullengard_ravine_ledge_10",
-        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a sfae way to get to the bottom?",
+        "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a safe way to get to the bottom?",
         "replies":[
             {
                 "text":"I should head back now before I suffer a similar feat.",
@@ -238,7 +238,7 @@
     },
     {
         "id":"deebo_orchard_farmer_0",
-        "message":"Apple farming is tough and Deebo overworks us, but please don't tell him i said so."
+        "message":"Apple farming is tough and Deebo overworks us, but please don't tell him I said so."
     },
     {
         "id":"sullengard_news_post",
@@ -1423,7 +1423,7 @@
     },
     {
         "id":"deebo_orchard_deebo_10",
-        "message":"I do indeed. But I'll tell you what I really don't enjoy, fixing the property damage done to my farm and losing livestock because of some wild predator!",
+        "message":"I do indeed. But I'll tell you what I really don't enjoy: fixing the property damage done to my farm and losing livestock because of some wild predator!",
         "replies":[
             {
                 "text":"A \"predator\"? What kind of a predator?",
@@ -2291,7 +2291,7 @@
     },
     {
         "id":"sullengard_hadena_4",
-        "message":"He is working in Deebo's Orchard located southwest of here. Please go there and help him.",
+        "message":"He is working at Deebo's Orchard located southwest of here. Please go there and help him.",
         "replies":[
             {
                 "text":"I'll  go now to help get him home on time.",

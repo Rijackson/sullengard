@@ -170,7 +170,7 @@
             },
             {
                 "progress":20,
-                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He is working in Deebo's Orchard located southwest of their cabin."
+                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He is working at Deebo's Orchard located southwest of their cabin."
             },
             {
                 "progress":25,
@@ -190,7 +190,7 @@
             },
             {
                 "progress":60,
-                "logText":"Hadena is so grateful to me that I help them.",
+                "logText":"Hadena is so grateful to me for helping them.",
                 "rewardExperience":2500,
                 "finishesQuest":1
             }
