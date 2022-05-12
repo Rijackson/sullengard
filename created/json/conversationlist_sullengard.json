@@ -5382,7 +5382,7 @@
     },
     {
         "id":"dunla_beer_30",
-        "message":"Yes, yes we are, but if you want to learn more, go talk to Farrik back at or guild house.",
+        "message":"Yes, yes we are, but if you want to learn more, go talk to Farrik back at our guild house.",
         "rewards":[
             {
                 "rewardType":"questProgress",
