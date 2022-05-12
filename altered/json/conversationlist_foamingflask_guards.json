@@ -91,7 +91,7 @@
                 ]
             },
             {
-                "text":"N",
+                "text":"Let's talk about the beer investigation.",
                 "nextPhraseID":"ff_captain_selector",
                 "requires":[
                     {
