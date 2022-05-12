@@ -1441,7 +1441,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"deebo_orchard_hth",
-                        "value":50
+                        "value":40
                     }
                 ]
             },
@@ -1452,7 +1452,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"deebo_orchard_hth",
-                        "value":50
+                        "value":40
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -1969,7 +1969,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"deebo_orchard_hth",
-                "value":60
+                "value":50
             }
         ]
     },
@@ -5895,6 +5895,58 @@
         "replies":[
             {
                 "text":"I see. Good luck in the competition.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_howkin",
+        "message":"Hey there. What are you here for? A job, maybe?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_howkin_10"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_howkin_10",
+        "message":"We could always you the help. Considering we have workers coming and going all the time.",
+        "replies":[
+            {
+                "text":"That's nice. But I don't care. See you later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Why is that?",
+                "nextPhraseID":"deebo_orchard_howkin_20"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"deebo_orchard_howkin_30"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_howkin_20",
+        "message":"Well, I guess it's because by father works the farmers too much and I don't pay them enough for their labor.",
+        "replies":[
+            {
+                "text":"You guys need to treat your farmers with more respect.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_howkin_30",
+        "message":"My name is Howkin and I am Deebo's son. I run the business side of the orchard while father runs the farmings aspects.",
+        "replies":[
+            {
+                "text":"Oh, I understand.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, I understand...that you don't like to get your hands dirty.",
                 "nextPhraseID":"X"
             }
         ]

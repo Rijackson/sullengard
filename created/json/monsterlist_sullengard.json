@@ -112,7 +112,8 @@
         "iconID":"monsters_tometik2:55",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"deebo_orchard_deebo_son"
+        "spawnGroup":"deebo_orchard_deebo_son",
+        "phraseID":"deebo_orchard_howkin"
     },
     {
         "id":"g04_defy",
