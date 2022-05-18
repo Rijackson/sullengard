@@ -216,7 +216,7 @@
  </layer>
  <layer name="Walkable_Above" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPNooRUEAiGDVv1LxR84auedQEI8lto+aNmjdq3sgDAKDZE3A=
+   eJxjYMAPNooRUEAiGDVv1LxR8+hjHsgsaptHTbMGq9tGzRs1b9Q8+po3XAEAWPkWjA==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -256,7 +256,7 @@
     <property name="place" value="south_below"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_below_script" type="script" x="544" y="448" width="32" height="32">
+  <object name="sullengard5_replace_below_script" type="script" x="256" y="0" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -266,7 +266,17 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard6_replace_above_script" type="script" x="64" y="0" width="192" height="32">
+  <object name="sullengard5_replace_above_script" type="script" x="64" y="0" width="192" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="sullengard5_replace_below_script" type="script" x="544" y="448" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="sullengard5_replace_below_script" type="script" x="160" y="896" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -302,7 +312,7 @@
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">
-  <object name="sullengard5_replace_below" type="replace" x="160" y="0" width="128" height="896">
+  <object name="sullengard5_replace_below" type="replace" x="160" y="0" width="128" height="832">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -310,7 +320,7 @@
     <property name="requireValue" value="8"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_above" type="replace" x="160" y="0" width="128" height="896">
+  <object name="sullengard5_replace_above" type="replace" x="160" y="0" width="128" height="832">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="sullengard_hidden"/>
