@@ -205,12 +205,6 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="sullengard_snapper" type="spawn" x="64" y="800" width="32" height="96">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="sullengard_snapper"/>
-   </properties>
-  </object>
   <object name="west" type="mapchange" x="0" y="32" width="32" height="352">
    <properties>
     <property name="map" value="sullengard_pond"/>
@@ -241,6 +235,12 @@
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="preabola_fly"/>
+   </properties>
+  </object>
+  <object name="sullengard_snapper" type="spawn" x="32" y="768" width="64" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
  </objectgroup>
