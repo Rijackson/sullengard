@@ -1882,7 +1882,7 @@
     },
     {
         "id":"deebo_orchard_deebo_60",
-        "message":"First, I have to warn you, this is no ordinary forest animal. This thing is capable of dragging away full-szed adult pigs. Be warned now.",
+        "message":"First, I have to warn you, this is no ordinary forest animal. This thing is capable of dragging away full-sized adult pigs. Be warned now.",
         "replies":[
             {
                 "text":"I am ready! No more talking.",
@@ -1925,13 +1925,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"deebo_orchard_hth",
-                "value":10
-            }
         ]
     },
     {
@@ -1948,6 +1941,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"sullengard_hidden",
                 "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":10
             }
         ]
     },
@@ -2029,6 +2027,13 @@
                         "requireID":"100"
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":10
             }
         ]
     },
