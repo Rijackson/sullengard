@@ -199,7 +199,7 @@
    eJx7K8kwCoYJYBIeaBeMAlqB0bgdPuDOaJmLFQymcBl1y9ACOykMI5h+bObgMptSO9HN+gzEX4D4KxB/Q3MPNe0i5A4QYJZiYGCRoo+dhIAwFd0BAJzIEQU=
   </data>
  </layer>
- <layer name="Walkable" width="35" height="20" visible="0">
+ <layer name="Walkable" width="35" height="20">
   <data encoding="base64" compression="zlib">
    eJzNVUEOgCAM8xX+/wv80Gg8kW2urMM2WUgQ2jopjvN4MN6xE7dGVPO6bl+zLjJncbG9eLysnng8yDzKgSLLk/lGTC+R1q4sZdex/Vj5QPZ+5b/qrSOLq+/oPa/6iTSRvq70KtKp9J99Bip8ahlWgZIXVbDunz/+txanNyI8KnUBHhNiug==
   </data>
@@ -219,7 +219,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="sullengard_snapper_spawn1" type="spawn" x="192" y="96" width="32" height="256">
+  <object name="sullengard_snapper_spawn1" type="spawn" x="64" y="64" width="32" height="448">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
@@ -231,7 +231,7 @@
     <property name="spawngroup" value="pond_fish"/>
    </properties>
   </object>
-  <object name="sullengard_snapper_spawn2" type="spawn" x="192" y="320" width="256" height="32">
+  <object name="sullengard_snapper_spawn2" type="spawn" x="96" y="288" width="224" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
