@@ -1854,14 +1854,14 @@
     },
     {
         "id":"sullengard_nanette_12",
-        "message":"Thank you so much again, kid. I can now enjoy my pond again. I'll never throw pebbles on the pond again, promise.",
+        "message":"Thank you so much again, kid. I can now enjoy my pond again. I'll never throw pebbles in the pond again, I promise.",
         "replies":[
             {
                 "text":"You're welcome.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Promise? Because I'll not clean your mess again.",
+                "text":"You promise? I'll won't clean up your mess again.",
                 "nextPhraseID":"sullengard_nanette_13"
             }
         ]
