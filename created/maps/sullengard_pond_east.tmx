@@ -161,7 +161,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -229,7 +229,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="southeast" type="mapchange" x="0" y="0" width="32" height="32">
+  <object name="southeast" type="mapchange" x="128" y="640" width="32" height="320">
    <properties>
     <property name="map" value="way_to_sullengard_east11"/>
     <property name="place" value="pond"/>
