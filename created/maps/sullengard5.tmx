@@ -211,7 +211,7 @@
  </layer>
  <layer name="Walkable_Below" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMANNorhkSQDjJo3at6oefQzj5qAmm4b7OE2at6oeaPmjQJqAABi2hNw
+   eJxjYMANNorhkSQDjJo3at6oeUPTPJBZ1DKPmmbRyjxqgpFqHrXiZaj4d6SYNwqIBwDIJhga
   </data>
  </layer>
  <layer name="Walkable_Above" width="20" height="30" visible="0">
@@ -256,17 +256,17 @@
     <property name="place" value="south_below"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_below_script" type="script" x="256" y="0" width="96" height="32">
+  <object name="sullengard6_replace_below_script" type="script" x="256" y="32" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_above_script" type="script" x="0" y="672" width="192" height="160">
+  <object name="sullengard5_replace_above_script" type="script" x="32" y="672" width="160" height="160">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_above_script" type="script" x="64" y="0" width="192" height="32">
+  <object name="sullengard6_replace_above_script" type="script" x="64" y="32" width="192" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -312,7 +312,7 @@
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">
-  <object name="sullengard5_replace_below" type="replace" x="160" y="0" width="128" height="832">
+  <object name="sullengard5_replace_below" type="replace" x="160" y="0" width="128" height="864">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
     <property name="requireId" value="sullengard_hidden"/>
@@ -320,7 +320,7 @@
     <property name="requireValue" value="8"/>
    </properties>
   </object>
-  <object name="sullengard5_replace_above" type="replace" x="160" y="0" width="128" height="832">
+  <object name="sullengard5_replace_above" type="replace" x="160" y="0" width="128" height="864">
    <properties>
     <property name="Walkable" value="Walkable_Above"/>
     <property name="requireId" value="sullengard_hidden"/>

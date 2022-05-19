@@ -191,12 +191,12 @@
  </layer>
  <layer name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVVcFOwzAMjaqekVLYpu4Cv8Ef8An7RX4AEBUHhLS1G520O9oEFzisA/EFxCRWjHFW90lPyaLOz36x25fS/MNWOOM4L4y5nBhzncWz27FfW+tjdI4rt9+HPV2HgP53Xf7VbWzUBc1DeAafX1hPAKw8j2Prp+MXyVWqdx80sV7Er6bz6K2IZzXJAzGb9PMq4TNq457qv9t0fIh3n+lYCbpQB/eG4jFPx3pWsnV8KqMu9QwAd3w6NebMcTT1Z5s8HWsHd5T1c5dFL2m9gIblgHjN07G4T5reR10K3l8SuEeIue3XxnprEoP2F4D28s1Yx8rxITHzHblfzDM1T4iTkAO/i5r9ljzk4M/wej9IzJWVdbg+nU3pnbIZybnx+UVsBT+kHJaKu7hTeIKgmlxvnvCAAz1bhj4AQC805JtgSE9Bf2n6nAK+QxdFzJHnxns6BY1mF3Ln8ejvmtSsmY8hWAjaGtC5RWjeQ4cB94Do87FmM55aIU47sFbJG6wdYx3TpN9SDTBPfL/B/rvwrErPHzTW+6s=
+   eJyVlcFOwzAMhqOqXJFS2KbuAq/BG/AIvCBIvAAgKg4IaWs3irQ72gQXOKwD8QTEJFYs46zuJ1nJos6/7djta2n+sRbOOCeFMWcTY64zYy4P/Nnt2K+t9T46Z0u334Y9XYdA//tSRt0rp9vYqAuau/AMPj+33gBYeRz71i9n3yRW1EVAdxs0MV/kT9PV6L2IZzWJA7mY9Nu5oAugNu6p/odN+wd/95nOKkEX8uC1oTzmaV/PSmudPZVRl9YMgDs+mhpz7Gw09WerPO1rA3eU9dsmi7Wk+QINiwF5y9O+eJ00vY+6FN5fErxGyMz2a2O+NfFB+wugvXwz1lnl7CEx8x25X4wzNU/IYYiB30XNfks15PBneL6fxOfSyjpcn86m9E5ZjeTY+Pwia6EeUgwLxV3cKWqCUE2uN0vUgIM1W4Q+AKAXGvJNMKSnoL80fU6B79BpEWPksfGeTqHR7ELs3B/9XZOcNfMxhLmgrYHOLaJ5D+0G3APSV8eazXhqBT/twFyl2mDu6GufJv2WasA48f0G+5/CW1V6+wUHpP0A
   </data>
  </layer>
  <layer name="Above" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd3JVkYNgHxApCEP5hMVT5O5IQGqQGxL4rSYYlSOA+UP8DLGYg23sHSZ5S+wgBdP8iA1L8Gy5Oub3IYfMZSH+hgd834zETFMfMUgwMLFLEmYUv7NABNdIOsr3IaQhmNi6aWm66RIJ/QQCb2XdonJ6xAWLDY7ADbGFHTvwOl/BAB4PVP+TmT0rtpDcgxk50/xIKG2qGEcycwRo2MIDsTlx+JyesKQUASrpPdA==
+   eJxjYCAd3JVkYNgHxApCEP40VlT5O5IQGqQGxL4rSYYlSOA+UP8DLGYcFsO0E+Y+WgJke9EBKf4NF6fcXuSw+Qykv9DA75vxmAmKY2YpBgYWKeLMwhd26IAaaQfZXuQ0BDMbF00tN10iwb8ggM3sOzROz9gAseEx2AG2sCMnfodLeKCDweofcvMnpXbSGxBjJ7p/CYUNNcMIZs5gDRsYQHYnLr+TE9aUAgAV5U82
   </data>
  </layer>
  <layer name="Top" width="30" height="20">
@@ -206,12 +206,12 @@
  </layer>
  <layer name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlMENwDAIAzNF918hG/bbhymYI1Ut8cLKQUDsa60NQkl5CKPCjBgVT5cX9frMnZT636/UZZ+YNXm/O3e3L9dX6dWVw55iZtzMq/KUn/miHGF22WQniSaYb/PL9s6tk0rVRW+Cw/4bk9zWKbYTk/1O1nUDI0vNOQ==
+   eJzNlFEKwDAIQ3uK3f8KveHYR2EMmywmjAWkH6Y8tdJ5jDGNuLTOpZ0nFXcO4j7z3TqQkJfddVXN9yt12anZo5mn9yzRl+p706sqhZ1iMi7zVnmXz3y7nMPssp2ddJRgovdje6fW6aqqy/0TFPbfmM7fmmIrkew3WdcJ8CLOxw==
   </data>
  </layer>
  <layer name="Walkable_Below" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMbBSj0IBRe0ftHQWjYBSMglEwCoYZAADdUwPk
+   eJxjYKAMbBSDYHqDgbR3IMBIs3cUjIJRMApGwSgYygAAqjkFcg==
   </data>
  </layer>
  <layer name="Walakble_Above" width="30" height="20" visible="0">
@@ -220,7 +220,7 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="544" y="0" width="128" height="32">
+  <object name="north" type="mapchange" x="576" y="0" width="96" height="32">
    <properties>
     <property name="map" value="sullengard5"/>
     <property name="place" value="south"/>
@@ -250,7 +250,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="sullengard7_replace_below_script" type="script" x="544" y="0" width="128" height="32">
+  <object name="sullengard7_replace_below_script" type="script" x="576" y="32" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -260,12 +260,12 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard7_replace_above_script" type="script" x="512" y="0" width="32" height="32">
+  <object name="sullengard7_replace_above_script" type="script" x="480" y="32" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard7_replace_above_script" type="script" x="0" y="96" width="32" height="96">
+  <object name="sullengard7_replace_above_script" type="script" x="32" y="96" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>

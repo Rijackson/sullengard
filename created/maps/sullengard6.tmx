@@ -211,7 +211,7 @@
  </layer>
  <layer name="Walkable_Below" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMNooRoYgEMGreqHmj5o2aN2re4DMPZBa1zKOmWTDzqAlGzRs1j9bmAQDhVhjh
+   eJxjYCAMNooRoYgEMGreqHmj5o2aN2re4DMPZBa1zKOmWTDzqAloaR41zIaZQc34oCYYNY8wAADOsxpv
   </data>
  </layer>
  <layer name="Walkable_Above" width="20" height="30" visible="0">
@@ -232,22 +232,22 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="sullengard6_replace_below_script" type="script" x="256" y="928" width="96" height="32">
+  <object name="sullengard5_replace_below_script" type="script" x="256" y="896" width="160" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard6_replace_below_script" type="script" x="320" y="0" width="288" height="32">
+  <object name="sullengard9_replace_below_script" type="script" x="320" y="32" width="288" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard6_replace_above_script" type="script" x="32" y="0" width="288" height="32">
+  <object name="sullengard9_replace_above_script" type="script" x="32" y="32" width="288" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard6_replace_above_script" type="script" x="64" y="928" width="192" height="32">
+  <object name="sullengard5_replace_above_script" type="script" x="64" y="896" width="192" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
