@@ -1547,7 +1547,7 @@
             },
             {
                 "text":"I better stay away.",
-                "nextPhraseID":"sullengard_snapper_1"
+                "nextPhraseID":"X"
             },
             {
                 "text":"[Kill the snapper]",
@@ -1567,7 +1567,7 @@
         "message":"[Snap].",
         "replies":[
             {
-                "text":"Ouch. Why you bit me? Bad turtle!",
+                "text":"Ouch! Why did you bite me? Bad turtle!",
                 "nextPhraseID":"sullengard_snapper_0"
             },
             {

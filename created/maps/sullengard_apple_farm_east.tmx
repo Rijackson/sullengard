@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,11 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="10" name="Base" width="30" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7AdnPjXiwsISaugCQCwofp6AAAAPw3HdAAR
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="40">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEAMAsPdTHIzM1EYGrbC8Kj9tLe3oGK34GyFwYipTExDNDKXmx2IttNC3vx2QnDw8neCKjZUWh2IYvT2l4LLgSmtb3pQHMzgDgTzV5kcVqVV7gwrctJXHiH2MDYO1D+HbWX/vbSsy03UPZSin8Cw+wXFP/moZ+9nLyI8OLmHf72SgLtkoJiaSrZGyyNYIMAJWbpcmFiWS7sapOkKbMLGctyYce0jo+BspeUcB4O/h0oPBq/o/4dTv7FhwEM8f6H
