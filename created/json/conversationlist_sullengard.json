@@ -3841,7 +3841,7 @@
         "replies":[
             {
                 "text":"Mother?!",
-                "nextPhraseID":"sullengard_valentina_0",
+                "nextPhraseID":"sullengard_find_mother_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3903,7 +3903,7 @@
         "message":"Don't you dare talk ill of your father. He may be lazy, but he is still your father.",
         "replies":[
             {
-                "text":"Sorry, mom. You are right, but you have still not answered my question. What are you doing here?",
+                "text":"Sorry, mother. You are right, but you have still not answered my question. What are you doing here?",
                 "nextPhraseID":"sullengard_find_mother_40"
             }
         ]
@@ -3913,7 +3913,7 @@
         "message":"You've grown up so fast. Stop doing that. You are making me feel old.",
         "replies":[
             {
-                "text":"Sorry, mom. You have still not answered my question though. What are you doing here?",
+                "text":"Sorry, mother. You have still not answered my question though. What are you doing here?",
                 "nextPhraseID":"sullengard_find_mother_40"
             }
         ]
@@ -3977,14 +3977,14 @@
         "message":"Yes, but in the meantime, I'm going home and I expect you there shortly after me.",
         "replies":[
             {
-                "text":"But what about my search for Andor? Father expects me to find hime before I come home again.",
+                "text":"But what about my search for Andor? Father expects me to find him before I come home again.",
                 "nextPhraseID":"sullengard_find_mother_80"
             }
         ]
     },
     {
         "id":"sullengard_find_mother_80",
-        "message":"Just follow me home and we can talk at home. I may have something to aid in your search for Andor. ",
+        "message":"Just follow me home and we can talk there. I may have something to aid you in your search for Andor. ",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4005,11 +4005,11 @@
     },
     {
         "id":"sullengard_valeria_10",
-        "message":"That is not for me to tell you. Please go home and she may explain it to you then.",
+        "message":"That is not for me to tell you. Maybe back at home, she will explain it to you.",
         "replies":[
             {
-                "text":"OK, I will.",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"sullengard_find_mother_60"
             }
         ]
     },
@@ -4386,7 +4386,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"andor",
-                "value":120
+                "value":110
             }
         ]
     },
@@ -5983,6 +5983,75 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"sullengard_hidden",
                 "value":13
+            }
+        ]
+    },
+    {
+        "id":"sullengard_find_mother_1",
+        "message":"[As soon as you walk in, you hear a very familiar voice...]",
+        "replies":[
+            {
+                "text":"Mother?!",
+                "nextPhraseID":"sullengard_valentina_0"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_valentina_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"So, you are my Aunt Valeria, whom I just learnt even exists. Why am I just meeting you now?",
+                "nextPhraseID":"sullengard_valeria_20",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"andor",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_20",
+        "message":"I'm sorry $playername, but I am in no position to answer that question for you. Please do as your mother has requested of you and go home. There you will find your answer.",
+        "replies":[
+            {
+                "text":"OK. I will do that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But, I've already done that and she didn't answer my question.",
+                "nextPhraseID":"sullengard_valeria_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_30",
+        "message":"I'm sorry $playername, but I am in no position to answer that question for you. When your mother is ready, she will explain why.",
+        "replies":[
+            {
+                "text":"OK...I guess I'll have to wait.",
+                "nextPhraseID":"X"
             }
         ]
     }

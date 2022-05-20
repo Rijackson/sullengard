@@ -927,7 +927,8 @@
         "iconID":"monsters_ld1:165",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"sullengard_valeria"
+        "spawnGroup":"sullengard_valeria",
+        "phraseID":"sullengard_valeria_selector"
     },
     {
         "id":"crossglen_valentina",
