@@ -272,22 +272,22 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="deathcob" type="spawn" x="64" y="256" width="160" height="128">
+  <object name="deathcob_sw" type="spawn" x="64" y="256" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object name="deathcob" type="spawn" x="576" y="384" width="160" height="128">
+  <object name="deathcob_se" type="spawn" x="576" y="384" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object name="deathcob" type="spawn" x="320" y="384" width="160" height="128">
+  <object name="deathcob_s" type="spawn" x="320" y="384" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object name="deathcob" type="spawn" x="608" y="96" width="128" height="192">
+  <object name="deathcob_n" type="spawn" x="608" y="96" width="128" height="192">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>

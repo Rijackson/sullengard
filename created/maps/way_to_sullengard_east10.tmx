@@ -224,13 +224,13 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="sullengard_snapper" type="spawn" x="64" y="160" width="128" height="32">
+  <object name="sullengard_snapper1" type="spawn" x="64" y="160" width="128" height="32">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object name="sullengard_snapper" type="spawn" x="224" y="64" width="32" height="96">
+  <object name="sullengard_snapper2" type="spawn" x="224" y="64" width="32" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="sullengard_snapper"/>

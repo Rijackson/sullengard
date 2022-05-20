@@ -161,7 +161,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -225,12 +225,12 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="deathcob" type="spawn" x="544" y="224" width="160" height="128">
+  <object name="deathcob_west" type="spawn" x="544" y="224" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
   </object>
-  <object name="deathcob" type="spawn" x="64" y="224" width="160" height="128">
+  <object name="deathcob_east" type="spawn" x="64" y="224" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
    </properties>
