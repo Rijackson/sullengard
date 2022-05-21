@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,21 +187,21 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJytU8tuwjAQ3CuHFuJKkXygv4D6UXxIv6lfAEgBgUIPnJJQKpULbzghuHVH9iqOE5W0dKXRaLPe8ThejwOilLHTRHvGnPFRwZ/OGgnJj1zrMfcZ08DUIuaT7TkwFg6jJ7PrDo4ufLQV0bMytYm359D2LDxN18sooELI93dPK77hDzqyX1cVe3G22NaWOq9FP/iLPF+vrWqfE3sfqeNvr8uMGHh5UxX/5csT0Sr8O9Zh7nvMnDDeGmXUjY2jKzN3jx7ii888Cs1dzZTpTzm//AJZWPYJj5hNaF2tPs7f4T0eGI8qnw+J2Jn9s6cLj3hL0JIZzTjf6tucarPX0NPb2XvH+1vX1AJv5D15ejNtZh2R1NQSf0mFv8SZ0//wB41vhN7VRg==
+   eJytU0sKwjAQna0L0UYoZKF38FAexDN5AhWqKNWFq8Yf6EbF30p05zyS0DQW/wOPx2Q6Ly/pZBAQKcZeEh0YM8Y8h5fONzZsfuJam7nDGAW6FjGfTc+RsXAYPVPz3dHRhY+qIKoJXRt6e/ZMz8LTdL30A8qEXR97WvELf9Cx+zVEthdni01tLdNa9MRf5PlqlvN9Ds3/UI6/g3xkRNfLSyJ7l/UK0Sb8Htsw9T1gThitwiPejZ2ja2fuFz3Eis/cD/W/mgjdrzi/fgjfJzxiNqF1C9NZUOy5KDRjTcl0PTY57uzCPVNHFx7xlqBlZ3TL+U6+ZrtXz9Pbm73x/t7Vsozw9SZSzzoi+UAL/pIcf4kzp//wh9odQXzZ2w==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd3JFkYLgrSbocMeqQxbGpuYNFDyFzyHUjPoDP/bjct1kSUx813EIvgM1vIwncBPr/liRhmlizBivYTEW3ERsexABQ+gMA36gl5Q==
+   eJxjYCAd3JFkYLgrSbocMeqQxbGpuYNFDyFzyHUjPoDP/bjct1kSUx813EIvgM1vIwncBPr/liRhmppm0cJMQmAzCe4iZCayHKVmgdIfAPsKTqE=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMYABhvFqIeRASF1uPjY5HCZia6PkP0wcXzuw2UOMh+XGwmZhawfmx5C7icUduh+pAbA5xdKzBxK5hGTRigxj9g8hc08SvIoLc2jRhmCbB4AOMFv8Q==
+   eJzbKMYABhvFqIeRASF1uPjY5HCZia6PkP3EuA+XOch8XG4kZBayfmx6iHUfMXxqAXx+ocTMoWYeKXFKSJ6c/ITLPEryKDXcR2zeo9R9ALlCbA4=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="224">
+  <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="256">
    <properties>
     <property name="map" value="cabin_norcity_road2"/>
     <property name="place" value="east"/>
