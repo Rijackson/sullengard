@@ -1,44 +1,43 @@
 [
     {
-        "id":"farrik_select_2",
+        "id":"farrik_return_2",
+        "message":"Thank you for your help with the guard captain earlier.",
         "replies":[
             {
-                "nextPhraseID":"farrik_return_1",
+				"text":"Sure.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
+                "nextPhraseID":"farrik_beer",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"farrik",
-                        "value":20
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"farrik",
-                        "value":30,
-                        "negate":true
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":40
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"farrik_4",
+        "message":"We try to keep to ourselves as much as possible, and help our fellow thieves as much as possible.",
+        "replies":[
+            {
+                "text":"Any recent events happening?",
+                "nextPhraseID":"farrik_5"
             },
             {
-                "nextPhraseID":"farrik_return_3",
+                "text":"I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you.",
+                "nextPhraseID":"farrik_beer",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"farrik",
-                        "value":30
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"farrik",
-                        "value":20,
-                        "negate":true
+                        "requireType":"questLatestProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":40
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"farrik_1"
-            },
-            {
-                "nextPhraseID":"farrik_inquery"
             }
         ]
     }

@@ -712,6 +712,7 @@
         "iconID":"items_japozero:425",
         "name":"Mayor Ale's letter",
         "displaytype":"quest",
-        "description":"A ltter to Kealwea, from Mayor Ale."
+        "category":"other",
+        "description":"A letter to Kealwea, from Mayor Ale."
     }
 ]
