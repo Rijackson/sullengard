@@ -18,17 +18,6 @@
             {
                 "text":"No way, I'm afraid of heights.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"But you are no longer afraid as you've already braved this adventure.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
-                        "value":110
-                    }
-                ]
             }
         ]
     },
@@ -176,17 +165,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"But you are no longer afraid as you've already braved this adventure.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
-                        "value":110
-                    }
-                ]
             }
         ]
     },
@@ -207,7 +185,7 @@
                 ]
             },
             {
-                "text":"I've already admired this view. It's time to go back.",
+                "text":"I've already admired this view. It's time to go back and get some work done.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -6052,6 +6030,40 @@
             {
                 "text":"OK...I guess I'll have to wait.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_fear_of_heights_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_confirmation",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_ravine_fear_of_heights_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_ravine_confirmation_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }
