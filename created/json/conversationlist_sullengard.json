@@ -2665,11 +2665,18 @@
     },
     {
         "id":"sull_ravine_grazia_0",
-        "message":"Please, please, you have to help me! I tried to, but I am too scared.",
+        "message":"",
         "replies":[
             {
-                "text":"Tried to do what?",
-                "nextPhraseID":"sull_ravine_grazia_10"
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":29
+                    }
+                ]
             }
         ]
     },
@@ -2756,6 +2763,18 @@
         "id":"sull_ravine_grazia_script",
         "switchToNPC":"sull_ravine_grazia",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_wait",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":18,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"sull_ravine_grazia_60",
                 "requires":[
@@ -6064,6 +6083,62 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_wait",
+        "message":"Wait for me!",
+        "switchToNPC":"sull_ravine_grazia"
+    },
+    {
+        "id":"sull_ravine_did_not_help_grazia",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":29
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_not_south_of_bridge",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sullengard_hidden",
+                "value":29
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_selector",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":29
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_1"
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_grazia_1",
+        "message":"Please, please, you have to help me! I tried to, but I am too scared.",
+        "replies":[
+            {
+                "text":"Tried to do what?",
+                "nextPhraseID":"sull_ravine_grazia_10"
             }
         ]
     }

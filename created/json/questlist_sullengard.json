@@ -13,14 +13,6 @@
                 "rewardExperience":100
             },
             {
-                "progress":28,
-                "logText":"Umar gave player a 1,000 gold coins as a financial contribution from Thieves Guild."
-            },
-            {
-                "progress":30,
-                "logText":"The promised share has been restored."
-            },
-            {
                 "progress":2,
                 "logText":"The player has seen the tavern's menu"
             },
@@ -132,6 +124,18 @@
             {
                 "progress":27,
                 "logText":"The PC has admired the magnificent trees of the Sullengard forest."
+            },
+            {
+                "progress":28,
+                "logText":"Umar gave player a 1,000 gold coins as a financial contribution from Thieves Guild."
+            },
+            {
+                "progress":29,
+                "logText":"The PC has made it across the ravine bridge without helping Grazia."
+            },
+            {
+                "progress":30,
+                "logText":"The promised share has been restored."
             }
         ]
     },
