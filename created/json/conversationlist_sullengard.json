@@ -2665,11 +2665,10 @@
     },
     {
         "id":"sull_ravine_grazia_0",
-        "message":"",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"sull_ravine_grazia_selector",
+                "nextPhraseID":"sull_ravine_grazia_60",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2677,8 +2676,12 @@
                         "value":29
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_grazia_1"
             }
-        ]
+		]
     },
     {
         "id":"sull_ravine_grazia_10",
@@ -6113,7 +6116,6 @@
     },
     {
         "id":"sull_ravine_grazia_selector",
-        "message":"",
         "replies":[
             {
                 "text":"N",
