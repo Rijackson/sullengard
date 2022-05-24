@@ -158,7 +158,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -223,14 +223,6 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="sullengard_bartender_get_out" type="key" x="352" y="96" width="32" height="32">
-   <properties>
-    <property name="phrase" value="sullengard_bartender_get_out"/>
-    <property name="requireId" value="sullengard_hidden"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="3"/>
-   </properties>
-  </object>
   <object name="down" type="mapchange" x="384" y="96" width="32" height="32">
    <properties>
     <property name="map" value="sullengard_tavern_basement"/>
@@ -262,15 +254,27 @@
   <object name="burhczyd11" type="spawn" x="32" y="96" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd11"/>
    </properties>
   </object>
   <object name="burhczyd11e" type="spawn" x="32" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd11e"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="sullengard_bartender_get_out" type="key" x="352" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="sullengard_bartender_get_out"/>
+    <property name="requireId" value="sullengard_hidden"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
 </map>

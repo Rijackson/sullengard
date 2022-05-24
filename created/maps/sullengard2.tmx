@@ -249,7 +249,7 @@
     <property name="place" value="door"/>
    </properties>
   </object>
-  <object name="sullengard_bartender_clear_qp" type="script" x="224" y="896" width="96" height="32">
+  <object name="sullengard_bartender_clear_qp" type="script" x="256" y="896" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
