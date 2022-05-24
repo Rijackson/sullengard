@@ -1288,7 +1288,7 @@
                 "nextPhraseID":"sullengard_bartender_20"
             },
             {
-                "text":"I have seen your choices of brews before and I am not interested in those. Can I drink my Brimhaven brew in here?",
+                "text":"I have seen your choices of brews before and I am not interested in those. So I am wondering if I can I drink my Brimhaven brew here instead?",
                 "nextPhraseID":"sullengard_bartender_30",
                 "requires":[
                     {
@@ -1894,12 +1894,12 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"deebo_orchard_deebo_80",
+                "nextPhraseID":"deebo_orchard_deebo_81",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"sullengard_hidden",
-                        "value":4
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":10
                     }
                 ]
             }
@@ -1908,12 +1908,6 @@
     {
         "id":"deebo_orchard_deebo_80",
         "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"deebo_orchard_deebo_spawn_gj"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6141,5 +6135,9 @@
                 "nextPhraseID":"sull_ravine_grazia_10"
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_deebo_81",
+        "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
     }
 ]
