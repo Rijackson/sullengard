@@ -2200,9 +2200,6 @@
                 ]
             },
             {
-                "nextPhraseID":"sullengard_hadena_7"
-            },
-            {
                 "nextPhraseID":"sullengard_hadena_completed",
                 "requires":[
                     {
@@ -2323,7 +2320,7 @@
                 ]
             },
             {
-                "text":"It is done.",
+                "text":"It is done. Ainsley will be home on time today.",
                 "nextPhraseID":"sullengard_hadena_7",
                 "requires":[
                     {
@@ -2341,11 +2338,11 @@
         "replies":[
             {
                 "text":"Of course. He is my brother.",
-                "nextPhraseID":"sullengard_hadena_8"
+                "nextPhraseID":"X"
             },
             {
-                "text":"I'm not like him going out from home to anywhere like a cat without talking to my father Mikhail.",
-                "nextPhraseID":"sullengard_hadena_8"
+                "text":"Your welcome.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -2353,20 +2350,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"deebo_orchard_ght",
                 "value":60
-            }
-        ]
-    },
-    {
-        "id":"sullengard_hadena_8",
-        "message":"Both of you are helping Sullengard for our living.",
-        "replies":[
-            {
-                "text":"Ok. Bye.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"You're welcome.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -5507,7 +5490,7 @@
     },
     {
         "id":"sullengard_hadena_completed",
-        "message":"Thank you for help Ainsley and I."
+        "message":"Thank you for helping Ainsley and I."
     },
     {
         "id":"sullengard_mayor_beer",
