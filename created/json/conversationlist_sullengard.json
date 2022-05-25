@@ -2225,6 +2225,17 @@
             {
                 "text":"You must be mistaken. I'm $playername and Andor is my brother, and you are?",
                 "nextPhraseID":"sullengard_hadena_1"
+            },
+            {
+                "text":"I'm sorry because I was only half listing to you earlier, so I am a little fuzzy on the details. But can you explain to me again what you need from me?",
+                "nextPhraseID":"sullengard_hadena_2",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":10
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -2273,10 +2284,6 @@
             {
                 "text":"I'll  go now to help get him home on time.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"But why won't your husband be home on time today?",
-                "nextPhraseID":"sullengard_hadena_5"
             }
         ],
         "rewards":[
@@ -2284,27 +2291,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"deebo_orchard_ght",
                 "value":20
-            }
-        ]
-    },
-    {
-        "id":"sullengard_hadena_5",
-        "message":"Ainsley will only get home on time if you give him a new pitchfork from Loneford so that he can use it to get his work done. He is the least experienced farmer, so he gets all the crap work assigned to him.",
-        "replies":[
-            {
-                "text":"Oh. I understand why now. I better go in Loneford now.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"That's sad. I'm going now to Loneford.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"deebo_orchard_ght",
-                "value":25
             }
         ]
     },
@@ -2424,9 +2410,9 @@
                 "nextPhraseID":"sullengard_ainsley_1b",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"deebo_orchard_ght",
-                        "value":40
+                        "value":20
                     }
                 ]
             }
@@ -2474,8 +2460,8 @@
         "message":"Hadena? Ahh yes. She's my wife. Why do you ask?",
         "replies":[
             {
-                "text":"She told me to give you a new pitchfork so you can come home on time today.",
-                "nextPhraseID":"sullengard_ainsley_2"
+                "text":"She asked me to ensure that you get home on time today.",
+                "nextPhraseID":"ainsley_goto_loneford_0"
             },
             {
                 "text":"Just asking. I thought you are busy?",
@@ -2675,7 +2661,7 @@
                 "text":"N",
                 "nextPhraseID":"sull_ravine_grazia_1"
             }
-		]
+        ]
     },
     {
         "id":"sull_ravine_grazia_10",
@@ -6141,5 +6127,66 @@
     {
         "id":"deebo_orchard_deebo_81",
         "message":" The Golden jackal was last seen heading back into the \"Sullengard forest\" just to the west of my orchard. Return to me with proof of it's death."
+    },
+    {
+        "id":"ainsley_goto_loneford_0",
+        "message":"Well, in order to do that, then I will need some help.",
+        "replies":[
+            {
+                "text":"Help? What kind of help?",
+                "nextPhraseID":"ainsley_goto_loneford_10"
+            }
+        ]
+    },
+    {
+        "id":"ainsley_goto_loneford_10",
+        "message":"You see, because I am the least experienced of Deebo's farmers, I get assigned the extra work that the other farmers don't want to do. On top of my already heavy reasonsibilities.",
+        "replies":[
+            {
+                "text":"Extra work? Like what?",
+                "nextPhraseID":"ainsley_goto_loneford_20"
+            }
+        ]
+    },
+    {
+        "id":"ainsley_goto_loneford_20",
+        "message":"Well, for example, we need a new pitchfork here on the orchard and the closest place to get one is in Loneford. So guess who has to go get it? Me! I do.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ainsley_goto_loneford_30"
+            }
+        ]
+    },
+    {
+        "id":"ainsley_goto_loneford_30",
+        "message":"This is not an easy trip. Not only the distance, but with all of those monsters between here and there, it is very dangerous.",
+        "replies":[
+            {
+                "text":"Especially for a farmer. Trust me, I know.",
+                "nextPhraseID":"ainsley_goto_loneford_40"
+            },
+            {
+                "text":"I agree with you as you don't look strong enough to handle that trip.",
+                "nextPhraseID":"ainsley_goto_loneford_40"
+            }
+        ]
+    },
+    {
+        "id":"ainsley_goto_loneford_40",
+        "message":"Anyways, I would really appreciate it if you would go to Loneford and get the pitchfork.",
+        "replies":[
+            {
+                "text":"Sure. I will go to Loneford and get your new pitchfork.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_ght",
+                "value":25
+            }
+        ]
     }
 ]

@@ -85,7 +85,8 @@
         "iconID":"monsters_karvis2:1",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"deebo_orchard_farmer_ainsley"
+        "spawnGroup":"deebo_orchard_farmer_ainsley",
+        "phraseID":"sullengard_ainsley_selector_0"
     },
     {
         "id":"sullengard_cabin_wife",
