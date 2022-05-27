@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="34" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="34" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,17 +192,17 @@
  </layer>
  <layer id="3" name="Objects" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJyVlk1uhDAMhblCWTWcoN30LnOFnrQ/W4SQWLXL7kAzKuoJGos88Y3HUPqkKBA7L7ZjG4ZUVWMe33nMeRguee6w9lNX1Tkt6wbp9WlZl96E53PhJfoip/5U+O+bqkrNyj+l9czPu2Xd+L7q63XJ+nKWyYkW+wW9c/01673l8ZBteGyuzzHw2faZ3Gb6K5tky1TW+mL3WPxqERfvq8HiIS7tYcwE7dEsXTuL99lBNjoOcnkd4xgCfnF3jk+xt/kFsj7Ya77R56fmNpa0c3A52afb/cwDxn5O8V1qfnY5Q3tnZwPzYsuvrdh37vwZssiXCIxNG3Art/ZiTx7ap9jRX7OFcuaJwJo7B+ftxZ62ck3g+ZJ73hGcYyA/1fux12x3F9WG52N9+TyJbJtSfNd7saf/UW1GZzDujKts0z2x/231BF9P3i/ZdXHcgnLT9+qoPtnniEjX+/WR1pzf0n9PSy5HdcA78PnHnuR11Yu2eqPX35rlP/fy+0B/t2q5dfNf+mN5PlqfUW+OdP9b+/yv6NL1N4H1Qpgte7Uc1eoR7qP1yX3tji578xHuNq3f2+j/xHCq1xhE9+5BniP/QILZ+AuAieGh
+   eJyVVktuhDAM5Qpl1eQE7WbEVeYKPWnb2SIUiVW77C6IUVFP0FjkKQ/jUGopCsT2i/8wuqaJaX2ntaQldE/7QGc/bdPMbj0Xglxw6znkJnqeMy5TyHyWnzL+o28a5wv+5Mqdnw/rueB9tdtz8EK+S/hMPemD8M7nb0nuPa2nZMOz394jxM+iJ3zZ2V/YBFumfBay3TH71VNctK9CEg9gQYdjBoIOdsjKXZzPgXhRYTCWlhGM0cAH9qDwEHvZX4kXDF3xjX2++H0s2c5R1WRwe32uA4794uxcYn9RNcP2LsoGrouaXxz7zheZQd2/kD7b1/l9fnTOUUcaG7V1FHvG4RwiduzvxW/5XCcg7rnZuO8o9mwrn4H4fvA1biTMaPCv7XHssUvurN7QeNxfuk4s2yZn5/oo9uy/1ZvWHRx3jitsQ554/tVmQqf6SfsFu+4KG4Ta1LPa6k+ec0yWrPbrw5War8nf3FrLVh90Rn1x7GtzFLOoNhu1fG2H/6zL3wf2t9bLvdr/ko/5+Wx/dsZstmT/2/v8XzG47TeB+4VJcnLUy1avnsE+25+s1x/I8mw+g9278r21/k+Erm2JgZV3TYxz5h8IJDb+ApSN4G0=
   </data>
  </layer>
  <layer id="4" name="Above" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJydVVtuwzAMyzW0O+zw236Nwkfob7YWyW/6QHqEWaiJsIztZBMQ2LUsWqZFteuedrGu6+05qvW0Nqf5LX339E3pizSfKD7kdbcbzd0etP8jfZ9y5in9Ptt6jjzdhjSO9uqP+Q7feS3akr+vBcLp5UzYWWIGwtT8MLIfef1knuBTDMbSPYPcndcd+9DA49yd36vEKqfvb4vvntcV90Dx0dbxJe5L76O8qTHGVOEK76qc1LifM18cP1J86S6wufDmqCPEAxu1tZf7mTCidSvzXNjPdVIy9u/lvqYBPR8xWic9YfYFv1uL+y1tMG/AGwRD397Pvohf71HjnmvO71/SJvNa063mxnXE/tK9WU96Lz/T/bOV9eOG2uS7Ak9741TJodVH+U1CA9vtS/io9UbtB9yTdC96EfeCFnZtLOmT/x8475qWff8jxx03sIE32lqfk5X1yTy0tPwf7WPe0qfWZWvvX7UP26tPjguNvdyb92AHW3S7ZdBmsNexZar9lp3oruCT6wfG+tb90CC41/rjvhRzHMfiLX8BQDexeQ==
+   eJydVUFugzAQ5BvLHyre3uaKIp7QK20iuJImIk+oV/GIYbAN7UrIjtc7Xo93NlX1sptVVW+vUa2ntTnM7+F7hG8KX0fzieLbuO52p7nbk/a/h+9DzryE31fbzpGn2xDG0db+Lt7hK651tuTvay3h9HIm7CoxA2FqfhjZj7y+I0/wKQZj6Z5B7s7rjn0u4HHuzu+PxCqnb/Xie8R1xT1TfGfb+BT3qfdR3tQYY8pwhXdVTnLcz5Evjh8pnnNp6vV5c+LNUUeIBzZq6yj3M2F0Vm3MeWU/10nK2H+U+5wG9HzEaJ30hNkn/G4l7ve0wbwBbxAMfXs/+yZ+vUeOe645v39Km8wr1mZb61Zz4zpif+reDelJ7+Vnel6zpfXjhtrkuwJPe+OUyaHUR/lN2gK220n4yPVG7Qfck3QvehH3ghJ2bkzpk/8fOO+cln3/M8Z97mADb7StPidL67Opj2n5P9rHvKRPNn+T0t6/ah92VJ8c1xb2cm8+gt3aots9w39da+uxZKr9kl3oruCT6wfG+tb90CC41/rjvtTFOI7FW/4Cxo+xlQ==
   </data>
  </layer>
  <layer id="5" name="Top" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJzNVUEOAiEM9BvrwR/4eu/GD/iAJUvYH+gTBEMjmbS0BU2chGh22QGmneGyHN5I+XfPI+Sx5RGV57/CQ+Avz5/GtTdlnvdMe/P+dNTXX+v8a4e38NBZRzQ9G/ZxU3jxLEWLdbK+mvYc8CxUnxGg9gF4ksBLWljqa4GmvdQbvbpqfeLpoxlfczWOy0drqQc47dHXnP4ePswuDpz2Ut2Jq7yX+Kx7m0GrwYjHLN9yeYBAP1m5Cb1sxPV7c7l8sOQuoefP4sF2L5qXPdxeWHK+4Bv3MvZsq8HdmKMer0rA+vU0kGrt8f4/IoDfI+Q0+jDUuxtzgubT/8Tk/V6/be/+FxusZ30=
+   eJzNVcENwjAMZI3yQCyAGJ4/YgEGaNQq2QBGIEGxiE52bKcgcVLUKnWvyTl3vUy7N2K+pjxCHkseqzL/KzwE/jL/NH57Ueq8e0rN88Ne//5c668d3sJDex3R9GRYx03hPQJH0WLe2F9New5nWAf1ZwS0ftpbAJ4o8FJfLf21QNNeOhu9vmrnxHOOtvia6/E6fbSWzgCnPfqa09/Dh9nFgdMevUAgrrIuiY/zjFQ7ilaDEY9Z3kXtuVr0k5WbgP5sgXO9HOXywZK7hJ4/Sx61Wmhe9nB7Ycn5gm/8l/HMthrcjTnq8aoE7F9PA6nXHu//IwL4fYWcRh+G+u/GnKB6uo9M3qf6bptjLzcbZz8=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="34" height="19" visible="0">
