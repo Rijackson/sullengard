@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Umar told me to visit Defy in Sullengard to give their share to the villagers."
+                "logText":"Umar told me to visit Defy in Sullengard to instruct him to give the villagers their share."
             },
             {
                 "progress":20,
@@ -22,7 +22,7 @@
             },
             {
                 "progress":50,
-                "logText":"There was a distress man, whom just had his first child, who hinted to me of wherabouts of Defy and his men. I must report this to Umar once more."
+                "logText":"There was a distressed man, whom just had his first child, who hinted to me of wherabouts of Defy and his men. I must report this to Umar once more."
             },
             {
                 "progress":60,
@@ -30,7 +30,7 @@
             },
             {
                 "progress":70,
-                "logText":"Umar gave me a task to give the mayor atleast 1.7 Million gold coins as a promised share for their living. After that, I'm instructed to report back immediately."
+                "logText":"Umar gave me a task to give the mayor atleast 1.7 million gold coins as a promised share for their living. After that, I'm instructed to report back immediately."
             },
             {
                 "progress":80,

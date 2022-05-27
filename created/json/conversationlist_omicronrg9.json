@@ -261,6 +261,20 @@
                 "text":"I'll ask him again once his head is cool.",
                 "nextPhraseID":"umar_guild04_16"
             }
+        ]
+    },
+    {
+        "id":"umar_guild04_16",
+        "message":"Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.",
+        "replies":[
+            {
+                "text":"I'm going to visit him again. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's what I just said.",
+                "nextPhraseID":"X"
+            }
         ],
         "rewards":[
             {
@@ -287,20 +301,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"guild04_comrade_3",
                 "mapName":"sullengard_tavern_basement"
-            }
-        ]
-    },
-    {
-        "id":"umar_guild04_16",
-        "message":"Sigh. He may be stubborn sometimes but he is a great supervisor. You should ask him once he is calm.",
-        "replies":[
-            {
-                "text":"I'm going to visit him again. Bye.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"That's what I just said.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -547,15 +547,9 @@
                 "nextPhraseID":"guild04_defy_1",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":10
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":20,
-                        "negate":true
                     }
                 ]
             },
@@ -576,7 +570,7 @@
     },
     {
         "id":"guild04_defy_2",
-        "message":"Oh. It makes sense now. I'm Defy.",
+        "message":"Oh, yeah, but you do look a lot like him. I'm Defy.",
         "replies":[
             {
                 "text":"So you knew my brother as well?",
@@ -610,6 +604,13 @@
                 "text":"A delay of what?",
                 "nextPhraseID":"guild04_defy_5"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":20
+            }
         ]
     },
     {
@@ -622,14 +623,14 @@
             },
             {
                 "text":"You will be the one to blame here.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves04",
-                "value":20
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves04",
+                        "value":20
+                    }
+                ]
             }
         ]
     },
@@ -641,15 +642,9 @@
                 "nextPhraseID":"guild04_defy_gone_script_grant",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":30
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":40,
-                        "negate":true
                     }
                 ]
             }

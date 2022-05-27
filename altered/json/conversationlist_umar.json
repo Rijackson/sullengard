@@ -36,15 +36,9 @@
                 "nextPhraseID":"umar_guild04_26",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":70
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":80,
-                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -59,32 +53,20 @@
                 "nextPhraseID":"umar_guild04_21",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":60
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":70,
-                        "negate":true
                     }
                 ]
             },
             {
-                "text":"Matpat told me that Defy and together with his men went out of the Sullengard.",
+                "text":"Matpat told me that Defy and together with his men left Sullengard.",
                 "nextPhraseID":"umar_guild04_19",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":50
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":60,
-                        "negate":true
                     }
                 ]
             },
@@ -93,49 +75,31 @@
                 "nextPhraseID":"umar_guild04_17",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":40
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":50,
-                        "negate":true
                     }
                 ]
             },
             {
-                "text":"Defy told me that the time of sharing will be delay for no stated reason.",
+                "text":"Defy told me that the time to share will be delayed for no stated reason.",
                 "nextPhraseID":"umar_guild04_15",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":20
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":30,
-                        "negate":true
                     }
                 ]
             },
             {
-                "text":"What am I going to do in Sullengard again?",
+                "text":"What am I supposed to do in Sullengard again?",
                 "nextPhraseID":"umar_guild04_12",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"Thieves04",
                         "value":10
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves04",
-                        "value":20,
-                        "negate":true
                     }
                 ]
             },
