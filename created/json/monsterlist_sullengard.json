@@ -498,7 +498,7 @@
         "name":"Flying tree ant",
         "iconID":"monsters_omi2:5",
         "maxHP":119,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"insect",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -570,7 +570,7 @@
         "name":"Sullengard forest snake",
         "iconID":"monsters_tometik4:24",
         "maxHP":148,
-        "moveCost":3,
+        "moveCost":5,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -591,7 +591,7 @@
                     "condition":"nausea",
                     "magnitude":3,
                     "duration":5,
-                    "chance":"50"
+                    "chance":"40"
                 }
             ]
         }
@@ -601,7 +601,7 @@
         "name":"Sullengard red forest snake",
         "iconID":"monsters_tometik4:27",
         "maxHP":175,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -702,7 +702,7 @@
         },
         "spawnGroup":"preabola_fly",
         "droplistID":"flying_insect_dl",
-        "attackCost":3,
+        "attackCost":4,
         "attackChance":170,
         "blockChance":225,
         "damageResistance":8,
@@ -728,7 +728,7 @@
         "name":"Yellow tooth slitherer",
         "iconID":"monsters_snakes:5",
         "maxHP":119,
-        "moveCost":3,
+        "moveCost":5,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -749,7 +749,7 @@
                     "condition":"nausea",
                     "magnitude":3,
                     "duration":4,
-                    "chance":"45"
+                    "chance":"42"
                 }
             ]
         }
@@ -778,7 +778,7 @@
         "name":"Duleian buzzer",
         "iconID":"monsters_ld2:222",
         "maxHP":77,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"insect",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -807,7 +807,7 @@
         "name":"Poisonous jitterfly",
         "iconID":"monsters_rltiles2:65",
         "maxHP":97,
-        "moveCost":3,
+        "moveCost":4,
         "monsterClass":"insect",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
@@ -825,7 +825,7 @@
                     "condition":"poison_weak",
                     "magnitude":5,
                     "duration":5,
-                    "chance":"75"
+                    "chance":"70"
                 },
                 {
                     "condition":"sting_minor",
