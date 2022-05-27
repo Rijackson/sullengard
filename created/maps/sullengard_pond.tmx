@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="13">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,17 +190,17 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdVcFOAjEQbQyaeNKtSmS/QD9nOWnCSROjn6f8ARc4epaEAyTGLosxHojcnAkddhi6pUXg4Esm3bbTeW+m3XbSUGoElmmlHsAQTWhf7RjhXswh7uwYriNfA3M52FdSficH8zXfbC3N8TiEJuvzuUwvz6Puw1Spo1QFgThpPcXmuVOu2Cd/2cZg5PAnLuRBDZdpqSkL5B2KmnEU4PsJNgCbNJZrSDxXwHmdzvVh/DFY37a8H5IvaRkIXqlD1kLyhvDlydxceRa2lTqkzk3388PD6+Lja2Lik9bFHuuSdxFf+3m3gar4hYcvj8jXxefbv13AJGF19P1vIfMu7HL/hux88DHi3dV5mXjyMZ6zEVs/7i/z3CReLE71ah1j/vV1/mv/I0d+hmnBe03eJ7Hg9yTmWRXDOM7YX1B1L99A7Fu97EeIfZclH70/8tw+At+T9r8VnROlnmtKvVhr1+J4Wzan9zrs2RozdX/Mc3jTL1J3LFzb0mXd0GcM9gb2w6wvxrCfB2jjsWZgXbAe08v5ZiIP6TsV/O3jVU00xmN1rVaqUxUfcbjGOf/MoUmumbIaGQ/ftsF5e3vgk7z7yFHy/kfos9WxX1nQD24=
+   eJzdlcFOAkEMhicGTTzpjkpkn0AfB06acNLE6OMpb+AFjsajJBwgMe4CQjwQudmGKVu6s2VHgYN/0izb6fRrO7vLuGbMAKxujbkDQzXg+uJ8pFuxhrpxPtxHsQmspWDTKPsd7S32fLG9tMbzkBrsnq/V7eo61r0fG3MQm1IiJu2n3Lx36hXvKV5eX20+d5EGtbyPWMjBGs7jrKa6wuXqKzWMIPYTrAc2rq3OkDgXwLyMF/Vh/iFY1135veT6RLX0BFfWIWchuWV4abQwX58jd5V1yDq1uWr6ULg+Ht8Tkp9qXZ6xzbjL/FbnbkJF+UcKLw3o18fTzm8bSqJyc9TetzLrPm3z/Prs+eA+4m7reaHzm3ryJ8qzETo/Hk99Thj3N+cRomM3X95nyLu+Ll57jyZF82U+/K7J70mo+HcSeUU5Es8z9hcRV/Z5Bbmv7WocKeQ77uPR/4+c6z3wHqz+X/F8ZMxjxZgnZ61KGLfpenqvwpmtsaSq5zyF//Sz2J8L9zZtNjeMGYK9gX0z6wof3qclauO55mBtsA6rF2dLMXPRh4ydCX7rMF8T+XiutquV5lTEI4bPz/lzT01yz4zNCLnYZ1HeTYpzOzvgSe4uepTc/yh7kvf9ABvkFqU=
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlUsOwyAMRK02J0hWREpX7f0XPU0/OUAbddXPumYRBaECdjC4IyGEQPM8WAkAACcDcMaRqzd6fIg+XOZ83p+ldfQ8c7lXPDuaZQ7J9HHe2rw+P1WH1VrOL25oLS03n6ZK5eT0T5IXWpfkaqp0/2pp5o0KXK0e1syZkvQ75frFck64dxG8B2r9k1BeSk6XQcn7xP0Xs6ZYjptZ8oa0xfe86XlM63uPeKa4HYNn73ZoAXZtfl1UPRS+T41/gkZOivaEXv+jd01tOjmvQ8adfAEKbWuS
+   eJzNlcsOwiAQRSfqF7QrmuhK/3/h12g1utVumvhYO7MgJSgwlAE8CSFNyT1cSFoAgIMCOOJI5YUZb2ZOrFOvt2dp9lZmqveEa89qml2ozu+b29f2h/ZBzPX88rqepTH71SRXz5j7k/S5nnN6a5L7/kqhfTSuhb00LoW9RGkf4eop/Z8y83w9B3zXC56D9obucxDqy+lpOjh9H/j+ydzTqL4dNjc19XWxxP/5quM5zdy7JzPkbSN8dLbrBmDTpO+LyyiQEUuNb0KNnhy2jLv+x+ySLFq5rF3CmXwAE1Byhg==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdlVEKwCAMQz2F97+CN9z+JiG2sVYHFoSturyo07ZaSnsbBst5fa1+Dd9HfSuBmur4iP4sq9eYHbPKVb4bMaLciFb2PFW9lf1UuNnBzhPzsYPL9E/xdnEU7ok4tX9qPot3cg2RezMT2ZanDF+qXvY6WPUi4m+G59VLfGa+vDzjMl3LQ6Qfmd59m1WX+7z67PlhPKanjBnVU6vWWv+m5zP7fCJ/Z/x9x98YbF4PQ1q0WQ==
+   eJzdldEJwDAIRDNF918hG5b+FTHexZ4WclAIWn1qqJ3XGLPgeZTxfeEhdfNOYKpny8So+0Rxu1Ld0w7vzV3VUcH18nfxqjiI26Wu+2PtKt5pc0TMblXttWw+9RyivZOpL8vz3rFnry5k97he3qiGjN8y0b5V/ZcZuz2j+KhvlrmaP+uzNbB1qr9Py6/U3zv+RHl93cb45VI=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -229,26 +229,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="5" name="sullengard_snapper_spawn1" type="spawn" x="128" y="672" width="192" height="32">
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="5" name="sullengard_snapper_spawn1" type="spawn" x="128" y="672" width="192" height="64">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object id="6" name="pond_fish_pond" type="spawn" x="64" y="864" width="800" height="96">
+  <object id="6" name="pond_fish_pond" type="spawn" x="64" y="832" width="800" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="pond_fish"/>
    </properties>
   </object>
-  <object id="7" name="sullengard_snapper_spawn2" type="spawn" x="448" y="704" width="192" height="32">
+  <object id="7" name="sullengard_snapper_spawn2" type="spawn" x="448" y="704" width="192" height="64">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>
    </properties>
   </object>
-  <object id="8" name="sullengard_snapper_spawn3" type="spawn" x="704" y="672" width="160" height="32">
+  <object id="8" name="sullengard_snapper_spawn3" type="spawn" x="704" y="672" width="160" height="64">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="sullengard_snapper"/>

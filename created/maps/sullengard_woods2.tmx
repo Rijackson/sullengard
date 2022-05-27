@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="16">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytk9ERwCAMQjtF91+hG/bX2gCPXnPnh9EQwHgc77jO51rzKtxZwnX16929dsdL+QlPcZvw0t2pTulzHJ1fSSfhSjVN3FOPyWdSR96u4Upmg3Age+KB816F0++8SFwThsOlfZUW+tatX82/INzbWXV6Ju/d7KS+VLvCaOeZ1CpOaf7UWcp/4UJ6t/rd3bWX0tX02fk7rxIvUq8izT3lkf7On+sGOLEQ6Q==
+   eJytklEKgDAMQz2F97+CN/RLkK1JXsTBYHRNm73uOPZ1nft+4mq5O1V3iivNlOd8pvjqedI0fZ1u4qM0iRf1kfqQvMQpaZVPomu4UDZklimHMFhj7uyWYtBwczVUPdeDeEhvSTNSvBwz4p3er/WIf/ceNb+p9jv/K9t2Vi0j8peJJ8q5fcfKPPVu/Dd8lQ86G+ct1SS8EoOJ3aShM27+4N/7BhVYJq0=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -239,7 +239,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="5" name="sull_forest_tree_fungus_spawn1" type="spawn" x="224" y="544" width="96" height="32">
    <properties>
     <property name="spawngroup" value="sull_forest_tree_fungus"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -213,7 +213,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1U8sNxTAI6xTdf4Vu+PQOlSKEPzgpUg4lxDaGPvd1Pc35R5f/+qyhNKE6lwd9M0x0x7S8edST6oO9Uz5O+9iZmTtXhxvF7v5M7ta51TzCULgVs+Nj3EiP61/Vkc4T9aZwnb1wuBm/0xuqcTGm+tw3yX+xo52FminjQ7lTfqj3nf6Ot/o32TdVp7yY9ubExOe1XvWhap0dQ9+nTqeXaVK+ptynax1/J/uV7gLyy7k/NVtH3+QeaWV8jg6mJ9HqvEk5kznV+g4jmT3bnQQv9XMH08VmsaONaVX4P/ma+uQ=
+   eJy1U8sNxTAI6xTdf4Vu+PQOlSKEPzgpUg4NxDaGPvd1Pc35R3f/9VlDaUJ1Lg/6Zpgox7S896inpA/1xsmfnpk7V4cbxe7+THLr3Oo9wlC4FbPjY9xIj+tf1ZHOE/WmcJ29cLgZv9MbqnExpvrcN8l/saOdhZop40N3p/xQ7zv9HW/1b7Jvqk55Me3NiYnPa73qQ9U6O4a+T51OL9OkfE25T9c6/k72K90F5JeTPzVbR98kj7QyPkcH05Nodd6knMmcan2Hkcye7U6Cl/q5g+lis9jRtrMnP8Qs/HI=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -247,7 +247,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="6" name="preabola_fly_spawn1" type="spawn" x="768" y="896" width="128" height="32">
    <properties>
     <property name="spawngroup" value="preabola_fly"/>
