@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,9 +203,9 @@
    eJxjYBgFAwVuSQ4tc0fBKBisYDTND10wGnejYBSMAmqDOzQuV0Dm3x0tu0bBKMAJRut2ygAArwEHoA==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="25" height="40" visible="0">
+ <layer id="5" name="Walkable" width="25" height="40">
   <data encoding="base64" compression="zlib">
-   eJy1lEsOgDAIRD1F738Fb+jWNAy8oYXEhRHnR+m7nrTedeeZrFs8EcZNHxmWy5H1VXOYymnn7mivOJUPkq2L/+egs6syVr3VvDrnI/Lh6KA8irOLWWmM+E4yqrLaudya2MFIE/HRwc94HA6VIdk9V3fFq3btVtGZUw00O+feIfqjd5onmYP6Tvfc0dKZ+Sm+exdN+VCchC/qzXRnfJnmUx90D4hG9R7x0KwIRtXj+nDvlwkfUT/1QavKkf7fwaccpMh5OMXZsdyZE/ys18mK+uicXYWjeImPLq+qDxF6Huc=
+   eJy1lEEOxDAIA/uK/P8L/WGvVYRhDAnSHqpmPTaEvutJ611nfn+t07VzpjpK+5R+xaFalBPNYVLK/87ueK+YKgfprav/Z9DZVT3O9qLaG/d+RDkcH5SjmF3NymPEm/So6tXOcuvGDkaeSI6OfsZxGKqHZPdc3xVX7dqpojOnHmjvnO8O8R89036SOaj3dM8dL52ZT/Xdb9GtHIpJeNHZzHfGyzxPc9A9IB7Vc8ShvSIa1Rk3h/t9uZEjOk9z0Kr6SP/f0acMUuQ+THV2LXfmRD876/SK5ujcXaWjuCRHl6vqA7JjIHU=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
