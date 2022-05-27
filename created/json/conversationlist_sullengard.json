@@ -1383,6 +1383,10 @@
                 "nextPhraseID":"deebo_orchard_deebo_10"
             },
             {
+                "text":"Your horses are magnificent.",
+                "nextPhraseID":"deebo_orchard_deebo_horse_talk_10"
+            },
+            {
                 "text":"I will let you get back to your business. Have a great time enjoying the nice weather.",
                 "nextPhraseID":"X"
             },
@@ -6169,6 +6173,70 @@
                 "rewardType":"questProgress",
                 "rewardID":"deebo_orchard_ght",
                 "value":25
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_horse_talk_10",
+        "message":"Oh, thank you so much. I am so proud of them.",
+        "replies":[
+            {
+                "text":"You should be. Can I ride one?",
+                "nextPhraseID":"deebo_orchard_deebo_horse_talk_20"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_horse_talk_20",
+        "message":"WHAT?! No way that's going to happen.",
+        "replies":[
+            {
+                "text":"Please.",
+                "nextPhraseID":"deebo_orchard_deebo_horse_talk_30"
+            },
+            {
+                "text":"Fine. But can we talk about your barn instead?",
+                "nextPhraseID":"deebo_orchard_deebo_barn_talk_10"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_horse_talk_30",
+        "message":"No way. Is there anything else that you want to talk about?",
+        "replies":[
+            {
+                "text":"Well, I was also wondering about your barn.",
+                "nextPhraseID":"deebo_orchard_deebo_barn_talk_10"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_barn_talk_10",
+        "message":"What about it?",
+        "replies":[
+            {
+                "text":"Well, it is one of the biggest buildings that I've ever seen. What it's in there?",
+                "nextPhraseID":"deebo_orchard_deebo_barn_talk_20"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_barn_talk_20",
+        "message":"Supplies for my orchard and for my horses.",
+        "replies":[
+            {
+                "text":"Can I see for myself? I would like the climb up into the loft forsome much needed fun.",
+                "nextPhraseID":"deebo_orchard_deebo_barn_talk_30"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_barn_talk_30",
+        "message":"No way! You are annoying me. Go away kid.",
+        "replies":[
+            {
+                "text":"OK. I will leave you be.",
+                "nextPhraseID":"X"
             }
         ]
     }
