@@ -598,7 +598,7 @@
     {
         "id":"bronzed_gloves",
         "iconID":"items_armours:38",
-        "name":"Bronzed Grasps",
+        "name":"Bronzed grasps",
         "displaytype":"rare",
         "category":"hnd_mtl_hv",
         "equipEffect":{
@@ -619,7 +619,7 @@
     {
         "id":"brutality_boots",
         "iconID":"items_japozero:209",
-        "name":"Brutality Boots",
+        "name":"Brutality boots",
         "displaytype":"ordinary",
         "category":"feet_mtl_hv",
         "equipEffect":{
@@ -630,7 +630,7 @@
     {
         "id":"bronze_helmet",
         "iconID":"items_reterski_1:0",
-        "name":"Bronze Helmet",
+        "name":"Bronze helmet",
         "displaytype":"ordinary",
         "category":"hd_mtl_li",
         "equipEffect":{
