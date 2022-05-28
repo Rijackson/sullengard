@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -210,7 +210,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1UtsJwDAIzBTdf4VuWPon4R7iQwghRj3v9H3OecH5Dfm3TwfXGcNy/xnMKp8sbvRFTMTP/Wdx2Vtpi3I2bXNf7/oIU+FWelIYqIctvlN8Kpwncd28mKbM1+XC4iuzjXvRme+UvtP7xGxz1zJ74qyjMYqLPlU/05PLVzU7uius+L5vpQ2LQX1/Z6Q+xg==
+   eJy1kssNwDAIQzNF918hG0a9oco2bgCkqAqfPHDZz1obnNeQf/pUuJkxVhZ3mLfzuNzoi0w0XxZ3ueyutEU1kza5rw5TcW96UgzUQ/e8lXhV5wlu9r+YpsxXncXZsb+zuTUsr0vf7n1iNrlrzp5kVtEY5UWfet/pKatXb1Z0V6x4/36VNiwH9X0AbXU9OA==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">

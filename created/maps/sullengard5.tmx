@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="19">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="19">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVbFOw0AMjRiRQMoNie5T+ANWssDcb0P8AlNXkipS1RlBxi6ElpUpnEWsvL7zNQFLpzYX37tn+9npfZZ9hsV2U8Z7au/B/43OCEYf1trA2vkYrzf8LOuJ3yaP+b3k8ziCceeyrA2+zbjEGgNvCb/KTX6HP+RP82Ttq3V+8tN9ix+esTBXLuYn8a6pHg3k7xjefS3kh+fO6SVllTuNo/0nXgcYVwHz2sU+HG+qvoolWlE/yR/ecR+wbg1+jNlRbCvgpfui3aWxWjrDekldLW4N9UcHOMqjcpM20JDb08X0X2NFrYoNdBfnby5W8UEM1N0R7tRcKJ5w0zg3Rn3xWfw0b70/7TXmp7Olzu2eY35tnu4Lnjls+B75zeUP8do8/U75nZsrSwz5bcMqnT1H8Z4taFSs8/F350jPS/lhjrBHREclzQLGQ83gc+fjvsfcpb4bYjVhpfhpPfTuwZgFgjEYumFdYD1kBjyMy5pTbMiT9czz5PEyjYHfGkvj+yKOT/Cwd3d0XuPj+gjWRxHPpxQ/xTr4mJtivRan80Tsufj95XxzTbG29Yj1HdYPY1HedA==
+   eJydVbFOwzAQjRiRQIqHRP4U/oCVLjD32xC/wNSVpIpUdUbgkYXQsjIFn+gpL8/nNuUkq7Vzfn5393zufVF8xcF2U6drau/R/432CEYfx8rA2voUrzf8LOuJ37pM+b2Up3EE484VRRd928MQaw28OfwWbvTbnZE/zZO1rhb86KfrFj/cY2EuXcpP4l1RPVrI3z5++57JD/cd00vOFm4aR/dPvAAYVxHz2qU+HG+uvoolWlE/yR+ecR+xbg1+jBkotiXw0nXR7txYLZ1hvaSuFreW7kcAHOWxcKM20JDb08X4X2NFrYoNdBbn71Ss4oMYlsYDaFrxhJvGuTbqi3Px07z1fnrXmJ/2lqa07xzOBbMr8/eCew4bfkd+p/KHeF2Z/6b8jvWVOYb8NnHUzu6jeM4GNCoWfPru7M98h/AczRHeEdFRTb2A8VAzOA8+vfeYu9y7IdYQVo6f1kPPHoxeIBiDoRvWBdZDesDDYVh9ig15sp65nzxe5jHwrbE0/lGl8Qke3t0t7df4uD6C9Vml/SnHT7F2PuWmWK/VtJ+IPVd/v5xvrinWtjlg/cTxC1U13nE=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFljEOgzAMRblCF6Tc/x4VUvcOsBbRAxTRG7SxKquW8+2ElKh/IQTzebHjiK5LNYTv+NJ/rrcAAoEobnZi2S8nzwP5/ZuP7pF3a74lxt5BPOIr8ZMcv/JxLPJqXV/JKcel9fX0iF5rpZ9VL5bOn1Zp3khT9BoPyB9is8Tv0DoX55uSDfHpe86bnJd8FpvXBx5fbV2t/NXsuxZ8Z+cckHtTx6H9kOPb4vMniOEa5s4S7Vcq6Wl9w/OzeuWoesyhrB57tGX6Dfnl8k+er1M6L3t3AO97nnK9U2+zMV9O15Ay0VX3oT43rLXzescd/wHemfkGfVKJvA==
+   eJzFlksOwjAMRHsFNpVy/3ugSuxZtFtQOQCo3ABiIQvLGTsfGjGbpqkzebGTqMOQagrf9mn8PC8BBAJR3NWJZb+cPA/k928+ekfevfnWGHsD8YivxE9y/MrHscird30lp2yX1tfTPXo9Gv2serF0/rRK80Zaote8Q/4QmyU5ZnXmlGyIT79z3mS/nMti886Bx9daVyt/LfuuB9/RuQfk3tRxaD/k+Lb4/QliuIa5u0T7lUp6WnN4ftZZ2asexFNSjxptoZ4vl3/yfB3Sfnl2JzDe85TrXUabjflyOoeUiZ76HOp7w1o7r3eu+A/w7sw3nWCIxA==
   </data>
  </layer>
  <layer id="4" name="Top" width="20" height="30">
@@ -281,7 +281,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn" visible="0">
+ <objectgroup id="9" name="Spawn">
   <object id="12" name="deathcob_spawn1" type="spawn" x="224" y="768" width="160" height="128">
    <properties>
     <property name="spawngroup" value="deathcob"/>
