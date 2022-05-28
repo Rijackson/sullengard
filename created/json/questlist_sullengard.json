@@ -167,6 +167,7 @@
     {
         "id":"deebo_orchard_ght",
         "name":"Getting home on time",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -203,6 +204,7 @@
     {
         "id":"sullengard_pond_safety",
         "name":"Pond safety",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -231,6 +233,7 @@
     {
         "id":"sullengard_recover_items",
         "name":"Recovering stolen property",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
