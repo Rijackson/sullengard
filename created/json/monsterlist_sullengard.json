@@ -423,6 +423,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
+        "moveCost":3,
         "spawnGroup":"sull_ravine_grazia",
         "phraseID":"sull_ravine_grazia_0"
     },

@@ -74,7 +74,7 @@
             },
             {
                 "progress":17,
-                "logText":"Player is helping Grazia cross the bridge"
+                "logText":"Player is helping Grazia cross the bridge."
             },
             {
                 "progress":18,
@@ -131,7 +131,7 @@
             },
             {
                 "progress":29,
-                "logText":"The PC has made it across the ravine bridge without helping Grazia."
+                "logText":"The PC is south of the ravine bridge."
             },
             {
                 "progress":30,

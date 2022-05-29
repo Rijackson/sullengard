@@ -260,7 +260,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="9" name="sull_ravine_did_not_help_grazia" type="script" x="352" y="736" width="32" height="32">
+  <object id="9" name="sull_ravine_south of bridge" type="script" x="352" y="736" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -272,7 +272,7 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Spawn">
-  <object id="11" name="sull_ravine_grazia_spawn" type="spawn" x="320" y="160" width="32" height="32">
+  <object id="11" name="sull_ravine_grazia" type="spawn" x="320" y="160" width="32" height="32">
    <properties>
     <property name="spawngroup" value="sull_ravine_grazia"/>
    </properties>

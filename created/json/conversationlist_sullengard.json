@@ -2635,6 +2635,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":18
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"sull_ravine_grazia_60",
                 "requires":[
                     {
@@ -2731,7 +2742,6 @@
     },
     {
         "id":"sull_ravine_grazia_script",
-        "switchToNPC":"sull_ravine_grazia",
         "replies":[
             {
                 "text":"N",
@@ -2741,27 +2751,6 @@
                         "requireType":"questProgress",
                         "requireID":"sullengard_hidden",
                         "value":18,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"sull_ravine_grazia_60",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"sullengard_hidden",
-                        "value":17
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"sull_ravine_grazia_61",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"sullengard_hidden",
-                        "value":17,
                         "negate":true
                     }
                 ]
@@ -2798,7 +2787,7 @@
     },
     {
         "id":"sull_ravine_grazia_70",
-        "message":"I have been traveling from Nor City to Sullengard to visit my aunt and uncle and to help them prepar for the Sullengard beer festival next month. I hope to see you soon.",
+        "message":"I have been traveling from Nor City to Sullengard to visit my aunt and uncle and to help them prepare for the Sullengard beer festival next month. I hope to see you soon.",
         "replies":[
             {
                 "text":"Yeah, about seeing you soon. Where is Sullengard?",
@@ -2839,6 +2828,11 @@
         "id":"sull_ravine_grazia_90",
         "message":"I have to go now. See you there.",
         "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":18
+            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"sull_ravine_grazia",
@@ -3499,7 +3493,6 @@
     },
     {
         "id":"sullengard_zaccheria_selector",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -3804,10 +3797,8 @@
     },
     {
         "id":"sullengard_find_mother_0",
-        "message":"",
         "replies":[
             {
-                "text":"Mother?!",
                 "nextPhraseID":"sullengard_find_mother_1",
                 "requires":[
                     {
@@ -4072,7 +4063,7 @@
         "switchToNPC":"mikhail",
         "replies":[
             {
-                "text":"[You decide to chime in] And buy bread. And clear the rats out of the cave...",
+                "text":"[You decide to chime in] And buy bread. And clear the rats out of the yard ...",
                 "nextPhraseID":"parents_argue_80"
             }
         ]
@@ -4090,7 +4081,7 @@
     },
     {
         "id":"parents_argue_90",
-        "message":"Well, he learned something I suppose. Monsters everywhere on the way back! Xyz just cleared them away like they were ants!",
+        "message":"Well, he learned something I suppose. Monsters everywhere on the way back! $playername just cleared them away like they were ants!",
         "switchToNPC":"crossglen_valentina",
         "replies":[
             {
@@ -4379,12 +4370,29 @@
     },
     {
         "id":"sull_ravine_not_helping_grazia",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sull_ravine_not_helping_grazia_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":18,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sull_ravine_not_helping_grazia_1",
         "message":"HURRY, PLEASE! Keep moving!",
         "switchToNPC":"sull_ravine_grazia",
         "replies":[
             {
                 "text":"Why are you following me?",
-                "nextPhraseID":"sull_ravine_not_helping_grazia",
+                "nextPhraseID":"sull_ravine_grazia_62",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -4401,17 +4409,6 @@
         ]
     },
     {
-        "id":"sull_ravine_grazia_61",
-        "message":"Thank you so much. I can now continue onto my destination.",
-        "switchToNPC":"sull_ravine_grazia",
-        "replies":[
-            {
-                "text":"What is your problem? Why are you following me?",
-                "nextPhraseID":"sull_ravine_grazia_62"
-            }
-        ]
-    },
-    {
         "id":"sull_ravine_grazia_62",
         "message":"I was to scared to cross that bridge by myself because of the wind.",
         "replies":[
@@ -4423,19 +4420,7 @@
     },
     {
         "id":"sull_ravine_grazia_63",
-        "message":"Yeah, but only after I saw you doing it. I have to go now. Thanks again.",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"sull_ravine_grazia",
-                "mapName":"way_to_sullengard_east4"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"sullengard_grazia_spawn",
-                "mapName":"sullengard2_northwest_house"
-            }
-        ]
+        "message":"Yeah, but only after I saw you doing it."
     },
     {
         "id":"ff_captain_beer_10",
@@ -6062,7 +6047,7 @@
         "switchToNPC":"sull_ravine_grazia"
     },
     {
-        "id":"sull_ravine_did_not_help_grazia",
+        "id":"sull_ravine_south of bridge",
         "rewards":[
             {
                 "rewardType":"questProgress",
