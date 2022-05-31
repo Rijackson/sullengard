@@ -59,7 +59,7 @@
                 ]
             },
             {
-                "text":"What do I need this for? I leave it here for now.",
+                "text":"What do I need this for? I'll leave it here for now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -104,10 +104,10 @@
     },
     {
         "id":"loneford13_pitchfork_success",
-        "message":"After several minutes of intense pulling you finally pulled out the new pitchfork from the haystack.",
+        "message":"After several minutes of intense pulling you finally pull out the new pitchfork from the haystack.",
         "replies":[
             {
-                "text":"I'm a son of farmer!",
+                "text":"I'm the son of a farmer!",
                 "nextPhraseID":"X"
             },
             {
@@ -2148,7 +2148,7 @@
     },
     {
         "id":"throthaus_5",
-        "message":"If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house south-west of here.",
+        "message":"If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here.",
         "replies":[
             {
                 "text":"N",
@@ -2158,7 +2158,7 @@
     },
     {
         "id":"throthaus_6",
-        "message":"If you were able to pull it out from the haystack, then it will be yours.",
+        "message":"If you are able to pull it out from the haystack, then it will be yours.",
         "replies":[
             {
                 "text":"N",
