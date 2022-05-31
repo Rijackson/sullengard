@@ -1630,7 +1630,7 @@
     },
     {
         "id":"sullengard_nanette_1",
-        "message":"[Sigh]. I'm longing for my pond which I used to enjoy going to. But now it is dangerous to go in my pond.",
+        "message":"[Sigh]. I'm longing for my pond which I used to enjoy going to. But now it is dangerous to go near my pond, nevermind in it.",
         "replies":[
             {
                 "text":"Why is that?",
@@ -1648,7 +1648,7 @@
     },
     {
         "id":"sullengard_nanette_2",
-        "message":"[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious sea creatures emerging from the it.",
+        "message":"[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious sea creatures emerging from it.",
         "replies":[
             {
                 "text":"N",
@@ -1668,7 +1668,7 @@
     },
     {
         "id":"sullengard_nanette_4",
-        "message":"[Sigh]. Please help me for I'm longing to enjoy my pond again.",
+        "message":"[Sigh]. Please help me. For I'm longing to enjoy my pond again.",
         "replies":[
             {
                 "text":"Fine. I'm going now.",
