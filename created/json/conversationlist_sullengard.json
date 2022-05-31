@@ -2292,7 +2292,7 @@
         "message":"He is working at Deebo's Orchard located southwest of here. Please go there and help him.",
         "replies":[
             {
-                "text":"I'll  go now to help get him home on time.",
+                "text":"I'll go now to help get him home on time.",
                 "nextPhraseID":"X"
             }
         ],
@@ -5877,7 +5877,7 @@
     },
     {
         "id":"deebo_orchard_howkin_10",
-        "message":"We could always you the help. Considering we have workers coming and going all the time.",
+        "message":"We could always use the help. Considering we have workers coming and going all the time.",
         "replies":[
             {
                 "text":"That's nice. But I don't care. See you later.",
@@ -5905,7 +5905,7 @@
     },
     {
         "id":"deebo_orchard_howkin_30",
-        "message":"My name is Howkin and I am Deebo's son. I run the business side of the orchard while father runs the farmings aspects.",
+        "message":"My name is Howkin and I am Deebo's son. I run the business side of the orchard while father runs the farming aspects.",
         "replies":[
             {
                 "text":"Oh, I understand.",
