@@ -1,7 +1,7 @@
 [
     {
         "id":"sign_cabin_norcity_road4",
-        "message":"South: Sullengard\nEast: Vilegard\nWest: Nor City"
+        "message":"South: Sullengard\nWest: Vilegard\nEast: Nor City"
     },
     {
         "id":"sign_way_to_sullengard_east_park",
