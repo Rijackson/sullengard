@@ -1885,7 +1885,16 @@
         "message":"OK, I have faith in you.",
         "replies":[
             {
-                "text":"With my reputation, you should.",
+                "text":"N",
+                "nextPhraseID":"deebo_orchard_deebo_71"
+            }
+        ]
+    },
+    {
+        "id":"deebo_orchard_deebo_71",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"deebo_orchard_deebo_spawn_gj",
                 "requires":[
                     {
