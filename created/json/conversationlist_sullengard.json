@@ -3194,6 +3194,10 @@
                         "value":30
                     }
                 ]
+            },
+            {
+                "text":"Can I see what you have for sale?",
+                "nextPhraseID":"sullengard_lamberta_sell"
             }
         ]
     },
@@ -6231,6 +6235,16 @@
             {
                 "text":"OK. I will leave you be.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_lamberta_sell",
+        "message":"Absolutely.",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"S"
             }
         ]
     }
