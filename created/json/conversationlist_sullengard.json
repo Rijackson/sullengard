@@ -1233,7 +1233,7 @@
     },
     {
         "id":"sullengard_drinking_brother_0",
-        "message":"Hey there kid. Us three here are brothrs from Stoutfod, but we travel all the way here for the vast greatness of brews! [burp]",
+        "message":"Hey there kid. Us three here are brothers from Stoutford, but we travel all the way here for the vast greatness of brews! [burp]",
         "replies":[
             {
                 "text":"Stoutford? Where's that?",
@@ -2856,10 +2856,10 @@
     },
     {
         "id":"sullengard_grazia_0",
-        "message":"Thank you again for help me cross that scary bridge.",
+        "message":"Thank you again for helping me cross that scary bridge.",
         "replies":[
             {
-                "text":"Oh, that? that was my pleasure",
+                "text":"Oh, that? It was my pleasure.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3031,7 +3031,7 @@
         "message":"I need you to ask around town to see if anyone knows where my supply is or if they have seen anything.",
         "replies":[
             {
-                "text":"I'll take it, but can you give me some more details? [Quest start]",
+                "text":"I'll take it, but can you give me some more details?",
                 "nextPhraseID":"sullengard_zaccheria_40"
             }
         ]
@@ -3139,7 +3139,7 @@
     },
     {
         "id":"sullengard_gaelian_20",
-        "message":"This is the heart and soal of Sullengard. This is our brewery. The place where the magic happens.",
+        "message":"This is the heart and soul of Sullengard. This is our brewery. The place where the magic happens.",
         "replies":[
             {
                 "text":"I can see that, but I am here because I'm looking into the armory break-in and robbery.",
@@ -3247,7 +3247,7 @@
     },
     {
         "id":"sullengard_drinking_brother_30",
-        "message":"Are you kidding? We are always in here enjoying ourselves. So unless the crme happened in here, I've not seen it.",
+        "message":"Are you kidding? We are always in here enjoying ourselves. So unless the crime happened in here, I've not seen it.",
         "replies":[
             {
                 "text":"Thanks.",

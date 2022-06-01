@@ -473,6 +473,8 @@
         "iconID":"items_misc_6:7",
         "name":"Branch of twilight",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":4387,
         "category":"scepter",
         "equipEffect":{
             "increaseAttackDamage":{
