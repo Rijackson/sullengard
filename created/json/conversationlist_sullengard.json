@@ -1739,7 +1739,7 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"sullengard_snapper",
-                        "value":30
+                        "value":26
                     }
                 ]
             }
