@@ -6013,8 +6013,8 @@
                 ]
             },
             {
-                "text":"So, you are my Aunt Valeria, whom I just learnt even exists. Why am I just meeting you now?",
-                "nextPhraseID":"sullengard_valeria_20",
+                "text":"N",
+                "nextPhraseID":"sullengard_valeria_15",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -6305,6 +6305,16 @@
             {
                 "text":"OK, but you are on my list.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_valeria_15",
+        "message":"Hello $playername.",
+        "replies":[
+            {
+                "text":"So, you are my Aunt Valeria, whom I just learnt even exists. Why am I just meeting you now?",
+                "nextPhraseID":"sullengard_valeria_20"
             }
         ]
     }
