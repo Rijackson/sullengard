@@ -3126,7 +3126,7 @@
         "replies":[
             {
                 "text":"I'm looking into the armory break-in and robbery.",
-                "nextPhraseID":"sullengard_gaelian_10"
+                "nextPhraseID":"sullengard_gaelian_30"
             },
             {
                 "text":"What is this place?",
@@ -3135,15 +3135,16 @@
         ]
     },
     {
-        "id":"sullengard_gaelian_10"
-    },
-    {
         "id":"sullengard_gaelian_20",
         "message":"This is the heart and soul of Sullengard. This is our brewery. The place where the magic happens.",
         "replies":[
             {
-                "text":"I can see that, but I am here because I'm looking into the armory break-in and robbery.",
-                "nextPhraseID":"sullengard_gaelian_30"
+                "text":"I can see that. Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I feel smarter now after having been told this. Thank you.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3153,7 +3154,26 @@
         "replies":[
             {
                 "text":"I was told that maybe you know some information about these crimes.",
-                "nextPhraseID":"sullengard_gaelian_40"
+                "nextPhraseID":"sullengard_gaelian_40",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me again what you know about this crime?",
+                "nextPhraseID":"sullengard_gaelian_41",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30
+                    }
+                ]
             }
         ]
     },
@@ -3196,6 +3216,22 @@
                 ]
             },
             {
+                "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?",
+                "nextPhraseID":"sullengard_lamberta_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":24
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":30
+                    }
+                ]
+            },
+            {
                 "text":"Can I see what you have for sale?",
                 "nextPhraseID":"sullengard_lamberta_sell"
             }
@@ -3203,7 +3239,7 @@
     },
     {
         "id":"sullengard_lamberta_10",
-        "message":"No, i'm sorry, I don't. All I know is that I really hope it doesn't happen to me.",
+        "message":"No, I'm sorry, I don't. All I know is that I really hope it doesn't happen to me.",
         "replies":[
             {
                 "text":"Thank you anyway.",
@@ -6245,6 +6281,30 @@
             {
                 "text":"Thank you!",
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_lamberta_11",
+        "message":"What wrong with you, kid? I already told you that all I know is that I really hope it doesn't happen to me.",
+        "replies":[
+            {
+                "text":"Oh, yeah. Sorry about that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Why do you have to be so mean about it? I simply forgot that I already asked you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_gaelian_41",
+        "message":"I know nothing except that Zaccheria deserved it.",
+        "replies":[
+            {
+                "text":"OK, but you are on my list.",
+                "nextPhraseID":"X"
             }
         ]
     }
