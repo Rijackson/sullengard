@@ -426,9 +426,6 @@
                 ]
             },
             {
-                "nextPhraseID":"sullengard_mayor_1"
-            },
-            {
                 "nextPhraseID":"sullengard_mayor_10",
                 "requires":[
                     {
@@ -476,6 +473,9 @@
                         "value":60
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"sullengard_mayor_1"
             }
         ]
     },
@@ -3266,7 +3266,7 @@
     },
     {
         "id":"sullengard_mayor_20",
-        "message":"I heard you helping Zaccheria in tracking down who stole his inventory.",
+        "message":"I heard you are helping Zaccheria in tracking down who stole his inventory.",
         "replies":[
             {
                 "text":"Yes. Hence my reason for asking you about it.",
