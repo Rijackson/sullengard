@@ -1571,7 +1571,7 @@
                 "nextPhraseID":"sullengard_nanette_7",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"sullengard_pond_safety",
                         "value":20
                     }
@@ -1581,7 +1581,7 @@
                 "nextPhraseID":"sullengard_nanette_4",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"sullengard_pond_safety",
                         "value":10
                     }
@@ -1757,7 +1757,7 @@
     },
     {
         "id":"sullengard_nanette_9",
-        "message":"Oh hello there, kid. Have you talk to Kaelwea the priest?",
+        "message":"Oh hello there, kid. Have you talked to Kaelwea the priest yet?",
         "replies":[
             {
                 "text":"There must be a reason why it happen. But what is it?",
@@ -1798,17 +1798,17 @@
     },
     {
         "id":"sullengard_nanette_10",
-        "message":"[Sigh]. I'm old enough for a story. Just tell me the moral story of it.",
+        "message":"[Sigh]. I'm to old for a story. Just tell me the moral of it.",
         "replies":[
             {
-                "text":"Don't throw pebbles on the pond. You might disturb whatever lies beneath it.",
+                "text":"Don't throw pebbles in the pond. You might disturb whatever lies beneath it.",
                 "nextPhraseID":"sullengard_nanette_11"
             }
         ]
     },
     {
         "id":"sullengard_nanette_11",
-        "message":"Oh. I remember now. I kept throwing pebbles on the pond to relief my anger issue caused by the unfair taxes of Feygard.",
+        "message":"Oh. I remember now. I kept throwing pebbles on the pond to relieve my anger issues caused by the unfair taxes of Feygard.",
         "replies":[
             {
                 "text":"N",
