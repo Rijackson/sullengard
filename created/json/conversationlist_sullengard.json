@@ -3676,12 +3676,6 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"sullengard_recover_items",
-                        "value":60,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"sullengard_recover_items",
                         "value":50
                     }
                 ]
@@ -3756,7 +3750,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_taken",
-        "message":"[You have already examined this hole.]",
+        "message":"[You have already examined this hole and looted all of it's contents.]",
         "replies":[
             {
                 "text":"Oh, yeah. What a dummy I am.",
