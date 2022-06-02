@@ -1530,17 +1530,6 @@
             {
                 "text":"I better stay away.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"[Kill the snapper]",
-                "nextPhraseID":"F",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"sullengard_pond_safety",
-                        "value":20
-                    }
-                ]
             }
         ]
     },
@@ -6315,6 +6304,25 @@
             {
                 "text":"So, you are my Aunt Valeria, whom I just learnt even exists. Why am I just meeting you now?",
                 "nextPhraseID":"sullengard_valeria_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_snapper_00",
+        "replies":[
+            {
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_pond_safety",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_snapper_0"
             }
         ]
     }

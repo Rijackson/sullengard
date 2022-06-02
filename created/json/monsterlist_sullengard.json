@@ -30,12 +30,6 @@
         "spawnGroup":"farm_horse_right"
     },
     {
-        "id":"pond_turtle",
-        "name":"Pond tutle",
-        "iconID":"monsters_tometik3:69",
-        "spawnGroup":"pond_turtle"
-    },
-    {
         "id":"pond_fish",
         "name":"Pond fish",
         "iconID":"monsters_ld2:137"
@@ -362,7 +356,7 @@
             "max":15
         },
         "spawnGroup":"sullengard_snapper",
-        "phraseID":"sullengard_snapper_0",
+        "phraseID":"sullengard_snapper_00",
         "droplistID":"sullengard_snapper",
         "attackCost":7,
         "attackChance":130,
