@@ -975,7 +975,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_3",
-        "message":"One time, as I sitting on the bench thinking on how Feygard soldiers sleep with their unlawful taxes while Sullengard lives on a financial trouble.",
+        "message":"One time, I was sitting on the bench thinking about how the Feygard soldierscan sleep at night with all of their unlawful taxes placed on the citizens of Sullengard causing all this financial trouble on the people.",
         "replies":[
             {
                 "text":"N",
@@ -985,7 +985,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_4",
-        "message":"My anger arises through the point I lifted up a large rock and thrown it in the pond.",
+        "message":"My anger arose to the point that I lifted up a large rock and threw it in the pond.",
         "replies":[
             {
                 "text":"N",
@@ -995,7 +995,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_5",
-        "message":"After that, I saw some snappers emerged from the pond and one of them bit my leg. Good thing they are too slow to catch me as I run home.",
+        "message":"After that, I saw some snappers emerge from the pond and attack me before I even realized what had happened. Good thing they are too slow to catch me as I quickly composed myself and limped home.",
         "replies":[
             {
                 "text":"N",
@@ -1005,14 +1005,14 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_6",
-        "message":"End of my story with a moral lesson never again to throw rocks there, be it small or large. Thank you for listening. Don't thank me now. Tell her about this.",
+        "message":"The moral of my story is to never again to throw rocks there, be it small or large. Thank you for listening. Please talk to Nanette about this.",
         "replies":[
             {
-                "text":"Oh no. I understand now. I have to tell her about this one too. Bye",
+                "text":"Oh, I understand now. I have to tell her about this one. Bye",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Oh, good thing it's not a long story. I'm about to snore here. Bye.",
+                "text":"Oh, good thing it's not a long story. I'm about to start snoring here. Bye.",
                 "nextPhraseID":"X"
             }
         ],
