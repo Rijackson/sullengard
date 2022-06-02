@@ -1167,15 +1167,19 @@
                 "nextPhraseID":"sullengard_inn_traveler_10"
             },
             {
-                "text":"N",
+                "text":"We need to talk.",
                 "nextPhraseID":"sullengard_inn_traveler_40",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"sullengard_recover_items",
                         "value":40
                     }
                 ]
+            },
+            {
+                "text":"Sorry, but I have to be on my way.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -3364,7 +3368,7 @@
     },
     {
         "id":"sullengard_arantxa_30",
-        "message":"Well I don't know much. All I know is 'the lost traveler', whom I've never seen before, approached  me recently with a couple of items that he wanted me to buy.",
+        "message":"Well I don't know much. All I know is 'the lost traveler', whom I've never seen before, approached me recently with a couple of items that he wanted me to buy.",
         "replies":[
             {
                 "text":"N",
@@ -3424,7 +3428,7 @@
         "message":"It's nice to see you again, fellow traveler.",
         "replies":[
             {
-                "text":"You won't be think that after I tell you what I know! I am here to surive you justice.",
+                "text":"You won't be thinking that after I tell you what I know! I am here to surive you justice.",
                 "nextPhraseID":"sullengard_inn_traveler_50"
             }
         ]
@@ -3461,7 +3465,7 @@
     },
     {
         "id":"sullengard_inn_traveler_80",
-        "message":"Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplie, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health.",
+        "message":"Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplies, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health.",
         "replies":[
             {
                 "text":"N",
@@ -3474,17 +3478,17 @@
         "message":"After watching Zaccheria's routine for a couple of days, I noticed he goes to the tavern every night at the same time and stays there for the same amount of time every time. So I took my opportunity.",
         "replies":[
             {
-                "text":"Where is the Zaccherias inventory? He wants it back and I am here to see to it that he does.",
+                "text":"Where is Zaccheria's inventory? He wants it back and I am here to see to it that he does.",
                 "nextPhraseID":"sullengard_inn_traveler_100"
             }
         ]
     },
     {
         "id":"sullengard_inn_traveler_100",
-        "message":"I bet you'd like know. But you will not get that information for free. I expect to get paid.",
+        "message":"I bet you'd like to know. But you will not get that information for free. I expect to get paid.",
         "replies":[
             {
-                "text":"Paid?! Are you serious? You want me to pay for crimes that you committed?",
+                "text":"Paid?! Are you serious? You want me to pay you for crimes that you committed?",
                 "nextPhraseID":"sullengard_inn_traveler_110"
             }
         ]
