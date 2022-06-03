@@ -3639,7 +3639,7 @@
         "message":"And where is this person now?",
         "replies":[
             {
-                "text":"I wish I knew. After he told me where to find your stuff,  he took off and I was unable to see  in what direction he fled.",
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled.",
                 "nextPhraseID":"sullengard_zaccheria_100"
             }
         ]
@@ -3720,7 +3720,7 @@
     },
     {
         "id":"sullengard_hidden_inventory_10",
-        "message":"[Upon examination, it looks like some king of sack has been stuffed down inside. Reach in and grab it out?",
+        "message":"[Upon examination, it looks like some kind of sack has been stuffed down inside. Reach in and grab it out?",
         "replies":[
             {
                 "text":"Oh yeah! I've come this far already. There's no reason to stop.",
