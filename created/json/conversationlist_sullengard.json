@@ -6323,5 +6323,37 @@
                 "nextPhraseID":"sullengard_snapper_0"
             }
         ]
+    },
+    {
+        "id":"jackal_defeted_script_10",
+        "replies":[
+            {
+                "nextPhraseID":"jackal_defeted_script_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"golden_jackal",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"jackal_defeted_script_20",
+        "message":"[The Golden jackal has perished.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"deebo_orchard_hth",
+                "value":40
+            }
+        ]
     }
 ]
