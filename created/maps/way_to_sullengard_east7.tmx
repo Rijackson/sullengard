@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVttNw0AQdAuJJSR/QUtUABUAlaQT/4IEX8AflIDER35CXtTALfGQ8bC7ZxjJsh3f7uzdzN6lb5tm3TU/2NCz4b2874ff9vLt7uRwt3iOW84P9+uS+6Ydf+dx52Xcrrx/dgceheUBB+dT9O24Dq3HAJ5sHlOB/I/lenJ4NP8UjmhutW/Aov3bPNaz47Otn10fs9/jdB09Dq1vN8Rk3vmuIfAdOBYyZ60v8w7yq+/wG89jNeRVPZ+7MU82D893L4XjVq6HxM+Rd9BPjL71fd4PPtDc/O7pzFjJdxuP+ItyXTpeg5aq2RT0EgOuqPdruke4d/R4dfy8nY15DKyL1stQ73p7xJXoEOle41B4uno9qN7w/DV1L/G0sDrWicewfsrB3tlQ79n4Wg9GAAevzZvsO33Qg5nO3HuquX3bOucdkOUFWBNbS08P3Xew756W2DNH0xqYQz2xoj0A99r+XuPwoFp4fZ55izmy+vjs8bzl9YSB96aoPov19tv/9nnmfazXVC34fwt8hbmiPu9civqcoX3F84BHOQZ1gC/rc5x33FfIqf8TI2CtlvPjXD2do/NcObLYCIiJzmDWwxuDtfoCFq78mQ==
+   eJydVklOxDAQnC9kIiHlBF/iI8BL5ie5ggQn4AZPQOIwl2E23oCbpJhK0d0OlBRlsd3VdlXb6dvFYtstfrCjZ8N7eT+O347Sdnc23G08j1svh/t1iX3TTtu532Xpdyjvn93Ao7A44OB4ir6d5qH5GMCTzWMuEP+xXE8Oj8afwxHNrdYGrNq/zWPbnJ5t/ez6aH7303X0ODS/wzgm8853DoHvwLGSOWt+mXcQX32HbzyPzRhX9XzupjzZPDzfvRSOW7keEj9H3kE9MfrW93k/+kBj87unM2Mj7dZf46kPoKVqNge9jAFXVPs13SPcO3q8On7eN1MeA+ui+TLUu94ecSU6RLrXOBSerl4Nqpaev+buJZ4Wlsc28RjWTznYOzuqPetfq8EI4OC1eZN9pw9qMNOZa081t7a9c94BWVyANbG19PTQfQf77nkZe+FoWgNzqCc2tAfgXtvfaxweVAuvzjNvMUeWH589nre8mjDw3hTlZ2O9/fa/dZ55H+s1Vwv+b4GvMFfk551LUZ0ztK54HvAoj0Ee4MvqHOcd1xVi6n9iBKzVenmaq6dzdJ4rRzY2AsZEZzDr4fXBWn0BW4/7tA==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VlsKAjEM7B36tZdTL+iHeprquhcQPIMVNhjCNElfDpSFdslzJm1aQrjn9crrkRfHuvy+mziTOMYQTrF8nnb7afeH8M77T8OPBbJ/yesKbFl5IGi5WXnPglZHDhkf7+m31muh5p5+abC4kwDvNF+ynzfxX4k7rXmgvtZwR/MnbfdyyKO9meD+LV6NRs/MQDPiAOrYMjM8QLUaNU/OsW5+e8F5vTo1WGtf06snD017pAV0340Gz0PWajSIN/SdrcNebmnxoXnl4ZacQ6X4Shrr0YgWn6cX1ruF4kP3uacXmq7QHsWBaoVylbpqfTcQtF602u+NycI/34IfGyaU8w==
+   eJy9VlsKAjEM7B36tZdTL+iHeppq3QsInsEKGwxhmqSPdaAstEueM2nTEsK9rFdZj7I48vL7ruJM4hhDOMX6edrsp80fwrvsPw0/Fsj+pawrsGXlgaDlZuW9F7Q6csj4eE+/tc6Vmnv6pcHiTgK803zJft7EfzXu9OaB+trCHc2ftD3KIY/2ZgH54nsWr2ZjZGagGXEAdeyZGR6gWs2aJ+fYNr+94LzOTg222tf06slD0x5pAd13s8HzkLWaDeINfffW4Si3tPjQvPJwS86hWnw1jY1oRIvP0wvr3ULxofvc0wtNV2iP4kC1QrlKXfW+GwhaL3rtj8Zk4Z9vwQ/WNpXY
   </data>
  </layer>
  <layer id="4" name="Walkable" width="25" height="30" visible="0">
