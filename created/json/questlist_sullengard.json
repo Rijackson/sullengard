@@ -146,19 +146,19 @@
         "stages":[
             {
                 "progress":0,
-                "logText":"Deebo, the apple orchard farmer northeast of Sullengard has informed me of a Golden jackal that is wreaking havoc on his orchard."
+                "logText":"Deebo, the apple orchard farmer northeast of Sullengard informed me of a Golden jackal that would be wreaking havoc on his orchard."
             },
             {
                 "progress":10,
-                "logText":"I have accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it."
+                "logText":"I accepted the challenge of tracking down the Golden jackal and bringing back proof to Deebo that I have killed it."
             },
             {
                 "progress":40,
-                "logText":"I have killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as prrof that I've killed it."
+                "logText":"I killed the Golden jackal. I need to return to Deebo with the Golden jackal's fur as proof that I've killed it."
             },
             {
                 "progress":50,
-                "logText":"I returned to Deebo with the killed the Golden jackal's fur as prrof that I've killed it. He is now willing to trade with me.",
+                "logText":"I returned to Deebo with the killed the Golden jackal's fur as proof that I had killed it. He was now willing to trade with me.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             }
@@ -171,11 +171,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Hadena needs my help to get her husband Ainsley home on time."
+                "logText":"Hadena needed my help to get her husband Ainsley home on time."
             },
             {
                 "progress":20,
-                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He is working at Deebo's Orchard located southwest of their cabin."
+                "logText":"I agreed to help Hadena with getting her husband Ainsley home on time. He was working at Deebo's Orchard located southwest of their cabin."
             },
             {
                 "progress":25,
@@ -183,7 +183,7 @@
             },
             {
                 "progress":30,
-                "logText":"Throthaus wants me to pull out his pitchfork from the haystack to prove that I'm a son of a farmer."
+                "logText":"Throthaus wanted me to pull out his pitchfork from the haystack to prove that I'm a son of a farmer."
             },
             {
                 "progress":40,
@@ -195,7 +195,7 @@
             },
             {
                 "progress":60,
-                "logText":"Hadena is so grateful to me for helping them.",
+                "logText":"Hadena was so grateful to me for helping them.",
                 "rewardExperience":2500,
                 "finishesQuest":1
             }
@@ -208,11 +208,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Nanette is troubled for her pond unsafe because of the monsters emerged in the pond. "
+                "logText":"Nanette was troubled for her pond unsafe because of the monsters emerged in the pond. "
             },
             {
                 "progress":20,
-                "logText":"I accepted her request to clear out the monsters in her pond area so that she can enjoy the pond again."
+                "logText":"I accepted her request to clear out the monsters in her pond area so that she could enjoy the pond again."
             },
             {
                 "progress":30,
@@ -220,7 +220,7 @@
             },
             {
                 "progress":40,
-                "logText":"The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I better tell her the moral story of it."
+                "logText":"The priest Kaelwea told me a story about his strange experience same as Nanette's experience in the pond area. I should better tell her the moral story of it."
             },
             {
                 "progress":50,
@@ -241,11 +241,11 @@
             },
             {
                 "progress":20,
-                "logText":"Zaccheria suggests that I start my investigation by speaking with Gaelian from the Briwerra family."
+                "logText":"Zaccheria suggested that I should start my investigation by speaking with Gaelian from the Briwerra family."
             },
             {
                 "progress":30,
-                "logText":"I have spoke with Gaelian from the Briwerra and I suspect that he has nothing to do with this crime."
+                "logText":"I spoke with Gaelian from the Briwerra and I suspected that he had nothing to do with this crime."
             },
             {
                 "progress":40,
@@ -253,7 +253,7 @@
             },
             {
                 "progress":50,
-                "logText":"I have paid the 'lost traveler' in exhanchage for the location of Zaccheria's stolen items. He told me that he hid them on the eastern boundaries of town."
+                "logText":"I had paid the 'lost traveler' in exhanchage for the location of Zaccheria's stolen items. He told me that he had hidden them on the eastern boundaries of town."
             },
             {
                 "progress":60,
@@ -278,19 +278,19 @@
             },
             {
                 "progress":20,
-                "logText":"After bribing Torilo, the owner of the Floaming flask, he states that he and other tavern owners have a 'business agreement' with a group of 'distributors'. He suggests that I ask other tavern owners for more information."
+                "logText":"After bribing Torilo, the owner of the Floaming flask, he stated that he and other tavern owners had a 'business agreement' with a group of 'distributors'. He suggested that I ask other tavern owners for more information."
             },
             {
                 "progress":30,
-                "logText":"After bribing Tharwyn, the owner of the Vilegard tavern, he states as part of his 'business agreement', Dunla, the local thief, is his 'distributors'. He suggests that I talk to him."
+                "logText":"After bribing Tharwyn, the owner of the Vilegard tavern, he stated as part of his 'business agreement', Dunla, the local thief, is his 'distributors'. He suggested that I talk to him."
             },
             {
                 "progress":40,
-                "logText":"Dunla, the thief in Vilegard has instructed me to speak with Farrick if I want to learn more about the tavern owner's 'business agreement' with their 'distributors'."
+                "logText":"Dunla, the thief in Vilegard instructed me to speak with Farrick if I would want to learn more about the tavern owner's 'business agreement' with their 'distributors'."
             },
             {
                 "progress":50,
-                "logText":"Farrik has told me that the beer is coming from Sullengard. I really should go there next."
+                "logText":"Farrik told me that the beer is coming from Sullengard. I really should go there next."
             },
             {
                 "progress":60,
@@ -312,13 +312,13 @@
             },
             {
                 "progress":100,
-                "logText":"I informed the guard captain at the Floaming flask tavern that the beer is being distributed by the Thieves guild.",
+                "logText":"I informed the guard captain at the Floaming flask tavern that the beer would be being distributed by the Thieves guild.",
                 "rewardExperience":3109,
                 "finishesQuest":1
             },
             {
                 "progress":110,
-                "logText":"I informed the guard captain at the Floaming flask tavern that Sullengard is responsible for brewing the beer.",
+                "logText":"I informed the guard captain at the Floaming flask tavern that Sullengard would be responsible for brewing the beer.",
                 "rewardExperience":3109,
                 "finishesQuest":1
             },
