@@ -453,8 +453,7 @@
                 ]
             },
             {
-                "text":"I have delivered your letter to Kealwea.",
-                "nextPhraseID":"sullengard_mayor_beer_40",
+                "nextPhraseID":"sullengard_mayor_letter_delivered",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -464,8 +463,7 @@
                 ]
             },
             {
-                "text":"[Lie] I have delivered your letter to Kealwea.",
-                "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered",
+                "nextPhraseID":"sullengard_mayor_no_letter_delivered",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -3620,6 +3618,7 @@
         "message":"Absolutetly.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"S"
             }
         ]
@@ -5592,16 +5591,6 @@
         ]
     },
     {
-        "id":"sullengard_mayor_beer_40",
-        "message":"Yes, I know and I thank you for doing so.",
-        "replies":[
-            {
-                "text":"How did you know?",
-                "nextPhraseID":"sullengard_mayor_beer_50"
-            }
-        ]
-    },
-    {
         "id":"sullengard_mayor_beer_50",
         "message":"I had one of my people follow you. Afterall, I wasn't sure that you could be trusted.",
         "replies":[
@@ -5712,16 +5701,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"beer_bootlegging",
                 "value":80
-            }
-        ]
-    },
-    {
-        "id":"sullengard_mayor_beer_letter_not_delivered",
-        "message":"No, you have not.",
-        "replies":[
-            {
-                "text":"How did you know that?",
-                "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered_10"
             }
         ]
     },
@@ -6353,6 +6332,36 @@
                 "rewardType":"questProgress",
                 "rewardID":"deebo_orchard_hth",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_beer_0",
+        "message":"How can I be of service to you my friend?",
+        "replies":[
+            {
+                "text":"Can you tell me about your 'business agreement' with your beer 'distributors'?",
+                "nextPhraseID":"sullengard_mayor_beer"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_no_letter_delivered",
+        "message":"Why have you not delivered my letter to Kealwea yet?",
+        "replies":[
+            {
+                "text":"How did you know that?",
+                "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_mayor_letter_delivered",
+        "message":"Than you for delivering my letter to Kealwea.",
+        "replies":[
+            {
+                "text":"How did you know?",
+                "nextPhraseID":"sullengard_mayor_beer_50"
             }
         ]
     }
