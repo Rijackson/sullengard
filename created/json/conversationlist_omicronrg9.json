@@ -150,7 +150,7 @@
     },
     {
         "id":"umar_guild04_9",
-        "message":"As a result, they asked us to help them. We even have 80-20 share from their business.",
+        "message":"As a result, they asked us to help them. We even have 80/20 share from their business.",
         "replies":[
             {
                 "text":"Interesting.",
@@ -177,7 +177,7 @@
         "message":"Their 20th anniversary beer festival will be celebrated in the next few weeks. ",
         "replies":[
             {
-                "text":"I didn't know I'm invited.",
+                "text":"I didn't know that I was invited.",
                 "nextPhraseID":"umar_guild04_11"
             },
             {
@@ -357,7 +357,7 @@
     },
     {
         "id":"umar_guild04_21",
-        "message":"Fortunately, one of my men found one of his drunk men and have him a short talk before he bleed to death.",
+        "message":"Fortunately, one of my men found one of his drunk men and had a short talk with him before he bleed to death.",
         "replies":[
             {
                 "text":"What did he say?",
@@ -371,7 +371,7 @@
     },
     {
         "id":"umar_guild04_22",
-        "message":"He said that they will no longer be a part of the thieves guild. Their group name will now be called as 'Aidem'.",
+        "message":"He said that they will no longer be a part of the thieves guild. They are now referring to themselves as 'Aidem'.",
         "replies":[
             {
                 "text":"What a weird name. For what reason?",
@@ -462,7 +462,7 @@
     },
     {
         "id":"umar_guild04_28b",
-        "message":"Here's 1,000 gold coins as my financial contribution.",
+        "message":"Here's 1000 gold coins as my financial contribution.",
         "replies":[
             {
                 "text":"Oh. Thank you.",
@@ -491,7 +491,7 @@
         "message":"Immediately report back to me once you are done.",
         "replies":[
             {
-                "text":"I better start grinding for gold now.",
+                "text":"I better start looking for gold now.",
                 "nextPhraseID":"X"
             },
             {
