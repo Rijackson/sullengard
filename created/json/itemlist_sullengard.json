@@ -20,8 +20,20 @@
         "iconID":"items_japozero:486",
         "name":"Orchard apples",
         "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":35,
         "category":"food",
-        "description":"A sweet, deliciously tasting snack for those on the move."
+        "description":"A sweet, deliciously tasting snack for those on the move.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":10,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"apple_orchard_juice",
