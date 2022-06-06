@@ -4793,7 +4793,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ff_captain_beer_tell_everything_40"
+                "nextPhraseID":"ff_captain_beer_tell_everything_32"
             }
         ]
     },
@@ -6362,6 +6362,26 @@
             {
                 "text":"How did you know?",
                 "nextPhraseID":"sullengard_mayor_beer_50"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_32",
+        "message":"What else can you tell me?",
+        "replies":[
+            {
+                "text":"I know that the thieves guild are the ones helping the people of Sullengard distribute their beer.",
+                "nextPhraseID":"ff_captain_beer_tell_everything_33"
+            }
+        ]
+    },
+    {
+        "id":"ff_captain_beer_tell_everything_33",
+        "message":"The thieves guild? Are you sure?",
+        "replies":[
+            {
+                "text":"Oh yeah. I heard it directly from them.",
+                "nextPhraseID":"ff_captain_beer_tell_everything_40"
             }
         ]
     }
