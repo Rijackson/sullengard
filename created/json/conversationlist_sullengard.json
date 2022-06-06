@@ -4789,7 +4789,7 @@
     },
     {
         "id":"ff_captain_beer_tell_everything_30",
-        "message":"Sullengard?! Of course it would be coming from sullengard.",
+        "message":"Sullengard?! Of course it would be coming from Sullengard.",
         "replies":[
             {
                 "text":"N",
@@ -4908,7 +4908,7 @@
     },
     {
         "id":"ff_captain_beer_tell_thieves_10",
-        "message":"Sullengard?! Of course it would be coming from sullengard. I should have known it is coming from them.",
+        "message":"Sullengard?! Of course it would be coming from Sullengard. I should have known it is coming from them.",
         "replies":[
             {
                 "text":"N",
@@ -4971,7 +4971,7 @@
     },
     {
         "id":"ff_captain_beer_tell_10",
-        "message":"I knew that you would be a waste of my time. I'll give reward you with nothing.",
+        "message":"I knew that you would be a waste of my time. I'll reward you with nothing.",
         "replies":[
             {
                 "text":"I should get going. Sorry that I could not be more helpful.",
@@ -5620,7 +5620,7 @@
     },
     {
         "id":"sullengard_mayor_beer_70",
-        "message":"Pull-up a chair kid a listen to the facts.",
+        "message":"Pull-up a chair kid and listen to the facts.",
         "replies":[
             {
                 "text":"Oh, no! Another long-winded story. OK, let's get this over with.",
@@ -5660,7 +5660,7 @@
     },
     {
         "id":"sullengard_mayor_beer_105",
-        "message":"Then after Lord Geomyr came to power and the more specifically, after he decided to laydown such an unjust tax upon our beer sales, we desperately needed a 'distributor'.",
+        "message":"Then after Lord Geomyr came to power and more specifically, after he decided to laydown such an unjust tax upon our beer sales, we desperately needed a 'distributor'.",
         "replies":[
             {
                 "text":"Oh, that makes sense to me. But why the Thieves guild?",
@@ -5695,7 +5695,7 @@
     },
     {
         "id":"sullengard_mayor_beer_120",
-        "message":"No as much as we fear not being able to make a living selling our beer. Plus, we have the support of the people of Nor City",
+        "message":"Not as much as we fear not being able to make a living selling our beer. Plus, we have the support of the people of Nor City",
         "rewards":[
             {
                 "rewardType":"questProgress",
