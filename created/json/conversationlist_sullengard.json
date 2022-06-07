@@ -250,7 +250,7 @@
                 "nextPhraseID":"sull_recover_items_generic_response",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"sullengard_recover_items",
                         "value":40,
                         "negate":true
@@ -416,12 +416,12 @@
         "id":"sullengard_mayor",
         "replies":[
             {
+                "text":"gold_contribute",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"gold_contribute",
-                        "value":1700000
+                        "value":50000
                     }
                 ]
             },
@@ -784,7 +784,7 @@
     },
     {
         "id":"sullengard_mayor_6",
-        "message":"He is taller than you, of course, but you have guys have a very similiar looking face. He is one of the most active members in your guild.",
+        "message":"He is taller than you, of course, but you guys have a very similiar looking face. He is one of the most active members in your guild.",
         "replies":[
             {
                 "text":"N",
@@ -3089,7 +3089,20 @@
             },
             {
                 "text":"I'm looking into the armory break-in and robbery and I am wondering if you saw or know anything about it?",
-                "nextPhraseID":"sull_recover_items_generic_response"
+                "nextPhraseID":"sull_recover_items_generic_response",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3117,7 +3130,14 @@
         "replies":[
             {
                 "text":"I'm looking into the armory break-in and robbery.",
-                "nextPhraseID":"sullengard_gaelian_30"
+                "nextPhraseID":"sullengard_gaelian_30",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"What is this place?",

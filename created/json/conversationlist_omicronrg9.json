@@ -528,10 +528,10 @@
     },
     {
         "id":"umar_guild04_30",
-        "message":"Like I said, we are still looking for him. You should rest for now from your long haul walk.",
+        "message":"Like I said, we are still looking for him. You should rest for now from your long haul.",
         "replies":[
             {
-                "text":"You're right. My legs got tired walking back and forth from here to Sullengard.",
+                "text":"You're right. My legs got are tired from walking back and forth from here to Sullengard.",
                 "nextPhraseID":"X"
             },
             {
