@@ -442,8 +442,7 @@
                 ]
             },
             {
-                "text":"Can you tell me about your 'business agreement' with your beer 'distributors'?",
-                "nextPhraseID":"sullengard_mayor_beer",
+                "nextPhraseID":"sullengard_mayor_beer_0",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
