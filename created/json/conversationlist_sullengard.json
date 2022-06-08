@@ -502,7 +502,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     },
                     {
@@ -543,36 +543,36 @@
         "message":"Finally, at least we can survive for a day with a beer and some bread.",
         "replies":[
             {
-                "text":"Here's 1,000,000 gold coins.",
+                "text":"Here's 50,000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4a",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1000000,
+                        "value":50000,
                         "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
-                        "value":1000000
+                        "value":50000
                     }
                 ]
             },
             {
-                "text":"Here's 100,000 gold coins.",
+                "text":"Here's 20,000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4b",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
-                        "value":100000
+                        "value":20000
                     }
                 ]
             },
@@ -583,7 +583,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     },
                     {
@@ -594,19 +594,19 @@
                 ]
             },
             {
-                "text":"Here's 1,000 gold coins.",
+                "text":"Here's 5,000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4d",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
-                        "value":1000
+                        "value":5000
                     }
                 ]
             },
@@ -627,7 +627,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     }
                 ]
@@ -639,7 +639,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000
+                        "value":50000
                     }
                 ]
             }
@@ -648,7 +648,7 @@
             {
                 "rewardType":"alignmentChange",
                 "rewardID":"gold_contribute",
-                "value":1000000
+                "value":50000
             }
         ]
     },
@@ -663,7 +663,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     }
                 ]
@@ -675,7 +675,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000
+                        "value":50000
                     }
                 ]
             }
@@ -684,7 +684,7 @@
             {
                 "rewardType":"alignmentChange",
                 "rewardID":"gold_contribute",
-                "value":100000
+                "value":20000
             }
         ]
     },
@@ -699,7 +699,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     }
                 ]
@@ -711,7 +711,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000
+                        "value":50000
                     }
                 ]
             }
@@ -735,7 +735,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000,
+                        "value":50000,
                         "negate":true
                     }
                 ]
@@ -747,7 +747,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"gold_contribute",
-                        "value":1700000
+                        "value":50000
                     }
                 ]
             }
@@ -756,7 +756,7 @@
             {
                 "rewardType":"alignmentChange",
                 "rewardID":"gold_contribute",
-                "value":1000
+                "value":5000
             }
         ]
     },
@@ -786,7 +786,7 @@
         "message":"He is taller than you, of course, but you guys have a very similiar looking face. He is one of the most active members in your guild.",
         "replies":[
             {
-                "text":"N",
+                "text":"Oh, is he?",
                 "nextPhraseID":"sullengard_mayor_7"
             }
         ]

@@ -17,8 +17,12 @@
                 "logText":"Umar instructed me to talk to Defy once more."
             },
             {
+                "progress":35,
+                "logText":"Defy and his friends were vanished! Back to Umar ..."
+            },
+            {
                 "progress":40,
-                "logText":"I reported back to Umar about Defy's disappearance together with his men. But Umar didn't believe me and he even sent me back to find them. I better ask the villagers there."
+                "logText":"I told Umar about Defy's disappearance together with his men. But Umar didn't believe me and he even sent me back to find them. I better ask the villagers there."
             },
             {
                 "progress":50,

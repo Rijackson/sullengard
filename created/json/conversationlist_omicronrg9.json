@@ -316,6 +316,13 @@
                 "text":"You're right.",
                 "nextPhraseID":"umar_guild04_18"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves04",
+                "value":40
+            }
         ]
     },
     {
