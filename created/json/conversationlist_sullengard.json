@@ -416,11 +416,11 @@
         "id":"sullengard_mayor",
         "replies":[
             {
-                "text":"gold_contribute",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
                         "requireType":"factionScore",
+                        "requireID":"gold_contribute",
                         "value":50000
                     }
                 ]
