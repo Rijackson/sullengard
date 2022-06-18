@@ -402,7 +402,7 @@
     },
     {
         "id":"umar_guild04_24",
-        "message":"Such a dishonorable act for they stole 1.7 million gold coins including the treasures of Sullengard.",
+        "message":"Such a dishonorable act for they stole 50000 gold coins including the treasures of Sullengard.",
         "replies":[
             {
                 "text":"Their dishonorable act will be their undoing.",
@@ -440,7 +440,7 @@
     },
     {
         "id":"umar_guild04_27",
-        "message":"In the meantime, go back to Sullengard and give them our promised share by our own pocket for their living.",
+        "message":"In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.",
         "replies":[
             {
                 "text":"What? How?",
@@ -587,7 +587,7 @@
     },
     {
         "id":"guild04_defy_3",
-        "message":"Indeed. He always asked questions like a curious kid does. Tell me, what brought you here, $playername?",
+        "message":"Indeed. He always asked questions like a curious kid does. Tell me, what brings you here, $playername?",
         "replies":[
             {
                 "text":"Umar told me that it is time to give their share to the bootleg brewers.",
