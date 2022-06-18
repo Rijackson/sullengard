@@ -3134,7 +3134,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"sullengard_recover_items",
-                        "value":10
+                        "value":20
                     }
                 ]
             },
