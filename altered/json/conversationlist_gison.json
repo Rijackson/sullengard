@@ -52,13 +52,13 @@
                 ]
             },
             {
-                "text":"Is the Gloriosa soup read?",
+                "text":"Is the Gloriosa soup ready?",
                 "nextPhraseID":"nimael_pm_40",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"sullengard_hidden",
-                        "value":22,
+                        "value":20,
                         "negate":true
                     }
                 ]

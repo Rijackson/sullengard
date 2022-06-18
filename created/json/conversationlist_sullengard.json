@@ -2894,7 +2894,7 @@
                 ]
             },
             {
-                "text":"Never mind. I have toi go now.",
+                "text":"Never mind. I have to go now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2911,7 +2911,7 @@
     },
     {
         "id":"nimael_pm_20",
-        "message":"Actually, quite the opposite in fact. You see, Gison and I have perfected the process of removing the poison and using it in out soups. I can do this for you if you like.",
+        "message":"Actually, quite the opposite in fact. You see, Gison and I have perfected the process of removing the poison and using it in our soups. I can do this for you if you like.",
         "replies":[
             {
                 "text":"No, thank you. I think I will hang onto it for a little bit and see if I can find a better use for it.",
@@ -2933,7 +2933,8 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"sullengard_hidden"
+                "rewardID":"sullengard_hidden",
+                "value":20
             }
         ]
     },
@@ -3627,7 +3628,7 @@
         "message":"How can I be of service?",
         "replies":[
             {
-                "text":"Can I see your wears?",
+                "text":"Can I see your wares?",
                 "nextPhraseID":"sullengard_zaccheria_sell_10"
             }
         ]
