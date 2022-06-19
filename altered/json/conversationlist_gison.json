@@ -59,7 +59,7 @@
                         "requireType":"questLatestProgress",
                         "requireID":"sullengard_hidden",
                         "value":20,
-                        "negate":true
+                        "negate":false
                     }
                 ]
             }
