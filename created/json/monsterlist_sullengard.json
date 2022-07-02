@@ -726,14 +726,14 @@
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":10,
-            "max":17
+            "max":16
         },
         "spawnGroup":"yellow_tooth",
         "droplistID":"yellow_tooth_dl",
         "attackCost":3,
         "attackChance":219,
         "criticalSkill":10,
-        "criticalMultiplier":3.0,
+        "criticalMultiplier":2.5,
         "blockChance":92,
         "damageResistance":3,
         "hitEffect":{
