@@ -437,6 +437,7 @@
         "name":"Greataxe of broken promises",
         "displaytype":"rare",
         "category":"axe2h",
+        "description":"It is engraved with the words \"A gift to my husband on the day of our wedding\"",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":6,
