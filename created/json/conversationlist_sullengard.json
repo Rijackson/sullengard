@@ -633,7 +633,7 @@
                 ]
             },
             {
-                "text":"That's all, mayor ale.",
+                "text":"That's all, mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
@@ -669,7 +669,7 @@
                 ]
             },
             {
-                "text":"That's all, mayor ale.",
+                "text":"That's all, mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
@@ -705,7 +705,7 @@
                 ]
             },
             {
-                "text":"That's all, mayor ale.",
+                "text":"That's all, mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
@@ -726,7 +726,7 @@
     },
     {
         "id":"sullengard_mayor_4d",
-        "message":"Small successes comet before big ones.",
+        "message":"Small successes cometh before big ones.",
         "replies":[
             {
                 "text":"Oh wait. There's more.",
@@ -741,7 +741,7 @@
                 ]
             },
             {
-                "text":"That's all, mayor ale.",
+                "text":"That's all, mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
@@ -3267,7 +3267,7 @@
     },
     {
         "id":"sullengard_mayor_10",
-        "message":"What's on your mind? I can see it your eyes. You have questions.",
+        "message":"What's on your mind? I can see it in your eyes. You have questions.",
         "replies":[
             {
                 "text":"I'm looking into the break-in and robbery at Zaccheria's shop and I am wondering if you saw or know anything about it?",
@@ -5612,7 +5612,7 @@
     },
     {
         "id":"sullengard_mayor_beer_50",
-        "message":"I had one of my people follow you. Afterall, I wasn't sure that you could be trusted.",
+        "message":"I had one of my people follow you. After all, I wasn't sure that you could be trusted.",
         "replies":[
             {
                 "text":"Oh, I see. Now do you trust me?",
@@ -5680,7 +5680,7 @@
     },
     {
         "id":"sullengard_mayor_beer_105",
-        "message":"Then after Lord Geomyr came to power and more specifically, after he decided to laydown such an unjust tax upon our beer sales, we desperately needed a 'distributor'.",
+        "message":"Then after Lord Geomyr came to power and more specifically, after he decided to lay down such an unjust tax upon our beer sales, we desperately needed a 'distributor'.",
         "replies":[
             {
                 "text":"Oh, that makes sense to me. But why the Thieves guild?",
@@ -5697,7 +5697,7 @@
                 "nextPhraseID":"sullengard_mayor_beer_115"
             },
             {
-                "text":"But you are breaking the laws of Feygard. Aren't you afraid to get caught?",
+                "text":"But you are breaking the laws of Feygard. Aren't you afraid you will get caught?",
                 "nextPhraseID":"sullengard_mayor_beer_120"
             }
         ]
@@ -5726,7 +5726,7 @@
     },
     {
         "id":"sullengard_mayor_beer_letter_not_delivered_10",
-        "message":"I have my ways of knowing. Afterall, I am the mayor.",
+        "message":"I have my ways of knowing. After all, I am the mayor.",
         "replies":[
             {
                 "text":"I guess you do.",
