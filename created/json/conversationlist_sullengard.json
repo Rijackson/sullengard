@@ -1609,7 +1609,7 @@
         "message":"[Sigh]. Oh...hello there, kid.",
         "replies":[
             {
-                "text":"Are you ok?",
+                "text":"Are you OK?",
                 "nextPhraseID":"sullengard_nanette_1"
             },
             {
@@ -1638,7 +1638,7 @@
     },
     {
         "id":"sullengard_nanette_2",
-        "message":"[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious sea creatures emerging from it.",
+        "message":"[Sigh]. It started yesterday as I sat on the bench enjoying the pond, I saw vicious creatures emerging from it.",
         "replies":[
             {
                 "text":"N",
@@ -1744,7 +1744,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"What the? But it just happen yesterday.",
+                "text":"What the? But it just happened yesterday.",
                 "nextPhraseID":"X"
             }
         ],
@@ -1761,7 +1761,7 @@
         "message":"Oh hello there, kid. Have you talked to Kaelwea the priest yet?",
         "replies":[
             {
-                "text":"There must be a reason why it happen. But what is it?",
+                "text":"There must be a reason why it happened. But what is it?",
                 "nextPhraseID":"sullengard_nanette_8",
                 "requires":[
                     {
@@ -1802,7 +1802,7 @@
         "message":"[Sigh]. I'm to old for a story. Just tell me the moral of it.",
         "replies":[
             {
-                "text":"Don't throw pebbles in the pond. You might disturb whatever lies beneath it.",
+                "text":"Don't throw pebbles in the pond. You might disturb whatever lies beneath the surface.",
                 "nextPhraseID":"sullengard_nanette_11"
             }
         ]
@@ -1833,7 +1833,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"You promise? I'll won't clean up your mess again.",
+                "text":"You promise? I won't clean up your mess again.",
                 "nextPhraseID":"sullengard_nanette_13"
             }
         ]
