@@ -2227,7 +2227,7 @@
                 "nextPhraseID":"sullengard_hadena_1"
             },
             {
-                "text":"I'm sorry because I was only half listing to you earlier, so I am a little fuzzy on the details. But can you explain to me again what you need from me?",
+                "text":"I'm sorry because I was only half listening to you earlier, so I am a little fuzzy on the details. But can you explain to me again what you need from me?",
                 "nextPhraseID":"sullengard_hadena_2",
                 "requires":[
                     {
@@ -2380,11 +2380,11 @@
         "message":"Yikes! You surprised me, kid. I'm Ainsley and I have a lot of work to do here so talk to me later.",
         "replies":[
             {
-                "text":"Ok. I'm going now.",
+                "text":"OK. I'm going now.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok. I'll leave now.",
+                "text":"OK. I'll leave now.",
                 "nextPhraseID":"X"
             },
             {
@@ -2409,11 +2409,11 @@
         "message":"Uhhh...yes. No. Maybe. Argh. Sorry kid, I'm so busy right now. I can't even work properly with this old pitchfork.",
         "replies":[
             {
-                "text":"Ok. I'll not disturb you.",
+                "text":"OK. I'll not disturb you.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok. I'll leave now.",
+                "text":"OK. I'll leave now.",
                 "nextPhraseID":"X"
             },
             {
@@ -2443,7 +2443,7 @@
     },
     {
         "id":"sullengard_ainsley_1b",
-        "message":"Hadena? Ahh yes. She's my wife. Why do you ask?",
+        "message":"Hadena? Ah yes. She's my wife. Why do you ask?",
         "replies":[
             {
                 "text":"She asked me to ensure that you get home on time today.",
@@ -6147,7 +6147,7 @@
     },
     {
         "id":"ainsley_goto_loneford_10",
-        "message":"You see, because I am the least experienced of Deebo's farmers, I get assigned the extra work that the other farmers don't want to do. On top of my already heavy reasonsibilities.",
+        "message":"You see, because I am the least experienced of Deebo's farmers, I get assigned the extra work that the other farmers don't want to do. On top of my already heavy responsibilities.",
         "replies":[
             {
                 "text":"Extra work? Like what?",
