@@ -580,14 +580,14 @@
         "message":"Oh, yeah, but you do look a lot like him. I'm Defy.",
         "replies":[
             {
-                "text":"So you knew my brother as well?",
+                "text":"So you know my brother as well?",
                 "nextPhraseID":"guild04_defy_3"
             }
         ]
     },
     {
         "id":"guild04_defy_3",
-        "message":"Indeed. He always asked questions like a curious kid does. Tell me, what brings you here, $playername?",
+        "message":"Indeed. He always asks questions like a curious kid does. Tell me, what brings you here, $playername?",
         "replies":[
             {
                 "text":"Umar told me that it is time to give their share to the bootleg brewers.",

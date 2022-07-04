@@ -314,7 +314,7 @@
     },
     {
         "id":"sullengard_matpat_6",
-        "message":"Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of Thieves Guild about this.",
+        "message":"Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves Guild about this.",
         "replies":[
             {
                 "text":"I'm going now. Stay strong.",
@@ -1473,10 +1473,10 @@
     },
     {
         "id":"deebo_orchard_deebo_30",
-        "message":"Well, it is a four-legged nightmare of a kanine that has destroyed my property and killed my pig. I fear that one of my horses is next.",
+        "message":"Well, it is a four-legged nightmare of a canine that has destroyed my property and killed my pig. I fear that one of my horses will be next.",
         "replies":[
             {
-                "text":"That's terrible news. What are you going to do about it, beside complaining that is?",
+                "text":"That's terrible news. What are you going to do about it. Besides complaining, that is?",
                 "nextPhraseID":"deebo_orchard_deebo_40"
             }
         ]
@@ -1948,11 +1948,11 @@
     },
     {
         "id":"deebo_orchard_deebo_85",
-        "message":"Return to me once you have the prrof that it is dead."
+        "message":"Return to me once you have the proof that it is dead."
     },
     {
         "id":"deebo_orchard_deebo_100",
-        "message":"As for your reward is concerned, I am now willing to sell and trade with you. Please take a look.",
+        "message":"As far your reward is concerned, I am now willing to sell and trade with you. Please take a look.",
         "replies":[
             {
                 "text":"Sounds good.",
@@ -6235,7 +6235,7 @@
         "message":"What about it?",
         "replies":[
             {
-                "text":"Well, it is one of the biggest buildings that I've ever seen. What it's in there?",
+                "text":"Well, it is one of the biggest buildings that I've ever seen. What's in there?",
                 "nextPhraseID":"deebo_orchard_deebo_barn_talk_20"
             }
         ]
