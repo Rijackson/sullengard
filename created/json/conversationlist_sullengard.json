@@ -3108,7 +3108,7 @@
     },
     {
         "id":"ravynne_10",
-        "message":"Well you are a few weeks early."
+        "message":"Well, you are a few weeks early."
     },
     {
         "id":"ravynne_20",
@@ -3369,7 +3369,7 @@
                 "nextPhraseID":"S"
             },
             {
-                "text":"No, I'm good for no.",
+                "text":"No, I'm good for now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3396,7 +3396,7 @@
     },
     {
         "id":"sullengard_arantxa_40",
-        "message":"Seeing that I recognized a couple of them as being that of Zaccheria's, I refused to buy them.",
+        "message":"Since I recognized a couple of them as being Zaccheria's, I refused to buy them.",
         "replies":[
             {
                 "text":"Really? That's honestly the only reason why you didn't buy them?",
@@ -3648,7 +3648,7 @@
         "message":"Have you found my stuff yet?",
         "replies":[
             {
-                "text":"Nope. Sorry, I am still looking for them.",
+                "text":"Nope. Sorry, I am still looking.",
                 "nextPhraseID":"X"
             }
         ]
