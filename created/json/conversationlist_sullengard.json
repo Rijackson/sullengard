@@ -4639,7 +4639,7 @@
                 ]
             },
             {
-                "text":"I've talked to a couple of tavern owners, learnt a few things, but I need to talk to some more people",
+                "text":"I've talked to a couple of tavern owners, learned a few things, but I need to talk to some more people",
                 "nextPhraseID":"ff_captain_hurry_up",
                 "requires":[
                     {
@@ -4661,7 +4661,7 @@
                 ]
             },
             {
-                "text":"All the information I have optained points me to Sullengard.",
+                "text":"All the information I have obtained points me to Sullengard.",
                 "nextPhraseID":"ff_captain_beer_120",
                 "requires":[
                     {
@@ -4694,7 +4694,7 @@
                 ]
             },
             {
-                "text":"I've learnt everything that you will care to know about the beer bootlegging operation.",
+                "text":"I've learned everything that you will care to know about the beer bootlegging operation.",
                 "nextPhraseID":"ff_captain_beer_tell_everything_10",
                 "requires":[
                     {
@@ -4705,7 +4705,7 @@
                 ]
             },
             {
-                "text":"I know who is distributing the beer, but not source of the beer.",
+                "text":"I know who is distributing the beer, but not the source of the beer.",
                 "nextPhraseID":"ff_captain_beer_tell_sull",
                 "requires":[
                     {
@@ -4727,7 +4727,7 @@
                 ]
             },
             {
-                "text":"I am sorry, but I have learnt nothing that I am willing to share or feel confident in sharing with you.",
+                "text":"I am sorry, but I have learned nothing that I am willing to share or feel confident in sharing with you.",
                 "nextPhraseID":"ff_captain_beer_tell",
                 "requires":[
                     {
@@ -4741,7 +4741,7 @@
     },
     {
         "id":"ff_captain_hurry_up",
-        "message":"Then why are you wasting your's and my time by coming back here? Get going.",
+        "message":"Then why are you wasting your and my time by coming back here? Get going.",
         "replies":[
             {
                 "text":"Yes, sir! I'm on it.",
@@ -4758,7 +4758,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I'll go Sullengard when I feel like it. You don't own me.",
+                "text":"I'll go to Sullengard when I feel like it. You don't own me.",
                 "nextPhraseID":"X"
             },
             {
@@ -4769,7 +4769,7 @@
     },
     {
         "id":"ff_captain_beer_tell_everything_10",
-        "message":"I knew that I could count on you kid. Please enlighten me and I will reward you hansomely.",
+        "message":"I knew that I could count on you kid. Please enlighten me and I will reward you handsomely.",
         "replies":[
             {
                 "text":"What would you like to know first?",
@@ -5047,11 +5047,11 @@
     },
     {
         "id":"torilo_beer_jerk",
-        "message":"Well, it's because of little snot kids like you"
+        "message":"Well, it's because of little snot-nosed kids like you"
     },
     {
         "id":"torilo_beer_20",
-        "message":"Well, for why I have so much, that is none of your business. For as to where I got it, that information will cost you.",
+        "message":"Well, for as why I have so much, that is none of your business. As for where I got it, that information will cost you.",
         "replies":[
             {
                 "text":"What? Are you asking me to buy information from you? Why would I want to do that?",
@@ -5239,7 +5239,7 @@
         "message":"Well, am I correct?",
         "replies":[
             {
-                "text":"If that's what it it takes to get you to talk, then yes, yes I am.",
+                "text":"If that's what it it takes to get you to talk, then yes, yes.",
                 "nextPhraseID":"tharwyn_beer_30"
             }
         ]
@@ -5527,7 +5527,7 @@
         "message":"South of Vilegard, but beware, the travel to it is not for the faint of heart.",
         "replies":[
             {
-                "text":"I guess it's onto Sullengard for me. Bye.",
+                "text":"I guess it's on to Sullengard for me. Bye.",
                 "nextPhraseID":"X"
             }
         ]
