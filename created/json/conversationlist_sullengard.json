@@ -3892,7 +3892,7 @@
         "message":"What?! Where is he? Why is your father not with you?",
         "replies":[
             {
-                "text":"I guess because he needed to stay back and watch over the house. Or maybe he thinks I'm ready for the challenge?",
+                "text":"I guess because he needed to stay home and watch over the house. Or maybe he thinks I'm ready for the challenge?",
                 "nextPhraseID":"sullengard_find_mother_30"
             }
         ]
@@ -3902,7 +3902,7 @@
         "message":"Typical Mikhail! So lazy and irresponsible.",
         "replies":[
             {
-                "text":"I guess, but I can handle myself and have learnt a lot about Andor.",
+                "text":"I guess, but I can handle myself and have learned a lot about Andor.",
                 "nextPhraseID":"sullengard_find_mother_33"
             },
             {
@@ -3969,7 +3969,7 @@
                 ]
             },
             {
-                "text":"Home come mother never spoke of you or told me that she had a sister?",
+                "text":"How come mother never spoke of you or told me that she had a sister?",
                 "nextPhraseID":"sullengard_valeria_10"
             }
         ]
@@ -4315,7 +4315,7 @@
     },
     {
         "id":"crossglen_valentina_10",
-        "message":"Do you really need to ask me that? Please leave my house and come back when I am calmed down.",
+        "message":"Do you really need to ask me that? Please leave my house and come back when I have calmed down.",
         "replies":[
             {
                 "text":"OK mother.",
@@ -6299,7 +6299,7 @@
         "message":"Hello $playername.",
         "replies":[
             {
-                "text":"So, you are my Aunt Valeria, whom I just learnt even exists. Why am I just meeting you now?",
+                "text":"So, you are my Aunt Valeria, whom I only just learned even exists. Why am I just meeting you now?",
                 "nextPhraseID":"sullengard_valeria_20"
             }
         ]
