@@ -895,7 +895,7 @@
     },
     {
         "id":"sullengard_kealwea_0",
-        "message":"Hey, young fellow. I am Kealwea. How can I help you may child?",
+        "message":"Hey, young fellow. I am Kealwea. How can I help you my child?",
         "replies":[
             {
                 "text":"I am in need of supplies. Can you help?",
@@ -948,7 +948,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_1",
-        "message":"[Sigh]. Yes, she told me about her pond as well but she won't listen to my story.",
+        "message":"[Sigh]. Yes, she told me about her pond as well, but she won't listen to my story.",
         "replies":[
             {
                 "text":"I will listen to your story.",
@@ -972,7 +972,7 @@
     },
     {
         "id":"sullengard_kealwea_pond_safety_3",
-        "message":"One time, I was sitting on the bench thinking about how the Feygard soldierscan sleep at night with all of their unlawful taxes placed on the citizens of Sullengard causing all this financial trouble on the people.",
+        "message":"One time, I was sitting on the bench thinking about how the Feygard soldiers can sleep at night with all of their unlawful taxes placed on the citizens of Sullengard causing all this financial trouble on the people.",
         "replies":[
             {
                 "text":"N",
@@ -1086,7 +1086,7 @@
     },
     {
         "id":"sullengard_highwayman_3",
-        "message":"Yes, you do look like him. He is the one who helped Sullengard financially for their living for how many occasions.",
+        "message":"Yes, you do look like him. He is the one who helped Sullengard financially on many occasions.",
         "replies":[
             {
                 "text":"Hey, it must be my brother Andor! Tell me more about him. ",
@@ -1195,7 +1195,7 @@
         "message":"At this point, just the fact that I am lost a little bit. You see, I am travelling to Nor City from the west and I got lost.",
         "replies":[
             {
-                "text":"Well, rest up tonight and head east from here. Following the road and you'll find the Duleian road and go east from there.",
+                "text":"Well, rest up tonight and head east from here. Follow the road and you'll find the Duleian road and go east from there.",
                 "nextPhraseID":"sullengard_inn_traveler_30"
             }
         ]
@@ -3446,7 +3446,7 @@
         "message":"It's nice to see you again, fellow traveler.",
         "replies":[
             {
-                "text":"You won't be thinking that after I tell you what I know! I am here to surive you justice.",
+                "text":"You won't be thinking that after I tell you what I know! I am here to serve you justice.",
                 "nextPhraseID":"sullengard_inn_traveler_50"
             }
         ]
@@ -3496,7 +3496,7 @@
         "message":"After watching Zaccheria's routine for a couple of days, I noticed he goes to the tavern every night at the same time and stays there for the same amount of time every time. So I took my opportunity.",
         "replies":[
             {
-                "text":"Where is Zaccheria's inventory? He wants it back and I am here to see to it that he does.",
+                "text":"Where is Zaccheria's inventory? He wants it back and I am here to see to it that he does get it back.",
                 "nextPhraseID":"sullengard_inn_traveler_100"
             }
         ]
