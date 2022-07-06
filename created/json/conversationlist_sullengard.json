@@ -12,7 +12,7 @@
         "message":"[As you approach the ravine, you notice how quickly the wind has picked-up and it causes you to ponder:] \n\nShould I proceed or turn around?",
         "replies":[
             {
-                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "text":"Proceed! What's the worst that can happen? I fall?",
                 "nextPhraseID":"X"
             },
             {
@@ -143,7 +143,7 @@
         "message":"[As you reach this outer most point of the ledge, a big gust of wind blows you off balance and almost down to your death.]\n\nShould I proceed or turn around?",
         "replies":[
             {
-                "text":"Absolutely! What's the worse that can happen? I fall?",
+                "text":"What's the worse that can happen? I fall?",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -202,7 +202,7 @@
         "message":"[You lean over the ledge and that's when you notice the skeletal remains directly below. You can only help but wonder:]\n\nDid this person plunge to their death, or is there a safe way to get to the bottom?",
         "replies":[
             {
-                "text":"I should head back now before I suffer a similar feat.",
+                "text":"I should head back now before I suffer a similar fate.",
                 "nextPhraseID":"X"
             }
         ],
@@ -220,7 +220,7 @@
     },
     {
         "id":"sullengard_news_post",
-        "message":"Welcome to Sullengard, the home to the best beer in Dhayaver. Please enjoy our upcoming 20 anniversary beer festival."
+        "message":"Welcome to Sullengard, the home of the best beer in Dhayaver. Please enjoy our upcoming 20th anniversary beer festival."
     },
     {
         "id":"sullengard_townhall_sign",
@@ -4114,7 +4114,7 @@
     },
     {
         "id":"parents_argue_70",
-        "message":"With you off visiting your siste,r I had to do all the work around here and watch the house against thieves. So I sent $playername to find Andor.",
+        "message":"With you off visiting your sister, I had to do all the work around here and watch the house against thieves. So I sent $playername to find Andor.",
         "switchToNPC":"mikhail",
         "replies":[
             {
@@ -4465,7 +4465,7 @@
     },
     {
         "id":"sull_ravine_grazia_62",
-        "message":"I was to scared to cross that bridge by myself because of the wind.",
+        "message":"I was to scared too cross that bridge by myself because of the wind.",
         "replies":[
             {
                 "text":"But you just did it?",
@@ -4493,7 +4493,7 @@
     },
     {
         "id":"ff_captain_beer_20",
-        "message":"You bet I am. I suspect we are witnessing one right now.",
+        "message":"You bet I have. I suspect we are witnessing one right now.",
         "replies":[
             {
                 "text":"Really?! Who is it? Can I help?",
@@ -4557,7 +4557,7 @@
     },
     {
         "id":" ff_captain_beer_80",
-        "message":"Well, you see kid, I used to work in the 'tax collection' division of the Feygard patrol and I doen't ever remember seeing the kind of collected taxes that would reflect this kind of volumn of beer.",
+        "message":"Well, you see kid, I used to work in the 'tax collection' division of the Feygard patrol and I doen't ever remember seeing the kind of collected taxes that would reflect this kind of volume of beer.",
         "replies":[
             {
                 "text":"Um...I think I might be catching up to what you are thinking. Please, continue",
@@ -4606,7 +4606,7 @@
     },
     {
         "id":"ff_captain_beer_110",
-        "message":"Well, because I am a feygard captain and as such, the tavern keep will never give me information."
+        "message":"Well, because I am a Feygard captain and as such, the tavern keep will never give me information."
     },
     {
         "id":"ff_captain_beer_ 111",

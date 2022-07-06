@@ -150,7 +150,7 @@
     },
     {
         "id":"umar_guild04_9",
-        "message":"As a result, they asked us to help them. We even have 80/20 share from their business.",
+        "message":"As a result, they asked us to help them. We even have 80/20 share of their business.",
         "replies":[
             {
                 "text":"Interesting.",
@@ -567,7 +567,7 @@
     },
     {
         "id":"guild04_defy_1",
-        "message":"Andor, is that you? You grew weak and small. How's your visit in Nor City?",
+        "message":"Andor, is that you? You grew weak and small. How was your visit to Nor City?",
         "replies":[
             {
                 "text":"I'm $playername. Andor is my brother and I'm not weak.",
