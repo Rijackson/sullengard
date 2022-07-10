@@ -153,7 +153,7 @@
         "name":"Bandit's Brew",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A Thieve's guild original, produced by the Brueria famill. It was named in their honor for years of reliable service to Sullengard.",
+        "description":"A Thieve's guild original, produced by the Brueria family. It was named in their honor for years of reliable service to Sullengard.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":5,
