@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="34" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,17 +195,17 @@
  </layer>
  <layer id="3" name="Objects" width="34" height="10">
   <data encoding="base64" compression="zlib">
-   eJyNU7sOgzAMzC+UATVD+f/v6IyirO3IRkVF1C8oFjlxOhwJSyjGPj/OTn5dCHMMYd2+Qud3+5Z6zlW304TxH9JNWJ+rH/+5YjkW8YxH3TWebSxsU9zVXGobG/apO/q+DzsmERf2v287V4iXa6F+lIvJ1Pn9Qk+EzQ43/ec68KFfYLSHkbAag3zevo2/V+f5OHbBdblOofom/XBwVW7Ikxr3g+u05sJ3GXvVO4aYXGsZDjGZchnvMZ53y7Mp5DNurfvH/eu8dB68f+vBi+kdbq94tqld58bz4h7hT7UHL7ZUfng36m/ZuU4Lw3PT+Znom4SNT9UhmfLbaW+zJX+J/gLU
+   eJyNkz0OgzAMhblCGVAzlPufozNCWduxGwgE6gmKRSw+vSRSLaEY+/nn2cm3bZopNM12fDvO9fiWdE5JdyF+hr5Ad9yM/5j8jPV44r3uFnIbhTbF/ZtLbUPF/mmvvu/9iRnBhf737eTKeWmuBf0oF5NPW+7X9RHYWOCm/6zjPu5tDXkPA7Aa4/lK+zb+pTrPx7UL1mWdHfVNuv7iqtw8z1i5H6xTmwvvsu9V75jHxFTLcB4Tkct4DyHfLWezw2fcaveP/eu8dB7cv/VQiukK3F4ht6ld58Z5sUf3j6mHUuye+Pm7UX/Nzjo1DOem8zPRN+k2nqq7ROS3095mTX54ygLX
   </data>
  </layer>
  <layer id="4" name="Above" width="34" height="10">
   <data encoding="base64" compression="zlib">
-   eJylVMsKwjAQzNEf6CGH9v8/IpTcvHqTFqW5VgzpJ5iQXTpOIwouBM3s7sw+2hpjzGSNeeSj9rQVQyv+KNgt/97zWW2NVRzzFE+CReDbBFsBc3bH2ZaMhXxOQ72PdsfQX8xDfovrJhoz9YKWpBb06f8RYj1wqR/vrKN3rTdKDtfgIBZzkA97/qaj/KyLOgH0i3XD3iv3pjxjo3asLdJczv2RC/eagAf78KJV4pTbk7ZrzBxnE8B37et+cW/OHuvnefE8cP+fcrrh/bn61XhOvCfVUVxrS41nMUh/+t5g/XMDLzZTrRiTINdRHNam5m27902wi23jHvhZh3MnmP1M+2q9K/i9WCj3H64Xk3fgLA==
+   eJylVMsKwjAQzNEf6CGH9v8/IpTcvHqTFqW5VgzpJ5iQXTpOIwouBJvZ3Zl9tBpjzGSNeeSj9rQVQyv+KNgt/97zWW2NjRCrz4on4cKYTbAVMGd3nG3JWMjnNNT7aHcM/cU85Le4bqIxUy9oSWpBnz6PEOuBS/14Zx29a71RcrgGB7GYg3zY8zcd5Wdd1AmgX6wb9l65N+UZG7VjbZHmcu6PXLjXBDzYhxetEqfcnrRdY+Y4mwC+a1/3i3tz9lg/z4vngfv/lNMN7+/Vr8Zz4j2pjuJaW2q8i0H60+8G658beLGZasWYBLmO4rA2NW/bvW+CXWwb98DPOpw7wexn2lfrW8H/i4Vy/+F6Adox3zs=
   </data>
  </layer>
  <layer id="5" name="Top" width="34" height="10">
   <data encoding="base64" compression="zlib">
-   eJy1VLsOgDAIdPIPHFz8/1/S1LSrk36CbSwJIQfU1yUspNxx0DaOXZdyLDlCjjVHBDkNMzjncaHcruQPQ9uCxUV97go/eXoL8iV1CQFo9JPOlxp7svaFdOMHXlt0ijfuwdP1fFg1fI5SZ5iuHbcC7emPGg9P9oRqaAdyBuh+0TviZ8qM78zPw/aCi9cutS8+e/4v8f9H/mup1tLbR1wcGtcJB0VeVw==
+   eJy1VDEOgCAMZPIHDi78/0saDaxO+AQx0qRproUIXtLBht5xrSUszsUcW449x5EjgJyGVZyT34gL5ZKSvwxtCxYX+UkKP3noBfmSuoQdaExe54uNd7LmhXTDAK8tOo837qGmW/Nh1fA+Sp3ZvzNuBZrTHzU1fJkTqqEZyB6g/4v2iJ+hPR+Fs4OL127lXrz3/P3i749812Kppd1HXBwa1w3BaF9J
   </data>
  </layer>
  <layer id="6" name="Walkable" width="34" height="10" visible="0">
@@ -233,7 +233,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="4" name="sullengard_venom_snake_spawn1" type="spawn" x="416" y="224" width="416" height="32">
    <properties>
     <property name="quantity" value="4"/>
