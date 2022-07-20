@@ -239,6 +239,7 @@
   <object name="east" type="mapchange" x="928" y="384" width="32" height="32">
    <properties>
     <property name="map" value="sullengard_woods6"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
   <object name="southeast" type="mapchange" x="928" y="896" width="32" height="32">
