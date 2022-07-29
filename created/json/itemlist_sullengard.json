@@ -437,7 +437,7 @@
         "name":"Greataxe of broken promises",
         "displaytype":"rare",
         "category":"axe2h",
-        "description":"It promised to saves lives, but instead, it takes them.",
+        "description":"It promised to saves lives, but instead it takes them.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":6,
