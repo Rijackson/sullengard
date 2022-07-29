@@ -3953,7 +3953,7 @@
     },
     {
         "id":"sullengard_valeria_0",
-        "message":"Hello $playername, it's so wonderfull to finally meet you after all of these years.",
+        "message":"Hello $playername, it's so wonderful to finally meet you after all of these years.",
         "switchToNPC":"sullengard_valeria",
         "replies":[
             {
