@@ -6010,7 +6010,7 @@
                 "nextPhraseID":"sullengard_valeria_15",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"andor",
                         "value":100
                     }
