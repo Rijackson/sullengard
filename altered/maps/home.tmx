@@ -158,7 +158,7 @@
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
@@ -211,7 +211,7 @@
   <object name="rest" type="rest" x="32" y="128" width="32" height="32"/>
   <object name="startitems2" type="container" x="320" y="256" width="32" height="32"/>
   <object name="grownfood_init" type="script" x="224" y="128" width="32" height="64"/>
-  <object name="parents_argue_selector" type="script" x="64" y="128" width="160" height="192">
+  <object name="parents_argue_selector" type="script" x="64" y="128" width="160" height="160">
    <properties>
     <property name="when" value="step"/>
    </properties>
