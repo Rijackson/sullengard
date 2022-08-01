@@ -4143,7 +4143,7 @@
     },
     {
         "id":"parents_argue_90",
-        "message":"Well, he learned something I suppose. Monsters everywhere on the way back! $playername just cleared them away like they were ants!",
+        "message":"Well, $playername learned something I suppose. Monsters everywhere on the way back! $playername just cleared them away like they were ants!",
         "switchToNPC":"crossglen_valentina",
         "replies":[
             {
