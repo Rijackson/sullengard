@@ -204,7 +204,7 @@
    eJxjYBgFo2AUjIJRMApGwSgYBdQEdyRpb8cbOtgxCgYXAABHvgH7
   </data>
  </layer>
- <layer name="Walkable" width="25" height="30" visible="0">
+ <layer name="Walkable" width="25" height="30">
   <data encoding="base64" compression="zlib">
    eJzNVUEKwDAI2yv6/y/0hzuMwRA7mxilwqBsxqQ44xxXWczxPNXBcuzqQ+7x5kYY7/sODuH45ntnJYfHt8LZ2ihH939VyXfSfLD37OjH37woa5/UjxUWnflMRB5WrSPyB3X/ozx79nCsr68wyj2VnaNIk33f4e/Mfur0rMwuZTmU+xXhYDQgWKUWRGt1fZTnBnuDn1w=
   </data>
@@ -246,6 +246,12 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object name="wild_berry1" type="spawn" x="128" y="640" width="448" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="wild_berry3"/>
    </properties>
   </object>
  </objectgroup>
