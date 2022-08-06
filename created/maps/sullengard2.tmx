@@ -266,6 +266,16 @@
     <property name="spawngroup" value="sullengard_hamerick"/>
    </properties>
   </object>
+  <object name="sullengard_courtyard_girl" type="spawn" x="416" y="608" width="352" height="224">
+   <properties>
+    <property name="spawngroup" value="sullengard_courtyard_girl"/>
+   </properties>
+  </object>
+  <object name="sullengard_courtyard_boy" type="spawn" x="448" y="608" width="320" height="96">
+   <properties>
+    <property name="spawngroup" value="sullengard_courtyard_boy"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

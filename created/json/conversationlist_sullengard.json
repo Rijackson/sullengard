@@ -6456,5 +6456,29 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_courtyard_girl",
+        "message":"Hello. We are just playing, but mother doesn't like us to play in the courtyard.",
+        "replies":[
+            {
+                "text":"Maybe you should listen to her?",
+                "nextPhraseID":"sullengard_courtyard_kids"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_courtyard_kids",
+        "message":"Maybe you should mind your own business and let us play?"
+    },
+    {
+        "id":"sullengard_courtyard_boy_0",
+        "message":"Hello. We are just playing here in the courtyard. We like to jump over and off of the benches.",
+        "replies":[
+            {
+                "text":"Well, maybe you shouldn't do that? It's not safe.",
+                "nextPhraseID":"sullengard_courtyard_kids"
+            }
+        ]
     }
 ]

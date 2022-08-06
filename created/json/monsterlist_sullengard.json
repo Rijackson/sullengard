@@ -938,6 +938,21 @@
         "name":"Hamerick",
         "iconID":"monsters_karvis2:1",
         "monsterClass":"humanoid",
+        "spawnGroup":"sullengard_hamerick",
         "phraseID":"hamerick_0"
+    },
+    {
+        "id":"sullengard_courtyard_girl",
+        "name":"Gwinnett",
+        "iconID":"monsters_ld1:158",
+        "spawnGroup":"sullengard_courtyard_girl",
+        "phraseID":"sullengard_courtyard_girl"
+    },
+    {
+        "id":"sullengard_courtyard_boy",
+        "name":"Curwen",
+        "iconID":"monsters_ld1:20",
+        "spawnGroup":"sullengard_courtyard_boy",
+        "phraseID":"sullengard_courtyard_boy_0"
     }
 ]
