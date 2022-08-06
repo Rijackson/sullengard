@@ -3538,7 +3538,14 @@
             },
             {
                 "text":"Whatever. I can spare it.",
-                "nextPhraseID":"sullengard_inn_traveler_130"
+                "nextPhraseID":"sullengard_inn_traveler_130",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10000
+                    }
+                ]
             }
         ]
     },
