@@ -200,9 +200,9 @@
    eJxjYBgFtAapAgh2MCsCUwscFqOeWdS0g1Q91PDHP34E+z8/bnUjEdAjnYxkQMvwPc1PezvIBfQoG4YDAADQTQwU
   </data>
  </layer>
- <layer id="5" name="Walkable" width="25" height="19" visible="0">
+ <layer id="5" name="Walkable" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUk4RBAJmGsWEAXQ5dL7o6ZD66GCFArHupZQe6GfjsINZdxIbNYLcDmxmEADnxQSogNW3T03xi440SN5JjB7XyIbH+IDa9khOexNpBrN8JxS8pdhDrT1Lih5T0SE8MAJvD3+E=
+   eJzbKMbAsHEUk4RBAJmGsWGAkF5kddj0kQKIdS+17EA3g1T/Y3MXsWEz2O3AZgYhQE58kApITdv0NJ/YeKPEjeTYQYo9pKQ/YvMlsfmKGLcQawexfifkX1LsINafpMQPKemRnhgAAqThbw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -213,7 +213,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="2" name="g04_defy" type="spawn" x="224" y="480" width="32" height="32">
    <properties>
     <property name="spawngroup" value="g04_defy"/>
