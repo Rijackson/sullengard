@@ -3727,6 +3727,30 @@
                         "value":70
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_hidden_inventory_generic",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -6411,5 +6435,9 @@
                 "nextPhraseID":"ff_captain_beer_tell_everything_40"
             }
         ]
+    },
+    {
+        "id":"sullengard_hidden_inventory_generic",
+        "message":"[Under your feet you notice a freshly dug hole, but you resist the urge and say to yourself: \"What am I doing? I am too old to play in the dirt. I need to focus on finding Andor.\"]"
     }
 ]
