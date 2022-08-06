@@ -6480,5 +6480,76 @@
                 "nextPhraseID":"sullengard_courtyard_kids"
             }
         ]
+    },
+    {
+        "id":"sullengard_cat_0",
+        "message":"[Roar!]",
+        "replies":[
+            {
+                "text":"\"Roar\"? How big do you think you are?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":31
+            }
+        ]
+    },
+    {
+        "id":"sullengard_cat_seeker_0",
+        "message":"Hey there. You haven't seen my cat by any chance have you?",
+        "replies":[
+            {
+                "text":"What does your cat look like?",
+                "nextPhraseID":"sullengard_cat_seeker_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_cat_seeker_10",
+        "message":"He is entirely white. He looks look a freash coat of snow.",
+        "replies":[
+            {
+                "text":"Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]",
+                "nextPhraseID":"sullengard_cat_seeker_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] No, I have not.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"No, I have not. Sorry.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":31,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_cat_seeker_20",
+        "message":"Oh, thank you so much!"
     }
 ]

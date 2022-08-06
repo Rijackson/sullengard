@@ -954,5 +954,19 @@
         "iconID":"monsters_ld1:20",
         "spawnGroup":"sullengard_courtyard_boy",
         "phraseID":"sullengard_courtyard_boy_0"
+    },
+    {
+        "id":"sullengard_cat",
+        "name":"Frosty",
+        "iconID":"monsters_ld2:103",
+        "spawnGroup":"sullengard_cat",
+        "phraseID":"sullengard_cat_0"
+    },
+    {
+        "id":"sullengard_cat_seeker",
+        "name":"Lindauer",
+        "iconID":"monsters_ld1:132",
+        "spawnGroup":"sullengard_cat_seeker",
+        "phraseID":"sullengard_cat_seeker_0"
     }
 ]

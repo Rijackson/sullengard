@@ -136,6 +136,10 @@
             {
                 "progress":30,
                 "logText":"The promised share has been restored."
+            },
+            {
+                "progress":31,
+                "logText":"You met a \"big\" cat in Sullengard."
             }
         ]
     },
