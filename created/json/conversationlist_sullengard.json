@@ -6446,5 +6446,15 @@
     {
         "id":"sullengard_hidden_inventory_generic",
         "message":"[Under your feet you notice a freshly dug hole, but you resist the urge and say to yourself: \"What am I doing? I am too old to play in the dirt. I need to focus on finding Andor.\"]"
+    },
+    {
+        "id":"hamerick_0",
+        "message":"Hey there. Not to be rude, but can you please move along? I have lots to do before the beer festival begins.",
+        "replies":[
+            {
+                "text":"Oh, I'm sorry to bother you.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

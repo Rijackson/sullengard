@@ -932,5 +932,12 @@
         "monsterClass":"humanoid",
         "spawnGroup":"crossglen_valentina",
         "phraseID":"crossglen_valentina_selector"
+    },
+    {
+        "id":"sullengard_hamerick",
+        "name":"Hamerick",
+        "iconID":"monsters_karvis2:1",
+        "monsterClass":"humanoid",
+        "phraseID":"hamerick_0"
     }
 ]
