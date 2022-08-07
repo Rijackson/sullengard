@@ -662,7 +662,7 @@
                     "condition":"dazed",
                     "magnitude":1,
                     "duration":4,
-                    "chance":"15"
+                    "chance":"20"
                 }
             ]
         }
