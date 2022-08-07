@@ -300,6 +300,11 @@
     <property name="spawngroup" value="sullengard_cat_seeker"/>
    </properties>
   </object>
+  <object name="sullengard_citizen" type="spawn" x="544" y="672" width="320" height="32">
+   <properties>
+    <property name="spawngroup" value="sullengard_citizen"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="sullengard_news_post" type="sign" x="864" y="640" width="32" height="32"/>

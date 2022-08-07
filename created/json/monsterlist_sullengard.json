@@ -968,5 +968,12 @@
         "iconID":"monsters_ld1:132",
         "spawnGroup":"sullengard_cat_seeker",
         "phraseID":"sullengard_cat_seeker_0"
+    },
+    {
+        "id":"sullengard_citizen",
+        "name":"Local citizen",
+        "iconID":"monsters_ld1:112",
+        "spawnGroup":"sullengard_citizen",
+        "phraseID":"sullengard_citizen_0"
     }
 ]

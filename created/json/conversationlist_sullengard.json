@@ -6551,5 +6551,57 @@
     {
         "id":"sullengard_cat_seeker_20",
         "message":"Oh, thank you so much!"
+    },
+    {
+        "id":"sullengard_citizen_0",
+        "message":"Are you here for the beer festival?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"sullengard_citizen_festival"
+            },
+            {
+                "text":"Actually, I'm here looking for someone...my brother.",
+                "nextPhraseID":"sullengard_citizen_andor"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_citizen_festival",
+        "message":"Well in that case, you are a couple of weeks early."
+    },
+    {
+        "id":"sullengard_citizen_andor",
+        "message":"Your brother you say? Maybe I can help. Tell me about him.",
+        "replies":[
+            {
+                "text":"Well there's not much to say really except his name is Andor and he looks sort of like me.",
+                "nextPhraseID":"sullengard_citizen_andor_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_citizen_andor_10",
+        "message":"\"Andor\" you say? Why do I know that name...hmm...",
+        "replies":[
+            {
+                "text":"You've heard of him?!",
+                "nextPhraseID":"sullengard_citizen_andor_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_citizen_andor_20",
+        "message":"Maybe, but I'm not really sure. I think you should ask Mayor Ale.",
+        "replies":[
+            {
+                "text":"Thank you so much.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well you were nothing but a tease. Thanks a lot!",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
