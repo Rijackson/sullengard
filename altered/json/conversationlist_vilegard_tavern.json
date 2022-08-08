@@ -17,6 +17,23 @@
                         "value":20
                     }
                 ]
+            },
+            {
+                "text":"Let's get back to discussing your 'business agreement' with the 'distributors'.",
+                "nextPhraseID":"tharwyn_beer_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":32
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

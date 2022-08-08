@@ -5287,7 +5287,7 @@
         "message":"Well, am I correct?",
         "replies":[
             {
-                "text":"If that's what it it takes to get you to talk, then yes, yes.",
+                "text":"If that's what it it takes to get you to talk, then yes.",
                 "nextPhraseID":"tharwyn_beer_30"
             }
         ]
@@ -5358,6 +5358,13 @@
             {
                 "text":"Great. Start talking.",
                 "nextPhraseID":"tharwyn_beer_60"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sullengard_hidden",
+                "value":32
             }
         ]
     },

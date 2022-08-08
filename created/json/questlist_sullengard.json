@@ -140,6 +140,10 @@
             {
                 "progress":31,
                 "logText":"You met a \"big\" cat in Sullengard."
+            },
+            {
+                "progress":32,
+                "logText":"The PC has bribed Tharwyn."
             }
         ]
     },
