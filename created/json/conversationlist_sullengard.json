@@ -2409,7 +2409,7 @@
         "message":"Uhhh...yes. No. Maybe. Argh. Sorry kid, I'm so busy right now. I can't even work properly with this old pitchfork.",
         "replies":[
             {
-                "text":"OK. I'll not disturb you.",
+                "text":"OK. I'll won't disturb you.",
                 "nextPhraseID":"X"
             },
             {
@@ -2424,11 +2424,16 @@
                         "requireType":"inventoryRemove",
                         "requireID":"farmer_pitchfork",
                         "value":1
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40
                     }
                 ]
             },
             {
-                "text":"Oops...I don't have a new pitchfork. Be right back.",
+                "text":"Oops...I don't have a new pitchfork. I'll be right back.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -2436,6 +2441,11 @@
                         "requireID":"farmer_pitchfork",
                         "value":1,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"deebo_orchard_ght",
+                        "value":40
                     }
                 ]
             }
