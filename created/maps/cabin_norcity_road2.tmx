@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9VMFKA0EMzbWHSneEgTnpz/hBhf6A3yQoWHrQQsvair2uN3uQFS149SLOc3aY12y2D8LsZjMvyUtaEZF1JT1cT9J550W+gsghlDMj37P87ONn8AEN5czfd51vO3CffXWM2VSJr6X4h2iPRl6dK2NVJcvI9QE7QxddzzIUntrQg/Ub6uXCiVw6Oxcwjt/OotUx/iny3Uab+5KPMSOemvLwTKYU8xbf96H03XZ9WDXvVY2YE3hZ/1/X11HHAzjffZkX9q1R/Xy4Mhvw6b3i2sD16fv++04vbRuKfVG8metmVPzPVIelO8BzhFbLcMwFW6h9/N8PVzSxdM/5NBfsQHd4P7Q1Xb/fJ7hefdr5OdXYVscncmAm/Dsb4vrxqd+F8d9hAfM+xXV1LvIHzp+vtA==
+   eJx9VMFqAkEMzdVDxR1hYE72Z/pBhf6A3yQoKB5UaNna0r2uNz3IihV67aU46cwwz2zWB2F2s5mX5CVKRPRWUAvjQThnlujbEV1cPhPSPc2PPnxmPon0vYp8Hx330Vf6mG0R+BqIX3lbK3llroTXIlgC1lcpush6Ni7zlIoeqF9XLyND9Gj0XIwH/63vrfTx755v6m1hcz7EC/CUkAdn8gwxe/9+cLnvJvah1XwQNfKcmBf1/zNtHWU8g8+jzfNK+1ZDTyeTZ8N8cq+wNuY627Z/HvWStoXYL8GbuCa97P+EOjTdGThH1mrjbrnYlmIf//fDZE003VM+ycV2gTu4H9Lq2O/PHa6dDTu/gBqb4vbkHDwT/J11cf3a0O9S+e/QwPO+x/U0JLoC75yuyg==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
@@ -197,7 +197,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEHhgFy5XGpRwfY5IkxB58bCJlLCSDkL1zhQ4w78ZlHqrspCQ9S3IfPHFLdSKx6QnxyzKQ07PGlT2LFCMUXPvdRmq6JsZMUt2FzH6llA7pZAGFpXII=
+   eJzbKMbAsBEHhgFy5XGpRwfY5IkxB58bCJlLCSDkL1zhQ4w78ZlHqrspCQ9S3IfPHHLcSIx6QnxS3ENMXBJjFr70SawYofjC5z5K0zUxdpLiNmzuI7VsQDcLAAhRXUk=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

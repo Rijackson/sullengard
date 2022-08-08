@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,17 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyNk8FqAkEMhn2B6swuLniqryD6KH1XzypoaWmLCtJubwqii3qwUHopbeJO3H8ys2BgmThJvuSfcYpO42JLWvf0FTes56SsmWWNqz2Sf6DYIqnyfm0Zy22VNwNfTOKax1Z0wnxt0m+l2Jr3kJb9JT8HfwL6Xmj/D2I7W9bF9ErOW0TXTu1hv5MJebzHsaXSwn2OcA4Yu6PzbtbcR5/0GriPEX1jx3mCWVqJf46yat7GwH0koV6p20bOIjbfF/Fs6tc+w1zachXTvHXbj2vOh5vL6wE6kFeQv89CTl6jje0VenHeN9V/aiawVjY+r6x8R8ictyPMmveh2cwxoPXd6ZhmPlNqpibUHvut94aOw8wf5w/SKueeZujCf7KXhpw5zMk8flv8Jvn+/gHxS6EP
+   eJyNk8FKw0AQhvsC2t2EBHrSVxD7KH3XnttCK4pKDZQ23iyUNLQ9VBAvojNmx/w7uwEHwk52Zr6ZfzepB71fK2jd01P/Yz0nTc0i7/3ZHfkHir0kbd6XbWKlbfMW4ItJXPPY6kGYr036rRRb80Zp01/yS/BnoO+R9r8hVtmmLqZXcp4juiq1h/1OJuTxHscKpYX7HOEcMHZB533ZcR+3pNfAfUzomTrOPczST/xzlFXztgbuIwn1St0uchax+d6JZ1O/9gHm0laqmOa9ZX5cczZuLq8H6EBeTf4+Dzllhza2J+jFeR9U/6qZwFrZ+Lyy8h0hc5lFmB3/h2Yzx4DWtdMxz32m1MxNqD32rvfGjsPMT+cP0zbnima4hm/yJg05S5hzDFrZfgDcZp5n
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCnJwHALiKkBiDGHWPtchDHVw9ibJTHNIWTuHSx6KHUrNjmQPXcpCE+YnRuBeBMe/8H4+NyIz+3kxDsjnjghxw5qmUOO2n1kpFVs7kUWI2QmsWFBjNuQ9WwTIOxefGL43EKJOcQAUswGAM3mTS4=
+   eJxjYGBguCnJwHALiKkBiDGHWPtchDHVw9ibJTHNIWTuHSx6KHUrNjmQPXcpCE+YnRuBeBMe/8H4+NyIz+3kxDsjnjghxw5qmUOO2n1kpFVs7kUWI2QmsWFBjNuQ9WwTIOxefGL43EKJOcQAQmbD8hOIDwDkk1AM
+  </data>
+ </layer>
+ <layer id="8" name="Top" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBDW5KQmgADCcA8w==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
