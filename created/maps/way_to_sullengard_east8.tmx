@@ -204,7 +204,7 @@
    eJxjYBgFo2AUjIJRMApGwSgYBdQEdyRpb8cbOtgxCgYXAABHvgH7
   </data>
  </layer>
- <layer name="Walkable" width="25" height="30">
+ <layer name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNVUEKwDAI2yv6/y/0hzuMwRA7mxilwqBsxqQ44xxXWczxPNXBcuzqQ+7x5kYY7/sODuH45ntnJYfHt8LZ2ihH939VyXfSfLD37OjH37woa5/UjxUWnflMRB5WrSPyB3X/ozx79nCsr68wyj2VnaNIk33f4e/Mfur0rMwuZTmU+xXhYDQgWKUWRGt1fZTnBnuDn1w=
   </data>
@@ -220,6 +220,11 @@
    <properties>
     <property name="map" value="way_to_sullengard_east9"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="chk_wild_berry" type="script" x="32" y="32" width="736" height="32">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

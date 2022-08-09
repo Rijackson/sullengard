@@ -199,7 +199,7 @@
    eJy9VlsKAjEM7B36tZdTL+iHeppq3QsInsEKGwxhmqSPdaAstEueM2nTEsK9rFdZj7I48vL7ruJM4hhDOMX6edrsp80fwrvsPw0/Fsj+pawrsGXlgaDlZuW9F7Q6csj4eE+/tc6Vmnv6pcHiTgK803zJft7EfzXu9OaB+trCHc2ftD3KIY/2ZgH54nsWr2ZjZGagGXEAdeyZGR6gWs2aJ+fYNr+94LzOTg222tf06slD0x5pAd13s8HzkLWaDeINfffW4Si3tPjQvPJwS86hWnw1jY1oRIvP0wvr3ULxofvc0wtNV2iP4kC1QrlKXfW+GwhaL3rtj8Zk4Z9vwQ/WNpXY
   </data>
  </layer>
- <layer name="Walkable" width="25" height="30">
+ <layer name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy1U0EOwDAI6iv2/y/0h7saExCCbbI0UQdq4X7n3PbVw3K9BsVTfIVnwnJ4ELeCleC7+0X9uXXT+ymYbD+qPpReGYeC7+x5aw5nBucdkf76LInuOx/L19vF7jfzVeplpRfGo3qiYiAOVJMepq0tvkS7LM7eeqN3hte5JwzWf6KfZI4XekJ82z7c9Dn7X/F50p8a25pDmWGqmTzh4KMc41N8mehO9Uiiu1fe6/g/1UPLqw==
   </data>
@@ -215,6 +215,11 @@
    <properties>
     <property name="map" value="way_to_sullengard_east8"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="chk_wild_berry" type="script" x="128" y="32" width="640" height="32">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>
