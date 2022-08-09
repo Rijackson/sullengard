@@ -268,7 +268,7 @@
     <map id="way_to_sullengard_east10" x="405" y="686"/>
     <map id="way_to_sullengard_east11" x="410" y="655"/>
     <map id="sullengard_pond" x="374" y="655"/>
-    <map id="way_to_sullengard_east_ravine_north" x="461" y="504"/>
+    <map id="way_to_sullengard_east_ravine_north" x="461" y="519"/>
     <map id="way_to_sullengard_east_ravine" x="461" y="535"/>
     <map area="deebo_orchard" id="sullengard_apple_farm_east" x="461" y="572"/>
     <map id="sullengard_apple_farm_west" x="440" y="572"/>
@@ -294,6 +294,7 @@
     <map id="way_to_sullengard_east9a" x="441" y="655"/>
     <map id="way_to_sullengard_east7a" x="492" y="613"/>
     <map id="sullengard_pond_east" x="404" y="655"/>
+    <map id="way_to_sullengard_east_ravine_cabin" x="461" y="504"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
