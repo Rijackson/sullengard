@@ -296,6 +296,7 @@
     <map id="sullengard_pond_east" x="404" y="655"/>
     <map id="way_to_sullengard_east_ravine_cabin" x="461" y="504"/>
     <map id="way_to_sullengard_east4_bridge" x="440" y="525"/>
+    <map id="way_to_sullengard_east5_filler" x="502" y="555"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

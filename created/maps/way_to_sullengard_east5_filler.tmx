@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="25" height="40" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="15" height="16" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,97 +181,73 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="25" height="40">
+ <layer name="Ground" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJztwzENAAAMA6C+86+kDitjDyT0kqqqqqqvByuV1q8=
+   eJzbyMnAsHEUj+JRPCQxAF9IrmE=
   </data>
  </layer>
- <layer name="Objects" width="25" height="40">
+ <layer name="Objects" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJylV0FOwzAQ9JFrjYSUn/QbyQ8SVVzhdXDgBEe+gMQhXNrScugLyLaedjJZO0WMFDWJm53dnbW9Xt6EsIrhjOe7EOrhuUnvNlUI22r6a9ch+u/5O7uWA8d6EcLrcP9WnTjaZH+7CH8Gf2N2zQ/jCMlv89847tO9oYmuqantKv9u6eQKdlt6X2e4LCffYv+DnpEr89t42hTHZnF6RmxHLomLOVkT5uQ4+Lv3geNp5nohzTbVNE9aB0c9yL/7SDmKF224DizWHD4Hm/vEuac4ELc3vqY6gb9a38BuGP+pTnYYiMMbhw3V8BhHpgZgR+PYJf+9cdUQdeHVNObGjvLBcRgsLzyucxa/JT0ArgXMQR3Xmj+PzWgO3yYcA/o4jkF9B7AW5HxnHoBzxf/11gZoUIpDeSz/HsccPA72aSP+/ZdDteud+c8cvC73Tm1CL40jp92Xw3EV4jQO1U7Xi79wYF0pae6tFx7Hrhr/KsCB3K1lv9T1ohSHro/KoXbxP51r3jzXODQe48jFaEDteHXF3LxOajwcx76aauzttXMoxaEa5/baa8DxqOaqsa4ncxzeXPT2KPChT2PkOHSfYbxT72Dw9mj2T/eoqxEvunh7OGMuV16Ncu/QxakeXl/i5Vzh1ST3J8htqS+Zi0Nrsqe1kXOc60vmAB+93qFJ/R33pqW+pASz1SV76B25x8/V1vbKvfbhNoTH29O99SXwHXrkaotrt43j80FbqIHcOcLTAcC6azF10vevJNeaD+NYUc+tOujZgH3v6L4XPzkfONdZXbHmpXW3juNYwNukXGo+tO8tnXHaOD6fcd+/olx1nI+kOeqBewfvjMM2DAfyvyZN1otL/TbxokeurwR+AYA5b0Y=
+   eJyNUzsOwjAM9crQAZaox0BwAUQvgOgFENwQJmBpuwEbGzDRCcrAEbAbm7iV+TzJcp6T95wmaREDnLoAJeYb5oL5tQc1hFMm0Fjqeex1hCPmTK3NlK/lL17CZb3WyFj8pZarcRYHrr2s2ruvAziruLhmreaGP+Utzg0jgEXk8w75HmPV8bWDCz1L1ZtA2oS1ifKgvP6yB+lLGuqTsi5h3cP5+T7yAe+J9LnqS5oZxpx1Ke91yd4j5OMofAOB9HccVxwb9pGeBWsnWJvy3g4unLO+O/EhndyF9q5c86z/eRsWZO7X27BA9U931353Vj8dFtq9hbez/F8Wni3vF78gpIo=
   </data>
  </layer>
- <layer name="Above" width="25" height="40">
+ <layer name="Above" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1V0sSgzAIzR1ccbr2iu1tbK37VqdnqJnKGBkIkM/bZAyGvAcETQh/3CCEOwQW723+A+dRstP5Vhg3Xw/Q52r8P+Hsk5trgehz2f1GLPs+LTASPx849mytAzFtPl9wjB67hdMExzgL/iV7SQ6/hCflndpLc8jpoHbK2atDe7emvnGNtJbGDGvew93Kjda8B0tFDDROqb+WZxz9c7w9MU4hnd0Ib+484HKn9ZNaaP3Ey0Oz034i2bX3cvtpOmY4j3S9psFyzqkOTg/O0diW9CIuf6nG9LnmW5vTwT33+tZGHfifZtHhOT9creN/XQtYz5yFIyIXY8xHSR/BtVpNRh0r+DV5anIVasyjI8Jak6W5yaG2n1+GEK5D3j+OPfhTePNAYYkH6ijpI554tLjjSPEYK/tuilQH1gNy7nXH6XVf8uz7A8RFAvA=
+   eJylkmEOgCAIhbtCvxr3P0F6Au0UeYYOkazeIoZM69sYAfowRqDpxVrjUC3S862JZMd8PotaNu4CqYs+md5aOOPltIb1ZqnPflP1dNfgy2zr/8Gao+RYLrPe/YVEfX35X0fxdkPnMUfuI2ePOUs8vdZuaAKN7UYP2A2rt9b2dlT3Rsy+0OPBfsd7I892AqB3TcU=
   </data>
  </layer>
- <layer name="Top" width="25" height="40">
+ <layer name="Top" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwVuSQ4tc0fBKBisYDTND10wGnejYBSMAmqDOzQuV0Dm3x0tu0bBKMAJRut2ygAArwEHoA==
+   eJxjYBgFo2AUDCS4JcnAcFMSlQaBmzjEYXIgAACFOAps
   </data>
  </layer>
- <layer name="Walkable" width="25" height="40">
+ <layer name="Walkable" width="15" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lEEShTAIQz1F738Fb+jW6RB4gZaZv9Bf80IQ3/Wk9S7/Fz33v3e6ds5UR2mf0q84VItyojlMSvnf2R3vFVP1QbJ19f8MOrsqY7IrZJeqUn04PihHMbualceIN8moympnuXVjByNPpI+OfsZxGCpDsnuu74qrdu1U0ZlTDzQ757tD/EfXNE8yB/U/3XPHS2fmU333W3SrD8UkvOhs5jvjZZ6nfdA9IB7VdcShWRGN6ozbh/t9udFHdJ72QavKkT7f0acMUuR9mOrsWu7MiX521smK9tF5d5WO4pI+ulxVH82xH64=
+   eJyVkwEKACAIA3tF//9CPwyCIMZu2kAkTTel1hwHS/xFil/Ts5rr47zjSjGqS7E352ahHPXSu53ZaEeEVJu0Vry0A+V1Wmg+0p14nH7q390V1aV9/76bX7j5qv9SYQNtTFfY
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="north" type="mapchange" x="32" y="0" width="224" height="32">
+  <object name="south" type="mapchange" x="352" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east5"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object name="south" type="mapchange" x="192" y="1248" width="352" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east7a"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object name="south2" type="mapchange" x="32" y="1248" width="128" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east7a"/>
-    <property name="place" value="north2"/>
-   </properties>
-  </object>
-  <object name="north_east" type="mapchange" x="672" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_east5_filler"/>
-    <property name="place" value="south"/>
+    <property name="map" value="way_to_sullengard_east6"/>
+    <property name="place" value="north_east"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="poisonous_jitterfly_spawn1" type="spawn" x="32" y="64" width="352" height="128">
+  <object name="yellow_tooth_spawn1" type="spawn" x="96" y="0" width="32" height="32">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="poisonous_jitterfly"/>
-   </properties>
-  </object>
-  <object name="flying_tree_ant_spawn1" type="spawn" x="416" y="64" width="128" height="256">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="flying_tree_ant"/>
-   </properties>
-  </object>
-  <object name="poisonous_jitterfly_spawn2" type="spawn" x="448" y="896" width="96" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="poisonous_jitterfly"/>
-   </properties>
-  </object>
-  <object name="poisonous_jitterfly_spawn3" type="spawn" x="480" y="1120" width="64" height="64">
-   <properties>
-    <property name="spawngroup" value="poisonous_jitterfly"/>
-   </properties>
-  </object>
-  <object name="poisonous_jitterfly_spawn4" type="spawn" x="32" y="1088" width="320" height="128">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="poisonous_jitterfly"/>
-   </properties>
-  </object>
-  <object name="flying_tree_ant_spawn2" type="spawn" x="352" y="640" width="96" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="flying_tree_ant"/>
-   </properties>
-  </object>
-  <object name="yellow_tooth_spawn1" type="spawn" x="192" y="416" width="288" height="160">
-   <properties>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn2" type="spawn" x="352" y="0" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn3" type="spawn" x="256" y="64" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn4" type="spawn" x="288" y="128" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="yellow_tooth_spawn5" type="spawn" x="32" y="384" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object name="lava_entity_spawn1" type="spawn" x="32" y="160" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="lava_entity"/>
+   </properties>
+  </object>
+  <object name="lava_entity_spawn2" type="spawn" x="160" y="160" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="lava_entity"/>
    </properties>
   </object>
  </objectgroup>

@@ -975,5 +975,22 @@
         "iconID":"monsters_ld1:112",
         "spawnGroup":"sullengard_citizen",
         "phraseID":"sullengard_citizen_0"
+    },
+    {
+        "id":"lava_entity",
+        "name":"Lava entity",
+        "iconID":"monsters_tometik10:24",
+        "maxHP":290,
+        "moveCost":9,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":30,
+            "max":35
+        },
+        "droplistID":"lava_entity_dl",
+        "attackCost":7,
+        "attackChance":150,
+        "blockChance":240,
+        "damageResistance":14
     }
 ]
