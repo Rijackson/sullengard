@@ -998,5 +998,11 @@
         "name":"Chapel guard",
         "iconID":"monsters_tometik6:39",
         "phraseID":"sullengard_church_guard"
+    },
+    {
+        "id":"sullengard_town_clerk",
+        "name":"Maddalena",
+        "iconID":"monsters_ld1:151",
+        "phraseID":"sullengard_town_clerk_0"
     }
 ]

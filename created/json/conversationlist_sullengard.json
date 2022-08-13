@@ -6634,5 +6634,19 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_town_clerk_0",
+        "message":"Hello. I am Maddalena, the the townhall clerk. If you are looking for Mayor Ale, he's back there trying to look busy.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sullengard_town_clerk_10"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_10",
+        "message":"If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
     }
 ]
