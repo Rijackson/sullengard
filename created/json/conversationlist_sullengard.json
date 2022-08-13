@@ -6620,5 +6620,19 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sullengard_church_guard",
+        "message":"Walk with the Shadow, child",
+        "replies":[
+            {
+                "text":"Yes, I am walking with the Shadow and I'm loving it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"The Shadow? What's it ever done for me?",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

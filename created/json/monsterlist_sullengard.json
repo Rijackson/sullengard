@@ -992,5 +992,11 @@
         "attackChance":150,
         "blockChance":240,
         "damageResistance":14
+    },
+    {
+        "id":"sullengard_church_guard",
+        "name":"Chapel guard",
+        "iconID":"monsters_tometik6:39",
+        "phraseID":"sullengard_church_guard"
     }
 ]
