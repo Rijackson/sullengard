@@ -212,7 +212,7 @@
   </object>
   <object id="2" name="west" type="mapchange" x="0" y="96" width="32" height="352">
    <properties>
-    <property name="map" value="way_to_sullengard_east_ravine_north"/>
+    <property name="map" value="way_to_sullengard_east_ravine_cabin"/>
     <property name="place" value="east"/>
    </properties>
   </object>

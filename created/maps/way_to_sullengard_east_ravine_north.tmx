@@ -216,7 +216,7 @@
  <objectgroup id="7" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="224" width="32" height="192">
    <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
+    <property name="map" value="way_to_sullengard_east4_bridge"/>
     <property name="place" value="east"/>
    </properties>
   </object>

@@ -124,6 +124,16 @@
             },
             {
                 "rewardType":"spawnAll",
+                "rewardID":"wild_berry2",
+                "mapName":"way_to_sullengard_east7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"wild_berry3",
+                "mapName":"way_to_sullengard_east7"
+            },
+            {
+                "rewardType":"spawnAll",
                 "rewardID":"wild_berry1",
                 "mapName":"way_to_sullengard_east8"
             }
@@ -250,6 +260,16 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"wild_berry1",
+                "mapName":"way_to_sullengard_east7"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry2",
+                "mapName":"way_to_sullengard_east7"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"wild_berry3",
                 "mapName":"way_to_sullengard_east7"
             },
             {
