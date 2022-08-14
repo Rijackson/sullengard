@@ -253,11 +253,11 @@
     <property name="spawngroup" value="sullengard_venom_snake"/>
    </properties>
   </object>
-  <object name="wild_berry1" type="spawn" x="128" y="640" width="448" height="160">
+  <object name="wild_berry" type="spawn" x="128" y="640" width="448" height="160">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="wild_berry1"/>
+    <property name="spawngroup" value="wild_berry"/>
    </properties>
   </object>
  </objectgroup>

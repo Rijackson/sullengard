@@ -264,13 +264,13 @@
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="wild_berry1"/>
+    <property name="spawngroup" value="wild_berry"/>
    </properties>
   </object>
   <object name="wild_berry2" type="spawn" x="672" y="352" width="96" height="192">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="wild_berry2"/>
+    <property name="spawngroup" value="wild_berry"/>
    </properties>
   </object>
   <object name="wild_berry3" type="spawn" x="512" y="800" width="256" height="128">
