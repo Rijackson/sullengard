@@ -206,7 +206,14 @@
    eJxjYICAjWKoGBvApQaXemIAul5SzCLHXkJ+xGc+Jf4croBaYULIHPS0R0k6IcYucvUSshdX/iHFf5TmN2LMx1cG4HMzMRgALbAwMw==
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="512" width="32" height="64">
+   <properties>
+    <property name="map" value="way_to_sullengard_east_ravine"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn">
   <object name="yellow_tooth_spawn1" type="spawn" x="64" y="544" width="352" height="32">
    <properties>
