@@ -213,6 +213,12 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="128">
+   <properties>
+    <property name="map" value="way_to_sullengard_east_ravine_north"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="flying_tree_ant_spawn1" type="spawn" x="352" y="96" width="128" height="128">
@@ -221,7 +227,7 @@
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
-  <object name="poisonous_jitterfly_spawn1" type="spawn" x="0" y="192" width="96" height="128">
+  <object name="poisonous_jitterfly_spawn1" type="spawn" x="64" y="96" width="96" height="160">
    <properties>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
