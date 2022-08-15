@@ -2744,8 +2744,8 @@
         "message":"Oh, she is a lady who lives in that cabin that you just walked past.",
         "replies":[
             {
-                "text":"Oh, I see.",
-                "nextPhraseID":"sull_ravine_grazia_10"
+                "text":"Oh, I see. Now what is it that you are trying to do?",
+                "nextPhraseID":"sull_ravine_grazia_20"
             }
         ]
     },
