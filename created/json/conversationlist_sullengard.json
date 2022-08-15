@@ -2845,7 +2845,7 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"sull_ravine_grazia",
-                "mapName":"way_to_sullengard_east4"
+                "mapName":"way_to_sullengard_east4_bridge"
             },
             {
                 "rewardType":"spawnAll",
