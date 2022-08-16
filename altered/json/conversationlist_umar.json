@@ -111,6 +111,12 @@
                         "requireType":"factionScore",
                         "requireID":"ThievesGuild",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             },
