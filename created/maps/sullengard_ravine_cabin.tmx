@@ -203,7 +203,7 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="cabin" type="mapchange" x="192" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="way_to_sullengard_east_ravine_north"/>
+    <property name="map" value="way_to_sullengard_east_ravine_cabin"/>
     <property name="place" value="outside_cabin"/>
    </properties>
   </object>
