@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Top" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowA/OCw2MPZeGiB7R8EoGAWjYBSMAkoBAE1kAcI=
+   eJxjYKAcHBajgiGjYNCCgYrfS6PpahSMglEwCkbBEAUABoICmw==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="20" visible="0">
@@ -218,7 +218,7 @@
    eJxjYKAcbBSjgiGj9o7aO0jsHQWjYBSMglEwCigFABBnBKs=
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="576" y="0" width="96" height="32">
    <properties>
     <property name="map" value="sullengard5"/>
@@ -292,10 +292,10 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Keys">
+ <objectgroup id="10" name="Keys" visible="0">
   <object id="14" name="sullengard7_road_sign" type="sign" x="576" y="352" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="15" name="sullengard7_replace_below" type="replace" x="512" y="0" width="64" height="160">
    <properties>
     <property name="Walkable" value="Walkable_Below"/>
