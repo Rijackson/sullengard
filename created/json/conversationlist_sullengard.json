@@ -2499,10 +2499,6 @@
         "message":"Thank you so much, kid. Tell my wife Ainsley I can come home on time today.",
         "replies":[
             {
-                "text":"I hope you learn from your mistakes.",
-                "nextPhraseID":"X"
-            },
-            {
                 "text":"You're welcome.",
                 "nextPhraseID":"X"
             }
