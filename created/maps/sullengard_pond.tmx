@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdVcFOwkAQ3QOaeFJWbaRfoJ8DJ008aWL085Q/8CJH41ESDpAQW4oQD0RuzoQdmE63Q1eBgy+ZtDs7+97M7HY7bhgzAGtaY+7AEC14vjof4VbMIW6cD9dRbAJzKdi0vnpHflzzxdbSHOchtNiYzzVtfh5592Jj9mNTCaRJ64mb10614pji5fPNFrnLMGgUfaSFOpjDWbzKqanocvSVHDKI/QTrgY0b+R6SzjloXsSL/JB/BNZ1Tz6Wuj5QLj2hK/OQvZC6VfTS+sJ8dWbuKfOQeWp91fCh6Pr0+JoQfsp1ucd2pbvkt7ruJlDGnyl6aUC9Pj1t/7aBpF6tj9r3VmXeh23uX5+dD+4j3W2dF9q/qYc/Uc5GaP94PNU5Ybq/2Y8QHLn+8jpDvvV18dp3NCnrL/PhvSbvk1DwexL1yjgSzxn7C0hX1nkJ3Fc2H0cIucd9evT/kX29B70Hq/8rng+NeawZ8+SsXQvTvXY1DSPYszWWRDrnCfzTT2OdizgwZgT2DvbNrCt8OE4r5ObjovWdKK83F3W8uBjCTKxvHxRzIh/nGrJcOooeafj8XH/uyUmumbEedRS9TUPq7gqku4sape5/hD0u+n4AJoUa/w==
+   eJzdVcFOwkAQ3QOaeFJWbaRfoJ8DJ008aWL085Q/8CJH41ESDpAQW4oQD0RuzoQdmE63Q1eBgy+ZtDs7+97M7HY7bhgzAGtaY+7AEC14vjof4VbMIW6cD9dRbAJzKdi0vnpHflzzxdbSHOchtNiYzzVtfh5592Jj9mNTCaRJ64mb10614pji5fPNFrnLMGgUfaSFOpjDWbzKqanocvSVHDKI/QTrgY0b+R6SzjloXsSL/JB/BNZ1Tz6Wuj5QLj2hK/OQvZC6VfTS+sJ8dWbuKfOQeWp91fCh6Pr0+JoQfsp1ucd2pbvkt7ruJlDGnyl6aUC9Pj1t/7aBpF6tj9r3VmXeh23uX5+dD+4j3W2dF9q/qYc/Uc5GaP94PNU5Ybq/2Y8QHLn+8jpDvvV18dp3NCnrL/PhvSbvk1DwexL3tYwj8Zyxv4B0ZZ2XwH1l83GEkHvcp0f/H9nXe9B7sPq/4vnQmMeaMU/O2rUw3WtX0zCCPVtjSaRznsA//TTWuYgDY0Zg72DfzLrCh+O0Qm4+LlrfifJ6c1HHi4shzMT69kExJ/JxriHLpaPokYbPz/XnnpzkmhnrUUfR2zSk7q5AuruoUer+R9jjou8HFjUa/A==
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlcsKwjAQRQf1C9pVCrrSv/Iv/Rpf6Fa7KfhYO0MJDdEkk2aaeCC0oeWe3ARaAIC9AjjgSOWFGW9mTqxTv29fpdlZmaneE757VsPVhWr8vrF9bX9oHcRYzy+vay6N2a8kU/WMOT9Jn2s+pbckU59fLrSPxjWzl8Yls5fI7SNcPaX/U2aer2eLz46C+6C9ofNshfpyepoOTt8HPn8y19Spb4fNTQ19Xczxf75oeE4z9+7JDHlrhm9b9Tm0t0u8X1Xp6+LSCWTEUuKbUKInhzXjrP8xOyezWi5rk7AnH1Doc/Y=
+   eJzNlcsOgjAQRSfqF8CqJLrSv/Iv/Rpf0a2yIfGxdiakoam2ndKh9SQNEMg9vS0BAIC9AjjgSOWFGW9mTqxTP28fpdlZmaneEz57VsPRhWr8vrF9bX9oHsRYzy+v61oas19JpuoZs3+SPtf1lN6STL1/udA+GtfMXhqXzF4it49w9ZT+T5l5vveoxXtHwXXQ3tB+tkJ9zZ4un+ng9H3g/SdzTp36dtjc1NDXxRz/54uG5zRz757MkLdm+LZVn0Nru8TzVZU+Ly6dQEYsJb4JJXpyWDP2+h+zczKr5bI2CWvyAT88c/M=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="30" visible="0">
