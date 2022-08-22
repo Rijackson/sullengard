@@ -220,7 +220,7 @@
     },
     {
         "id":"sullengard_news_post",
-        "message":"Welcome to Sullengard, the home of the best beer in Dhayaver. Please enjoy our upcoming 20th anniversary beer festival."
+        "message":"Welcome to Sullengard, the home of the best beer in Dhayavar. Please enjoy our upcoming 20th anniversary beer festival."
     },
     {
         "id":"sullengard_townhall_sign",
@@ -1281,8 +1281,7 @@
     },
     {
         "id":"sullengard_bartender_10",
-        "message":"[While raising your arm and waving your hand, you yell out:] Yo bar keep! Over here.",
-        "switchToNPC":"sullengard_bartender",
+        "message":"While raising your arm and waving your hand, you yell out: \"Yo bar keep! Over here.\"",
         "replies":[
             {
                 "text":"I would like to see what you have for sale.",
@@ -1308,7 +1307,8 @@
     },
     {
         "id":"sullengard_bartender_20",
-        "message":"Certainly. I have a menu of the best beers found in not just Sullengard, but in all of Dhayaver.",
+        "switchToNPC":"sullengard_bartender",
+        "message":"Certainly. I have a menu of the best beers found in not just Sullengard, but in all of Dhayavar.",
         "replies":[
             {
                 "text":"This should be interesting. Let's take a look.",
@@ -1325,6 +1325,7 @@
     },
     {
         "id":"sullengard_bartender_30",
+        "switchToNPC":"sullengard_bartender",
         "message":"No, you can not.",
         "replies":[
             {
@@ -2876,7 +2877,7 @@
     },
     {
         "id":"alynndir_10",
-        "message":"It is home of the best beer in all of Dhayaver! Every year they hold a beer festival. Matter of fact, that event is coming very soon.",
+        "message":"It is home of the best beer in all of Dhayavar! Every year they hold a beer festival. Matter of fact, that event is coming very soon.",
         "replies":[
             {
                 "text":"I think I would like to go there now.",
@@ -3361,7 +3362,7 @@
     },
     {
         "id":"sullengard_arantxa_10",
-        "message":"I saw you talking with Gaelian. May I ask about what?",
+        "message":"I saw you talking with Gaelian and many other people in town. May I ask about what?",
         "replies":[
             {
                 "text":"None of your business.",
@@ -3422,7 +3423,7 @@
         "message":"What is that supposed to mean?",
         "replies":[
             {
-                "text":"Well, let's be honest. You are a thief afterall.",
+                "text":"Well, let's be honest. You are a thief after all.",
                 "nextPhraseID":"sullengard_arantxa_60"
             }
         ]
@@ -3823,7 +3824,7 @@
     },
     {
         "id":"sullengard_mariora_10",
-        "message":"Oh, aren't you the sweetest thing in all of Dhayaver.",
+        "message":"Oh, aren't you the sweetest thing in all of Dhayavar.",
         "replies":[
             {
                 "text":"[Now blushing, you are nervous and desperate for this feeling to go away.] Well, I try to be when in the presence of elegance.",
@@ -4242,7 +4243,7 @@
         "message":"I should be able to help you, but first you have to tell me where have you been?",
         "replies":[
             {
-                "text":"I've traveled great distances from home and have seen my fair share of Dhayaver during my search for Andor.",
+                "text":"I've traveled great distances from home and have seen my fair share of Dhayavar during my search for Andor.",
                 "nextPhraseID":"crossglen_valentina_andor_20",
                 "requires":[
                     {
@@ -4273,7 +4274,7 @@
                 ]
             },
             {
-                "text":"I've been around a lot of Dhayaver and have spoken to a lot of people about Andor.",
+                "text":"I've been around a lot of Dhayavar and have spoken to a lot of people about Andor.",
                 "nextPhraseID":"crossglen_valentina_andor_20",
                 "requires":[
                     {
@@ -5721,7 +5722,7 @@
     },
     {
         "id":"sullengard_mayor_beer_100",
-        "message":"Not so much selling it because that was easy. Afterall, we have the best product in Dhayaver. But the problem was getting to the other towns safely and with a fresh batch.",
+        "message":"Not so much selling it because that was easy. After all, we have the best product in Dhayavar. But the problem was getting to the other towns safely and with a fresh batch.",
         "replies":[
             {
                 "text":"N",
