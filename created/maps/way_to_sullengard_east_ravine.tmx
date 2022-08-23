@@ -164,7 +164,7 @@
   <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_wall_1.png" width="512" height="256"/>
@@ -211,9 +211,9 @@
     <property name="place" value="ravine"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="320" width="32" height="256">
+  <object name="west" type="mapchange" x="0" y="320" width="32" height="288">
    <properties>
-    <property name="map" value="way_to_sullengard_east4"/>
+    <property name="map" value="way_to_sullengard_east4_bridge"/>
     <property name="place" value="east2"/>
    </properties>
   </object>
@@ -223,7 +223,6 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="Object" type="mapchange" x="0" y="0" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
