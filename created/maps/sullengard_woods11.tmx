@@ -192,7 +192,7 @@
  </layer>
  <layer id="3" name="Objects" width="34" height="19">
   <data encoding="base64" compression="zlib">
-   eJyVVktuhDAM5Qpl1eQE7WbEVeYKPWnb2SIUiVW77C6IUVFP0FjkKQ/jUGopCsT2i/8wuqaJaX2ntaQldE/7QGc/bdPMbj0Xglxw6znkJnqeswxTyHyWnzL+o28a5wv+5Mqdnw/rudj51W7PwQv5PuEz9aQPwjufvyW597Sekg3PfnuPED+LnvBlZ39hE2yZ8lnIdsfsV0+x0b4KSTyABR2OGQg62CErd3E+B+JFhcFYWkYwRgMf2IPCQ+xlfyVeMHTFN/b54vexZDtHVZPB7fW5Djj2i7Nzif1F1QzbuygbuC5qfnHsO19kBnX/QvpsX+f3+dE5Rx1pbNTWUewZh3OI2LG/F7/lc52AuOdm476j2LOtfAbi+8HXuJEwo8G/tsexxy65s3pD43F/6TqxbJucneuj2LP/Vm9ad3DcOa6wDXni+VebCZ3qJ+0X7LorbBBqU89qqz95zjFZstqvD1dqviZ/c2stW33QGfXFsa/NUcyi2mzU8rUd/rMufx/Y31ov92r/Sz7m57P92Rmz2ZL9b+/zf8Xgtt8E7hcmyclRL1u9egb7bH+yXn8gy7P5DHbvyvfW+j8RurYlBlbeNTHOmX8gkNj4C8SY32s=
+   eJyVVktuhTAMzBX6Vk1O0G6euEqv0JP2s0UoEqt22V0QT0U9QWOREYNxUmopCsT2xH8YvXMpr++8lryEbnkf6Ozn4tzs13MhyEW/nkNuoue5yDDFwmf5qeDfB+d82PAnv935ebeei51fl/05eLHcJ3ymnvRBeOfz1yz3ltdDtuEx7O8R4mfRE77s7C9sgi1TOYvF7lT86ik22lchiQewoMMxA0EHO2TlLs7nQLykMBhLywjGaOADe1B4iL3sL8SLhq74xj5fwzGWbOeoajL6oz7XAcd+8XYusT+rmmF7F2UD10XNL459FzaZQd2/kD7b14VjfnTOUUcaG7XVij3jcA4RO/b3GvZ8rhMQ99xs3NeKPdvKZyC+H3yNmwgzGfynSzv22CV3Vm9oPO4vXSeWbZO3c92KPftv9aZ1B8ed4wrbkCeef7WZ0Kl+0n7BrpvCBqE29ay2+pPnHJMlq/368FvN1+Tf/VrLVh90Rn1x7GtzFLOoNhu1fG2H/6zL3wf2t9bLvdr/kk/l+Wx/dsZstmT/2/v8XzH4/TeB+4VJctLqZatXz2Cf7U/W6xuyPJvPYPd++95a/ydCMscwk628a2KcM/9AILHxFyRu4Fc=
   </data>
  </layer>
  <layer id="4" name="Above" width="34" height="19">
@@ -207,7 +207,7 @@
  </layer>
  <layer id="6" name="Walkable" width="34" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9UlsOwCAI8xS7/xW84bKP/ZBJH9aRmCggLYV5jTEPnsd2czv/a/WN/F95K8x6Z/91fiav086NsX04c1ZqKn2y/Ni+VS2SHNj4yti/LgdnJ5yZJ+op/Fz81T4keCHcJA5Tu8ZY3ZTaaC9Q79WPODoaprXfnRfKU2elxFK6MvkdVtWCxU/uh4P/x56cqHsDxhCLuw==
+   eJy9UlsOwCAI8xS7/xW84bKP/RBHH9aZLJmAlJbOa4x58HvObm0Xf0+9o/iq7guz/rPvujhT12nn5lgezp6VngpPthfLW9VC0Ujhjbi4mu7MwGI5bxQN1RlS/mD9kJgL4SZxmN41x+qm9Ea+QNxrHM3oaJjWfndfqE7dlZJL6crUd1hVCxY/6Q8H/w+fnOh7AxOPivQ=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
