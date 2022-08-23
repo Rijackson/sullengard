@@ -164,7 +164,7 @@
   <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_wall_1.png" width="512" height="256"/>
@@ -209,7 +209,7 @@
    eJzdVUEKACAI6xX9/wv9sGtIK9Om0cBLtDnFrNVSGggEdF/L12p5uCdazBqi+jBqIM0TD1LbUoM81/Kt8PRf6mTC2wemh0hfN97VDz5u7lumB0ZO5GHmKQKrnNEzmQHr38DAakex/hI0gzvuzq8l/4vRAenlong=
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north" type="mapchange" x="224" y="0" width="800" height="32">
    <properties>
     <property name="map" value="way_to_sullengard_east11"/>
@@ -255,6 +255,17 @@
    </properties>
   </object>
   <object name="sullengard_venom_snake_spawn" type="spawn" x="64" y="480" width="352" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object name="sullengard_venom_snake_spawn2" type="spawn" x="64" y="192" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="sullengard_venom_snake"/>
+   </properties>
+  </object>
+  <object name="sullengard_venom_snake_spawn3" type="spawn" x="224" y="64" width="256" height="32">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="sullengard_venom_snake"/>
