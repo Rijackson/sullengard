@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text":"Matpat told me that Defy and together with his men left Sullengard.",
+                "text":"Matpat told me that Defy and his men left Sullengard.",
                 "nextPhraseID":"umar_guild04_19",
                 "requires":[
                     {
@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "text":"Defy, together with his men, are gone.",
+                "text":"Defy and his men have left Sullengard.",
                 "nextPhraseID":"umar_guild04_17",
                 "requires":[
                     {

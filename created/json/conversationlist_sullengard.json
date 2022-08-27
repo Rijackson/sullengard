@@ -543,7 +543,7 @@
         "message":"Finally, at least we can survive for a day with a beer and some bread.",
         "replies":[
             {
-                "text":"Here's 50,000 gold coins.",
+                "text":"Here's 50000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4a",
                 "requires":[
                     {
@@ -560,7 +560,7 @@
                 ]
             },
             {
-                "text":"Here's 20,000 gold coins.",
+                "text":"Here's 20000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4b",
                 "requires":[
                     {
@@ -577,7 +577,7 @@
                 ]
             },
             {
-                "text":"Here's 10,000 gold coins.",
+                "text":"Here's 10000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4c",
                 "requires":[
                     {
@@ -594,7 +594,7 @@
                 ]
             },
             {
-                "text":"Here's 5,000 gold coins.",
+                "text":"Here's 5000 gold coins.",
                 "nextPhraseID":"sullengard_mayor_4d",
                 "requires":[
                     {
@@ -618,7 +618,7 @@
     },
     {
         "id":"sullengard_mayor_4a",
-        "message":"I have no words on how to express my gratitude.",
+        "message":"I have no words to express my gratitude.",
         "replies":[
             {
                 "text":"Oh wait. There's more.",
@@ -633,7 +633,7 @@
                 ]
             },
             {
-                "text":"That's all, mayor Ale.",
+                "text":"That's all, Mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
@@ -1307,8 +1307,8 @@
     },
     {
         "id":"sullengard_bartender_20",
-        "switchToNPC":"sullengard_bartender",
         "message":"Certainly. I have a menu of the best beers found in not just Sullengard, but in all of Dhayavar.",
+        "switchToNPC":"sullengard_bartender",
         "replies":[
             {
                 "text":"This should be interesting. Let's take a look.",
@@ -1325,8 +1325,8 @@
     },
     {
         "id":"sullengard_bartender_30",
-        "switchToNPC":"sullengard_bartender",
         "message":"No, you can not.",
+        "switchToNPC":"sullengard_bartender",
         "replies":[
             {
                 "text":"OK!",

@@ -327,10 +327,10 @@
     },
     {
         "id":"umar_guild04_18",
-        "message":"Go back there in the Sullengard and ask bootleg brewers of where he is.",
+        "message":"Go back to Sullengard and ask the townspeople if they know of his whereabouts.",
         "replies":[
             {
-                "text":"I'm going to visit the Sullengard again. Bye.",
+                "text":"I'm on my way back to Sullengard now. Bye.",
                 "nextPhraseID":"X"
             }
         ]
@@ -433,14 +433,14 @@
                 "nextPhraseID":"umar_guild04_27"
             },
             {
-                "text":"It's a big amount of gold required. How can we earn it?",
+                "text":"This requires so much gold, how can we earn it?",
                 "nextPhraseID":"umar_guild04_27"
             }
         ]
     },
     {
         "id":"umar_guild04_27",
-        "message":"In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.",
+        "message":"I trust that you will find a way. In the meantime, go back to Sullengard and give them the share we promised them so they can go on with their lives.",
         "replies":[
             {
                 "text":"What? How?",
