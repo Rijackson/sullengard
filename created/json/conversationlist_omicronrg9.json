@@ -509,14 +509,14 @@
     },
     {
         "id":"umar_guild04_29",
-        "message":"Good job, kid! I knew I could count on you.",
+        "message":"Good job, kid! I knew I could count on you. Here, take this blade. It used to be your brother's.",
         "replies":[
             {
-                "text":"You can count me in as well to kill Defy.",
+                "text":"Thank you, sir. You can count me in as well to kill Defy.",
                 "nextPhraseID":"umar_guild04_30"
             },
             {
-                "text":"How about Defy and his men?",
+                "text":"Thank you sir, but what about Defy and his men?",
                 "nextPhraseID":"umar_guild04_30"
             }
         ],
@@ -530,6 +530,11 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"ThievesGuild",
                 "value":10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"blade_protector",
+                "value":1
             }
         ]
     },

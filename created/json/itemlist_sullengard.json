@@ -765,5 +765,34 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A letter to Kealwea, from Mayor Ale."
+    },
+    {
+        "id":"blade_protector",
+        "iconID":"items_rijackson_1:13",
+        "name":"Blade of the protector",
+        "displaytype":"extraordinary",
+        "category":"weapon_blocking",
+        "description":"This blade has been wielded by one that went before you.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":4
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":5,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":1,
+            "setNonWeaponDamageModifier":103
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"shadow_prot",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
