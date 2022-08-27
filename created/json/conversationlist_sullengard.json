@@ -633,7 +633,7 @@
                 ]
             },
             {
-                "text":"That's all, Mayor Ale.",
+                "text":"That's all of the coins we owe you and your people, Mayor Ale.",
                 "nextPhraseID":"sullengard_mayor_5",
                 "requires":[
                     {
