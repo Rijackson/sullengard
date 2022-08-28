@@ -778,7 +778,7 @@
                 "min":2,
                 "max":4
             },
-            "increaseAttackCost":4,
+            "increaseAttackCost":0,
             "increaseAttackChance":5,
             "increaseBlockChance":8,
             "increaseDamageResistance":1,
