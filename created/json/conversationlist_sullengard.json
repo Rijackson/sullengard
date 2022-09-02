@@ -4289,24 +4289,13 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "text":"I've been been to a few places like Stoutford and Guynmart castle",
-                "nextPhraseID":"crossglen_valentina_andor_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":85
+                        "requireID":"nondisplay_2",
+                        "value":170
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":90
+                        "requireID":"bwm_agent",
+                        "value":60
                     }
                 ]
             },
@@ -4351,12 +4340,6 @@
                         "requireType":"questProgress",
                         "requireID":"andor",
                         "value":85,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":90,
                         "negate":true
                     },
                     {
