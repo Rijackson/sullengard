@@ -4258,11 +4258,6 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":90
-                    },
-                    {
-                        "requireType":"questProgress",
                         "requireID":"nondisplay_2",
                         "value":170
                     },
@@ -4307,6 +4302,24 @@
                         "requireType":"questProgress",
                         "requireID":"andor",
                         "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -4316,8 +4329,26 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"nondisplay_2",
                         "value":170
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -4325,6 +4356,24 @@
                 "text":"I've been to this really cool place called Blackwater settlement.",
                 "nextPhraseID":"crossglen_valentina_andor_21",
                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":85,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170,
+                        "negate":true
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm_agent",
@@ -4361,6 +4410,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I've been running around a lot, but I've not learned much.",
+                "nextPhraseID":"crossglen_valentina_andor_21"
             }
         ]
     },
