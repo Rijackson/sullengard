@@ -4311,6 +4311,39 @@
                 ]
             },
             {
+                "text":"I've talked with a potion maker.",
+                "nextPhraseID":"crossglen_valentina_andor_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "text":"I've been to Remgard looking for Andor",
+                "nextPhraseID":"crossglen_valentina_andor_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170
+                    }
+                ]
+            },
+            {
+                "text":"I've been to this really cool place called Blackwater settlement.",
+                "nextPhraseID":"crossglen_valentina_andor_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm_agent",
+                        "value":60
+                    }
+                ]
+            },
+            {
                 "text":"I've not gone much past Sullengard.",
                 "nextPhraseID":"crossglen_valentina_andor_21",
                 "requires":[
