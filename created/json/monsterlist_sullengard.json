@@ -839,6 +839,7 @@
         "id":"sull_herding_dog",
         "name":"Young herding dog",
         "iconID":"monsters_ld2:3",
+        "moveCost":3,
         "unique":1,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
