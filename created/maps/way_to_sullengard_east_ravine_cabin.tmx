@@ -164,7 +164,7 @@
   <image source="../../altered/spritesheets/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_tree_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_wall_1.png" width="512" height="256"/>
@@ -259,13 +259,13 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="poisonous_jitterfly_spawn1" type="spawn" x="288" y="32" width="32" height="128">
+  <object name="poisonous_jitterfly_spawn1" type="spawn" x="768" y="160" width="224" height="64">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object name="poisonous_jitterfly_spawn2" type="spawn" x="320" y="128" width="224" height="64">
+  <object name="poisonous_jitterfly_spawn2" type="spawn" x="320" y="128" width="224" height="128">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
@@ -273,19 +273,13 @@
   </object>
   <object name="poisonous_jitterfly_spawn3" type="spawn" x="672" y="96" width="64" height="128">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
   <object name="poisonous_jitterfly_spawn4" type="spawn" x="1056" y="96" width="160" height="96">
    <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="poisonous_jitterfly"/>
-   </properties>
-  </object>
-  <object name="poisonous_jitterfly_spawn" type="spawn" x="768" y="160" width="288" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>

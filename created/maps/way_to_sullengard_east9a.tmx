@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="19" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="9">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="19" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lrFOwzAQhv0K9oDkx0pmGJohj8gOTBUSquiEKjEwINKmFOUJ8I/v6OVix0HAL53sur3Pvx3nXGOMqZ35UkPtilqoCv21N2YT4sPGVus+jPc+/tYQr1LMzsYWLOPOeSdwE8wujO3FOHuslEf2hfmPyLExmIs5wGGe7HPb0Bq1wNT+kHMIsZvhQQ8JnpbkcP/gp3MM4nm8uBhz+9Up3s6P9/KnSq0v5eG/VSfmXOIjd8ZK7KW899B/pvP3W4Ejeb0v8Gd8a87RT/lLpX0UfS3gyTzNkzVob5f7glAj+gSnJLlP3OJcrOidA7fN8ZwZPYvri78Lrqc1zQ8/ly7WLf7uzSovpO96QfFI+RWN65rfqtw5cS3g3FrsT624JXGNat24xrM/7SVX42SNahJrqhJ+Tokazu2TPa/nStxppXrB5+cmxC3xXmfOsb4nec05XzInJe1P7xf76zLvLt85d+r+gTYz+8W5A92paLd+ykaAA36Oh/wtMeT/h8GN68daeOR8uT58/gROkPaI
+   eJytVsFOwzAMzS+kB6R8VnuGw3rYJ3IHDgghoYmd0CQOHBDNOob6BeQRm7mu04LgSZGTrn55dh1nzjnXVO4LLdkVWaBO87vg3CaND58tI/ps75PtQ37XEV+tODt6F1yuOvkdwSs4GV16FsVz1lgrjawL+x9C1hQFL/YAD/PJOduWYtQAp9YHn30auxk+4CHZWz/llJA8PN+H6R6D+B4vVR5z+eoU3y6Mc2nhzZfXVnyWBo2l+OPC71pTY+z5Ex2lGlviBqTG3tt872n+TPX3V4BH8vVqrXPCZ4m/uYTmOYQpfwn6/Gkdev1b9CoezSd7kFUnseAHoEf0Bs8SZJ7Yoi5WdObAuya+SW1X7vtbAJdn/ze4nza0P/ScV7lv8W+jurD6BY1H8q/pue75a+VrgWPn+mDfRuSnUbxL4B61rsY9nvVpLaUeJ+u2NWKqDT1Ho4ezffKneC7EnVbqFwyun6s0ronvdabf6XsSOUbMJV3Sx4LWp/PF+rrC2eU750bdP8BmJl/sO9CdCrsNU24M8IC/xAf/LXHI/w+DON/yGccZVXxYfwLP6Aig
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJzlVcENgzAMZA32nwD66gexBlUr+uWB1BGIpZ50de1CEvfFSSjEsS8ny7GbZh/X9nM/p/2z/fabku1m2DXGt889rQ/yZ17hAR//8x1aFzhnZdexHt9g8K3KBl+JWwyeozlgLM4dZ4ZXY1F8Une6/moBPr3W8nn7El3/QK6uqPwIIvJzJkT2ltxe5/XKqUAT3nNt7wVeVI9d+vpCXYKImWDx8Oz5hYtxPh6cVdZM1TzC7/FZ8bDx+2Q/xOM8J197eoENsLd/xQ==
+   eJzlVcENgzAMZA32n6Dtq5+KNaiK6JcHEiM0lnrS4dqNA+HFSSjEsS8ny7GbJo97u96Paf9uf/36ZHsado3u6/NK60D+zCs84ON/vkPrAueo7DrW43sYfLOywVfiJoMnmgPG5NxxZng1VotP6k7X316AT68ecrWi4yN6LT7WcwRK8xjNTwSl+Tk7avaW0l7n9cp+gya85729F1ioHi/pu27UJagxEywenj3/cDPOu+Cssmaq5hF+j8+Kh43fJ/shHucl+crpBT7I5YKd
   </data>
  </layer>
  <layer id="4" name="Top" width="19" height="30">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="19" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVlUEOQBEMRJ3C/a/ghj8WNk3VGMNnEpuG14lWlZxSAVcVuvdlVpMXZ1medrAiLisV5y+pfUc9oWKjNYxyKvqK9YWyenzWl42zvlgfpzSquxfb8Q6UrBv6MWKt+mOkmuWzd2X/khnWKAcyl1C29dg7+wGFC7nK
+   eJzVlMENACAIA53C/VdwQ+PDjwGEWjQ28YNyqYK0WkpzriHv2Z9ZU1IcZUnKYFlcVCzOK7F9Wz3BYntruNY8wrL8RvsevaPGR1gSD/WF+rilXe2kWMY/YLJO6s7qR4t16g8Ra5ZH3wqdK9q+Nz/KXj1quR3yfLzm
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -235,9 +235,9 @@
     <property name="spawngroup" value="sullengard_venom_snake"/>
    </properties>
   </object>
-  <object id="5" name="preabola_fly_spawn" type="spawn" x="448" y="128" width="96" height="480">
+  <object id="5" name="preabola_fly_spawn" type="spawn" x="416" y="128" width="128" height="256">
    <properties>
-    <property name="quantity" value="5"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="preabola_fly"/>
    </properties>
   </object>
@@ -256,6 +256,12 @@
   <object id="8" name="poisonous_jitterfly_spawn2" type="spawn" x="96" y="768" width="224" height="32">
    <properties>
     <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object id="9" name="preabola_fly_spawn2" type="spawn" x="352" y="416" width="192" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="preabola_fly"/>
    </properties>
   </object>
  </objectgroup>

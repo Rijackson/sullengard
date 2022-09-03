@@ -573,7 +573,7 @@
         "spawnGroup":"sullengard_venom_snake",
         "droplistID":"forest_snake_dl",
         "attackCost":3,
-        "attackChance":232,
+        "attackChance":215,
         "criticalSkill":10,
         "criticalMultiplier":3.0,
         "blockChance":108,
@@ -697,7 +697,7 @@
         "droplistID":"flying_insect_dl",
         "attackCost":4,
         "attackChance":170,
-        "blockChance":225,
+        "blockChance":205,
         "damageResistance":8,
         "hitEffect":{
             "conditionsTarget":[
@@ -731,7 +731,7 @@
         "spawnGroup":"yellow_tooth",
         "droplistID":"yellow_tooth_dl",
         "attackCost":3,
-        "attackChance":219,
+        "attackChance":199,
         "criticalSkill":10,
         "criticalMultiplier":2.5,
         "blockChance":92,
@@ -782,7 +782,7 @@
         "droplistID":"flying_insect_dl",
         "attackCost":3,
         "attackChance":89,
-        "blockChance":200,
+        "blockChance":175,
         "damageResistance":9,
         "hitEffect":{
             "conditionsTarget":[
@@ -811,7 +811,7 @@
         "droplistID":"flying_insect_dl",
         "attackCost":3,
         "attackChance":118,
-        "blockChance":238,
+        "blockChance":215,
         "hitEffect":{
             "conditionsTarget":[
                 {
