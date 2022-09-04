@@ -3558,7 +3558,7 @@
     },
     {
         "id":"sullengard_inn_traveler_130",
-        "message":"Excellent. Nice doing 'business' with you. I hid them on the eastern outskirts of town.\n\n['the lost traveler' then runs off]",
+        "message":"Excellent. Nice doing 'business' with you. I hid them somewhere east of town. Close by, but I doubt you can find it easily.\n\n['the lost traveler' then runs off]",
         "rewards":[
             {
                 "rewardType":"questProgress",
