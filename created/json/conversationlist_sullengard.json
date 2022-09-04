@@ -4284,11 +4284,6 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":170
-                    },
-                    {
-                        "requireType":"questProgress",
                         "requireID":"bwm_agent",
                         "value":60
                     }
