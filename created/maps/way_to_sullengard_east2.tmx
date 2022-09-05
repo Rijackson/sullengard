@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFUjsKwkAQnStki4W1iaexN1cQLOy8XAQbUUEwYmVnmyohEo/gDJshz92sPhhmmZ03/9wQzVn6jIhYCw78zge7oHFErfPvnfW6BhuiZ9vbxTzkCo5sPyX8FK+Ai7G3JvYXdBNxsOZ/EL7mPbuR2wA3VW8q7z3zgrg6L6lYU3m1JsUmmEHFOfbMu8Gcf9UqviUI8haz2F/nsjS+viqLfbQvRWofWldhxluQuGJ/BHzJqxpvKITst7Rp0f4k7wpmV5jvOeNtKvC/hTnUww5DzsX6Ptbs84Q96w3rPQj/A4k/XcE=
+   eJyFUsEKwjAMzS+sh0K9zK/x7n5B8ODNn5vgRVQQ3PDkzetOG8r8BBO6sGe76oPQkublpUlyQzRn6zMi4lNw4Hs++AWtI+qcv++sPxvwIXr2vV3MQ67gyP5TIk7xCriYe2vieMFzIg/W/A/CV92zG7ktcFP1pnRvmTfE1XlL5ZrS1ZoUm6AHFWvsmVfbUeNXrRJbgtUwn8Usjte+LI2vr8riGP2XIjUPrasw4y5IXvHfA77o6ok7FELmW9q06f9EdwW9K8x3n3E3FfjeQR+aocch52L9P9Yc84A56A7rPgj/A/+FXqM=
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJydUtsJgDAM7Bo6h26gA6tfuoFu0Pr8F5zBFC0csU2LB2I9c3chqcnUBztxx8trehtPjUVDfCvULfS9Mg69Q7C6LVIj4YLcDnw0O7t+h59ZPemmTJ4Rz+U9xfz7BH+OIleqpGdM2AdHRbo6f3JR59sH9sXvAsLtIyU/BaF5YC72g//nwDwt59Mgzlcv3WHurYX9uXncU6VB5w==
+   eJydUlsOQDAQ7DX0HDgBB8YXR3CDev9LnME2NBmrXY1JRI2dmc1uh0S9sBK33byh9+CpsaiIr4W6ib5nxqF3CFa3fNRIOCC3AR/Dzq7f7mdWS7o+kWfEc3lPX/5thD9HqpXK6Mn1k/ftg6MgTamvXNT59oF98buAcPuIyY9BaB6Yi/3g/zEwT8v5NIj91kt3mHsbYX9uHidhxUFV
   </data>
  </layer>
  <layer id="4" name="Walkable" width="15" height="15" visible="0">
