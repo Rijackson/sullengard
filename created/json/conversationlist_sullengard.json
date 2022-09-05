@@ -1382,7 +1382,15 @@
         "replies":[
             {
                 "text":"It sounds like you love being outside.",
-                "nextPhraseID":"deebo_orchard_deebo_10"
+                "nextPhraseID":"deebo_orchard_deebo_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"deebo_orchard_hth",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Your horses are magnificent.",
