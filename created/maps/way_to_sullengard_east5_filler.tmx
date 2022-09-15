@@ -187,12 +187,12 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJyNUjFywkAMVEvhImluzC8yyQcY/IFM/AGCn0gFNLY7xx1dkgoqkhQ8IVpbmls89oBmNDrptCvpTnUq8vkgclJ7Vlubf3yUTtyHheDs8SrtcZCD2tU85pbEO8bPubCezxg+HyhW0blMo89c1aCO83czBJEv0u9wHev8EX7Yvd69JCJF0ttG/Q/VzayPtSH2caJ+IMBmhs2IozCeZqKH93nEok5uOPhbjf+FnuNJ9dm4gK+oLjAr1bXhcsP+qu5UF+ovkzgDBPgfy/G8nGrW9h6vGnuz3toQ35l3w3mA879gbr/jv721G7yPLn53z24wxued+rvh3o3VYx32xrVdsJv4W4/zfU15LJfBvP9+RaiU
+   eJyFUjFywkAMVEvhIjQ39htoMskHmPCBDP6ACU9MBWmwO0JHF6igClDkCdHa0tz6cCaa0eik0650JzW5yNeDyFntt9rG/NNYWnEfFoKzx+u8w0H2aqsi5m6Id4ifc2E9nzF83lOspvMmj/6kuI9VRZ+/fUMQOZAeQz/W+gP8sB9695yJLLPObtX/VH0fdbFdiH2c6W0QYGeGnRHH0ni2f/SwKCIWdUrDwV9p/BY6jkfVJ+MCvqa6wFSqb4YrDXtVXatO1X/J4hsgwF8sx/NKqjmxvl41NrfediH+M++G8wDns2Buv+PZ/rcbvI8ufpfOjrnqvI/zM+Kel84u3buheqxpb1zbBbuJ2Xqc7xvKY/lJ3vsLdG6m0g==
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="16">
   <data encoding="base64" compression="zlib">
-   eJylU8ENgCAMZAVfBrbSEdxQmEDdwhkcQi7xYsWiNV7SkFzbO2hK9O6CLjjX50iZH3PEIg8kf68FUD+Es25WeokoaumDeqklveEjuVRoM6fdGT7Ux7kU+enI8azp/0EfnvNbe+dq87dgOvre+st3WvC0G+T5XuqvzXX2mDM47c5yhyy7IRH9t92wgLuhefMPaB7W2VKDJ2f3xiN2KcdE3Q==
+   eJylU9sNgzAMzAp8VVgZocuUEdiQMAGM0Rk6RHMSJxxjA2pPsiKdz085pU8NXpLSUG2u/FStGD8w90ctAP0ou251YomitKwDfTYcgTqay9Lmo8/rGXWYH+/TxC6bj2+U/x8Mcu7/PI5ctP87WLa4q3g75x1kiXsjz3l5G++u3T32DM7rWd+Qvg19Z9FcRelsjl/3ydvwavMPeDVsHxGYgy93d8XDvp76QMM=
   </data>
  </layer>
  <layer id="4" name="Top" width="15" height="16">
@@ -213,7 +213,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="2" name="yellow_tooth_spawn1" type="spawn" x="96" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="yellow_tooth"/>
