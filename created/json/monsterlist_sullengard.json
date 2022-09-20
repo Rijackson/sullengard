@@ -588,6 +588,38 @@
                 }
             ]
         }
+    }
+	,
+    {
+        "id":"sullengard_venom_snake_queen",
+        "name":"Queen Sullengard forest snake",
+        "iconID":"monsters_tometik4:24",
+        "maxHP":207,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":20,
+            "max":25
+        },
+        "spawnGroup":"sullengard_venom_snake",
+        "droplistID":"forest_snake_dl",
+        "attackCost":3,
+        "attackChance":247,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":128,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"43"
+                }
+            ]
+        }
     },
     {
         "id":"sull_red_forest_snake",
@@ -747,7 +779,7 @@
             ]
         }
     },
-	{
+    {
         "id":"yellow_tooth_king",
         "name":"King yellow tooth slitherer",
         "iconID":"monsters_snakes:5",
