@@ -204,7 +204,7 @@
    eJxjYBgFo2DogFeSA2f3zQG0exSMglEwCgY7GC0jRwGxYDStjAJqAFA6ujWalqgCAB+pBb8=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzNlNENwCAIRJ2i+6/ghv0yMQYLHAeUxKRBeg9QnM8Ys3mddvMzTNLWeFqe1rokLU8+X7EWNss0JotfeYcY9zaT1dFTVg5Z70SEjcZF2FZf1gxb6kZ1Kk17P70ap1/b8/SMdbbIrETZrLn9O/vcZ/R6+byGMKVvJhPVYdS6x3o0ECZap0XPy4iykbPoYmdw9/+yuLeY6loZPV7sFz82PHE=
   </data>
@@ -263,7 +263,7 @@
     <property name="spawngroup" value="sullengard_venom_snake_queen"/>
    </properties>
   </object>
-  <object name="sullengard_venom_snake_queen_spawn2" type="spawn" x="736" y="32" width="32" height="32">
+  <object name="sullengard_venom_snake_queen_spawn2" type="spawn" x="672" y="32" width="128" height="32">
    <properties>
     <property name="spawngroup" value="sullengard_venom_snake_queen"/>
    </properties>
