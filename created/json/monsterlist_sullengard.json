@@ -720,7 +720,7 @@
         "id":"yellow_tooth",
         "name":"Yellow tooth slitherer",
         "iconID":"monsters_snakes:5",
-        "maxHP":119,
+        "maxHP":121,
         "moveCost":5,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
@@ -743,6 +743,37 @@
                     "magnitude":3,
                     "duration":4,
                     "chance":"42"
+                }
+            ]
+        }
+    },
+	{
+        "id":"yellow_tooth_king",
+        "name":"King yellow tooth slitherer",
+        "iconID":"monsters_snakes:5",
+        "maxHP":208,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":16,
+            "max":23
+        },
+        "spawnGroup":"yellow_tooth",
+        "droplistID":"yellow_tooth_dl",
+        "attackCost":3,
+        "attackChance":235,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":128,
+        "damageResistance":6,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"49"
                 }
             ]
         }
