@@ -2,7 +2,7 @@
     {
         "id":"faction_count_shadow",
         "name":"faction_count_shadow",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
 			{ "progress":0, "logText":"Ranges  30:max | 18:very high | 6:high | -5:low | -14:very low | -23:even lower" },
             { "progress":10,  "logText":" 4   vacor:61   Killed Vacor" },
