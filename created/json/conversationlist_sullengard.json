@@ -3688,7 +3688,14 @@
         "replies":[
             {
                 "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled.",
-                "nextPhraseID":"sullengard_zaccheria_100"
+                "nextPhraseID":"sullengard_zaccheria_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"zaccheria_inventory",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
